@@ -1,0 +1,203 @@
+[0.000000] (-) TimerEvent: {}
+[0.000291] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000352] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000519] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000561] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000667] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000690] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000709] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000727] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000745] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000764] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000782] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000800] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000819] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000837] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000855] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000873] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000890] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000909] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.000927] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.000949] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.000968] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.000986] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.001005] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.001022] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001041] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001062] (pub_controller) JobQueued: {'identifier': 'pub_controller', 'dependencies': OrderedDict()}
+[0.001085] (pub_controller) JobStarted: {'identifier': 'pub_controller'}
+[0.049121] (pub_controller) JobProgress: {'identifier': 'pub_controller', 'progress': 'cmake'}
+[0.049941] (pub_controller) JobProgress: {'identifier': 'pub_controller', 'progress': 'build'}
+[0.050553] (pub_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/etern1ty/ros2_ws/build/pub_controller', '--', '-j12', '-l12'], 'cwd': '/home/etern1ty/ros2_ws/build/pub_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'etern1ty'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/etern1ty'), ('OLDPWD', '/home/etern1ty/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '1064'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'etern1ty'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'etern1ty'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/etern1ty/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Etern1ty-14ALC6:@/tmp/.ICE-unix/1029,unix/Etern1ty-14ALC6:/tmp/.ICE-unix/1029'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/407a1302_b9d1_4eaa_83f6_666eb6c6f198'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HROLI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.118'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/etern1ty/ros2_ws/build/pub_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.078152] (pub_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099106] (-) TimerEvent: {}
+[0.199730] (-) TimerEvent: {}
+[0.205424] (pub_controller) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.231618] (pub_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.233514] (pub_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.238893] (pub_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.248570] (pub_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.262260] (pub_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299850] (-) TimerEvent: {}
+[0.313694] (pub_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.314810] (pub_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.399968] (-) TimerEvent: {}
+[0.436025] (pub_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.500116] (-) TimerEvent: {}
+[0.577520] (pub_controller) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.600265] (-) TimerEvent: {}
+[0.689674] (pub_controller) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.700416] (-) TimerEvent: {}
+[0.800840] (-) TimerEvent: {}
+[0.901313] (-) TimerEvent: {}
+[0.911800] (pub_controller) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.001469] (-) TimerEvent: {}
+[1.101868] (-) TimerEvent: {}
+[1.180020] (pub_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.201990] (-) TimerEvent: {}
+[1.286576] (pub_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.302149] (-) TimerEvent: {}
+[1.307727] (pub_controller) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.328837] (pub_controller) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.329104] (pub_controller) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.329191] (pub_controller) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.339025] (pub_controller) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.355799] (pub_controller) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.356228] (pub_controller) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.356410] (pub_controller) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.357271] (pub_controller) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.358713] (pub_controller) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.358811] (pub_controller) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.359179] (pub_controller) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.362228] (pub_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.399068] (pub_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[1.402342] (pub_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/etern1ty/ros2_ws/build/pub_controller\n'}
+[1.402596] (-) TimerEvent: {}
+[1.433166] (pub_controller) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.443437] (pub_controller) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.452978] (pub_controller) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_pub_controller\n'}
+[1.502770] (-) TimerEvent: {}
+[1.603150] (-) TimerEvent: {}
+[1.655867] (pub_controller) StdoutLine: {'line': b'[  6%] Built target pub_controller__cpp\n'}
+[1.667168] (pub_controller) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.667488] (pub_controller) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.668258] (pub_controller) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.699637] (pub_controller) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/pub_controller__rosidl_generator_c.dir/rosidl_generator_c/pub_controller/msg/detail/motion__functions.c.o\x1b[0m\n'}
+[1.703256] (-) TimerEvent: {}
+[1.708305] (pub_controller) StdoutLine: {'line': b'running egg_info\n'}
+[1.708978] (pub_controller) StdoutLine: {'line': b'creating pub_controller.egg-info\n'}
+[1.709315] (pub_controller) StdoutLine: {'line': b'writing pub_controller.egg-info/PKG-INFO\n'}
+[1.709621] (pub_controller) StdoutLine: {'line': b'writing dependency_links to pub_controller.egg-info/dependency_links.txt\n'}
+[1.709810] (pub_controller) StdoutLine: {'line': b'writing top-level names to pub_controller.egg-info/top_level.txt\n'}
+[1.710248] (pub_controller) StdoutLine: {'line': b"writing manifest file 'pub_controller.egg-info/SOURCES.txt'\n"}
+[1.714679] (pub_controller) StdoutLine: {'line': b"reading manifest file 'pub_controller.egg-info/SOURCES.txt'\n"}
+[1.715318] (pub_controller) StdoutLine: {'line': b"writing manifest file 'pub_controller.egg-info/SOURCES.txt'\n"}
+[1.762784] (pub_controller) StdoutLine: {'line': b'[ 18%] Built target ament_cmake_python_build_pub_controller_egg\n'}
+[1.796607] (pub_controller) StdoutLine: {'line': b'[ 21%] \x1b[32m\x1b[1mLinking C shared library libpub_controller__rosidl_generator_c.so\x1b[0m\n'}
+[1.803381] (-) TimerEvent: {}
+[1.850212] (pub_controller) StdoutLine: {'line': b'[ 21%] Built target pub_controller__rosidl_generator_c\n'}
+[1.864270] (pub_controller) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.864532] (pub_controller) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.864655] (pub_controller) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.900668] (pub_controller) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/pub_controller__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pub_controller/msg/motion__type_support.cpp.o\x1b[0m\n'}
+[1.903511] (-) TimerEvent: {}
+[1.952570] (pub_controller) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/pub_controller__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pub_controller/msg/detail/motion__type_support.cpp.o\x1b[0m\n'}
+[1.952929] (pub_controller) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/pub_controller__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pub_controller/msg/detail/dds_fastrtps/motion__type_support.cpp.o\x1b[0m\n'}
+[2.003640] (-) TimerEvent: {}
+[2.104194] (-) TimerEvent: {}
+[2.134346] (pub_controller) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/pub_controller__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pub_controller/msg/detail/motion__type_support.c.o\x1b[0m\n'}
+[2.175536] (pub_controller) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking C shared library libpub_controller__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.204370] (-) TimerEvent: {}
+[2.213500] (pub_controller) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/pub_controller__rosidl_typesupport_c.dir/rosidl_typesupport_c/pub_controller/msg/motion__type_support.cpp.o\x1b[0m\n'}
+[2.218928] (pub_controller) StdoutLine: {'line': b'[ 48%] Built target pub_controller__rosidl_typesupport_introspection_c\n'}
+[2.237030] (pub_controller) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libpub_controller__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.243456] (pub_controller) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/pub_controller__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pub_controller/msg/detail/motion__type_support_c.cpp.o\x1b[0m\n'}
+[2.253691] (pub_controller) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libpub_controller__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.289380] (pub_controller) StdoutLine: {'line': b'[ 57%] Built target pub_controller__rosidl_typesupport_cpp\n'}
+[2.302168] (pub_controller) StdoutLine: {'line': b'[ 57%] Built target pub_controller__rosidl_typesupport_c\n'}
+[2.304499] (-) TimerEvent: {}
+[2.305925] (pub_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target controller\x1b[0m\n'}
+[2.338990] (pub_controller) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libpub_controller__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.343014] (pub_controller) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/controller.dir/src/pub_func.cpp.o\x1b[0m\n'}
+[2.358720] (pub_controller) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libpub_controller__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.385866] (pub_controller) StdoutLine: {'line': b'[ 66%] Built target pub_controller__rosidl_typesupport_introspection_cpp\n'}
+[2.404666] (-) TimerEvent: {}
+[2.467938] (pub_controller) StdoutLine: {'line': b'[ 66%] Built target pub_controller__rosidl_typesupport_fastrtps_cpp\n'}
+[2.504797] (-) TimerEvent: {}
+[2.545556] (pub_controller) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libpub_controller__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.604963] (-) TimerEvent: {}
+[2.649482] (pub_controller) StdoutLine: {'line': b'[ 69%] Built target pub_controller__rosidl_typesupport_fastrtps_c\n'}
+[2.670962] (pub_controller) StdoutLine: {'line': b'[ 69%] Built target pub_controller\n'}
+[2.693815] (pub_controller) StdoutLine: {'line': b'[ 72%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.705073] (-) TimerEvent: {}
+[2.805411] (-) TimerEvent: {}
+[2.905755] (-) TimerEvent: {}
+[2.974960] (pub_controller) StdoutLine: {'line': b'[ 72%] Built target pub_controller__py\n'}
+[2.998927] (pub_controller) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object CMakeFiles/pub_controller__rosidl_generator_py.dir/rosidl_generator_py/pub_controller/msg/_motion_s.c.o\x1b[0m\n'}
+[3.005908] (-) TimerEvent: {}
+[3.106311] (-) TimerEvent: {}
+[3.110672] (pub_controller) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pub_controller/libpub_controller__rosidl_generator_py.so\x1b[0m\n'}
+[3.156369] (pub_controller) StdoutLine: {'line': b'[ 78%] Built target pub_controller__rosidl_generator_py\n'}
+[3.179257] (pub_controller) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/pub_controller__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/pub_controller/_pub_controller_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.179525] (pub_controller) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/pub_controller__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/pub_controller/_pub_controller_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.184511] (pub_controller) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/pub_controller__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/pub_controller/_pub_controller_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.206454] (-) TimerEvent: {}
+[3.275899] (pub_controller) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pub_controller/pub_controller_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.277445] (pub_controller) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pub_controller/pub_controller_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.280106] (pub_controller) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pub_controller/pub_controller_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.306596] (-) TimerEvent: {}
+[3.314701] (pub_controller) StdoutLine: {'line': b'[ 96%] Built target pub_controller__rosidl_typesupport_c__pyext\n'}
+[3.317264] (pub_controller) StdoutLine: {'line': b'[ 96%] Built target pub_controller__rosidl_typesupport_introspection_c__pyext\n'}
+[3.319339] (pub_controller) StdoutLine: {'line': b'[ 96%] Built target pub_controller__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.407026] (-) TimerEvent: {}
+[3.507639] (-) TimerEvent: {}
+[3.608036] (-) TimerEvent: {}
+[3.708437] (-) TimerEvent: {}
+[3.808862] (-) TimerEvent: {}
+[3.909305] (-) TimerEvent: {}
+[4.009687] (-) TimerEvent: {}
+[4.110110] (-) TimerEvent: {}
+[4.210473] (-) TimerEvent: {}
+[4.311092] (-) TimerEvent: {}
+[4.411482] (-) TimerEvent: {}
+[4.511854] (-) TimerEvent: {}
+[4.519607] (pub_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/etern1ty/ros2_ws/src/pub_controller/src/pub_func.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KController::Controller()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.519892] (pub_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/etern1ty/ros2_ws/src/pub_controller/src/pub_func.cpp:67:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass Controller\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kcreate_subscribe\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcreate_subscription\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.520038] (pub_controller) StderrLine: {'line': b'   67 |     subscriber_ = this->\x1b[01;31m\x1b[Kcreate_subscribe\x1b[m\x1b[K<sensor_msgs::msg::Joy>(\n'}
+[4.520097] (pub_controller) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.520155] (pub_controller) StderrLine: {'line': b'      |                         \x1b[32m\x1b[Kcreate_subscription\x1b[m\x1b[K\n'}
+[4.520211] (pub_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/etern1ty/ros2_ws/src/pub_controller/src/pub_func.cpp:67:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.520277] (pub_controller) StderrLine: {'line': b'   67 |     subscriber_ = this->create_subscribe<sensor_msgs::msg::Joy\x1b[01;31m\x1b[K>\x1b[m\x1b[K(\n'}
+[4.520333] (pub_controller) StderrLine: {'line': b'      |                                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.520390] (pub_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/etern1ty/ros2_ws/src/pub_controller/src/pub_func.cpp:68:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kleft operand of comma operator has no effect [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.520449] (pub_controller) StderrLine: {'line': b'   68 |         \x1b[01;35m\x1b[K"joy"\x1b[m\x1b[K, 10, std::bind(&Controller::topic_callback, this, _1);\n'}
+[4.520507] (pub_controller) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.523461] (pub_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/etern1ty/ros2_ws/src/pub_controller/src/pub_func.cpp:68:67:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kright operand of comma operator has no effect [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.523630] (pub_controller) StderrLine: {'line': b'   68 |         "joy", 10, std::bind(&Controller::topic_callback, this, _1\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.523795] (pub_controller) StderrLine: {'line': b'      |                                                                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.523865] (pub_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/etern1ty/ros2_ws/src/pub_controller/src/pub_func.cpp:68:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.523925] (pub_controller) StderrLine: {'line': b'   68 |         "joy", 10, std::bind(&Controller::topic_callback, this, _1)\x1b[01;31m\x1b[K;\x1b[m\x1b[K\n'}
+[4.523983] (pub_controller) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.524039] (pub_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/etern1ty/ros2_ws/src/pub_controller/src/pub_func.cpp:67:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.524097] (pub_controller) StderrLine: {'line': b'   67 |     subscriber_ = this->create_subscribe<sensor_msgs::msg::Joy>\x1b[01;36m\x1b[K(\x1b[m\x1b[K\n'}
+[4.524166] (pub_controller) StderrLine: {'line': b'      |                                                                \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.524221] (pub_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/etern1ty/ros2_ws/src/pub_controller/src/pub_func.cpp:69:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.524279] (pub_controller) StderrLine: {'line': b'   69 |     \x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[4.524334] (pub_controller) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.524390] (pub_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/etern1ty/ros2_ws/src/pub_controller/src/pub_func.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Controller::topic_callback(const Joy&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.524447] (pub_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/etern1ty/ros2_ws/src/pub_controller/src/pub_func.cpp:75:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.524504] (pub_controller) StderrLine: {'line': b'   75 |     auto motion_data = pub_controller::msg::Motion\x1b[01;31m\x1b[K;\x1b[m\x1b[K\n'}
+[4.524559] (pub_controller) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.611971] (-) TimerEvent: {}
+[4.712311] (-) TimerEvent: {}
+[4.812690] (-) TimerEvent: {}
+[4.913276] (-) TimerEvent: {}
+[5.013892] (-) TimerEvent: {}
+[5.114521] (-) TimerEvent: {}
+[5.137011] (pub_controller) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/controller.dir/build.make:76: CMakeFiles/controller.dir/src/pub_func.cpp.o] Error 1\n'}
+[5.137557] (pub_controller) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/controller.dir/all] Error 2\n'}
+[5.138113] (pub_controller) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.140932] (pub_controller) CommandEnded: {'returncode': 2}
+[5.214652] (-) TimerEvent: {}
+[5.289046] (pub_controller) JobEnded: {'identifier': 'pub_controller', 'rc': 2}
+[5.299872] (-) EventReactorShutdown: {}

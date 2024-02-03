@@ -1,0 +1,96 @@
+[0.049s] Invoking command in '/home/etern1ty/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/etern1ty/ros2_ws/src/src/examples/rclcpp/topics/minimal_publisher -DCMAKE_INSTALL_PREFIX=/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_publisher
+[0.110s] -- The C compiler identification is GNU 11.4.0
+[0.168s] -- The CXX compiler identification is GNU 11.4.0
+[0.176s] -- Detecting C compiler ABI info
+[0.250s] -- Detecting C compiler ABI info - done
+[0.256s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.257s] -- Detecting C compile features
+[0.257s] -- Detecting C compile features - done
+[0.259s] -- Detecting CXX compiler ABI info
+[0.344s] -- Detecting CXX compiler ABI info - done
+[0.351s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.351s] -- Detecting CXX compile features
+[0.352s] -- Detecting CXX compile features - done
+[0.354s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.513s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.591s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.628s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.632s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.639s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.651s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.669s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.731s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.733s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.853s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.880s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.928s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.936s] -- Looking for pthread.h
+[1.015s] -- Looking for pthread.h - found
+[1.015s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.094s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.095s] -- Found Threads: TRUE  
+[1.242s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.321s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.322s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.322s] -- Configured cppcheck include dirs: 
+[1.322s] -- Configured cppcheck exclude dirs and/or files: 
+[1.322s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.323s] -- Configured cpplint exclude dirs and/or files: 
+[1.323s] -- Added test 'lint_cmake' to check CMake code style
+[1.324s] -- Added test 'uncrustify' to check C / C++ code style
+[1.324s] -- Configured uncrustify additional arguments: 
+[1.324s] -- Added test 'xmllint' to check XML markup files
+[1.325s] -- Configuring done
+[1.346s] -- Generating done
+[1.348s] -- Build files have been written to: /home/etern1ty/ros2_ws/build/examples_rclcpp_minimal_publisher
+[1.357s] Invoked command in '/home/etern1ty/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/etern1ty/ros2_ws/src/src/examples/rclcpp/topics/minimal_publisher -DCMAKE_INSTALL_PREFIX=/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_publisher
+[1.359s] Invoking command in '/home/etern1ty/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/examples_rclcpp_minimal_publisher -- -j12 -l12
+[1.418s] [ 16%] [32mBuilding CXX object CMakeFiles/publisher_wait_for_all_acked.dir/member_function_with_wait_for_all_acked.cpp.o[0m
+[1.418s] [ 16%] [32mBuilding CXX object CMakeFiles/publisher_lambda.dir/lambda.cpp.o[0m
+[1.419s] [ 33%] [32mBuilding CXX object CMakeFiles/publisher_member_function.dir/member_function.cpp.o[0m
+[1.419s] [ 33%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[1.420s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[1.421s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_not_composable.dir/not_composable.cpp.o[0m
+[13.099s] [ 75%] [32m[1mLinking CXX executable publisher_member_function_with_unique_network_flow_endpoints[0m
+[13.099s] [ 83%] [32m[1mLinking CXX executable publisher_member_function[0m
+[13.099s] [ 91%] [32m[1mLinking CXX executable publisher_not_composable[0m
+[13.099s] [100%] [32m[1mLinking CXX executable publisher_member_function_with_type_adapter[0m
+[13.099s] [100%] [32m[1mLinking CXX executable publisher_lambda[0m
+[13.100s] [100%] [32m[1mLinking CXX executable publisher_wait_for_all_acked[0m
+[13.533s] [100%] Built target publisher_not_composable
+[13.543s] [100%] Built target publisher_member_function_with_unique_network_flow_endpoints
+[13.557s] [100%] Built target publisher_member_function
+[13.558s] [100%] Built target publisher_member_function_with_type_adapter
+[13.622s] [100%] Built target publisher_lambda
+[13.627s] [100%] Built target publisher_wait_for_all_acked
+[13.650s] Invoked command in '/home/etern1ty/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/examples_rclcpp_minimal_publisher -- -j12 -l12
+[13.698s] Invoking command in '/home/etern1ty/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/etern1ty/ros2_ws/build/examples_rclcpp_minimal_publisher
+[13.711s] -- Install configuration: ""
+[13.712s] -- Installing: /home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda
+[13.714s] -- Set runtime path of "/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda" to ""
+[13.714s] -- Installing: /home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function
+[13.715s] -- Set runtime path of "/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function" to ""
+[13.716s] -- Installing: /home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_type_adapter
+[13.717s] -- Set runtime path of "/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_type_adapter" to ""
+[13.717s] -- Installing: /home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_unique_network_flow_endpoints
+[13.718s] -- Set runtime path of "/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_unique_network_flow_endpoints" to ""
+[13.719s] -- Installing: /home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_wait_for_all_acked
+[13.720s] -- Set runtime path of "/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_wait_for_all_acked" to ""
+[13.720s] -- Installing: /home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable
+[13.722s] -- Set runtime path of "/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable" to ""
+[13.722s] -- Installing: /home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_publisher
+[13.722s] -- Installing: /home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_publisher
+[13.723s] -- Installing: /home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.sh
+[13.723s] -- Installing: /home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.dsv
+[13.723s] -- Installing: /home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.sh
+[13.723s] -- Installing: /home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.dsv
+[13.724s] -- Installing: /home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.bash
+[13.724s] -- Installing: /home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.sh
+[13.724s] -- Installing: /home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.zsh
+[13.724s] -- Installing: /home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.dsv
+[13.724s] -- Installing: /home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.dsv
+[13.724s] -- Installing: /home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/packages/examples_rclcpp_minimal_publisher
+[13.724s] -- Installing: /home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig.cmake
+[13.725s] -- Installing: /home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig-version.cmake
+[13.725s] -- Installing: /home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.xml
+[13.728s] Invoked command in '/home/etern1ty/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/etern1ty/ros2_ws/build/examples_rclcpp_minimal_publisher

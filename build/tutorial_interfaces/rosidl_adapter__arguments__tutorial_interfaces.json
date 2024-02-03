@@ -1,0 +1,7 @@
+{
+  "package_name": "tutorial_interfaces",
+  "non_idl_tuples": [
+    "/home/etern1ty/ros2_ws/src/tutorial_interfaces:msg/Num.msg",
+    "/home/etern1ty/ros2_ws/src/tutorial_interfaces:msg/Sphere.msg"
+  ]
+}

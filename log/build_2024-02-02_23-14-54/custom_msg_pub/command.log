@@ -1,0 +1,6 @@
+Invoking command in '/home/etern1ty/ros2_ws/build/custom_msg_pub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/etern1ty/ros2_ws/src/custom_msg_pub -DCMAKE_INSTALL_PREFIX=/home/etern1ty/ros2_ws/install/custom_msg_pub
+Invoked command in '/home/etern1ty/ros2_ws/build/custom_msg_pub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/etern1ty/ros2_ws/src/custom_msg_pub -DCMAKE_INSTALL_PREFIX=/home/etern1ty/ros2_ws/install/custom_msg_pub
+Invoking command in '/home/etern1ty/ros2_ws/build/custom_msg_pub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/custom_msg_pub -- -j12 -l12
+Invoked command in '/home/etern1ty/ros2_ws/build/custom_msg_pub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/custom_msg_pub -- -j12 -l12
+Invoking command in '/home/etern1ty/ros2_ws/build/custom_msg_pub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/etern1ty/ros2_ws/build/custom_msg_pub
+Invoked command in '/home/etern1ty/ros2_ws/build/custom_msg_pub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/etern1ty/ros2_ws/build/custom_msg_pub

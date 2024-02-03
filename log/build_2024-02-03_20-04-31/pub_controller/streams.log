@@ -1,0 +1,50 @@
+[0.051s] Invoking command in '/home/etern1ty/ros2_ws/build/pub_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/pub_controller -- -j12 -l12
+[0.100s] [35m[1mConsolidate compiler generated dependencies of target pub_controller__rosidl_generator_c[0m
+[0.110s] [  3%] Built target pub_controller__cpp
+[0.112s] [ 12%] Built target pub_controller__rosidl_generator_c
+[0.121s] [ 12%] Built target ament_cmake_python_copy_pub_controller
+[0.122s] [35m[1mConsolidate compiler generated dependencies of target pub_controller__rosidl_typesupport_cpp[0m
+[0.122s] [35m[1mConsolidate compiler generated dependencies of target pub_controller__rosidl_typesupport_introspection_cpp[0m
+[0.122s] [35m[1mConsolidate compiler generated dependencies of target pub_controller__rosidl_typesupport_fastrtps_cpp[0m
+[0.125s] [35m[1mConsolidate compiler generated dependencies of target pub_controller__rosidl_typesupport_fastrtps_c[0m
+[0.126s] [35m[1mConsolidate compiler generated dependencies of target pub_controller__rosidl_typesupport_c[0m
+[0.127s] [35m[1mConsolidate compiler generated dependencies of target pub_controller__rosidl_typesupport_introspection_c[0m
+[0.139s] [ 21%] Built target pub_controller__rosidl_typesupport_cpp
+[0.140s] [ 33%] Built target pub_controller__rosidl_typesupport_introspection_cpp
+[0.140s] [ 39%] Built target pub_controller__rosidl_typesupport_introspection_c
+[0.141s] [ 48%] Built target pub_controller__rosidl_typesupport_fastrtps_cpp
+[0.142s] [ 57%] Built target pub_controller__rosidl_typesupport_c
+[0.144s] [ 66%] Built target pub_controller__rosidl_typesupport_fastrtps_c
+[0.154s] [35m[1mConsolidate compiler generated dependencies of target controller[0m
+[0.168s] [ 66%] Built target pub_controller
+[0.176s] [ 69%] [32mBuilding CXX object CMakeFiles/controller.dir/src/pub_func.cpp.o[0m
+[0.190s] [ 72%] Built target pub_controller__py
+[0.200s] [35m[1mConsolidate compiler generated dependencies of target pub_controller__rosidl_generator_py[0m
+[0.216s] [ 78%] Built target pub_controller__rosidl_generator_py
+[0.228s] [35m[1mConsolidate compiler generated dependencies of target pub_controller__rosidl_typesupport_c__pyext[0m
+[0.228s] [35m[1mConsolidate compiler generated dependencies of target pub_controller__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.229s] [35m[1mConsolidate compiler generated dependencies of target pub_controller__rosidl_typesupport_introspection_c__pyext[0m
+[0.244s] [ 87%] Built target pub_controller__rosidl_typesupport_c__pyext
+[0.245s] [ 90%] Built target pub_controller__rosidl_typesupport_fastrtps_c__pyext
+[0.245s] [ 96%] Built target pub_controller__rosidl_typesupport_introspection_c__pyext
+[0.375s] running egg_info
+[0.376s] writing pub_controller.egg-info/PKG-INFO
+[0.376s] writing dependency_links to pub_controller.egg-info/dependency_links.txt
+[0.376s] writing top-level names to pub_controller.egg-info/top_level.txt
+[0.379s] reading manifest file 'pub_controller.egg-info/SOURCES.txt'
+[0.380s] writing manifest file 'pub_controller.egg-info/SOURCES.txt'
+[0.412s] [ 96%] Built target ament_cmake_python_build_pub_controller_egg
+[2.285s] [01m[K/home/etern1ty/ros2_ws/src/pub_controller/src/pub_func.cpp:[m[K In constructor ‘[01m[KController::Controller()[m[K’:
+[2.285s] [01m[K/home/etern1ty/ros2_ws/src/pub_controller/src/pub_func.cpp:68:68:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[2.285s]    68 |         "joy", 10, std::bind(&Controller::topic_callback, this, _1)[01;31m[K;[m[K
+[2.286s]       |                                                                    [01;31m[K^[m[K
+[2.286s] [01m[K/home/etern1ty/ros2_ws/src/pub_controller/src/pub_func.cpp:67:67:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[2.286s]    67 |     subscriber_ = this->create_subscription<sensor_msgs::msg::Joy>[01;36m[K([m[K
+[2.286s]       |                                                                   [01;36m[K^[m[K
+[2.286s] [01m[K/home/etern1ty/ros2_ws/src/pub_controller/src/pub_func.cpp:69:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[2.286s]    69 |     [01;31m[K)[m[K
+[2.286s]       |     [01;31m[K^[m[K
+[2.966s] gmake[2]: *** [CMakeFiles/controller.dir/build.make:76: CMakeFiles/controller.dir/src/pub_func.cpp.o] Error 1
+[2.966s] gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/controller.dir/all] Error 2
+[2.967s] gmake: *** [Makefile:146: all] Error 2
+[2.971s] Invoked command in '/home/etern1ty/ros2_ws/build/pub_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/pub_controller -- -j12 -l12

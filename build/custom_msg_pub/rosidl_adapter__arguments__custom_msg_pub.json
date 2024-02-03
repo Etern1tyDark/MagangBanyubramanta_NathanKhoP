@@ -1,0 +1,6 @@
+{
+  "package_name": "custom_msg_pub",
+  "non_idl_tuples": [
+    "/home/etern1ty/ros2_ws/src/custom_msg_pub:msg/Num.msg"
+  ]
+}

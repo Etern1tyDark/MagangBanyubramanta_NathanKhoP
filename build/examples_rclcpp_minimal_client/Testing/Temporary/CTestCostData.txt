@@ -1,0 +1,7 @@
+copyright 1 0.417568
+cppcheck 1 0.31482
+cpplint 1 0.432523
+lint_cmake 1 0.320778
+uncrustify 1 0.343676
+xmllint 1 3.82128
+---

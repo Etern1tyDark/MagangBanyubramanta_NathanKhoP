@@ -1,0 +1,155 @@
+[0.000000] (-) TimerEvent: {}
+[0.000199] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000234] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000263] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000289] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000315] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000341] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000366] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000392] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000417] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000442] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000467] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000493] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000518] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000552] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000581] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000606] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000630] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.000655] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.000681] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.000712] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.000737] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.000763] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.000788] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000814] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000842] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/etern1ty/ros2_ws/install/tutorial_interfaces')])}
+[0.000875] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.074033] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.075586] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.075637] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/etern1ty/ros2_ws/build/cpp_pubsub', '--', '-j12', '-l12'], 'cwd': '/home/etern1ty/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'etern1ty'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/etern1ty/ros2_ws/install/tutorial_interfaces/lib:/home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/etern1ty'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '37045'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/etern1ty/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'etern1ty'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'etern1ty'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/etern1ty/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Etern1ty-14ALC6:@/tmp/.ICE-unix/1059,unix/Etern1ty-14ALC6:/tmp/.ICE-unix/1059'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2e489d1d_41dd_49a6_8faf_61e63eb3f84b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7Q20H2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.297'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/etern1ty/ros2_ws/install/cpp_pubsub:/home/etern1ty/ros2_ws/install/tutorial_interfaces:/home/etern1ty/ros2_ws/install/my_package:/home/etern1ty/ros2_ws/install/launch_testing_examples:/home/etern1ty/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_publisher:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_client:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_server:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_client:/home/etern1ty/ros2_ws/install/examples_rclpy_guard_conditions:/home/etern1ty/ros2_ws/install/examples_rclpy_executors:/home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set:/home/etern1ty/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_timer:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_service:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_composition:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_client:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/etern1ty/ros2_ws/install/examples_rclcpp_cbg_executor:/home/etern1ty/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/etern1ty/ros2_ws/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/etern1ty/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/etern1ty/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/etern1ty/ros2_ws/install/tutorial_interfaces:/home/etern1ty/ros2_ws/install/cpp_pubsub:/home/etern1ty/ros2_ws/install/my_package:/home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set:/home/etern1ty/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_timer:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_service:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_composition:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_client:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/etern1ty/ros2_ws/install/examples_rclcpp_cbg_executor:/home/etern1ty/ros2_ws/install/examples_rclcpp_async_client:/home/etern1ty/ros2_ws/install/launch_testing_examples:/home/etern1ty/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_publisher:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_client:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_server:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_client:/home/etern1ty/ros2_ws/install/examples_rclpy_guard_conditions:/home/etern1ty/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble')]), 'shell': False}
+[0.099034] (-) TimerEvent: {}
+[0.195630] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[0.195881] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[0.199139] (-) TimerEvent: {}
+[0.232674] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[0.232978] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.299277] (-) TimerEvent: {}
+[0.399843] (-) TimerEvent: {}
+[0.500223] (-) TimerEvent: {}
+[0.600652] (-) TimerEvent: {}
+[0.701037] (-) TimerEvent: {}
+[0.801412] (-) TimerEvent: {}
+[0.901839] (-) TimerEvent: {}
+[1.002255] (-) TimerEvent: {}
+[1.102702] (-) TimerEvent: {}
+[1.203311] (-) TimerEvent: {}
+[1.303755] (-) TimerEvent: {}
+[1.404131] (-) TimerEvent: {}
+[1.504515] (-) TimerEvent: {}
+[1.605270] (-) TimerEvent: {}
+[1.705725] (-) TimerEvent: {}
+[1.806234] (-) TimerEvent: {}
+[1.906678] (-) TimerEvent: {}
+[2.006996] (-) TimerEvent: {}
+[2.107399] (-) TimerEvent: {}
+[2.207848] (-) TimerEvent: {}
+[2.308208] (-) TimerEvent: {}
+[2.408660] (-) TimerEvent: {}
+[2.509043] (-) TimerEvent: {}
+[2.609400] (-) TimerEvent: {}
+[2.709762] (-) TimerEvent: {}
+[2.810186] (-) TimerEvent: {}
+[2.910740] (-) TimerEvent: {}
+[3.011259] (-) TimerEvent: {}
+[3.111680] (-) TimerEvent: {}
+[3.212133] (-) TimerEvent: {}
+[3.312592] (-) TimerEvent: {}
+[3.413028] (-) TimerEvent: {}
+[3.513463] (-) TimerEvent: {}
+[3.613922] (-) TimerEvent: {}
+[3.714480] (-) TimerEvent: {}
+[3.815051] (-) TimerEvent: {}
+[3.915436] (-) TimerEvent: {}
+[4.015761] (-) TimerEvent: {}
+[4.116143] (-) TimerEvent: {}
+[4.216561] (-) TimerEvent: {}
+[4.316923] (-) TimerEvent: {}
+[4.417280] (-) TimerEvent: {}
+[4.517694] (-) TimerEvent: {}
+[4.618181] (-) TimerEvent: {}
+[4.618670] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[4.718332] (-) TimerEvent: {}
+[4.818833] (-) TimerEvent: {}
+[4.919284] (-) TimerEvent: {}
+[4.970056] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[5.019441] (-) TimerEvent: {}
+[5.119902] (-) TimerEvent: {}
+[5.220451] (-) TimerEvent: {}
+[5.321013] (-) TimerEvent: {}
+[5.421489] (-) TimerEvent: {}
+[5.521925] (-) TimerEvent: {}
+[5.622377] (-) TimerEvent: {}
+[5.722770] (-) TimerEvent: {}
+[5.823122] (-) TimerEvent: {}
+[5.923563] (-) TimerEvent: {}
+[6.024026] (-) TimerEvent: {}
+[6.124441] (-) TimerEvent: {}
+[6.224863] (-) TimerEvent: {}
+[6.325252] (-) TimerEvent: {}
+[6.425796] (-) TimerEvent: {}
+[6.526418] (-) TimerEvent: {}
+[6.626783] (-) TimerEvent: {}
+[6.727112] (-) TimerEvent: {}
+[6.827443] (-) TimerEvent: {}
+[6.927786] (-) TimerEvent: {}
+[7.028138] (-) TimerEvent: {}
+[7.128459] (-) TimerEvent: {}
+[7.228807] (-) TimerEvent: {}
+[7.329137] (-) TimerEvent: {}
+[7.429474] (-) TimerEvent: {}
+[7.529857] (-) TimerEvent: {}
+[7.630262] (-) TimerEvent: {}
+[7.730628] (-) TimerEvent: {}
+[7.830942] (-) TimerEvent: {}
+[7.931263] (-) TimerEvent: {}
+[8.031665] (-) TimerEvent: {}
+[8.132053] (-) TimerEvent: {}
+[8.232467] (-) TimerEvent: {}
+[8.332963] (-) TimerEvent: {}
+[8.386012] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[8.433169] (-) TimerEvent: {}
+[8.533755] (-) TimerEvent: {}
+[8.634200] (-) TimerEvent: {}
+[8.734621] (-) TimerEvent: {}
+[8.834986] (-) TimerEvent: {}
+[8.935493] (-) TimerEvent: {}
+[8.955567] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[8.971033] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[9.009709] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[9.022116] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/etern1ty/ros2_ws/build/cpp_pubsub'], 'cwd': '/home/etern1ty/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'etern1ty'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/etern1ty/ros2_ws/install/tutorial_interfaces/lib:/home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/etern1ty'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '37045'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/etern1ty/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'etern1ty'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'etern1ty'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/etern1ty/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Etern1ty-14ALC6:@/tmp/.ICE-unix/1059,unix/Etern1ty-14ALC6:/tmp/.ICE-unix/1059'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2e489d1d_41dd_49a6_8faf_61e63eb3f84b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7Q20H2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.297'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/etern1ty/ros2_ws/install/cpp_pubsub:/home/etern1ty/ros2_ws/install/tutorial_interfaces:/home/etern1ty/ros2_ws/install/my_package:/home/etern1ty/ros2_ws/install/launch_testing_examples:/home/etern1ty/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_publisher:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_client:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_server:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_client:/home/etern1ty/ros2_ws/install/examples_rclpy_guard_conditions:/home/etern1ty/ros2_ws/install/examples_rclpy_executors:/home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set:/home/etern1ty/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_timer:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_service:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_composition:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_client:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/etern1ty/ros2_ws/install/examples_rclcpp_cbg_executor:/home/etern1ty/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/etern1ty/ros2_ws/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/etern1ty/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/etern1ty/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/etern1ty/ros2_ws/install/tutorial_interfaces:/home/etern1ty/ros2_ws/install/cpp_pubsub:/home/etern1ty/ros2_ws/install/my_package:/home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set:/home/etern1ty/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_timer:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_service:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_composition:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_client:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/etern1ty/ros2_ws/install/examples_rclcpp_cbg_executor:/home/etern1ty/ros2_ws/install/examples_rclcpp_async_client:/home/etern1ty/ros2_ws/install/launch_testing_examples:/home/etern1ty/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_publisher:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_client:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_server:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_client:/home/etern1ty/ros2_ws/install/examples_rclpy_guard_conditions:/home/etern1ty/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble')]), 'shell': False}
+[9.031228] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.032017] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[9.034219] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/etern1ty/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""\n'}
+[9.034912] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[9.035588] (-) TimerEvent: {}
+[9.040427] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/etern1ty/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""\n'}
+[9.040736] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[9.040822] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[9.040891] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[9.041048] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[9.041110] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[9.041183] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[9.041257] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[9.041405] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[9.041475] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[9.041535] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[9.041605] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[9.041727] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[9.041849] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[9.041971] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[9.042090] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[9.043935] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[9.135708] (-) TimerEvent: {}
+[9.206191] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[9.207432] (-) EventReactorShutdown: {}

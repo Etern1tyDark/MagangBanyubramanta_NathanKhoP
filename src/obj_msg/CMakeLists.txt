@@ -14,12 +14,8 @@ find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 ament_export_dependencies(rosidl_default_runtime)
 
-set(msg_files
-  "msg/Detected.msg"
-)
-
 rosidl_generate_interfaces(${PROJECT_NAME}
-  ${msg_files}
+"msg/Detected.msg"
 )
 
 if(BUILD_TESTING)

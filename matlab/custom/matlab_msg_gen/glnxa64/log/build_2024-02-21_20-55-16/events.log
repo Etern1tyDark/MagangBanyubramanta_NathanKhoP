@@ -1,0 +1,286 @@
+[0.000000] (-) TimerEvent: {}
+[0.000273] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.000343] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.031277] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.031634] (interfaces) Command: {'cmd': ['/usr/local/MATLAB/R2023b/bin/glnxa64/cmake/bin/cmake', '/home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/src/interfaces', '-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_SHARED_LINKER_FLAGS=-Wl,-no-as-needed', '-DBUILD_TESTING=OFF', '-DALIAS_ROS2_TF2=1', '-DCMAKE_CXX_FLAGS_RELEASE=-O0', '-G', 'Ninja', '-DCMAKE_INSTALL_PREFIX=/home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install'], 'cwd': '/home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('ARCH', 'glnxa64'), ('CUSTOM_LD_LIBRARY_PATH', ''), ('USER', 'etern1ty'), ('LOCAL_PYTHON_VENV_PATH', '/home/etern1ty/.matlab/R2023b/ros2/glnxa64/venv'), ('MEMKIND_HEAP_MANAGER', 'TBB'), ('CUSTOM_AMENT_PREFIX_PATH', '/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2'), ('XDG_SESSION_TYPE', 'wayland'), ('KMP_HANDLE_SIGNALS', '0'), ('SHLVL', '2'), ('ICU_TIMEZONE_FILES_DIR', '/usr/local/MATLAB/R2023b/bin/icutzdata'), ('LD_LIBRARY_PATH', ':/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/lib:/usr/local/MATLAB/R2023b/sys/opengl/lib/glnxa64:/usr/local/MATLAB/R2023b/sys/os/glnxa64:/usr/local/MATLAB/R2023b/bin/glnxa64:/home/etern1ty/.MathWorks/cRdHyR7QwVUi_xWfrkSUa0wupotHwscVQEmScJoFWX4/bin/glnxa64:/usr/local/MATLAB/R2023b/extern/lib/glnxa64:/usr/local/MATLAB/R2023b/cefclient/sys/os/glnxa64:/usr/local/MATLAB/R2023b/sys/java/jre/glnxa64/jre/lib/amd64/native_threads:/usr/local/MATLAB/R2023b/sys/java/jre/glnxa64/jre/lib/amd64/server:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BASEMATLABPATH', ''), ('HOME', '/home/etern1ty'), ('AUTOMOUNT_MAP', ''), ('OLDPWD', '/usr/local/MATLAB/R2023b'), ('DESKTOP_SESSION', 'ubuntu'), ('MW_LD_SHIM', '/usr/local/MATLAB/R2023b/bin/glnxa64/ld_shim.so.2.35.ubuntu_22_04'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', ''), ('PS1', '(venv)'), ('LIBVA_MESSAGING_LEVEL', '0'), ('MANAGERPID', '919'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1065'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5d1d2a34c2be20646afa8dae65d5a154'), ('COLORTERM', 'truecolor'), ('CUSTOM_SITE_PACKAGES_PATH', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2:/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'etern1ty'), ('JOURNAL_STREAM', '8:1969'), ('_', '/home/etern1ty/.matlab/R2023b/ros2/glnxa64/venv/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'etern1ty'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/MATLAB/R2023b/bin/glnxa64/cmake/bin::/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/bin:/home/etern1ty/.matlab/R2023b/ros2/glnxa64/venv/bin:/home/etern1ty/.matlab/R2023b/ros2/glnxa64/venv/bin:/usr/local/MATLAB/R2023b/toolbox/shared/coder/ninja/glnxa64:/opt/ros/humble/bin:/home/etern1ty/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Etern1ty-14ALC6:@/tmp/.ICE-unix/1065,unix/Etern1ty-14ALC6:/tmp/.ICE-unix/1065'), ('INVOCATION_ID', '7cf4417e3fe84a5591fa1b232961563d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('TOOLBOX', '/usr/local/MATLAB/R2023b/toolbox'), ('MKL_DOMAIN_NUM_THREADS', ''), ('KMP_INIT_AT_FORK', 'false'), ('DISPLAY', ':0'), ('LD_PRELOAD', ''), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PRE_LD_PRELOAD', ''), ('VIRTUAL_ENV_PROMPT', '(venv)'), ('TILIX_ID', '94d3569d-d832-4fe2-b33c-02f8784c2f2f'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OOVRJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2:/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2'), ('SHELL', '/bin/bash'), ('CMAKE_PATH', '/usr/local/MATLAB/R2023b/bin/glnxa64/cmake/bin'), ('XFILESEARCHPATH', '/usr/local/MATLAB/R2023b/sys/java/jre/glnxa64/jre/lib/locale/%L/%T/%N%S:'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('OSG_LD_LIBRARY_PATH', '/usr/local/MATLAB/R2023b/sys/openscenegraph/lib/glnxa64'), ('VIRTUAL_ENV', '/home/etern1ty/.matlab/R2023b/ros2/glnxa64/venv'), ('CUSTOM_PATH', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/build/interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DYLD_LIBRARY_PATH', ':/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/lib:'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5d1d2a34c2be20646afa8dae65d5a154'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('MKL_NUM_THREADS', ''), ('MW_PATCH_OFFSETS', '0000117000002EA0'), ('PYTHONPATH', ':/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/lib/python3.9/site-packages:/home/etern1ty/.matlab/R2023b/ros2/glnxa64/venv/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'C'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2:/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2')]), 'shell': False}
+[0.099074] (-) TimerEvent: {}
+[0.157927] (interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199201] (-) TimerEvent: {}
+[0.265869] (interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.283832] (interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299369] (-) TimerEvent: {}
+[0.353307] (interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.361840] (interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.362274] (interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.362752] (interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.366372] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399493] (-) TimerEvent: {}
+[0.440896] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.449509] (interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.449868] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.450157] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.465652] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/ament_cmake/cmake)\n'}
+[0.499642] (-) TimerEvent: {}
+[0.599981] (-) TimerEvent: {}
+[0.700352] (-) TimerEvent: {}
+[0.800731] (-) TimerEvent: {}
+[0.901161] (-) TimerEvent: {}
+[1.001549] (-) TimerEvent: {}
+[1.101956] (-) TimerEvent: {}
+[1.202306] (-) TimerEvent: {}
+[1.285299] (interfaces) StdoutLine: {'line': b'-- Found Python3: /home/etern1ty/.matlab/R2023b/ros2/glnxa64/venv/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[1.302471] (-) TimerEvent: {}
+[1.372976] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/ament_cmake_ros/cmake)\n'}
+[1.383954] (interfaces) StdoutLine: {'line': b'-- Found rosidl_typesupport_c: 2.0.0 (/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_c/cmake)\n'}
+[1.384698] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.394816] (interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_adapter/cmake)\n'}
+[1.402608] (-) TimerEvent: {}
+[1.455547] (interfaces) StdoutLine: {'line': b'-- Found rosidl_typesupport_cpp: 2.0.0 (/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_cpp/cmake)\n'}
+[1.456118] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.498732] (interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_default_generators/cmake)\n'}
+[1.502791] (-) TimerEvent: {}
+[1.503388] (interfaces) StdoutLine: {'line': b'-- Found class_loader: 2.2.0 (/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/class_loader/cmake)\n'}
+[1.513268] (interfaces) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rclcpp/cmake)\n'}
+[1.602952] (-) TimerEvent: {}
+[1.621435] (interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rmw_implementation_cmake/cmake)\n'}
+[1.624456] (interfaces) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.703101] (-) TimerEvent: {}
+[1.718967] (interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/include  \n'}
+[1.760957] (interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.772587] (interfaces) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.803232] (-) TimerEvent: {}
+[1.853867] (interfaces) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.854880] (interfaces) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.903382] (-) TimerEvent: {}
+[2.003793] (-) TimerEvent: {}
+[2.104192] (-) TimerEvent: {}
+[2.204524] (-) TimerEvent: {}
+[2.213751] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.304700] (-) TimerEvent: {}
+[2.307148] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.319493] (interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.344214] (interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.355587] (interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/build/interfaces\n'}
+[2.365775] (interfaces) CommandEnded: {'returncode': 0}
+[2.367521] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[2.367579] (interfaces) Command: {'cmd': ['/usr/local/MATLAB/R2023b/bin/glnxa64/cmake/bin/cmake', '--build', '/home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/build/interfaces', '--', '-j12', '-l12'], 'cwd': '/home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('ARCH', 'glnxa64'), ('CUSTOM_LD_LIBRARY_PATH', ''), ('USER', 'etern1ty'), ('LOCAL_PYTHON_VENV_PATH', '/home/etern1ty/.matlab/R2023b/ros2/glnxa64/venv'), ('MEMKIND_HEAP_MANAGER', 'TBB'), ('CUSTOM_AMENT_PREFIX_PATH', '/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2'), ('XDG_SESSION_TYPE', 'wayland'), ('KMP_HANDLE_SIGNALS', '0'), ('SHLVL', '2'), ('ICU_TIMEZONE_FILES_DIR', '/usr/local/MATLAB/R2023b/bin/icutzdata'), ('LD_LIBRARY_PATH', ':/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/lib:/usr/local/MATLAB/R2023b/sys/opengl/lib/glnxa64:/usr/local/MATLAB/R2023b/sys/os/glnxa64:/usr/local/MATLAB/R2023b/bin/glnxa64:/home/etern1ty/.MathWorks/cRdHyR7QwVUi_xWfrkSUa0wupotHwscVQEmScJoFWX4/bin/glnxa64:/usr/local/MATLAB/R2023b/extern/lib/glnxa64:/usr/local/MATLAB/R2023b/cefclient/sys/os/glnxa64:/usr/local/MATLAB/R2023b/sys/java/jre/glnxa64/jre/lib/amd64/native_threads:/usr/local/MATLAB/R2023b/sys/java/jre/glnxa64/jre/lib/amd64/server:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BASEMATLABPATH', ''), ('HOME', '/home/etern1ty'), ('AUTOMOUNT_MAP', ''), ('OLDPWD', '/usr/local/MATLAB/R2023b'), ('DESKTOP_SESSION', 'ubuntu'), ('MW_LD_SHIM', '/usr/local/MATLAB/R2023b/bin/glnxa64/ld_shim.so.2.35.ubuntu_22_04'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', ''), ('PS1', '(venv)'), ('LIBVA_MESSAGING_LEVEL', '0'), ('MANAGERPID', '919'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1065'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5d1d2a34c2be20646afa8dae65d5a154'), ('COLORTERM', 'truecolor'), ('CUSTOM_SITE_PACKAGES_PATH', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2:/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'etern1ty'), ('JOURNAL_STREAM', '8:1969'), ('_', '/home/etern1ty/.matlab/R2023b/ros2/glnxa64/venv/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'etern1ty'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/MATLAB/R2023b/bin/glnxa64/cmake/bin::/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/bin:/home/etern1ty/.matlab/R2023b/ros2/glnxa64/venv/bin:/home/etern1ty/.matlab/R2023b/ros2/glnxa64/venv/bin:/usr/local/MATLAB/R2023b/toolbox/shared/coder/ninja/glnxa64:/opt/ros/humble/bin:/home/etern1ty/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Etern1ty-14ALC6:@/tmp/.ICE-unix/1065,unix/Etern1ty-14ALC6:/tmp/.ICE-unix/1065'), ('INVOCATION_ID', '7cf4417e3fe84a5591fa1b232961563d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('TOOLBOX', '/usr/local/MATLAB/R2023b/toolbox'), ('MKL_DOMAIN_NUM_THREADS', ''), ('KMP_INIT_AT_FORK', 'false'), ('DISPLAY', ':0'), ('LD_PRELOAD', ''), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PRE_LD_PRELOAD', ''), ('VIRTUAL_ENV_PROMPT', '(venv)'), ('TILIX_ID', '94d3569d-d832-4fe2-b33c-02f8784c2f2f'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OOVRJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2:/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2'), ('SHELL', '/bin/bash'), ('CMAKE_PATH', '/usr/local/MATLAB/R2023b/bin/glnxa64/cmake/bin'), ('XFILESEARCHPATH', '/usr/local/MATLAB/R2023b/sys/java/jre/glnxa64/jre/lib/locale/%L/%T/%N%S:'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('OSG_LD_LIBRARY_PATH', '/usr/local/MATLAB/R2023b/sys/openscenegraph/lib/glnxa64'), ('VIRTUAL_ENV', '/home/etern1ty/.matlab/R2023b/ros2/glnxa64/venv'), ('CUSTOM_PATH', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/build/interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DYLD_LIBRARY_PATH', ':/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/lib:'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5d1d2a34c2be20646afa8dae65d5a154'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('MKL_NUM_THREADS', ''), ('MW_PATCH_OFFSETS', '0000117000002EA0'), ('PYTHONPATH', ':/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/lib/python3.9/site-packages:/home/etern1ty/.matlab/R2023b/ros2/glnxa64/venv/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'C'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2:/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2')]), 'shell': False}
+[2.405382] (-) TimerEvent: {}
+[2.505950] (-) TimerEvent: {}
+[2.575719] (interfaces) StdoutLine: {'line': b'[1/24] Generating C++ code for ROS interfaces\n'}
+[2.579512] (interfaces) StdoutLine: {'line': b'[2/24] Generating C code for ROS interfaces\n'}
+[2.606081] (-) TimerEvent: {}
+[2.671710] (interfaces) StdoutLine: {'line': b'[3/24] Building C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/detected__functions.c.o\n'}
+[2.695616] (interfaces) StdoutLine: {'line': b'[4/24] Linking C shared library libinterfaces__rosidl_generator_c.so\n'}
+[2.706198] (-) TimerEvent: {}
+[2.768495] (interfaces) StdoutLine: {'line': b'[5/24] Generating C++ type support dispatch for ROS interfaces\n'}
+[2.773839] (interfaces) StdoutLine: {'line': b'[6/24] Generating C++ introspection for ROS interfaces\n'}
+[2.778810] (interfaces) StdoutLine: {'line': b'[7/24] Generating C++ type support for eProsima Fast-RTPS\n'}
+[2.806322] (-) TimerEvent: {}
+[2.889834] (interfaces) StdoutLine: {'line': b'[8/24] Generating C type support dispatch for ROS interfaces\n'}
+[2.906505] (-) TimerEvent: {}
+[2.909514] (interfaces) StdoutLine: {'line': b'[9/24] Generating C introspection for ROS interfaces\n'}
+[2.920190] (interfaces) StdoutLine: {'line': b'[10/24] Building CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/detected__type_support.cpp.o\n'}
+[2.948499] (interfaces) StdoutLine: {'line': b'[11/24] Building C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/detected__type_support.c.o\n'}
+[2.966625] (interfaces) StdoutLine: {'line': b'[12/24] Generating C type support for eProsima Fast-RTPS\n'}
+[2.980318] (interfaces) StdoutLine: {'line': b'[13/24] Linking C shared library libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[3.006663] (-) TimerEvent: {}
+[3.036905] (interfaces) StdoutLine: {'line': b'[14/24] Linking CXX shared library libinterfaces__rosidl_typesupport_c.so\n'}
+[3.061436] (interfaces) StdoutLine: {'line': b'[15/24] Building CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/detected__type_support.cpp.o\n'}
+[3.106848] (-) TimerEvent: {}
+[3.147148] (interfaces) StdoutLine: {'line': b'[16/24] Linking CXX shared library libinterfaces__rosidl_typesupport_cpp.so\n'}
+[3.151935] (interfaces) StdoutLine: {'line': b'[17/24] Building CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/detected__type_support.cpp.o\n'}
+[3.154990] (interfaces) StdoutLine: {'line': b'[18/24] Building CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/detected__type_support.cpp.o\n'}
+[3.207021] (-) TimerEvent: {}
+[3.238599] (interfaces) StdoutLine: {'line': b'[19/24] Linking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[3.241072] (interfaces) StdoutLine: {'line': b'[20/24] Linking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.275335] (interfaces) StdoutLine: {'line': b'[21/24] Building CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/detected__type_support_c.cpp.o\n'}
+[3.307553] (-) TimerEvent: {}
+[3.349499] (interfaces) StdoutLine: {'line': b'[22/24] Linking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[3.407698] (-) TimerEvent: {}
+[3.508078] (-) TimerEvent: {}
+[3.608387] (-) TimerEvent: {}
+[3.708786] (-) TimerEvent: {}
+[3.809181] (-) TimerEvent: {}
+[3.909541] (-) TimerEvent: {}
+[4.009937] (-) TimerEvent: {}
+[4.110297] (-) TimerEvent: {}
+[4.210905] (-) TimerEvent: {}
+[4.311270] (-) TimerEvent: {}
+[4.411579] (-) TimerEvent: {}
+[4.511978] (-) TimerEvent: {}
+[4.612353] (-) TimerEvent: {}
+[4.712757] (-) TimerEvent: {}
+[4.813147] (-) TimerEvent: {}
+[4.913526] (-) TimerEvent: {}
+[5.013917] (-) TimerEvent: {}
+[5.114286] (-) TimerEvent: {}
+[5.214677] (-) TimerEvent: {}
+[5.315048] (-) TimerEvent: {}
+[5.415410] (-) TimerEvent: {}
+[5.515808] (-) TimerEvent: {}
+[5.616173] (-) TimerEvent: {}
+[5.716565] (-) TimerEvent: {}
+[5.816944] (-) TimerEvent: {}
+[5.917356] (-) TimerEvent: {}
+[6.017749] (-) TimerEvent: {}
+[6.118142] (-) TimerEvent: {}
+[6.218530] (-) TimerEvent: {}
+[6.318916] (-) TimerEvent: {}
+[6.419286] (-) TimerEvent: {}
+[6.519681] (-) TimerEvent: {}
+[6.620064] (-) TimerEvent: {}
+[6.720480] (-) TimerEvent: {}
+[6.820844] (-) TimerEvent: {}
+[6.921248] (-) TimerEvent: {}
+[7.021641] (-) TimerEvent: {}
+[7.122004] (-) TimerEvent: {}
+[7.222388] (-) TimerEvent: {}
+[7.322746] (-) TimerEvent: {}
+[7.423107] (-) TimerEvent: {}
+[7.523492] (-) TimerEvent: {}
+[7.623851] (-) TimerEvent: {}
+[7.724229] (-) TimerEvent: {}
+[7.824527] (-) TimerEvent: {}
+[7.924900] (-) TimerEvent: {}
+[8.025511] (-) TimerEvent: {}
+[8.125876] (-) TimerEvent: {}
+[8.226282] (-) TimerEvent: {}
+[8.326648] (-) TimerEvent: {}
+[8.427006] (-) TimerEvent: {}
+[8.530079] (-) TimerEvent: {}
+[8.630457] (-) TimerEvent: {}
+[8.730834] (-) TimerEvent: {}
+[8.831225] (-) TimerEvent: {}
+[8.931589] (-) TimerEvent: {}
+[9.031983] (-) TimerEvent: {}
+[9.132347] (-) TimerEvent: {}
+[9.232738] (-) TimerEvent: {}
+[9.333164] (-) TimerEvent: {}
+[9.433541] (-) TimerEvent: {}
+[9.533917] (-) TimerEvent: {}
+[9.634274] (-) TimerEvent: {}
+[9.734650] (-) TimerEvent: {}
+[9.835014] (-) TimerEvent: {}
+[9.935381] (-) TimerEvent: {}
+[10.035769] (-) TimerEvent: {}
+[10.136131] (-) TimerEvent: {}
+[10.236516] (-) TimerEvent: {}
+[10.336899] (-) TimerEvent: {}
+[10.437301] (-) TimerEvent: {}
+[10.537718] (-) TimerEvent: {}
+[10.638179] (-) TimerEvent: {}
+[10.693585] (interfaces) StdoutLine: {'line': b'[23/24] Building CXX object CMakeFiles/interfaces_matlab.dir/src/interfaces_Detected_message.cpp.o\n'}
+[10.738350] (-) TimerEvent: {}
+[10.838855] (-) TimerEvent: {}
+[10.939165] (-) TimerEvent: {}
+[11.039506] (-) TimerEvent: {}
+[11.139906] (-) TimerEvent: {}
+[11.162808] (interfaces) StdoutLine: {'line': b'[24/24] Linking CXX shared library libinterfaces_matlab.so\n'}
+[11.164498] (interfaces) CommandEnded: {'returncode': 0}
+[11.183807] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'install'}
+[11.188102] (interfaces) Command: {'cmd': ['/usr/local/MATLAB/R2023b/bin/glnxa64/cmake/bin/cmake', '--install', '/home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/build/interfaces'], 'cwd': '/home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('ARCH', 'glnxa64'), ('CUSTOM_LD_LIBRARY_PATH', ''), ('USER', 'etern1ty'), ('LOCAL_PYTHON_VENV_PATH', '/home/etern1ty/.matlab/R2023b/ros2/glnxa64/venv'), ('MEMKIND_HEAP_MANAGER', 'TBB'), ('CUSTOM_AMENT_PREFIX_PATH', '/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2'), ('XDG_SESSION_TYPE', 'wayland'), ('KMP_HANDLE_SIGNALS', '0'), ('SHLVL', '2'), ('ICU_TIMEZONE_FILES_DIR', '/usr/local/MATLAB/R2023b/bin/icutzdata'), ('LD_LIBRARY_PATH', ':/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/lib:/usr/local/MATLAB/R2023b/sys/opengl/lib/glnxa64:/usr/local/MATLAB/R2023b/sys/os/glnxa64:/usr/local/MATLAB/R2023b/bin/glnxa64:/home/etern1ty/.MathWorks/cRdHyR7QwVUi_xWfrkSUa0wupotHwscVQEmScJoFWX4/bin/glnxa64:/usr/local/MATLAB/R2023b/extern/lib/glnxa64:/usr/local/MATLAB/R2023b/cefclient/sys/os/glnxa64:/usr/local/MATLAB/R2023b/sys/java/jre/glnxa64/jre/lib/amd64/native_threads:/usr/local/MATLAB/R2023b/sys/java/jre/glnxa64/jre/lib/amd64/server:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BASEMATLABPATH', ''), ('HOME', '/home/etern1ty'), ('AUTOMOUNT_MAP', ''), ('OLDPWD', '/usr/local/MATLAB/R2023b'), ('DESKTOP_SESSION', 'ubuntu'), ('MW_LD_SHIM', '/usr/local/MATLAB/R2023b/bin/glnxa64/ld_shim.so.2.35.ubuntu_22_04'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', ''), ('PS1', '(venv)'), ('LIBVA_MESSAGING_LEVEL', '0'), ('MANAGERPID', '919'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1065'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5d1d2a34c2be20646afa8dae65d5a154'), ('COLORTERM', 'truecolor'), ('CUSTOM_SITE_PACKAGES_PATH', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2:/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'etern1ty'), ('JOURNAL_STREAM', '8:1969'), ('_', '/home/etern1ty/.matlab/R2023b/ros2/glnxa64/venv/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'etern1ty'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/MATLAB/R2023b/bin/glnxa64/cmake/bin::/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/bin:/home/etern1ty/.matlab/R2023b/ros2/glnxa64/venv/bin:/home/etern1ty/.matlab/R2023b/ros2/glnxa64/venv/bin:/usr/local/MATLAB/R2023b/toolbox/shared/coder/ninja/glnxa64:/opt/ros/humble/bin:/home/etern1ty/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Etern1ty-14ALC6:@/tmp/.ICE-unix/1065,unix/Etern1ty-14ALC6:/tmp/.ICE-unix/1065'), ('INVOCATION_ID', '7cf4417e3fe84a5591fa1b232961563d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('TOOLBOX', '/usr/local/MATLAB/R2023b/toolbox'), ('MKL_DOMAIN_NUM_THREADS', ''), ('KMP_INIT_AT_FORK', 'false'), ('DISPLAY', ':0'), ('LD_PRELOAD', ''), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PRE_LD_PRELOAD', ''), ('VIRTUAL_ENV_PROMPT', '(venv)'), ('TILIX_ID', '94d3569d-d832-4fe2-b33c-02f8784c2f2f'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OOVRJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2:/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2'), ('SHELL', '/bin/bash'), ('CMAKE_PATH', '/usr/local/MATLAB/R2023b/bin/glnxa64/cmake/bin'), ('XFILESEARCHPATH', '/usr/local/MATLAB/R2023b/sys/java/jre/glnxa64/jre/lib/locale/%L/%T/%N%S:'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('OSG_LD_LIBRARY_PATH', '/usr/local/MATLAB/R2023b/sys/openscenegraph/lib/glnxa64'), ('VIRTUAL_ENV', '/home/etern1ty/.matlab/R2023b/ros2/glnxa64/venv'), ('CUSTOM_PATH', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/build/interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DYLD_LIBRARY_PATH', ':/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/lib:'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5d1d2a34c2be20646afa8dae65d5a154'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('MKL_NUM_THREADS', ''), ('MW_PATCH_OFFSETS', '0000117000002EA0'), ('PYTHONPATH', ':/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/lib/python3.9/site-packages:/home/etern1ty/.matlab/R2023b/ros2/glnxa64/venv/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'C'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2:/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2')]), 'shell': False}
+[11.191354] (interfaces) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[11.191526] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/rosidl_interfaces/interfaces\n'}
+[11.191684] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces\n'}
+[11.191884] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg\n'}
+[11.192099] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detected.h\n'}
+[11.192360] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail\n'}
+[11.192592] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/detected__functions.c\n'}
+[11.192762] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/detected__functions.h\n'}
+[11.192893] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/detected__struct.h\n'}
+[11.193024] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/detected__type_support.h\n'}
+[11.193247] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.193414] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/share/interfaces/environment/library_path.sh\n'}
+[11.193517] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/share/interfaces/environment/library_path.dsv\n'}
+[11.193579] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/lib/libinterfaces__rosidl_generator_c.so\n'}
+[11.193647] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces\n'}
+[11.193710] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg\n'}
+[11.193774] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.193846] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail\n'}
+[11.193906] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/detected__rosidl_typesupport_fastrtps_c.h\n'}
+[11.193970] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[11.194043] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces\n'}
+[11.194100] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg\n'}
+[11.194158] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail\n'}
+[11.194242] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/detected__type_support.c\n'}
+[11.194300] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/detected__rosidl_typesupport_introspection_c.h\n'}
+[11.194365] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.194457] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/lib/libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[11.194529] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/lib/libinterfaces__rosidl_typesupport_c.so\n'}
+[11.194601] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces\n'}
+[11.194664] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg\n'}
+[11.194750] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detected.hpp\n'}
+[11.194820] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail\n'}
+[11.194886] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/detected__struct.hpp\n'}
+[11.194977] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/detected__traits.hpp\n'}
+[11.195040] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/detected__builder.hpp\n'}
+[11.195128] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces\n'}
+[11.195193] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg\n'}
+[11.195250] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail\n'}
+[11.195311] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/dds_fastrtps\n'}
+[11.195370] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/detected__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.195434] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.195498] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.195598] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces\n'}
+[11.195659] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg\n'}
+[11.195721] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail\n'}
+[11.195788] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/detected__type_support.cpp\n'}
+[11.195852] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/detected__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.195910] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[11.195975] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/lib/libinterfaces__rosidl_typesupport_cpp.so\n'}
+[11.196155] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/share/interfaces/msg/Detected.idl\n'}
+[11.196271] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/share/interfaces/msg/Detected.msg\n'}
+[11.196390] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/include\n'}
+[11.196470] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/include/interfaces\n'}
+[11.196555] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/include/interfaces/visibility_control.h\n'}
+[11.196653] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/lib/libinterfaces_matlab.so\n'}
+[11.205493] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/m/\n'}
+[11.205917] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/m//+ros\n'}
+[11.206158] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/m//+ros/+internal\n'}
+[11.206322] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2\n'}
+[11.206479] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages\n'}
+[11.206617] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+interfaces\n'}
+[11.206737] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+interfaces/interfaces_msg_Detected_1To2_Converter.m\n'}
+[11.206858] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+interfaces/detected.m\n'}
+[11.207034] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+interfaces/interfaces_msg_Detected_2To1_Converter.m\n'}
+[11.207158] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/package_run_dependencies/interfaces\n'}
+[11.207307] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/parent_prefix_path/interfaces\n'}
+[11.207430] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/share/interfaces/environment/ament_prefix_path.sh\n'}
+[11.207532] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/share/interfaces/environment/ament_prefix_path.dsv\n'}
+[11.207615] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/share/interfaces/environment/path.sh\n'}
+[11.207675] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/share/interfaces/environment/path.dsv\n'}
+[11.207735] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/share/interfaces/local_setup.bash\n'}
+[11.207790] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/share/interfaces/local_setup.sh\n'}
+[11.207859] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/share/interfaces/local_setup.zsh\n'}
+[11.207913] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/share/interfaces/local_setup.dsv\n'}
+[11.207971] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/share/interfaces/package.dsv\n'}
+[11.208025] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/packages/interfaces\n'}
+[11.208081] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake\n'}
+[11.208144] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-release.cmake\n'}
+[11.208229] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[11.208285] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[11.208355] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.208497] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[11.208610] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake\n'}
+[11.208739] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-release.cmake\n'}
+[11.208864] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake\n'}
+[11.208999] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[11.209140] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[11.209263] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.209388] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[11.209531] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[11.209668] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-release.cmake\n'}
+[11.209786] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[11.209894] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.209983] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.210063] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.210174] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.210287] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.210408] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.210539] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/interfacesConfig.cmake\n'}
+[11.210631] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/interfacesConfig-version.cmake\n'}
+[11.210741] (interfaces) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/install/share/interfaces/package.xml\n'}
+[11.212182] (interfaces) CommandEnded: {'returncode': 0}
+[11.246851] (-) TimerEvent: {}
+[11.325348] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[11.326187] (-) EventReactorShutdown: {}

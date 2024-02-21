@@ -1,0 +1,21 @@
+{
+  "package_name": "interfaces",
+  "output_dir": "/home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/build/interfaces/rosidl_typesupport_fastrtps_c/interfaces",
+  "template_dir": "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_fastrtps_c/resource",
+  "idl_tuples": [
+    "/home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/build/interfaces/rosidl_adapter/interfaces:msg/Detected.idl",
+    "/home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/build/interfaces/rosidl_adapter/interfaces:msg/Motion.idl"
+  ],
+  "target_dependencies": [
+    "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c",
+    "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/lib/python3.9/site-packages/rosidl_typesupport_fastrtps_c/__init__.py",
+    "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_fastrtps_c/resource/idl__rosidl_typesupport_fastrtps_c.h.em",
+    "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_fastrtps_c/resource/idl__type_support_c.cpp.em",
+    "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_fastrtps_c/resource/msg__rosidl_typesupport_fastrtps_c.h.em",
+    "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_fastrtps_c/resource/msg__type_support_c.cpp.em",
+    "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
+    "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
+    "/home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/build/interfaces/rosidl_adapter/interfaces/msg/Detected.idl",
+    "/home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/build/interfaces/rosidl_adapter/interfaces/msg/Motion.idl"
+  ]
+}

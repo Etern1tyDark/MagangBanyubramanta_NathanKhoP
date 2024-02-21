@@ -1,0 +1,7 @@
+{
+  "package_name": "interfaces",
+  "non_idl_tuples": [
+    "/home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/src/interfaces:msg/Detected.msg",
+    "/home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/src/interfaces:msg/Motion.msg"
+  ]
+}

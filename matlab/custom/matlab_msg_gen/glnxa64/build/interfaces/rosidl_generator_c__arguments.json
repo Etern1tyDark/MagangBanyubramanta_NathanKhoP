@@ -1,0 +1,26 @@
+{
+  "package_name": "interfaces",
+  "output_dir": "/home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/build/interfaces/rosidl_generator_c/interfaces",
+  "template_dir": "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/build/interfaces/rosidl_adapter/interfaces:msg/Detected.idl",
+    "/home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/build/interfaces/rosidl_adapter/interfaces:msg/Motion.idl"
+  ],
+  "target_dependencies": [
+    "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_generator_c/cmake/../../../lib/python3.9/site-packages/rosidl_generator_c/__init__.py",
+    "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/build/interfaces/rosidl_adapter/interfaces/msg/Detected.idl",
+    "/home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/build/interfaces/rosidl_adapter/interfaces/msg/Motion.idl"
+  ]
+}

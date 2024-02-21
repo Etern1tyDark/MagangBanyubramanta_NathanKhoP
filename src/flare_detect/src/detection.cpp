@@ -27,14 +27,6 @@ using std::placeholders::_1;
 using namespace std;
 using namespace cv;
 
-// TODO
-#define red_hue 0
-#define yellow_hue 30
-#define blue_hue 120
-#define hue_lim 20
-#define min_satur 50
-#define min_val 50
-
 class Detection : public rclcpp::Node
 {
 public:
@@ -43,13 +35,22 @@ public:
     publisher_ = this->create_publisher<obj_msg::msg::Detected>("object_found", 10);
     camsrc_ = VideoCapture(0);
 
+    namedWindow("Edit value");
+    createTrackbar("hue thresh", "values", &hue_lim, 90);
+    createTrackbar("min sat", "values", &min_satur, 255);
+    createTrackbar("min val", "values", &min_val, 255);
+    createTrackbar("min area", "values", &min_area, 10000);
+    createTrackbar("red hue", "values", &red_hue, 180);
+    createTrackbar("yellow hue", "values", &yellow_hue, 180);
+    createTrackbar("blue hue", "values", &blue_hue, 180);
+
     if (!camsrc_.isOpened())
     {
       RCLCPP_ERROR(this->get_logger(), "An error occurred while trying to capture video");
     }
     else
     {
-      timer_ = this->create_wall_timer(500ms, std::bind(&Detection::topic_callback, this));
+      timer_ = this->create_wall_timer(100ms, std::bind(&Detection::topic_callback, this));
     }
   }
   
@@ -59,6 +60,19 @@ public:
   }
 
 private:
+  void send_msg(Moments &moment, const int color)
+    {
+      if (moment.m00 < min_area)
+          return;
+
+      auto message = obj_msg::msg::Detected();
+      message.color = color;
+      message.x = moment.m10 / moment.m00 - camsrc_.get(CAP_PROP_FRAME_WIDTH) / 2;
+      message.y = moment.m01 / moment.m00 - camsrc_.get(CAP_PROP_FRAME_HEIGHT) / 2;
+      message.angle = 2 * float(message.x) / float(camsrc_.get(CAP_PROP_FRAME_WIDTH));
+      publisher_->publish(message);
+    }
+  
   void topic_callback() {
 
     Mat frame;
@@ -67,8 +81,6 @@ private:
       RCLCPP_ERROR(this->get_logger(), "An error occured while trying to read frame from video source");
       return;
     }
-    imshow("Frame", frame);
-    waitKey(1);
 
     Mat framehsv; 
     cvtColor(frame, framehsv, COLOR_BGR2HSV); 
@@ -76,25 +88,33 @@ private:
       RCLCPP_ERROR(this->get_logger(), "An error occured while trying to convert frame -> HSV");
       return;
     }
-    
-    imshow("HSV Frame", framehsv);
-    waitKey(1);
 
     Mat red, yellow, blue;
     inRange(framehsv, Scalar(max(0, red_hue - hue_lim), min_satur, min_val), Scalar(min(255, red_hue + hue_lim), 255, 255), red);
     inRange(framehsv, Scalar(max(0, yellow_hue - hue_lim), min_satur, min_val), Scalar(min(255, yellow_hue + hue_lim), 255, 255), yellow);
     inRange(framehsv, Scalar(max(0, blue_hue - hue_lim), min_satur, min_val), Scalar(min(255, blue_hue + hue_lim), 255, 255), blue);
 
-    auto message = obj_msg::msg::Detected();
-    message.red = countNonZero(red) > 0;
-    message.yellow = countNonZero(yellow) > 0;
-    message.blue = countNonZero(blue) > 0;
-    publisher_->publish(message);
+    Moments red_moments = moments(red), yellow_moments = moments(yellow), blue_moments = moments(blue);
+
+    this->send_msg(red_moments, obj_msg::msg::Detected::RED);
+    this->send_msg(yellow_moments, obj_msg::msg::Detected::YELLOW);
+    this->send_msg(blue_moments, obj_msg::msg::Detected::BLUE);
+
+    imshow("red", red);
+    imshow("yellow", yellow);
+    imshow("blue", blue);
+    waitKey(1);
   }
 
   rclcpp::Publisher<obj_msg::msg::Detected>::SharedPtr publisher_;
   rclcpp::TimerBase::SharedPtr timer_;
   VideoCapture camsrc_;
+
+  int red_hue = 0, yellow_hue = 30, blue_hue = 120;
+  int hue_lim = 10; //thresh
+  int min_satur = 150;
+  int min_val = 50;
+  int min_area = 10000;
   };
 
 int main(int argc, char * argv[])

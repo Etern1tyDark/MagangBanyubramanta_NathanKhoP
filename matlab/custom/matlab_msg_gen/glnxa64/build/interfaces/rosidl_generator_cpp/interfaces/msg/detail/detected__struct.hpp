@@ -99,12 +99,6 @@ struct Detected_
   }
 
   // constant declarations
-  static constexpr int32_t RED =
-    0;
-  static constexpr int32_t YELLOW =
-    1;
-  static constexpr int32_t BLUE =
-    2;
 
   // pointer types
   using RawPtr =
@@ -171,12 +165,6 @@ using Detected =
   interfaces::msg::Detected_<std::allocator<void>>;
 
 // constant definitions
-template<typename ContainerAllocator>
-constexpr int32_t Detected_<ContainerAllocator>::RED;
-template<typename ContainerAllocator>
-constexpr int32_t Detected_<ContainerAllocator>::YELLOW;
-template<typename ContainerAllocator>
-constexpr int32_t Detected_<ContainerAllocator>::BLUE;
 
 }  // namespace msg
 

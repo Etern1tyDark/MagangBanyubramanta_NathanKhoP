@@ -17,24 +17,6 @@ extern "C"
 
 // Constants defined in the message
 
-/// Constant 'RED'.
-enum
-{
-  interfaces__msg__Detected__RED = 0l
-};
-
-/// Constant 'YELLOW'.
-enum
-{
-  interfaces__msg__Detected__YELLOW = 1l
-};
-
-/// Constant 'BLUE'.
-enum
-{
-  interfaces__msg__Detected__BLUE = 2l
-};
-
 /// Struct defined in msg/Detected in the package interfaces.
 typedef struct interfaces__msg__Detected
 {

@@ -5,11 +5,6 @@
 
 module interfaces {
   module msg {
-    module Detected_Constants {
-      const int32 RED = 0;
-      const int32 YELLOW = 1;
-      const int32 BLUE = 2;
-    };
     struct Detected {
       int32 color;
 

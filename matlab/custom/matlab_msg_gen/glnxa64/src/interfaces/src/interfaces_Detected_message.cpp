@@ -74,18 +74,9 @@ class INTERFACES_EXPORT ros2_interfaces_msg_Detected_common : public MATLABROS2M
   //----------------------------------------------------------------------------
   MDArray_T ros2_interfaces_msg_Detected_common::get_arr(MDFactory_T& factory, const interfaces::msg::Detected* msg,
        MultiLibLoader loader, size_t size) {
-    auto outArray = factory.createStructArray({size,1},{"MessageType","RED","YELLOW","BLUE","color","x","y","angle"});
+    auto outArray = factory.createStructArray({size,1},{"MessageType","color","x","y","angle"});
     for(size_t ctr = 0; ctr < size; ctr++){
     outArray[ctr]["MessageType"] = factory.createCharArray("interfaces/Detected");
-    // RED
-    auto currentElement_RED = (msg + ctr)->RED;
-    outArray[ctr]["RED"] = factory.createScalar(currentElement_RED);
-    // YELLOW
-    auto currentElement_YELLOW = (msg + ctr)->YELLOW;
-    outArray[ctr]["YELLOW"] = factory.createScalar(currentElement_YELLOW);
-    // BLUE
-    auto currentElement_BLUE = (msg + ctr)->BLUE;
-    outArray[ctr]["BLUE"] = factory.createScalar(currentElement_BLUE);
     // color
     auto currentElement_color = (msg + ctr)->color;
     outArray[ctr]["color"] = factory.createScalar(currentElement_color);

@@ -3,5 +3,5 @@
 ## Progress:
 - [x] ROS2
 - [x] OpenCV
-- [ ] YoloV5
-- [x] Matlab - well, partially
+- [x] YoloV5 (not tested)
+- [x] Matlab (not tested)

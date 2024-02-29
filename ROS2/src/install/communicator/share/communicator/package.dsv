@@ -1,0 +1,8 @@
+source;share/communicator/hook/cmake_prefix_path.ps1
+source;share/communicator/hook/cmake_prefix_path.dsv
+source;share/communicator/hook/cmake_prefix_path.sh
+source;share/communicator/local_setup.bash
+source;share/communicator/local_setup.dsv
+source;share/communicator/local_setup.ps1
+source;share/communicator/local_setup.sh
+source;share/communicator/local_setup.zsh

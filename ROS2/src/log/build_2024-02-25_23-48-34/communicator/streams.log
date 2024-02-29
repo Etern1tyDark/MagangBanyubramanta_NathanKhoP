@@ -1,0 +1,63 @@
+[0.054s] Invoking command in '/home/etern1ty/ros2_ws/src/build/communicator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/etern1ty/ros2_ws/src/communicator -DCMAKE_INSTALL_PREFIX=/home/etern1ty/ros2_ws/src/install/communicator
+[0.181s] -- The C compiler identification is GNU 11.4.0
+[0.279s] -- The CXX compiler identification is GNU 11.4.0
+[0.290s] -- Detecting C compiler ABI info
+[0.373s] -- Detecting C compiler ABI info - done
+[0.380s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.380s] -- Detecting C compile features
+[0.381s] -- Detecting C compile features - done
+[0.385s] -- Detecting CXX compiler ABI info
+[0.473s] -- Detecting CXX compiler ABI info - done
+[0.479s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.480s] -- Detecting CXX compile features
+[0.480s] -- Detecting CXX compile features - done
+[0.488s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.858s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.961s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.020s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.026s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.037s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.056s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.078s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.158s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.162s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.310s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.342s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.396s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.408s] -- Looking for pthread.h
+[1.488s] -- Looking for pthread.h - found
+[1.489s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.573s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.574s] -- Found Threads: TRUE  
+[1.731s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.810s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.810s] -- Configured cppcheck include dirs: 
+[1.810s] -- Configured cppcheck exclude dirs and/or files: 
+[1.811s] -- Added test 'lint_cmake' to check CMake code style
+[1.812s] -- Added test 'uncrustify' to check C / C++ code style
+[1.812s] -- Configured uncrustify additional arguments: 
+[1.813s] -- Added test 'xmllint' to check XML markup files
+[1.814s] -- Configuring done
+[1.819s] -- Generating done
+[1.821s] -- Build files have been written to: /home/etern1ty/ros2_ws/src/build/communicator
+[1.830s] Invoked command in '/home/etern1ty/ros2_ws/src/build/communicator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/etern1ty/ros2_ws/src/communicator -DCMAKE_INSTALL_PREFIX=/home/etern1ty/ros2_ws/src/install/communicator
+[1.833s] Invoking command in '/home/etern1ty/ros2_ws/src/build/communicator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/src/build/communicator -- -j12 -l12
+[1.877s] Invoked command in '/home/etern1ty/ros2_ws/src/build/communicator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/src/build/communicator -- -j12 -l12
+[1.913s] Invoking command in '/home/etern1ty/ros2_ws/src/build/communicator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/etern1ty/ros2_ws/src/build/communicator
+[1.920s] -- Install configuration: ""
+[1.921s] -- Installing: /home/etern1ty/ros2_ws/src/install/communicator/share/ament_index/resource_index/package_run_dependencies/communicator
+[1.921s] -- Installing: /home/etern1ty/ros2_ws/src/install/communicator/share/ament_index/resource_index/parent_prefix_path/communicator
+[1.921s] -- Installing: /home/etern1ty/ros2_ws/src/install/communicator/share/communicator/environment/ament_prefix_path.sh
+[1.921s] -- Installing: /home/etern1ty/ros2_ws/src/install/communicator/share/communicator/environment/ament_prefix_path.dsv
+[1.922s] -- Installing: /home/etern1ty/ros2_ws/src/install/communicator/share/communicator/environment/path.sh
+[1.922s] -- Installing: /home/etern1ty/ros2_ws/src/install/communicator/share/communicator/environment/path.dsv
+[1.922s] -- Installing: /home/etern1ty/ros2_ws/src/install/communicator/share/communicator/local_setup.bash
+[1.922s] -- Installing: /home/etern1ty/ros2_ws/src/install/communicator/share/communicator/local_setup.sh
+[1.922s] -- Installing: /home/etern1ty/ros2_ws/src/install/communicator/share/communicator/local_setup.zsh
+[1.922s] -- Installing: /home/etern1ty/ros2_ws/src/install/communicator/share/communicator/local_setup.dsv
+[1.923s] -- Installing: /home/etern1ty/ros2_ws/src/install/communicator/share/communicator/package.dsv
+[1.923s] -- Installing: /home/etern1ty/ros2_ws/src/install/communicator/share/ament_index/resource_index/packages/communicator
+[1.923s] -- Installing: /home/etern1ty/ros2_ws/src/install/communicator/share/communicator/cmake/communicatorConfig.cmake
+[1.923s] -- Installing: /home/etern1ty/ros2_ws/src/install/communicator/share/communicator/cmake/communicatorConfig-version.cmake
+[1.923s] -- Installing: /home/etern1ty/ros2_ws/src/install/communicator/share/communicator/package.xml
+[1.926s] Invoked command in '/home/etern1ty/ros2_ws/src/build/communicator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/etern1ty/ros2_ws/src/build/communicator

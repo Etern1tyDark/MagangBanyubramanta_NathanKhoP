@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "memory": "cpp",
+        "system_error": "cpp",
+        "chrono": "cpp",
+        "random": "cpp",
+        "limits": "cpp",
+        "semaphore": "cpp",
+        "*.tcc": "cpp"
+    }
+}

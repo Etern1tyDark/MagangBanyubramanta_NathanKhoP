@@ -1,0 +1,6 @@
+Invoking command in '/home/etern1ty/ros2_ws/src/build/communicator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/etern1ty/ros2_ws/src/communicator -DCMAKE_INSTALL_PREFIX=/home/etern1ty/ros2_ws/src/install/communicator
+Invoked command in '/home/etern1ty/ros2_ws/src/build/communicator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/etern1ty/ros2_ws/src/communicator -DCMAKE_INSTALL_PREFIX=/home/etern1ty/ros2_ws/src/install/communicator
+Invoking command in '/home/etern1ty/ros2_ws/src/build/communicator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/src/build/communicator -- -j12 -l12
+Invoked command in '/home/etern1ty/ros2_ws/src/build/communicator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/src/build/communicator -- -j12 -l12
+Invoking command in '/home/etern1ty/ros2_ws/src/build/communicator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/etern1ty/ros2_ws/src/build/communicator
+Invoked command in '/home/etern1ty/ros2_ws/src/build/communicator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/etern1ty/ros2_ws/src/build/communicator

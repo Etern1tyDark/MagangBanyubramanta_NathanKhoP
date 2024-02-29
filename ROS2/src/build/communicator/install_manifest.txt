@@ -1,0 +1,15 @@
+/home/etern1ty/ros2_ws/src/install/communicator/share/ament_index/resource_index/package_run_dependencies/communicator
+/home/etern1ty/ros2_ws/src/install/communicator/share/ament_index/resource_index/parent_prefix_path/communicator
+/home/etern1ty/ros2_ws/src/install/communicator/share/communicator/environment/ament_prefix_path.sh
+/home/etern1ty/ros2_ws/src/install/communicator/share/communicator/environment/ament_prefix_path.dsv
+/home/etern1ty/ros2_ws/src/install/communicator/share/communicator/environment/path.sh
+/home/etern1ty/ros2_ws/src/install/communicator/share/communicator/environment/path.dsv
+/home/etern1ty/ros2_ws/src/install/communicator/share/communicator/local_setup.bash
+/home/etern1ty/ros2_ws/src/install/communicator/share/communicator/local_setup.sh
+/home/etern1ty/ros2_ws/src/install/communicator/share/communicator/local_setup.zsh
+/home/etern1ty/ros2_ws/src/install/communicator/share/communicator/local_setup.dsv
+/home/etern1ty/ros2_ws/src/install/communicator/share/communicator/package.dsv
+/home/etern1ty/ros2_ws/src/install/communicator/share/ament_index/resource_index/packages/communicator
+/home/etern1ty/ros2_ws/src/install/communicator/share/communicator/cmake/communicatorConfig.cmake
+/home/etern1ty/ros2_ws/src/install/communicator/share/communicator/cmake/communicatorConfig-version.cmake
+/home/etern1ty/ros2_ws/src/install/communicator/share/communicator/package.xml

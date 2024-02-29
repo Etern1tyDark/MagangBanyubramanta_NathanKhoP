@@ -1,0 +1,9 @@
+/home/etern1ty/ros2_ws/src/build/communicator/CMakeFiles/uninstall.dir
+/home/etern1ty/ros2_ws/src/build/communicator/CMakeFiles/communicator_uninstall.dir
+/home/etern1ty/ros2_ws/src/build/communicator/CMakeFiles/test.dir
+/home/etern1ty/ros2_ws/src/build/communicator/CMakeFiles/edit_cache.dir
+/home/etern1ty/ros2_ws/src/build/communicator/CMakeFiles/rebuild_cache.dir
+/home/etern1ty/ros2_ws/src/build/communicator/CMakeFiles/list_install_components.dir
+/home/etern1ty/ros2_ws/src/build/communicator/CMakeFiles/install.dir
+/home/etern1ty/ros2_ws/src/build/communicator/CMakeFiles/install/local.dir
+/home/etern1ty/ros2_ws/src/build/communicator/CMakeFiles/install/strip.dir

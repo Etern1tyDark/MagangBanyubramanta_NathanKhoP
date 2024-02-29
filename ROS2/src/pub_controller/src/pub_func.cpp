@@ -24,10 +24,8 @@
 
 using std::placeholders::_1;
 
-#define max_value 500
-
 // Microsoft Xbox 360 Wired Controller for Linux - http://wiki.ros.org/joy
-
+/*
 enum Buttons
 {
 	A,
@@ -54,12 +52,16 @@ enum Axes
 	LR_CROSS,
 	UD_CROSS
 };
+*/
 /* This example creates a subclass of Node and uses std::bind() to register a
  * member function as a callback from the timer. */
 
 class Controller : public rclcpp::Node
 {
 public:
+
+  int tempyaw = 0, tempdepth = 0;
+
   Controller()
   : Node("controller")
   {
@@ -73,14 +75,24 @@ private:
   void topic_callback(const sensor_msgs::msg::Joy &msg)
   {
     auto motion_data = obj_msg::msg::Motion();
-    motion_data.x_cmd = msg.axes[LR_LEFT] * max_value;
-    motion_data.y_cmd = msg.axes[LR_RIGHT] * max_value;
+    
+    motion_data.x_cmd = msg.axes[1] * 180; 
+    motion_data.y_cmd = msg.axes[0] * -180;
+    motion_data.yaw = tempyaw;
+    motion_data.depth = tempdepth;
 
-    motion_data.yaw = msg.axes[UD_LEFT] * max_value;
-    motion_data.depth = msg.axes[UD_RIGHT] * max_value;
+    tempyaw += ((msg.axes[3] * -1)) * 3;
+    tempdepth += (msg.axes[4]) * 3;
 
+    if (tempyaw > 180 || tempyaw < -180) {
+      tempyaw *=  -1;
+    }
+    if (tempdepth > 100 || tempdepth < -100) {
+      tempdepth *=  -1;
+    } 
+    
     publisher_->publish(motion_data);
-    RCLCPP_INFO(this->get_logger(), "Motion commands inputted");
+    RCLCPP_INFO(this->get_logger(), "Motion commands inputted, [%d], [%d], [%d], [%d]", motion_data.x_cmd, motion_data.y_cmd, motion_data.yaw, motion_data.depth);
   }
   rclcpp::Publisher<obj_msg::msg::Motion>::SharedPtr publisher_;
   rclcpp::Subscription<sensor_msgs::msg::Joy>::SharedPtr subscriber_;

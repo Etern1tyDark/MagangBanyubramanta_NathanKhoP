@@ -1,9 +1,0 @@
-setup.py
-obj_msg/__init__.py
-obj_msg.egg-info/PKG-INFO
-obj_msg.egg-info/SOURCES.txt
-obj_msg.egg-info/dependency_links.txt
-obj_msg.egg-info/top_level.txt
-obj_msg/msg/__init__.py
-obj_msg/msg/_detected.py
-obj_msg/msg/_motion.py

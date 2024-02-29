@@ -1,7 +1,0 @@
-{
-  "package_name": "obj_msg",
-  "non_idl_tuples": [
-    "/home/etern1ty/ros2_ws/src/obj_msg:msg/Detected.msg",
-    "/home/etern1ty/ros2_ws/src/obj_msg:msg/Motion.msg"
-  ]
-}

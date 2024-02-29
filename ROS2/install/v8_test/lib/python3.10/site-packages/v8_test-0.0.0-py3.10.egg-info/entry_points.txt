@@ -1,2 +1,0 @@
-[console_scripts]
-detect = v8_test.detect_func:main

@@ -1,8 +1,0 @@
-setup.py
-flare_detect/__init__.py
-flare_detect.egg-info/PKG-INFO
-flare_detect.egg-info/SOURCES.txt
-flare_detect.egg-info/dependency_links.txt
-flare_detect.egg-info/top_level.txt
-flare_detect/msg/__init__.py
-flare_detect/msg/_detected.py

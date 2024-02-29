@@ -27,6 +27,13 @@ using std::placeholders::_1;
 using namespace std;
 using namespace cv;
 
+Mat frame;
+Point red_p, yellow_p, blue_p;
+
+Scalar BLUE_sc = Scalar(255,178,50);
+Scalar YELLOW_sc = Scalar(0,255,255);
+Scalar RED_sc = Scalar(0,0,255);
+
 class Detection : public rclcpp::Node
 {
 public:
@@ -35,6 +42,7 @@ public:
     publisher_ = this->create_publisher<obj_msg::msg::Detected>("object_found", 10);
     camsrc_ = VideoCapture(0);
 
+/*
     namedWindow("Edit value");
     createTrackbar("hue thresh", "values", &hue_lim, 90);
     createTrackbar("min sat", "values", &min_satur, 255);
@@ -44,6 +52,7 @@ public:
     createTrackbar("yellow hue", "values", &yellow_hue, 180);
     createTrackbar("blue hue", "values", &blue_hue, 180);
 
+*/
     if (!camsrc_.isOpened())
     {
       RCLCPP_ERROR(this->get_logger(), "An error occurred while trying to capture video");
@@ -73,9 +82,27 @@ private:
       publisher_->publish(message);
     }
   
-  void topic_callback() {
+  Point findCenter(Mat &maskHSV, Scalar color)
+    {
+        vector<vector<Point>> contours;
+        vector<Vec4i> hierarchy;
+        Point center_point;
+        findContours(maskHSV, contours, hierarchy, RETR_EXTERNAL, CHAIN_APPROX_SIMPLE);
+        // drawContours(frame, contours, -1,(50,255,50),3);
+        for (size_t i = 0; i < contours.size(); ++i)
+        {
+            Rect boundRect = boundingRect(contours[i]);
+            // center_point.push_back(cv::Point(boundRect.x + boundRect.width / 2, boundRect.y + boundRect.height / 2));
+            int colorarea = boundRect.height * boundRect.width;
+            if (colorarea > 5000) 
+            rectangle(frame, boundRect.tl(), boundRect.br(), color, 2);
+            center_point.x = boundRect.x + boundRect.width / 2;
+            center_point.y = boundRect.y + boundRect.height / 2;
+        }
+        return center_point;
+    }
 
-    Mat frame;
+  void topic_callback() {
     
     if (!camsrc_.read(frame)) {
       RCLCPP_ERROR(this->get_logger(), "An error occured while trying to read frame from video source");
@@ -91,7 +118,7 @@ private:
 
     Mat red, yellow, blue;
     inRange(framehsv, Scalar(max(0, red_hue - hue_lim), min_satur, min_val), Scalar(min(255, red_hue + hue_lim), 255, 255), red);
-    inRange(framehsv, Scalar(max(0, yellow_hue - hue_lim), min_satur, min_val), Scalar(min(255, yellow_hue + hue_lim), 255, 255), yellow);
+    inRange(framehsv, Scalar(max(0, yellow_hue - hue_lim), 100, min_val), Scalar(min(255, yellow_hue + hue_lim), 255, 255), yellow);
     inRange(framehsv, Scalar(max(0, blue_hue - hue_lim), min_satur, min_val), Scalar(min(255, blue_hue + hue_lim), 255, 255), blue);
 
     Moments red_moments = moments(red), yellow_moments = moments(yellow), blue_moments = moments(blue);
@@ -100,9 +127,11 @@ private:
     this->send_msg(yellow_moments, obj_msg::msg::Detected::YELLOW);
     this->send_msg(blue_moments, obj_msg::msg::Detected::BLUE);
 
-    imshow("red", red);
-    imshow("yellow", yellow);
-    imshow("blue", blue);
+    red_p = findCenter(red, RED_sc);
+    yellow_p = findCenter(yellow, YELLOW_sc);
+    blue_p = findCenter(blue, BLUE_sc);
+    
+    imshow("frame", frame);
     waitKey(1);
   }
 
@@ -110,7 +139,7 @@ private:
   rclcpp::TimerBase::SharedPtr timer_;
   VideoCapture camsrc_;
 
-  int red_hue = 0, yellow_hue = 30, blue_hue = 120;
+  int red_hue = 0, yellow_hue = 30, blue_hue = 110;
   int hue_lim = 10; //thresh
   int min_satur = 150;
   int min_val = 50;

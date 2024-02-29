@@ -11,6 +11,20 @@ find_package(ament_cmake REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(obj_msg REQUIRED)
+
+add_executable(
+  communicator
+  src/communicator.cpp
+  )
+
+ament_target_dependencies(communicator rclcpp obj_msg)
+
+install(TARGETS
+  communicator
+  DESTINATION lib/${PROJECT_NAME}
+)
+
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

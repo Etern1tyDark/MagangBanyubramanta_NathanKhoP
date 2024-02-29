@@ -1,0 +1,30 @@
+[35m[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_generator_c[0m
+[  3%] [32mBuilding CXX object CMakeFiles/detection.dir/src/detection.cpp.o[0m
+[  6%] Built target flare_detect__cpp
+[ 15%] Built target flare_detect__rosidl_generator_c
+[ 15%] Built target ament_cmake_python_copy_flare_detect
+[35m[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_introspection_c[0m
+[ 24%] Built target flare_detect__rosidl_typesupport_fastrtps_cpp
+[ 33%] Built target flare_detect__rosidl_typesupport_cpp
+[ 42%] Built target flare_detect__rosidl_typesupport_introspection_cpp
+[ 51%] Built target flare_detect__rosidl_typesupport_c
+[ 60%] Built target flare_detect__rosidl_typesupport_introspection_c
+[ 69%] Built target flare_detect__rosidl_typesupport_fastrtps_c
+[ 69%] Built target flare_detect
+[ 72%] [34m[1mGenerating Python code for ROS interfaces[0m
+running egg_info
+writing flare_detect.egg-info/PKG-INFO
+writing dependency_links to flare_detect.egg-info/dependency_links.txt
+writing top-level names to flare_detect.egg-info/top_level.txt
+reading manifest file 'flare_detect.egg-info/SOURCES.txt'
+writing manifest file 'flare_detect.egg-info/SOURCES.txt'
+[ 72%] Built target ament_cmake_python_build_flare_detect_egg
+[ 72%] Built target flare_detect__py
+[ 75%] [32mBuilding C object CMakeFiles/flare_detect__rosidl_generator_py.dir/rosidl_generator_py/flare_detect/msg/_detected_s.c.o[0m
+[ 78%] [32m[1mLinking C shared library rosidl_generator_py/flare_detect/libflare_detect__rosidl_generator_py.so[0m
+[ 78%] Built target flare_detect__rosidl_generator_py

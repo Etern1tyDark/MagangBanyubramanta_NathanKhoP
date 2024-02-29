@@ -1,0 +1,67 @@
+[0.054s] Invoking command in '/home/etern1ty/ros2_ws/build/flare_detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/flare_detect -- -j12 -l12
+[0.121s] [35m[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_generator_c[0m
+[0.132s] [  3%] Built target flare_detect__cpp
+[0.135s] [ 12%] Built target flare_detect__rosidl_generator_c
+[0.145s] [ 12%] Built target ament_cmake_python_copy_flare_detect
+[0.148s] [35m[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_cpp[0m
+[0.148s] [35m[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_c[0m
+[0.148s] [35m[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_introspection_c[0m
+[0.148s] [35m[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_fastrtps_cpp[0m
+[0.148s] [35m[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_fastrtps_c[0m
+[0.149s] [35m[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_introspection_cpp[0m
+[0.163s] [ 21%] Built target flare_detect__rosidl_typesupport_c
+[0.163s] [ 30%] Built target flare_detect__rosidl_typesupport_introspection_c
+[0.166s] [ 39%] Built target flare_detect__rosidl_typesupport_fastrtps_cpp
+[0.167s] [ 48%] Built target flare_detect__rosidl_typesupport_cpp
+[0.168s] [ 57%] Built target flare_detect__rosidl_typesupport_introspection_cpp
+[0.169s] [ 66%] Built target flare_detect__rosidl_typesupport_fastrtps_c
+[0.181s] [35m[1mConsolidate compiler generated dependencies of target detection[0m
+[0.195s] [ 66%] Built target flare_detect
+[0.224s] [ 69%] [32mBuilding CXX object CMakeFiles/detection.dir/src/detection.cpp.o[0m
+[0.224s] [ 72%] Built target flare_detect__py
+[0.241s] [35m[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_generator_py[0m
+[0.259s] [ 78%] Built target flare_detect__rosidl_generator_py
+[0.274s] [35m[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_c__pyext[0m
+[0.274s] [35m[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_introspection_c__pyext[0m
+[0.276s] [35m[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.294s] [ 84%] Built target flare_detect__rosidl_typesupport_c__pyext
+[0.295s] [ 90%] Built target flare_detect__rosidl_typesupport_introspection_c__pyext
+[0.297s] [ 96%] Built target flare_detect__rosidl_typesupport_fastrtps_c__pyext
+[0.437s] running egg_info
+[0.437s] writing flare_detect.egg-info/PKG-INFO
+[0.438s] writing dependency_links to flare_detect.egg-info/dependency_links.txt
+[0.438s] writing top-level names to flare_detect.egg-info/top_level.txt
+[0.442s] reading manifest file 'flare_detect.egg-info/SOURCES.txt'
+[0.442s] writing manifest file 'flare_detect.egg-info/SOURCES.txt'
+[0.475s] [ 96%] Built target ament_cmake_python_build_flare_detect_egg
+[3.226s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:89:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.226s]    89 |     rclcpp::Publisher<flare_detect:msg::Detected[01;31m[K>[m[K::SharedPtr publisher_;
+[3.226s]       |                                                 [01;31m[K^[m[K
+[3.226s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:89:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[3.226s]    89 |     rclcpp::Publisher<flare_detect:msg::Detected>::[01;31m[KSharedPtr[m[K publisher_;
+[3.226s]       |                                                    [01;31m[K^~~~~~~~~[m[K
+[3.226s]       |                                                             [32m[K;[m[K
+[3.228s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:89:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[3.228s]    89 |     rclcpp::Publisher<flare_detect:msg::Detected>::SharedPtr [01;31m[Kpublisher_[m[K;
+[3.228s]       |                                                              [01;31m[K^~~~~~~~~~[m[K
+[3.228s]       |                                                              [32m[Krmw_publisher_t[m[K
+[3.237s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:[m[K In constructor ‘[01m[KDetection::Detection()[m[K’:
+[3.237s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:43:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[3.237s]    43 |     [01;31m[Kpublisher_[m[K = this->create_publisher<flare_detect:msg::Detected>("object_found", 10);
+[3.237s]       |     [01;31m[K^~~~~~~~~~[m[K
+[3.237s]       |     [32m[Krmw_publisher_t[m[K
+[3.237s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:43:53:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+[3.237s]    43 |     publisher_ = this->create_publisher<flare_detect[01;31m[K:[m[Kmsg::Detected>("object_found", 10);
+[3.237s]       |                                                     [01;31m[K^[m[K
+[3.237s]       |                                                     [32m[K::[m[K
+[3.251s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:58:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcvtcolor[m[K’ was not declared in this scope
+[3.251s]    58 |         [01;31m[Kcvtcolor[m[K(frame, framehsv, COLOR_BGR2HSV);
+[3.252s]       |         [01;31m[K^~~~~~~~[m[K
+[3.252s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:69:36:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+[3.252s]    69 |         auto message = flare_detect[01;31m[K:[m[Kmsg::Detected();
+[3.252s]       |                                    [01;31m[K^[m[K
+[3.252s]       |                                    [32m[K::[m[K
+[4.712s] gmake[2]: *** [CMakeFiles/detection.dir/build.make:76: CMakeFiles/detection.dir/src/detection.cpp.o] Error 1
+[4.712s] gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/detection.dir/all] Error 2
+[4.712s] gmake: *** [Makefile:146: all] Error 2
+[4.717s] Invoked command in '/home/etern1ty/ros2_ws/build/flare_detect' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/flare_detect -- -j12 -l12

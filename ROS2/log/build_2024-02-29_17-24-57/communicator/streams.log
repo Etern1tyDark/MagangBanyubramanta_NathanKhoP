@@ -1,0 +1,20 @@
+[0.052s] Invoking command in '/home/etern1ty/ros2_ws/build/communicator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/communicator -- -j12 -l12
+[0.092s] Invoked command in '/home/etern1ty/ros2_ws/build/communicator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/communicator -- -j12 -l12
+[0.127s] Invoking command in '/home/etern1ty/ros2_ws/build/communicator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/etern1ty/ros2_ws/build/communicator
+[0.134s] -- Install configuration: ""
+[0.134s] -- Up-to-date: /home/etern1ty/ros2_ws/install/communicator/share/ament_index/resource_index/package_run_dependencies/communicator
+[0.135s] -- Up-to-date: /home/etern1ty/ros2_ws/install/communicator/share/ament_index/resource_index/parent_prefix_path/communicator
+[0.135s] -- Up-to-date: /home/etern1ty/ros2_ws/install/communicator/share/communicator/environment/ament_prefix_path.sh
+[0.135s] -- Up-to-date: /home/etern1ty/ros2_ws/install/communicator/share/communicator/environment/ament_prefix_path.dsv
+[0.135s] -- Up-to-date: /home/etern1ty/ros2_ws/install/communicator/share/communicator/environment/path.sh
+[0.135s] -- Up-to-date: /home/etern1ty/ros2_ws/install/communicator/share/communicator/environment/path.dsv
+[0.135s] -- Up-to-date: /home/etern1ty/ros2_ws/install/communicator/share/communicator/local_setup.bash
+[0.135s] -- Up-to-date: /home/etern1ty/ros2_ws/install/communicator/share/communicator/local_setup.sh
+[0.135s] -- Up-to-date: /home/etern1ty/ros2_ws/install/communicator/share/communicator/local_setup.zsh
+[0.135s] -- Up-to-date: /home/etern1ty/ros2_ws/install/communicator/share/communicator/local_setup.dsv
+[0.135s] -- Up-to-date: /home/etern1ty/ros2_ws/install/communicator/share/communicator/package.dsv
+[0.135s] -- Up-to-date: /home/etern1ty/ros2_ws/install/communicator/share/ament_index/resource_index/packages/communicator
+[0.135s] -- Up-to-date: /home/etern1ty/ros2_ws/install/communicator/share/communicator/cmake/communicatorConfig.cmake
+[0.135s] -- Up-to-date: /home/etern1ty/ros2_ws/install/communicator/share/communicator/cmake/communicatorConfig-version.cmake
+[0.135s] -- Up-to-date: /home/etern1ty/ros2_ws/install/communicator/share/communicator/package.xml
+[0.137s] Invoked command in '/home/etern1ty/ros2_ws/build/communicator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/etern1ty/ros2_ws/build/communicator

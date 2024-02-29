@@ -1,0 +1,240 @@
+[0.000000] (-) TimerEvent: {}
+[0.000150] (-) JobUnselected: {'identifier': 'DisplayImage'}
+[0.000176] (-) JobUnselected: {'identifier': 'Grayscale'}
+[0.000194] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000211] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000228] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000245] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000264] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000285] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000308] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000377] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000396] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000414] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000432] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000448] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000466] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000483] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000500] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000519] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000537] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000561] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.000578] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.000594] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.000611] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.000627] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.000643] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.000659] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000676] (-) JobUnselected: {'identifier': 'pub_controller'}
+[0.000693] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000714] (ros2_color_detection) JobQueued: {'identifier': 'ros2_color_detection', 'dependencies': OrderedDict()}
+[0.000738] (ros2_color_detection) JobStarted: {'identifier': 'ros2_color_detection'}
+[0.057151] (ros2_color_detection) JobProgress: {'identifier': 'ros2_color_detection', 'progress': 'cmake'}
+[0.057655] (ros2_color_detection) Command: {'cmd': ['/usr/bin/cmake', '/home/etern1ty/ros2_ws/src/ros2_color_detection/ros2_color_detection', '-DCMAKE_INSTALL_PREFIX=/home/etern1ty/ros2_ws/install/ros2_color_detection'], 'cwd': '/home/etern1ty/ros2_ws/build/ros2_color_detection', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'etern1ty'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/etern1ty'), ('OLDPWD', '/home/etern1ty/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '895'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1040'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f66f378a8b1e19ec94b1f11165c61251'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'etern1ty'), ('JOURNAL_STREAM', '8:23353'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'etern1ty'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/etern1ty/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Etern1ty-14ALC6:@/tmp/.ICE-unix/1040,unix/Etern1ty-14ALC6:/tmp/.ICE-unix/1040'), ('INVOCATION_ID', '5eeaeae7c15d4f6fa312f20929c4bc27'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('TILIX_ID', 'f4f42566-b016-43c4-bd77-7706e864e12e'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LYYSI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/etern1ty/ros2_ws/build/ros2_color_detection'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f66f378a8b1e19ec94b1f11165c61251'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099117] (-) TimerEvent: {}
+[0.199524] (-) TimerEvent: {}
+[0.272104] (ros2_color_detection) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.299663] (-) TimerEvent: {}
+[0.376415] (ros2_color_detection) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.386886] (ros2_color_detection) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.399788] (-) TimerEvent: {}
+[0.484640] (ros2_color_detection) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.491028] (ros2_color_detection) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.491459] (ros2_color_detection) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.492011] (ros2_color_detection) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.495782] (ros2_color_detection) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.499904] (-) TimerEvent: {}
+[0.583938] (ros2_color_detection) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.591409] (ros2_color_detection) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.591759] (ros2_color_detection) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.592061] (ros2_color_detection) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.600009] (-) TimerEvent: {}
+[0.615563] (ros2_color_detection) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.700345] (-) TimerEvent: {}
+[0.795281] (ros2_color_detection) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.800573] (-) TimerEvent: {}
+[0.891002] (ros2_color_detection) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.900704] (-) TimerEvent: {}
+[0.947564] (ros2_color_detection) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.955502] (ros2_color_detection) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.966911] (ros2_color_detection) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.983736] (ros2_color_detection) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.000810] (-) TimerEvent: {}
+[1.005704] (ros2_color_detection) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.100994] (-) TimerEvent: {}
+[1.201434] (-) TimerEvent: {}
+[1.265089] (ros2_color_detection) StdoutLine: {'line': b'-- Found image_transport: 3.1.8 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[1.301556] (-) TimerEvent: {}
+[1.338640] (ros2_color_detection) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.341283] (ros2_color_detection) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.401671] (-) TimerEvent: {}
+[1.495709] (ros2_color_detection) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.501807] (-) TimerEvent: {}
+[1.528217] (ros2_color_detection) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.583255] (ros2_color_detection) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.596279] (ros2_color_detection) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.601940] (-) TimerEvent: {}
+[1.685732] (ros2_color_detection) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.686024] (ros2_color_detection) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.702302] (-) TimerEvent: {}
+[1.802746] (-) TimerEvent: {}
+[1.844412] (ros2_color_detection) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.845550] (ros2_color_detection) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.902894] (-) TimerEvent: {}
+[2.003268] (-) TimerEvent: {}
+[2.050290] (ros2_color_detection) StdoutLine: {'line': b'-- Found OpenCV: /usr/local (found version "4.9.0") found components: highgui imgcodecs imgproc videoio \n'}
+[2.103408] (-) TimerEvent: {}
+[2.117610] (ros2_color_detection) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.129578] (ros2_color_detection) StdoutLine: {'line': b'-- Generating done\n'}
+[2.131032] (ros2_color_detection) StdoutLine: {'line': b'-- Build files have been written to: /home/etern1ty/ros2_ws/build/ros2_color_detection\n'}
+[2.140676] (ros2_color_detection) CommandEnded: {'returncode': 0}
+[2.141662] (ros2_color_detection) JobProgress: {'identifier': 'ros2_color_detection', 'progress': 'build'}
+[2.142971] (ros2_color_detection) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/etern1ty/ros2_ws/build/ros2_color_detection', '--', '-j12', '-l12'], 'cwd': '/home/etern1ty/ros2_ws/build/ros2_color_detection', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'etern1ty'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/etern1ty'), ('OLDPWD', '/home/etern1ty/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '895'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1040'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f66f378a8b1e19ec94b1f11165c61251'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'etern1ty'), ('JOURNAL_STREAM', '8:23353'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'etern1ty'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/etern1ty/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Etern1ty-14ALC6:@/tmp/.ICE-unix/1040,unix/Etern1ty-14ALC6:/tmp/.ICE-unix/1040'), ('INVOCATION_ID', '5eeaeae7c15d4f6fa312f20929c4bc27'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('TILIX_ID', 'f4f42566-b016-43c4-bd77-7706e864e12e'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LYYSI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/etern1ty/ros2_ws/build/ros2_color_detection'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f66f378a8b1e19ec94b1f11165c61251'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.200443] (ros2_color_detection) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/color_detection.dir/src/color_detection.cpp.o\x1b[0m\n'}
+[2.203511] (-) TimerEvent: {}
+[2.303831] (-) TimerEvent: {}
+[2.404315] (-) TimerEvent: {}
+[2.504718] (-) TimerEvent: {}
+[2.605042] (-) TimerEvent: {}
+[2.705446] (-) TimerEvent: {}
+[2.805890] (-) TimerEvent: {}
+[2.906229] (-) TimerEvent: {}
+[3.006733] (-) TimerEvent: {}
+[3.107138] (-) TimerEvent: {}
+[3.207430] (-) TimerEvent: {}
+[3.307750] (-) TimerEvent: {}
+[3.408089] (-) TimerEvent: {}
+[3.508441] (-) TimerEvent: {}
+[3.608759] (-) TimerEvent: {}
+[3.709108] (-) TimerEvent: {}
+[3.809392] (-) TimerEvent: {}
+[3.909690] (-) TimerEvent: {}
+[4.010524] (-) TimerEvent: {}
+[4.110979] (-) TimerEvent: {}
+[4.211439] (-) TimerEvent: {}
+[4.311894] (-) TimerEvent: {}
+[4.412329] (-) TimerEvent: {}
+[4.512733] (-) TimerEvent: {}
+[4.613727] (-) TimerEvent: {}
+[4.714142] (-) TimerEvent: {}
+[4.814624] (-) TimerEvent: {}
+[4.914930] (-) TimerEvent: {}
+[5.015312] (-) TimerEvent: {}
+[5.115632] (-) TimerEvent: {}
+[5.215940] (-) TimerEvent: {}
+[5.316238] (-) TimerEvent: {}
+[5.416700] (-) TimerEvent: {}
+[5.517180] (-) TimerEvent: {}
+[5.617631] (-) TimerEvent: {}
+[5.718067] (-) TimerEvent: {}
+[5.818431] (-) TimerEvent: {}
+[5.918836] (-) TimerEvent: {}
+[6.019300] (-) TimerEvent: {}
+[6.119730] (-) TimerEvent: {}
+[6.220134] (-) TimerEvent: {}
+[6.320507] (-) TimerEvent: {}
+[6.421127] (-) TimerEvent: {}
+[6.521529] (-) TimerEvent: {}
+[6.621817] (-) TimerEvent: {}
+[6.722114] (-) TimerEvent: {}
+[6.822425] (-) TimerEvent: {}
+[6.922846] (-) TimerEvent: {}
+[7.023254] (-) TimerEvent: {}
+[7.123635] (-) TimerEvent: {}
+[7.224035] (-) TimerEvent: {}
+[7.324561] (-) TimerEvent: {}
+[7.424931] (-) TimerEvent: {}
+[7.525336] (-) TimerEvent: {}
+[7.625756] (-) TimerEvent: {}
+[7.726158] (-) TimerEvent: {}
+[7.826810] (-) TimerEvent: {}
+[7.927321] (-) TimerEvent: {}
+[8.027690] (-) TimerEvent: {}
+[8.128069] (-) TimerEvent: {}
+[8.228616] (-) TimerEvent: {}
+[8.328982] (-) TimerEvent: {}
+[8.429335] (-) TimerEvent: {}
+[8.529939] (-) TimerEvent: {}
+[8.630416] (-) TimerEvent: {}
+[8.730878] (-) TimerEvent: {}
+[8.831325] (-) TimerEvent: {}
+[8.931773] (-) TimerEvent: {}
+[9.032195] (-) TimerEvent: {}
+[9.132896] (-) TimerEvent: {}
+[9.233337] (-) TimerEvent: {}
+[9.333712] (-) TimerEvent: {}
+[9.434173] (-) TimerEvent: {}
+[9.534746] (-) TimerEvent: {}
+[9.635287] (-) TimerEvent: {}
+[9.735625] (-) TimerEvent: {}
+[9.836052] (-) TimerEvent: {}
+[9.936447] (-) TimerEvent: {}
+[10.036746] (-) TimerEvent: {}
+[10.137190] (-) TimerEvent: {}
+[10.237538] (-) TimerEvent: {}
+[10.337844] (-) TimerEvent: {}
+[10.438663] (-) TimerEvent: {}
+[10.539032] (-) TimerEvent: {}
+[10.639384] (-) TimerEvent: {}
+[10.739730] (-) TimerEvent: {}
+[10.840050] (-) TimerEvent: {}
+[10.940369] (-) TimerEvent: {}
+[11.040706] (-) TimerEvent: {}
+[11.141053] (-) TimerEvent: {}
+[11.241374] (-) TimerEvent: {}
+[11.341760] (-) TimerEvent: {}
+[11.442054] (-) TimerEvent: {}
+[11.542427] (-) TimerEvent: {}
+[11.642778] (-) TimerEvent: {}
+[11.743092] (-) TimerEvent: {}
+[11.843475] (-) TimerEvent: {}
+[11.943831] (-) TimerEvent: {}
+[12.044165] (-) TimerEvent: {}
+[12.144595] (-) TimerEvent: {}
+[12.244996] (-) TimerEvent: {}
+[12.345322] (-) TimerEvent: {}
+[12.445978] (-) TimerEvent: {}
+[12.546732] (-) TimerEvent: {}
+[12.647137] (-) TimerEvent: {}
+[12.676927] (ros2_color_detection) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable color_detection\x1b[0m\n'}
+[12.747310] (-) TimerEvent: {}
+[12.847766] (-) TimerEvent: {}
+[12.948252] (-) TimerEvent: {}
+[13.048653] (-) TimerEvent: {}
+[13.065029] (ros2_color_detection) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.409\n'}
+[13.066689] (ros2_color_detection) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.409\n'}
+[13.148809] (-) TimerEvent: {}
+[13.249190] (-) TimerEvent: {}
+[13.349503] (-) TimerEvent: {}
+[13.449903] (-) TimerEvent: {}
+[13.550226] (-) TimerEvent: {}
+[13.650540] (-) TimerEvent: {}
+[13.740476] (ros2_color_detection) StdoutLine: {'line': b'[100%] Built target color_detection\n'}
+[13.750695] (-) TimerEvent: {}
+[13.754774] (ros2_color_detection) CommandEnded: {'returncode': 0}
+[13.785396] (ros2_color_detection) JobProgress: {'identifier': 'ros2_color_detection', 'progress': 'install'}
+[13.797140] (ros2_color_detection) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/etern1ty/ros2_ws/build/ros2_color_detection'], 'cwd': '/home/etern1ty/ros2_ws/build/ros2_color_detection', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'etern1ty'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/etern1ty'), ('OLDPWD', '/home/etern1ty/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '895'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1040'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f66f378a8b1e19ec94b1f11165c61251'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'etern1ty'), ('JOURNAL_STREAM', '8:23353'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'etern1ty'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/etern1ty/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Etern1ty-14ALC6:@/tmp/.ICE-unix/1040,unix/Etern1ty-14ALC6:/tmp/.ICE-unix/1040'), ('INVOCATION_ID', '5eeaeae7c15d4f6fa312f20929c4bc27'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('TILIX_ID', 'f4f42566-b016-43c4-bd77-7706e864e12e'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LYYSI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/etern1ty/ros2_ws/build/ros2_color_detection'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f66f378a8b1e19ec94b1f11165c61251'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[13.805029] (ros2_color_detection) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.805329] (ros2_color_detection) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/ros2_color_detection/lib/ros2_color_detection/color_detection\n'}
+[13.812684] (ros2_color_detection) StdoutLine: {'line': b'-- Set runtime path of "/home/etern1ty/ros2_ws/install/ros2_color_detection/lib/ros2_color_detection/color_detection" to ""\n'}
+[13.812910] (ros2_color_detection) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/ros2_color_detection/share/ament_index/resource_index/package_run_dependencies/ros2_color_detection\n'}
+[13.813080] (ros2_color_detection) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/ros2_color_detection/share/ament_index/resource_index/parent_prefix_path/ros2_color_detection\n'}
+[13.813232] (ros2_color_detection) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/ros2_color_detection/share/ros2_color_detection/environment/ament_prefix_path.sh\n'}
+[13.813501] (ros2_color_detection) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/ros2_color_detection/share/ros2_color_detection/environment/ament_prefix_path.dsv\n'}
+[13.813644] (ros2_color_detection) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/ros2_color_detection/share/ros2_color_detection/environment/path.sh\n'}
+[13.813900] (ros2_color_detection) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/ros2_color_detection/share/ros2_color_detection/environment/path.dsv\n'}
+[13.814033] (ros2_color_detection) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/ros2_color_detection/share/ros2_color_detection/local_setup.bash\n'}
+[13.814165] (ros2_color_detection) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/ros2_color_detection/share/ros2_color_detection/local_setup.sh\n'}
+[13.814296] (ros2_color_detection) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/ros2_color_detection/share/ros2_color_detection/local_setup.zsh\n'}
+[13.814419] (ros2_color_detection) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/ros2_color_detection/share/ros2_color_detection/local_setup.dsv\n'}
+[13.814590] (ros2_color_detection) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/ros2_color_detection/share/ros2_color_detection/package.dsv\n'}
+[13.814797] (ros2_color_detection) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/ros2_color_detection/share/ament_index/resource_index/packages/ros2_color_detection\n'}
+[13.814964] (ros2_color_detection) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/ros2_color_detection/share/ros2_color_detection/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.815133] (ros2_color_detection) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/ros2_color_detection/share/ros2_color_detection/cmake/ros2_color_detectionConfig.cmake\n'}
+[13.815265] (ros2_color_detection) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/ros2_color_detection/share/ros2_color_detection/cmake/ros2_color_detectionConfig-version.cmake\n'}
+[13.815368] (ros2_color_detection) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/ros2_color_detection/share/ros2_color_detection/package.xml\n'}
+[13.817873] (ros2_color_detection) CommandEnded: {'returncode': 0}
+[13.850806] (-) TimerEvent: {}
+[13.951322] (-) TimerEvent: {}
+[14.011537] (ros2_color_detection) JobEnded: {'identifier': 'ros2_color_detection', 'rc': 0}
+[14.012108] (-) EventReactorShutdown: {}

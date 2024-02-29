@@ -1,0 +1,19 @@
+[1.230s] Invoking command in '/home/etern1ty/ros2_ws/src/src/examples/rclpy/guard_conditions': PYTHONPATH=/home/etern1ty/ros2_ws/build/examples_rclpy_guard_conditions/prefix_override:/home/etern1ty/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_guard_conditions build --build-base /home/etern1ty/ros2_ws/build/examples_rclpy_guard_conditions/build install --record /home/etern1ty/ros2_ws/build/examples_rclpy_guard_conditions/install.log --single-version-externally-managed
+[1.490s] running egg_info
+[1.491s] writing ../../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/PKG-INFO
+[1.491s] writing dependency_links to ../../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/dependency_links.txt
+[1.491s] writing entry points to ../../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/entry_points.txt
+[1.491s] writing requirements to ../../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/requires.txt
+[1.491s] writing top-level names to ../../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/top_level.txt
+[1.493s] reading manifest file '../../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[1.494s] writing manifest file '../../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[1.494s] running build
+[1.494s] running build_py
+[1.495s] running install
+[1.495s] running install_lib
+[1.496s] running install_data
+[1.497s] running install_egg_info
+[1.499s] removing '/home/etern1ty/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions-0.15.1-py3.10.egg-info' (and everything under it)
+[1.500s] Copying ../../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info to /home/etern1ty/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions-0.15.1-py3.10.egg-info
+[1.501s] running install_scripts
+[1.520s] interrupted

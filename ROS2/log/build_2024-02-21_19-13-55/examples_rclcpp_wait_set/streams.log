@@ -1,0 +1,45 @@
+[0.169s] Invoking command in '/home/etern1ty/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/examples_rclcpp_wait_set -- -j12 -l12
+[0.249s] [  8%] Built target thread_safe_wait_set
+[0.250s] [ 33%] Built target talker
+[0.250s] [ 33%] Built target wait_set_random_order
+[0.250s] [ 33%] Built target wait_set
+[0.250s] [ 41%] Built target wait_set_talker
+[0.251s] [ 50%] Built target listener
+[0.253s] [ 58%] Built target wait_set_listener
+[0.254s] [ 66%] Built target static_wait_set
+[0.254s] [ 75%] Built target executor_random_order
+[0.260s] [ 83%] Built target wait_set_topics_with_different_rates
+[0.262s] [ 91%] Built target wait_set_topics_and_timer
+[0.282s] [100%] Built target wait_set_composed
+[0.485s] Invoked command in '/home/etern1ty/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/examples_rclcpp_wait_set -- -j12 -l12
+[0.553s] Invoking command in '/home/etern1ty/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/etern1ty/ros2_ws/build/examples_rclcpp_wait_set
+[0.561s] -- Install configuration: ""
+[0.561s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker
+[0.562s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener
+[0.562s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set/lib/libtalker.so
+[0.563s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set/lib/liblistener.so
+[0.563s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set
+[0.564s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set
+[0.564s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set
+[0.564s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer
+[0.565s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order
+[0.565s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order
+[0.565s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates
+[0.565s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed
+[0.566s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_wait_set
+[0.566s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_wait_set
+[0.566s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.sh
+[0.566s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.dsv
+[0.566s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.sh
+[0.566s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.dsv
+[0.566s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.bash
+[0.566s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.sh
+[0.566s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.zsh
+[0.566s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.dsv
+[0.566s] -- Installing: /home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.dsv
+[0.567s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/packages/examples_rclcpp_wait_set
+[0.567s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_wait_set
+[0.567s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig.cmake
+[0.567s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig-version.cmake
+[0.567s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.xml
+[0.569s] Invoked command in '/home/etern1ty/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/etern1ty/ros2_ws/build/examples_rclcpp_wait_set

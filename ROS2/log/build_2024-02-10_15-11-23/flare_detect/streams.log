@@ -1,0 +1,33 @@
+[0.053s] Invoking command in '/home/etern1ty/ros2_ws/build/flare_detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/flare_detect -- -j12 -l12
+[0.110s] [  9%] Built target flare_detect__cpp
+[0.110s] [  9%] [32mBuilding CXX object CMakeFiles/detection.dir/src/detection.cpp.o[0m
+[0.110s] [ 15%] Built target flare_detect__rosidl_generator_c
+[0.122s] [ 15%] Built target ament_cmake_python_copy_flare_detect
+[0.136s] [ 33%] Built target flare_detect__rosidl_typesupport_c
+[0.136s] [ 33%] Built target flare_detect__rosidl_typesupport_introspection_c
+[0.136s] [ 42%] Built target flare_detect__rosidl_typesupport_introspection_cpp
+[0.137s] [ 51%] Built target flare_detect__rosidl_typesupport_fastrtps_c
+[0.149s] [ 60%] Built target flare_detect__rosidl_typesupport_fastrtps_cpp
+[0.149s] [ 69%] Built target flare_detect__rosidl_typesupport_cpp
+[0.174s] [ 69%] Built target flare_detect
+[0.198s] [ 72%] Built target flare_detect__py
+[0.224s] [ 78%] Built target flare_detect__rosidl_generator_py
+[0.252s] [ 87%] Built target flare_detect__rosidl_typesupport_c__pyext
+[0.252s] [ 90%] Built target flare_detect__rosidl_typesupport_introspection_c__pyext
+[0.255s] [ 96%] Built target flare_detect__rosidl_typesupport_fastrtps_c__pyext
+[0.365s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:21:10:[m[K [01;31m[Kfatal error: [m[Kmsg/detected.hpp: No such file or directory
+[0.365s]    21 | #include [01;31m[K"msg/detected.hpp"[m[K
+[0.365s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[0.365s] compilation terminated.
+[0.370s] gmake[2]: *** [CMakeFiles/detection.dir/build.make:76: CMakeFiles/detection.dir/src/detection.cpp.o] Error 1
+[0.370s] gmake[1]: *** [CMakeFiles/Makefile2:592: CMakeFiles/detection.dir/all] Error 2
+[0.370s] gmake[1]: *** Waiting for unfinished jobs....
+[0.376s] running egg_info
+[0.377s] writing flare_detect.egg-info/PKG-INFO
+[0.377s] writing dependency_links to flare_detect.egg-info/dependency_links.txt
+[0.377s] writing top-level names to flare_detect.egg-info/top_level.txt
+[0.379s] reading manifest file 'flare_detect.egg-info/SOURCES.txt'
+[0.380s] writing manifest file 'flare_detect.egg-info/SOURCES.txt'
+[0.412s] [ 96%] Built target ament_cmake_python_build_flare_detect_egg
+[0.414s] gmake: *** [Makefile:146: all] Error 2
+[0.417s] Invoked command in '/home/etern1ty/ros2_ws/build/flare_detect' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/flare_detect -- -j12 -l12

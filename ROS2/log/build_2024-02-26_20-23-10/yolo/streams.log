@@ -1,0 +1,24 @@
+[0.052s] Invoking command in '/home/etern1ty/ros2_ws/build/yolo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/yolo -- -j12 -l12
+[0.095s] [35m[1mConsolidate compiler generated dependencies of target yolo_func[0m
+[0.119s] [ 50%] [32mBuilding CXX object CMakeFiles/yolo_func.dir/src/yolo_func.cpp.o[0m
+[2.991s] [01m[K/home/etern1ty/ros2_ws/src/yolo/src/yolo_func.cpp:[m[K In member function ‘[01m[Kvoid YoloPublisher::publish_image()[m[K’:
+[2.992s] [01m[K/home/etern1ty/ros2_ws/src/yolo/src/yolo_func.cpp:47:34:[m[K [01;31m[Kerror: [m[Kreference to ‘[01m[Ksize[m[K’ is ambiguous
+[2.992s]    47 |             resize(frame, image, [01;31m[Ksize[m[K);
+[2.992s]       |                                  [01;31m[K^~~~[m[K
+[2.992s] In file included from [01m[K/usr/include/c++/11/array:41[m[K,
+[2.992s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[2.992s]                  from [01m[K/usr/include/c++/11/functional:54[m[K,
+[2.993s]                  from [01m[K/home/etern1ty/ros2_ws/src/yolo/src/yolo_func.cpp:2[m[K:
+[2.993s] [01m[K/usr/include/c++/11/bits/range_access.h:254:5:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Ktemplate<class _Tp, long unsigned int _Nm> constexpr std::size_t std::size(const _Tp (&)[_Nm])[m[K’
+[2.993s]   254 |     [01;36m[Ksize[m[K(const _Tp (&)[_Nm]) noexcept
+[2.993s]       |     [01;36m[K^~~~[m[K
+[2.993s] [01m[K/usr/include/c++/11/bits/range_access.h:245:5:[m[K [01;36m[Knote: [m[K                ‘[01m[Ktemplate<class _Container> constexpr decltype (__cont.size()) std::size(const _Container&)[m[K’
+[2.993s]   245 |     [01;36m[Ksize[m[K(const _Container& __cont) noexcept(noexcept(__cont.size()))
+[2.993s]       |     [01;36m[K^~~~[m[K
+[2.993s] [01m[K/home/etern1ty/ros2_ws/src/yolo/src/yolo_func.cpp:17:6:[m[K [01;36m[Knote: [m[K                ‘[01m[Kcv::Size size[m[K’
+[2.993s]    17 | Size [01;36m[Ksize[m[K(640, 480);
+[2.993s]       |      [01;36m[K^~~~[m[K
+[4.041s] gmake[2]: *** [CMakeFiles/yolo_func.dir/build.make:76: CMakeFiles/yolo_func.dir/src/yolo_func.cpp.o] Error 1
+[4.042s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/yolo_func.dir/all] Error 2
+[4.043s] gmake: *** [Makefile:146: all] Error 2
+[4.045s] Invoked command in '/home/etern1ty/ros2_ws/build/yolo' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/yolo -- -j12 -l12

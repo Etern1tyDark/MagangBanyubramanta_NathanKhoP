@@ -1,0 +1,82 @@
+[0.000000] (-) TimerEvent: {}
+[0.000468] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000542] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000585] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000689] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000750] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000788] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000814] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000834] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000854] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000872] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000890] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000908] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000925] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000943] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000961] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000979] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000996] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.001014] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.001032] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.001055] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.001073] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.001091] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.001108] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.001126] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001145] (-) JobUnselected: {'identifier': 'pub_controller'}
+[0.001163] (-) JobUnselected: {'identifier': 'ros2_color_detection'}
+[0.001180] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001202] (flare_detect) JobQueued: {'identifier': 'flare_detect', 'dependencies': OrderedDict()}
+[0.001223] (flare_detect) JobStarted: {'identifier': 'flare_detect'}
+[0.051373] (flare_detect) JobProgress: {'identifier': 'flare_detect', 'progress': 'cmake'}
+[0.052296] (flare_detect) JobProgress: {'identifier': 'flare_detect', 'progress': 'build'}
+[0.052907] (flare_detect) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/etern1ty/ros2_ws/build/flare_detect', '--', '-j12', '-l12'], 'cwd': '/home/etern1ty/ros2_ws/build/flare_detect', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'etern1ty'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/etern1ty'), ('OLDPWD', '/home/etern1ty'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '904'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1050'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=50e6492ab820487a34a7012065c722a2'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'etern1ty'), ('JOURNAL_STREAM', '8:20310'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'etern1ty'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/etern1ty/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Etern1ty-14ALC6:@/tmp/.ICE-unix/1050,unix/Etern1ty-14ALC6:/tmp/.ICE-unix/1050'), ('INVOCATION_ID', 'b8c8a621d5ba477b8313db8a8ccf2226'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('TILIX_ID', 'e3fffb8f-c384-4285-972f-7a7c3cd642ec'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XDFVI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/etern1ty/ros2_ws/build/flare_detect'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=50e6492ab820487a34a7012065c722a2'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099612] (-) TimerEvent: {}
+[0.116278] (flare_detect) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_generator_c\x1b[0m\n'}
+[0.126497] (flare_detect) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object CMakeFiles/detection.dir/src/detection.cpp.o\x1b[0m\n'}
+[0.126985] (flare_detect) StdoutLine: {'line': b'[  6%] Built target flare_detect__cpp\n'}
+[0.130587] (flare_detect) StdoutLine: {'line': b'[ 15%] Built target flare_detect__rosidl_generator_c\n'}
+[0.136624] (flare_detect) StdoutLine: {'line': b'[ 15%] Built target ament_cmake_python_copy_flare_detect\n'}
+[0.138786] (flare_detect) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.138966] (flare_detect) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.139032] (flare_detect) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.143380] (flare_detect) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.143796] (flare_detect) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_c\x1b[0m\n'}
+[0.143905] (flare_detect) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.156288] (flare_detect) StdoutLine: {'line': b'[ 24%] Built target flare_detect__rosidl_typesupport_fastrtps_cpp\n'}
+[0.158601] (flare_detect) StdoutLine: {'line': b'[ 33%] Built target flare_detect__rosidl_typesupport_cpp\n'}
+[0.158933] (flare_detect) StdoutLine: {'line': b'[ 42%] Built target flare_detect__rosidl_typesupport_introspection_cpp\n'}
+[0.159089] (flare_detect) StdoutLine: {'line': b'[ 51%] Built target flare_detect__rosidl_typesupport_c\n'}
+[0.159907] (flare_detect) StdoutLine: {'line': b'[ 60%] Built target flare_detect__rosidl_typesupport_introspection_c\n'}
+[0.164125] (flare_detect) StdoutLine: {'line': b'[ 69%] Built target flare_detect__rosidl_typesupport_fastrtps_c\n'}
+[0.186896] (flare_detect) StdoutLine: {'line': b'[ 69%] Built target flare_detect\n'}
+[0.199738] (-) TimerEvent: {}
+[0.212844] (flare_detect) StdoutLine: {'line': b'[ 72%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[0.299852] (-) TimerEvent: {}
+[0.400181] (-) TimerEvent: {}
+[0.401005] (flare_detect) StdoutLine: {'line': b'running egg_info\n'}
+[0.401632] (flare_detect) StdoutLine: {'line': b'writing flare_detect.egg-info/PKG-INFO\n'}
+[0.401843] (flare_detect) StdoutLine: {'line': b'writing dependency_links to flare_detect.egg-info/dependency_links.txt\n'}
+[0.402067] (flare_detect) StdoutLine: {'line': b'writing top-level names to flare_detect.egg-info/top_level.txt\n'}
+[0.404234] (flare_detect) StdoutLine: {'line': b"reading manifest file 'flare_detect.egg-info/SOURCES.txt'\n"}
+[0.404715] (flare_detect) StdoutLine: {'line': b"writing manifest file 'flare_detect.egg-info/SOURCES.txt'\n"}
+[0.439446] (flare_detect) StdoutLine: {'line': b'[ 72%] Built target ament_cmake_python_build_flare_detect_egg\n'}
+[0.489527] (flare_detect) StdoutLine: {'line': b'[ 72%] Built target flare_detect__py\n'}
+[0.498382] (flare_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:22:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kflare_detect/msg/detected.hpp: No such file or directory\n'}
+[0.498693] (flare_detect) StderrLine: {'line': b'   22 | #include \x1b[01;31m\x1b[K"flare_detect/msg/detected.hpp"\x1b[m\x1b[K\n'}
+[0.498810] (flare_detect) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.498870] (flare_detect) StderrLine: {'line': b'compilation terminated.\n'}
+[0.500282] (-) TimerEvent: {}
+[0.503237] (flare_detect) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/detection.dir/build.make:76: CMakeFiles/detection.dir/src/detection.cpp.o] Error 1\n'}
+[0.503624] (flare_detect) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:592: CMakeFiles/detection.dir/all] Error 2\n'}
+[0.503708] (flare_detect) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[0.512898] (flare_detect) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object CMakeFiles/flare_detect__rosidl_generator_py.dir/rosidl_generator_py/flare_detect/msg/_detected_s.c.o\x1b[0m\n'}
+[0.600425] (-) TimerEvent: {}
+[0.619666] (flare_detect) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/flare_detect/libflare_detect__rosidl_generator_py.so\x1b[0m\n'}
+[0.669899] (flare_detect) StdoutLine: {'line': b'[ 78%] Built target flare_detect__rosidl_generator_py\n'}
+[0.671827] (flare_detect) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[0.674527] (flare_detect) CommandEnded: {'returncode': 2}
+[0.700575] (-) TimerEvent: {}
+[0.800969] (-) TimerEvent: {}
+[0.804485] (flare_detect) JobEnded: {'identifier': 'flare_detect', 'rc': 2}
+[0.815091] (-) EventReactorShutdown: {}

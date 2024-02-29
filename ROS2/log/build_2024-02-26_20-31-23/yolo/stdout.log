@@ -1,0 +1,23 @@
+[35m[1mConsolidate compiler generated dependencies of target yolo_func[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/yolo_func.dir/src/yolo_func.cpp.o[0m
+[100%] [32m[1mLinking CXX executable yolo_func[0m
+[100%] Built target yolo_func
+-- Install configuration: ""
+-- Installing: /home/etern1ty/ros2_ws/install/yolo/lib/yolo/yolo_func
+-- Set runtime path of "/home/etern1ty/ros2_ws/install/yolo/lib/yolo/yolo_func" to ""
+-- Installing: /home/etern1ty/ros2_ws/install/yolo/share/ament_index/resource_index/package_run_dependencies/yolo
+-- Up-to-date: /home/etern1ty/ros2_ws/install/yolo/share/ament_index/resource_index/parent_prefix_path/yolo
+-- Up-to-date: /home/etern1ty/ros2_ws/install/yolo/share/yolo/environment/ament_prefix_path.sh
+-- Installing: /home/etern1ty/ros2_ws/install/yolo/share/yolo/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/etern1ty/ros2_ws/install/yolo/share/yolo/environment/path.sh
+-- Installing: /home/etern1ty/ros2_ws/install/yolo/share/yolo/environment/path.dsv
+-- Up-to-date: /home/etern1ty/ros2_ws/install/yolo/share/yolo/local_setup.bash
+-- Up-to-date: /home/etern1ty/ros2_ws/install/yolo/share/yolo/local_setup.sh
+-- Up-to-date: /home/etern1ty/ros2_ws/install/yolo/share/yolo/local_setup.zsh
+-- Installing: /home/etern1ty/ros2_ws/install/yolo/share/yolo/local_setup.dsv
+-- Installing: /home/etern1ty/ros2_ws/install/yolo/share/yolo/package.dsv
+-- Up-to-date: /home/etern1ty/ros2_ws/install/yolo/share/ament_index/resource_index/packages/yolo
+-- Installing: /home/etern1ty/ros2_ws/install/yolo/share/yolo/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/etern1ty/ros2_ws/install/yolo/share/yolo/cmake/yoloConfig.cmake
+-- Up-to-date: /home/etern1ty/ros2_ws/install/yolo/share/yolo/cmake/yoloConfig-version.cmake
+-- Installing: /home/etern1ty/ros2_ws/install/yolo/share/yolo/package.xml

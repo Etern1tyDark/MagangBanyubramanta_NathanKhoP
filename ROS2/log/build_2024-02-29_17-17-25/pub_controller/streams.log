@@ -1,0 +1,25 @@
+[0.052s] Invoking command in '/home/etern1ty/ros2_ws/build/pub_controller': AMENT_PREFIX_PATH=/home/etern1ty/ros2_ws/install/obj_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/etern1ty/ros2_ws/install/obj_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/etern1ty/ros2_ws/install/obj_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/etern1ty/ros2_ws/install/obj_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/pub_controller -- -j12 -l12
+[0.118s] [ 50%] [32mBuilding CXX object CMakeFiles/controller.dir/src/pub_func.cpp.o[0m
+[7.032s] [100%] [32m[1mLinking CXX executable controller[0m
+[7.469s] [100%] Built target controller
+[7.483s] Invoked command in '/home/etern1ty/ros2_ws/build/pub_controller' returned '0': AMENT_PREFIX_PATH=/home/etern1ty/ros2_ws/install/obj_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/etern1ty/ros2_ws/install/obj_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/etern1ty/ros2_ws/install/obj_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/etern1ty/ros2_ws/install/obj_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/pub_controller -- -j12 -l12
+[7.512s] Invoking command in '/home/etern1ty/ros2_ws/build/pub_controller': AMENT_PREFIX_PATH=/home/etern1ty/ros2_ws/install/obj_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/etern1ty/ros2_ws/install/obj_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/etern1ty/ros2_ws/install/obj_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/etern1ty/ros2_ws/install/obj_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/etern1ty/ros2_ws/build/pub_controller
+[7.520s] -- Install configuration: ""
+[7.521s] -- Installing: /home/etern1ty/ros2_ws/install/pub_controller/lib/pub_controller/controller
+[7.526s] -- Set runtime path of "/home/etern1ty/ros2_ws/install/pub_controller/lib/pub_controller/controller" to ""
+[7.526s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/ament_index/resource_index/package_run_dependencies/pub_controller
+[7.527s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/ament_index/resource_index/parent_prefix_path/pub_controller
+[7.527s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/environment/ament_prefix_path.sh
+[7.527s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/environment/ament_prefix_path.dsv
+[7.527s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/environment/path.sh
+[7.527s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/environment/path.dsv
+[7.527s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/local_setup.bash
+[7.527s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/local_setup.sh
+[7.527s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/local_setup.zsh
+[7.527s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/local_setup.dsv
+[7.528s] -- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/package.dsv
+[7.528s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/ament_index/resource_index/packages/pub_controller
+[7.528s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/pub_controllerConfig.cmake
+[7.528s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/pub_controllerConfig-version.cmake
+[7.528s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/package.xml
+[7.531s] Invoked command in '/home/etern1ty/ros2_ws/build/pub_controller' returned '0': AMENT_PREFIX_PATH=/home/etern1ty/ros2_ws/install/obj_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/etern1ty/ros2_ws/install/obj_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/etern1ty/ros2_ws/install/obj_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/etern1ty/ros2_ws/install/obj_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/etern1ty/ros2_ws/build/pub_controller

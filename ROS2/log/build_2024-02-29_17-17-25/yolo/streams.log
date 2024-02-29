@@ -1,0 +1,29 @@
+[0.050s] Invoking command in '/home/etern1ty/ros2_ws/build/yolo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/yolo -- -j12 -l12
+[0.100s] [35m[1mConsolidate compiler generated dependencies of target yolo_func[0m
+[0.123s] [ 50%] [32mBuilding CXX object CMakeFiles/yolo_func.dir/src/yolo_func.cpp.o[0m
+[5.108s] [100%] [32m[1mLinking CXX executable yolo_func[0m
+[5.297s] /usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.409
+[5.298s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.409
+[5.738s] [100%] Built target yolo_func
+[5.751s] Invoked command in '/home/etern1ty/ros2_ws/build/yolo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/yolo -- -j12 -l12
+[5.782s] Invoking command in '/home/etern1ty/ros2_ws/build/yolo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/etern1ty/ros2_ws/build/yolo
+[5.789s] -- Install configuration: ""
+[5.791s] -- Installing: /home/etern1ty/ros2_ws/install/yolo/lib/yolo/yolo_func
+[5.792s] -- Set runtime path of "/home/etern1ty/ros2_ws/install/yolo/lib/yolo/yolo_func" to ""
+[5.793s] -- Up-to-date: /home/etern1ty/ros2_ws/install/yolo/share/ament_index/resource_index/package_run_dependencies/yolo
+[5.793s] -- Up-to-date: /home/etern1ty/ros2_ws/install/yolo/share/ament_index/resource_index/parent_prefix_path/yolo
+[5.794s] -- Up-to-date: /home/etern1ty/ros2_ws/install/yolo/share/yolo/environment/ament_prefix_path.sh
+[5.794s] -- Up-to-date: /home/etern1ty/ros2_ws/install/yolo/share/yolo/environment/ament_prefix_path.dsv
+[5.794s] -- Up-to-date: /home/etern1ty/ros2_ws/install/yolo/share/yolo/environment/path.sh
+[5.794s] -- Up-to-date: /home/etern1ty/ros2_ws/install/yolo/share/yolo/environment/path.dsv
+[5.794s] -- Up-to-date: /home/etern1ty/ros2_ws/install/yolo/share/yolo/local_setup.bash
+[5.794s] -- Up-to-date: /home/etern1ty/ros2_ws/install/yolo/share/yolo/local_setup.sh
+[5.794s] -- Up-to-date: /home/etern1ty/ros2_ws/install/yolo/share/yolo/local_setup.zsh
+[5.794s] -- Up-to-date: /home/etern1ty/ros2_ws/install/yolo/share/yolo/local_setup.dsv
+[5.794s] -- Installing: /home/etern1ty/ros2_ws/install/yolo/share/yolo/package.dsv
+[5.795s] -- Up-to-date: /home/etern1ty/ros2_ws/install/yolo/share/ament_index/resource_index/packages/yolo
+[5.795s] -- Up-to-date: /home/etern1ty/ros2_ws/install/yolo/share/yolo/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.795s] -- Up-to-date: /home/etern1ty/ros2_ws/install/yolo/share/yolo/cmake/yoloConfig.cmake
+[5.795s] -- Up-to-date: /home/etern1ty/ros2_ws/install/yolo/share/yolo/cmake/yoloConfig-version.cmake
+[5.795s] -- Up-to-date: /home/etern1ty/ros2_ws/install/yolo/share/yolo/package.xml
+[5.799s] Invoked command in '/home/etern1ty/ros2_ws/build/yolo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/etern1ty/ros2_ws/build/yolo

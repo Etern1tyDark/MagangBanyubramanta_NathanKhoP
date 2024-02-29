@@ -1,0 +1,46 @@
+[0.056s] Invoking command in '/home/etern1ty/ros2_ws/build/flare_detect': AMENT_PREFIX_PATH=/home/etern1ty/ros2_ws/install/obj_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/etern1ty/ros2_ws/install/obj_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/etern1ty/ros2_ws/install/obj_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/etern1ty/ros2_ws/install/obj_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/flare_detect -- -j12 -l12
+[0.123s] [35m[1mConsolidate compiler generated dependencies of target detection[0m
+[0.157s] [ 50%] [32mBuilding CXX object CMakeFiles/detection.dir/src/detection.cpp.o[0m
+[2.782s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:[m[K In constructor ‘[01m[KDetection::Detection()[m[K’:
+[2.782s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:40:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kmin_sat[m[K’ was not declared in this scope; did you mean ‘[01m[Kmin_satur[m[K’?
+[2.782s]    40 | n sat", "values", &[01;31m[Kmin_sat[m[K, 255);
+[2.782s]       |                    [01;31m[K^~~~~~~[m[K
+[2.782s]       |                    [32m[Kmin_satur[m[K
+[2.792s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:[m[K In member function ‘[01m[Kvoid Detection::send_msg(cv::Moments&, int)[m[K’:
+[2.792s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:69:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct obj_msg::msg::Detected_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kcolor[m[K’
+[2.792s]    69 |         message.[01;31m[Kcolor[m[K = color;
+[2.793s]       |                 [01;31m[K^~~~~[m[K
+[2.793s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:70:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct obj_msg::msg::Detected_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kx[m[K’
+[2.793s]    70 |         message.[01;31m[Kx[m[K = moment.m10 / moment.m00 - camsrc.get(CAP_PROP_FRAME_WIDTH) / 2;
+[2.793s]       |                 [01;31m[K^[m[K
+[2.797s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:70:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamsrc[m[K’ was not declared in this scope; did you mean ‘[01m[Kcamsrc_[m[K’?
+[2.797s]    70 | m10 / moment.m00 - [01;31m[Kcamsrc[m[K.get(CAP_PROP_FRAME_WIDTH) / 2;
+[2.797s]       |                    [01;31m[K^~~~~~[m[K
+[2.797s]       |                    [32m[Kcamsrc_[m[K
+[2.798s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:71:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct obj_msg::msg::Detected_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ky[m[K’
+[2.798s]    71 |         message.[01;31m[Ky[m[K = moment.m01 / moment.m00 - camsrc.get(CAP_PROP_FRAME_HEIGHT) / 2;
+[2.798s]       |                 [01;31m[K^[m[K
+[2.798s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:72:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct obj_msg::msg::Detected_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kangle[m[K’
+[2.798s]    72 |         message.[01;31m[Kangle[m[K = 2 * float(message.x) / float(camsrc.get(CAP_PROP_FRAME_WIDTH));
+[2.798s]       |                 [01;31m[K^~~~~[m[K
+[2.798s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:72:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct obj_msg::msg::Detected_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kx[m[K’
+[2.798s]    72 |  2 * float(message.[01;31m[Kx[m[K) / float(camsrc.get(CAP_PROP_FRAME_WIDTH));
+[2.798s]       |                    [01;31m[K^[m[K
+[2.799s] 
+[2.799s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:[m[K In member function ‘[01m[Kvoid Detection::topic_callback()[m[K’:
+[2.799s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:101:57:[m[K [01;31m[Kerror: [m[K‘[01m[KRED[m[K’ is not a member of ‘[01m[Kobj_msg::msg::Detected[m[K’ {aka ‘[01m[Kobj_msg::msg::Detected_<std::allocator<void> >[m[K’}
+[2.799s]   101 |  obj_msg::msg::Detected::[01;31m[KRED[m[K);
+[2.799s]       |                          [01;31m[K^~~[m[K
+[2.799s] 
+[2.799s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:102:60:[m[K [01;31m[Kerror: [m[K‘[01m[KYELLOW[m[K’ is not a member of ‘[01m[Kobj_msg::msg::Detected[m[K’ {aka ‘[01m[Kobj_msg::msg::Detected_<std::allocator<void> >[m[K’}
+[2.799s]   102 | j_msg::msg::Detected::[01;31m[KYELLOW[m[K);
+[2.799s]       |                       [01;31m[K^~~~~~[m[K
+[2.800s] 
+[2.800s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:103:58:[m[K [01;31m[Kerror: [m[K‘[01m[KBLUE[m[K’ is not a member of ‘[01m[Kobj_msg::msg::Detected[m[K’ {aka ‘[01m[Kobj_msg::msg::Detected_<std::allocator<void> >[m[K’}
+[2.800s]   103 | obj_msg::msg::Detected::[01;31m[KBLUE[m[K);
+[2.800s]       |                         [01;31m[K^~~~[m[K
+[2.800s] 
+[4.251s] gmake[2]: *** [CMakeFiles/detection.dir/build.make:76: CMakeFiles/detection.dir/src/detection.cpp.o] Error 1
+[4.251s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/detection.dir/all] Error 2
+[4.252s] gmake: *** [Makefile:146: all] Error 2
+[4.255s] Invoked command in '/home/etern1ty/ros2_ws/build/flare_detect' returned '2': AMENT_PREFIX_PATH=/home/etern1ty/ros2_ws/install/obj_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/etern1ty/ros2_ws/install/obj_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/etern1ty/ros2_ws/install/obj_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/etern1ty/ros2_ws/install/obj_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/flare_detect -- -j12 -l12

@@ -1,0 +1,144 @@
+[0.195s] Invoking command in '/home/etern1ty/ros2_ws/build/pub_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etern1ty/ros2_ws/install/launch_testing_examples:/home/etern1ty/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_publisher:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_client:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_server:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_client:/home/etern1ty/ros2_ws/install/examples_rclpy_guard_conditions:/home/etern1ty/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/pub_controller -- -j12 -l12
+[0.261s] [  3%] Built target pub_controller__cpp
+[0.263s] [ 12%] Built target pub_controller__rosidl_generator_c
+[0.276s] [ 12%] Built target ament_cmake_python_copy_pub_controller
+[0.293s] [ 30%] Built target pub_controller__rosidl_typesupport_c
+[0.294s] [ 30%] Built target pub_controller__rosidl_typesupport_cpp
+[0.294s] [ 39%] Built target pub_controller__rosidl_typesupport_fastrtps_cpp
+[0.294s] [ 48%] Built target pub_controller__rosidl_typesupport_introspection_cpp
+[0.297s] [ 57%] Built target pub_controller__rosidl_typesupport_introspection_c
+[0.298s] [ 66%] Built target pub_controller__rosidl_typesupport_fastrtps_c
+[0.326s] [ 72%] Built target controller
+[0.327s] [ 72%] Built target pub_controller
+[0.354s] [ 75%] Built target pub_controller__py
+[0.384s] [ 81%] Built target pub_controller__rosidl_generator_py
+[0.412s] [100%] Built target pub_controller__rosidl_typesupport_introspection_c__pyext
+[0.412s] [100%] Built target pub_controller__rosidl_typesupport_fastrtps_c__pyext
+[0.412s] [100%] Built target pub_controller__rosidl_typesupport_c__pyext
+[0.538s] running egg_info
+[0.539s] writing pub_controller.egg-info/PKG-INFO
+[0.539s] writing dependency_links to pub_controller.egg-info/dependency_links.txt
+[0.539s] writing top-level names to pub_controller.egg-info/top_level.txt
+[0.541s] reading manifest file 'pub_controller.egg-info/SOURCES.txt'
+[0.542s] writing manifest file 'pub_controller.egg-info/SOURCES.txt'
+[0.574s] [100%] Built target ament_cmake_python_build_pub_controller_egg
+[0.588s] Invoked command in '/home/etern1ty/ros2_ws/build/pub_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etern1ty/ros2_ws/install/launch_testing_examples:/home/etern1ty/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_publisher:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_client:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_server:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_client:/home/etern1ty/ros2_ws/install/examples_rclpy_guard_conditions:/home/etern1ty/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/pub_controller -- -j12 -l12
+[0.685s] Invoking command in '/home/etern1ty/ros2_ws/build/pub_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etern1ty/ros2_ws/install/launch_testing_examples:/home/etern1ty/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_publisher:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_client:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_server:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_client:/home/etern1ty/ros2_ws/install/examples_rclpy_guard_conditions:/home/etern1ty/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/etern1ty/ros2_ws/build/pub_controller
+[0.694s] -- Install configuration: ""
+[0.694s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/ament_index/resource_index/rosidl_interfaces/pub_controller
+[0.694s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller
+[0.695s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg
+[0.695s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/detail
+[0.695s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/detail/motion__type_support.h
+[0.695s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/detail/motion__struct.h
+[0.695s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/detail/motion__functions.h
+[0.695s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/detail/motion__functions.c
+[0.695s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/motion.h
+[0.695s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/rosidl_generator_c__visibility_control.h
+[0.695s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/environment/library_path.sh
+[0.696s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/environment/library_path.dsv
+[0.696s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/lib/libpub_controller__rosidl_generator_c.so
+[0.696s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller
+[0.696s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg
+[0.696s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.696s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/detail
+[0.696s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/detail/motion__rosidl_typesupport_fastrtps_c.h
+[0.696s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/lib/libpub_controller__rosidl_typesupport_fastrtps_c.so
+[0.696s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller
+[0.696s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg
+[0.696s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/detail
+[0.697s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/detail/motion__builder.hpp
+[0.697s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/detail/motion__struct.hpp
+[0.697s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/detail/motion__traits.hpp
+[0.697s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/motion.hpp
+[0.697s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller
+[0.698s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg
+[0.698s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/detail
+[0.698s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/detail/dds_fastrtps
+[0.698s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/detail/motion__rosidl_typesupport_fastrtps_cpp.hpp
+[0.698s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.699s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/lib/libpub_controller__rosidl_typesupport_fastrtps_cpp.so
+[0.699s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller
+[0.699s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg
+[0.699s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/detail
+[0.699s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/detail/motion__rosidl_typesupport_introspection_c.h
+[0.701s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/detail/motion__type_support.c
+[0.701s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.701s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/lib/libpub_controller__rosidl_typesupport_introspection_c.so
+[0.701s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/lib/libpub_controller__rosidl_typesupport_c.so
+[0.702s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller
+[0.702s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg
+[0.702s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/detail
+[0.702s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/detail/motion__type_support.cpp
+[0.702s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/detail/motion__rosidl_typesupport_introspection_cpp.hpp
+[0.702s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/lib/libpub_controller__rosidl_typesupport_introspection_cpp.so
+[0.702s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/lib/libpub_controller__rosidl_typesupport_cpp.so
+[0.702s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/environment/pythonpath.sh
+[0.702s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/environment/pythonpath.dsv
+[0.702s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller-0.0.0-py3.10.egg-info
+[0.703s] -- Installing: /home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[0.703s] -- Installing: /home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller-0.0.0-py3.10.egg-info/top_level.txt
+[0.703s] -- Installing: /home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.703s] -- Installing: /home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.703s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller
+[0.703s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller/__init__.py
+[0.703s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller/libpub_controller__rosidl_generator_py.so
+[0.703s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller/_pub_controller_s.ep.rosidl_typesupport_c.c
+[0.703s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller/_pub_controller_s.ep.rosidl_typesupport_introspection_c.c
+[0.703s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller/pub_controller_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.704s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller/pub_controller_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.704s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller/msg
+[0.704s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller/msg/_motion_s.c
+[0.704s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller/msg/_motion.py
+[0.704s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller/msg/__init__.py
+[0.704s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller/pub_controller_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.704s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller/_pub_controller_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.738s] Listing '/home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller'...
+[0.738s] Listing '/home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller/msg'...
+[0.743s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller/pub_controller_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.743s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller/pub_controller_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.744s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller/pub_controller_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.744s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/lib/libpub_controller__rosidl_generator_py.so
+[0.744s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/msg/Motion.idl
+[0.745s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/msg/Motion.msg
+[0.745s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/lib/pub_controller/controller
+[0.745s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/ament_index/resource_index/package_run_dependencies/pub_controller
+[0.745s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/ament_index/resource_index/parent_prefix_path/pub_controller
+[0.745s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/environment/ament_prefix_path.sh
+[0.746s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/environment/ament_prefix_path.dsv
+[0.746s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/environment/path.sh
+[0.746s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/environment/path.dsv
+[0.746s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/local_setup.bash
+[0.746s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/local_setup.sh
+[0.746s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/local_setup.zsh
+[0.746s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/local_setup.dsv
+[0.746s] -- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/package.dsv
+[0.746s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/ament_index/resource_index/packages/pub_controller
+[0.747s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/export_pub_controller__rosidl_generator_cExport.cmake
+[0.747s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/export_pub_controller__rosidl_generator_cExport-noconfig.cmake
+[0.747s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/export_pub_controller__rosidl_typesupport_fastrtps_cExport.cmake
+[0.747s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/export_pub_controller__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.747s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/export_pub_controller__rosidl_generator_cppExport.cmake
+[0.747s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/export_pub_controller__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.747s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/export_pub_controller__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.747s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/pub_controller__rosidl_typesupport_introspection_cExport.cmake
+[0.747s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/pub_controller__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.747s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/pub_controller__rosidl_typesupport_cExport.cmake
+[0.747s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/pub_controller__rosidl_typesupport_cExport-noconfig.cmake
+[0.747s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/pub_controller__rosidl_typesupport_introspection_cppExport.cmake
+[0.748s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/pub_controller__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.748s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/pub_controller__rosidl_typesupport_cppExport.cmake
+[0.748s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/pub_controller__rosidl_typesupport_cppExport-noconfig.cmake
+[0.748s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/export_pub_controller__rosidl_generator_pyExport.cmake
+[0.748s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/export_pub_controller__rosidl_generator_pyExport-noconfig.cmake
+[0.748s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/rosidl_cmake-extras.cmake
+[0.748s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.748s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[0.748s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/ament_cmake_export_targets-extras.cmake
+[0.748s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.749s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.749s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.749s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/pub_controllerConfig.cmake
+[0.749s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/pub_controllerConfig-version.cmake
+[0.749s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/package.xml
+[0.769s] Invoked command in '/home/etern1ty/ros2_ws/build/pub_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etern1ty/ros2_ws/install/launch_testing_examples:/home/etern1ty/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_publisher:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_client:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_server:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_client:/home/etern1ty/ros2_ws/install/examples_rclpy_guard_conditions:/home/etern1ty/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/etern1ty/ros2_ws/build/pub_controller

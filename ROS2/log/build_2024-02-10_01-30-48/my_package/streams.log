@@ -1,0 +1,26 @@
+[0.049s] Invoking command in '/home/etern1ty/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/etern1ty/ros2_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/etern1ty/ros2_ws/install/my_package
+[0.110s] -- The C compiler identification is GNU 11.4.0
+[0.169s] -- The CXX compiler identification is GNU 11.4.0
+[0.178s] -- Detecting C compiler ABI info
+[0.255s] -- Detecting C compiler ABI info - done
+[0.261s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.261s] -- Detecting C compile features
+[0.262s] -- Detecting C compile features - done
+[0.264s] -- Detecting CXX compiler ABI info
+[0.348s] -- Detecting CXX compiler ABI info - done
+[0.354s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.354s] -- Detecting CXX compile features
+[0.355s] -- Detecting CXX compile features - done
+[0.357s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.513s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.596s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.675s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.675s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/etern1ty/ros2_ws/src/my_package/include>
+[0.675s] -- Configured cppcheck exclude dirs and/or files: 
+[0.677s] -- Added test 'lint_cmake' to check CMake code style
+[0.678s] -- Added test 'uncrustify' to check C / C++ code style
+[0.678s] -- Configured uncrustify additional arguments: 
+[0.679s] -- Added test 'xmllint' to check XML markup files
+[0.681s] -- Configuring done
+[0.685s] -- Generating done
+[0.686s] -- Build files have been written to: /home/etern1ty/ros2_ws/build/my_package

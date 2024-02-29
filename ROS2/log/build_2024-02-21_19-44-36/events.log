@@ -1,0 +1,124 @@
+[0.000000] (-) TimerEvent: {}
+[0.000361] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000393] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000415] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000435] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000455] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000473] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000492] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000517] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000535] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000554] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000573] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000592] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000611] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000629] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000647] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000666] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000685] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000703] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.000721] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.000761] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.000781] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.000801] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.000820] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.000838] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000857] (-) JobUnselected: {'identifier': 'obj_msg'}
+[0.000875] (-) JobUnselected: {'identifier': 'pub_controller'}
+[0.000894] (-) JobUnselected: {'identifier': 'ros2_color_detection'}
+[0.000912] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000933] (flare_detect) JobQueued: {'identifier': 'flare_detect', 'dependencies': OrderedDict([('obj_msg', '/home/etern1ty/ros2_ws/install/obj_msg')])}
+[0.000958] (flare_detect) JobStarted: {'identifier': 'flare_detect'}
+[0.054134] (flare_detect) JobProgress: {'identifier': 'flare_detect', 'progress': 'cmake'}
+[0.055512] (flare_detect) JobProgress: {'identifier': 'flare_detect', 'progress': 'build'}
+[0.055588] (flare_detect) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/etern1ty/ros2_ws/build/flare_detect', '--', '-j12', '-l12'], 'cwd': '/home/etern1ty/ros2_ws/build/flare_detect', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'etern1ty'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/etern1ty/ros2_ws/install/obj_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/etern1ty'), ('OLDPWD', '/home/etern1ty'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '919'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1065'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5d1d2a34c2be20646afa8dae65d5a154'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'etern1ty'), ('JOURNAL_STREAM', '8:1969'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'etern1ty'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/etern1ty/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Etern1ty-14ALC6:@/tmp/.ICE-unix/1065,unix/Etern1ty-14ALC6:/tmp/.ICE-unix/1065'), ('INVOCATION_ID', '7cf4417e3fe84a5591fa1b232961563d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('TILIX_ID', 'a53f3e42-f226-4188-90a6-eb702a8ff195'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OOVRJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/etern1ty/ros2_ws/install/obj_msg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/etern1ty/ros2_ws/build/flare_detect'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5d1d2a34c2be20646afa8dae65d5a154'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/etern1ty/ros2_ws/install/obj_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/etern1ty/ros2_ws/install/obj_msg:/opt/ros/humble')]), 'shell': False}
+[0.099205] (-) TimerEvent: {}
+[0.123896] (flare_detect) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target detection\x1b[0m\n'}
+[0.157907] (flare_detect) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/detection.dir/src/detection.cpp.o\x1b[0m\n'}
+[0.199362] (-) TimerEvent: {}
+[0.299794] (-) TimerEvent: {}
+[0.400274] (-) TimerEvent: {}
+[0.500767] (-) TimerEvent: {}
+[0.601177] (-) TimerEvent: {}
+[0.701544] (-) TimerEvent: {}
+[0.802009] (-) TimerEvent: {}
+[0.902472] (-) TimerEvent: {}
+[1.002940] (-) TimerEvent: {}
+[1.103408] (-) TimerEvent: {}
+[1.203884] (-) TimerEvent: {}
+[1.304346] (-) TimerEvent: {}
+[1.404847] (-) TimerEvent: {}
+[1.505317] (-) TimerEvent: {}
+[1.605787] (-) TimerEvent: {}
+[1.706264] (-) TimerEvent: {}
+[1.806725] (-) TimerEvent: {}
+[1.907195] (-) TimerEvent: {}
+[2.007668] (-) TimerEvent: {}
+[2.108165] (-) TimerEvent: {}
+[2.208553] (-) TimerEvent: {}
+[2.309094] (-) TimerEvent: {}
+[2.409571] (-) TimerEvent: {}
+[2.510036] (-) TimerEvent: {}
+[2.610512] (-) TimerEvent: {}
+[2.711218] (-) TimerEvent: {}
+[2.782313] (flare_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KDetection::Detection()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.782704] (flare_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:40:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmin_sat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmin_satur\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.782890] (flare_detect) StderrLine: {'line': b'   40 | n sat", "values", &\x1b[01;31m\x1b[Kmin_sat\x1b[m\x1b[K, 255);\n'}
+[2.783057] (flare_detect) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.783214] (flare_detect) StderrLine: {'line': b'      |                    \x1b[32m\x1b[Kmin_satur\x1b[m\x1b[K\n'}
+[2.792966] (flare_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Detection::send_msg(cv::Moments&, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.793222] (flare_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:69:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct obj_msg::msg::Detected_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kcolor\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.793404] (flare_detect) StderrLine: {'line': b'   69 |         message.\x1b[01;31m\x1b[Kcolor\x1b[m\x1b[K = color;\n'}
+[2.793478] (flare_detect) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.793537] (flare_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:70:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct obj_msg::msg::Detected_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.793595] (flare_detect) StderrLine: {'line': b'   70 |         message.\x1b[01;31m\x1b[Kx\x1b[m\x1b[K = moment.m10 / moment.m00 - camsrc.get(CAP_PROP_FRAME_WIDTH) / 2;\n'}
+[2.793652] (flare_detect) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.798068] (flare_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:70:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcamsrc\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcamsrc_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.798255] (flare_detect) StderrLine: {'line': b'   70 | m10 / moment.m00 - \x1b[01;31m\x1b[Kcamsrc\x1b[m\x1b[K.get(CAP_PROP_FRAME_WIDTH) / 2;\n'}
+[2.798319] (flare_detect) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.798377] (flare_detect) StderrLine: {'line': b'      |                    \x1b[32m\x1b[Kcamsrc_\x1b[m\x1b[K\n'}
+[2.798434] (flare_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:71:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct obj_msg::msg::Detected_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.798553] (flare_detect) StderrLine: {'line': b'   71 |         message.\x1b[01;31m\x1b[Ky\x1b[m\x1b[K = moment.m01 / moment.m00 - camsrc.get(CAP_PROP_FRAME_HEIGHT) / 2;\n'}
+[2.798671] (flare_detect) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.798786] (flare_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:72:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct obj_msg::msg::Detected_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kangle\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.798937] (flare_detect) StderrLine: {'line': b'   72 |         message.\x1b[01;31m\x1b[Kangle\x1b[m\x1b[K = 2 * float(message.x) / float(camsrc.get(CAP_PROP_FRAME_WIDTH));\n'}
+[2.799055] (flare_detect) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.799172] (flare_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:72:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct obj_msg::msg::Detected_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.799290] (flare_detect) StderrLine: {'line': b'   72 |  2 * float(message.\x1b[01;31m\x1b[Kx\x1b[m\x1b[K) / float(camsrc.get(CAP_PROP_FRAME_WIDTH));\n'}
+[2.799407] (flare_detect) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.799466] (flare_detect) StderrLine: {'line': b'\n'}
+[2.799968] (flare_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Detection::topic_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.800055] (flare_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:101:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRED\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kobj_msg::msg::Detected\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kobj_msg::msg::Detected_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.800132] (flare_detect) StderrLine: {'line': b'  101 |  obj_msg::msg::Detected::\x1b[01;31m\x1b[KRED\x1b[m\x1b[K);\n'}
+[2.800191] (flare_detect) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.800247] (flare_detect) StderrLine: {'line': b'\n'}
+[2.800304] (flare_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:102:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KYELLOW\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kobj_msg::msg::Detected\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kobj_msg::msg::Detected_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.800362] (flare_detect) StderrLine: {'line': b'  102 | j_msg::msg::Detected::\x1b[01;31m\x1b[KYELLOW\x1b[m\x1b[K);\n'}
+[2.800420] (flare_detect) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.800480] (flare_detect) StderrLine: {'line': b'\n'}
+[2.800535] (flare_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:103:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KBLUE\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kobj_msg::msg::Detected\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kobj_msg::msg::Detected_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.800601] (flare_detect) StderrLine: {'line': b'  103 | obj_msg::msg::Detected::\x1b[01;31m\x1b[KBLUE\x1b[m\x1b[K);\n'}
+[2.800659] (flare_detect) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.800724] (flare_detect) StderrLine: {'line': b'\n'}
+[2.811355] (-) TimerEvent: {}
+[2.911844] (-) TimerEvent: {}
+[3.012369] (-) TimerEvent: {}
+[3.112885] (-) TimerEvent: {}
+[3.213353] (-) TimerEvent: {}
+[3.313820] (-) TimerEvent: {}
+[3.414264] (-) TimerEvent: {}
+[3.514678] (-) TimerEvent: {}
+[3.615082] (-) TimerEvent: {}
+[3.715438] (-) TimerEvent: {}
+[3.815770] (-) TimerEvent: {}
+[3.916115] (-) TimerEvent: {}
+[4.016479] (-) TimerEvent: {}
+[4.116833] (-) TimerEvent: {}
+[4.217177] (-) TimerEvent: {}
+[4.251795] (flare_detect) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/detection.dir/build.make:76: CMakeFiles/detection.dir/src/detection.cpp.o] Error 1\n'}
+[4.252103] (flare_detect) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/detection.dir/all] Error 2\n'}
+[4.252405] (flare_detect) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.255445] (flare_detect) CommandEnded: {'returncode': 2}
+[4.317347] (-) TimerEvent: {}
+[4.392330] (flare_detect) JobEnded: {'identifier': 'flare_detect', 'rc': 2}
+[4.403090] (-) EventReactorShutdown: {}

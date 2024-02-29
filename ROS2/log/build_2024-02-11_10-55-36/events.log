@@ -1,0 +1,255 @@
+[0.000000] (-) TimerEvent: {}
+[0.000184] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000235] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000259] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000279] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000297] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000316] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000336] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000359] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000376] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000394] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000412] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000432] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000450] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000469] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000487] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000506] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000525] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000543] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.000561] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.000584] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.000603] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.000622] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.000639] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.000658] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000676] (-) JobUnselected: {'identifier': 'pub_controller'}
+[0.000694] (-) JobUnselected: {'identifier': 'ros2_color_detection'}
+[0.000712] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000733] (flare_detect) JobQueued: {'identifier': 'flare_detect', 'dependencies': OrderedDict()}
+[0.000756] (flare_detect) JobStarted: {'identifier': 'flare_detect'}
+[0.068575] (flare_detect) JobProgress: {'identifier': 'flare_detect', 'progress': 'cmake'}
+[0.069903] (flare_detect) JobProgress: {'identifier': 'flare_detect', 'progress': 'build'}
+[0.069945] (flare_detect) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/etern1ty/ros2_ws/build/flare_detect', '--', '-j12', '-l12'], 'cwd': '/home/etern1ty/ros2_ws/build/flare_detect', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'etern1ty'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/etern1ty/ros2_ws/install/tutorial_interfaces/lib:/home/etern1ty/ros2_ws/install/pub_controller/lib:/home/etern1ty/ros2_ws/install/flare_detect/lib:/home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/home/etern1ty/ros2_ws/install/custom_msg_pub/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/etern1ty'), ('OLDPWD', '/home/etern1ty'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '904'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1052'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=52e19400142816ac302fd31a65c83d0a'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/etern1ty/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'etern1ty'), ('JOURNAL_STREAM', '8:30010'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'etern1ty'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/etern1ty/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Etern1ty-14ALC6:@/tmp/.ICE-unix/1052,unix/Etern1ty-14ALC6:/tmp/.ICE-unix/1052'), ('INVOCATION_ID', '947b737d7cf6489c9fe0dc22316e5330'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('TILIX_ID', '4f89d0c1-d94b-40d1-b4ff-5fa5ad38d15f'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UTCOI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/etern1ty/ros2_ws/install/cpp_pubsub:/home/etern1ty/ros2_ws/install/tutorial_interfaces:/home/etern1ty/ros2_ws/install/ros2_color_detection:/home/etern1ty/ros2_ws/install/pub_controller:/home/etern1ty/ros2_ws/install/my_package:/home/etern1ty/ros2_ws/install/launch_testing_examples:/home/etern1ty/ros2_ws/install/flare_detect:/home/etern1ty/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_publisher:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_client:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_server:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_client:/home/etern1ty/ros2_ws/install/examples_rclpy_guard_conditions:/home/etern1ty/ros2_ws/install/examples_rclpy_executors:/home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set:/home/etern1ty/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_timer:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_service:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_composition:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_client:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/etern1ty/ros2_ws/install/examples_rclcpp_cbg_executor:/home/etern1ty/ros2_ws/install/examples_rclcpp_async_client:/home/etern1ty/ros2_ws/install/custom_msg_pub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/etern1ty/ros2_ws/build/flare_detect'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=52e19400142816ac302fd31a65c83d0a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/etern1ty/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages:/home/etern1ty/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/custom_msg_pub/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/etern1ty/ros2_ws/install/cpp_pubsub:/home/etern1ty/ros2_ws/install/tutorial_interfaces:/home/etern1ty/ros2_ws/install/ros2_color_detection:/home/etern1ty/ros2_ws/install/pub_controller:/home/etern1ty/ros2_ws/install/my_package:/home/etern1ty/ros2_ws/install/flare_detect:/home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set:/home/etern1ty/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_timer:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_service:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_composition:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_client:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/etern1ty/ros2_ws/install/examples_rclcpp_cbg_executor:/home/etern1ty/ros2_ws/install/examples_rclcpp_async_client:/home/etern1ty/ros2_ws/install/custom_msg_pub:/home/etern1ty/ros2_ws/install/launch_testing_examples:/home/etern1ty/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_publisher:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_client:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_server:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_client:/home/etern1ty/ros2_ws/install/examples_rclpy_guard_conditions:/home/etern1ty/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble')]), 'shell': False}
+[0.098816] (-) TimerEvent: {}
+[0.137897] (flare_detect) StdoutLine: {'line': b'[  3%] Built target flare_detect__cpp\n'}
+[0.139174] (flare_detect) StdoutLine: {'line': b'[ 12%] Built target flare_detect__rosidl_generator_c\n'}
+[0.153197] (flare_detect) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_flare_detect\n'}
+[0.170627] (flare_detect) StdoutLine: {'line': b'[ 21%] Built target flare_detect__rosidl_typesupport_cpp\n'}
+[0.171443] (flare_detect) StdoutLine: {'line': b'[ 39%] Built target flare_detect__rosidl_typesupport_c\n'}
+[0.171611] (flare_detect) StdoutLine: {'line': b'[ 39%] Built target flare_detect__rosidl_typesupport_fastrtps_c\n'}
+[0.171891] (flare_detect) StdoutLine: {'line': b'[ 48%] Built target flare_detect__rosidl_typesupport_introspection_cpp\n'}
+[0.173239] (flare_detect) StdoutLine: {'line': b'[ 66%] Built target flare_detect__rosidl_typesupport_introspection_c\n'}
+[0.173497] (flare_detect) StdoutLine: {'line': b'[ 66%] Built target flare_detect__rosidl_typesupport_fastrtps_cpp\n'}
+[0.187493] (flare_detect) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target detection\x1b[0m\n'}
+[0.198946] (-) TimerEvent: {}
+[0.202376] (flare_detect) StdoutLine: {'line': b'[ 66%] Built target flare_detect\n'}
+[0.215907] (flare_detect) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/detection.dir/src/detection.cpp.o\x1b[0m\n'}
+[0.230729] (flare_detect) StdoutLine: {'line': b'[ 72%] Built target flare_detect__py\n'}
+[0.262352] (flare_detect) StdoutLine: {'line': b'[ 78%] Built target flare_detect__rosidl_generator_py\n'}
+[0.299111] (-) TimerEvent: {}
+[0.299477] (flare_detect) StdoutLine: {'line': b'[ 84%] Built target flare_detect__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.299691] (flare_detect) StdoutLine: {'line': b'[ 90%] Built target flare_detect__rosidl_typesupport_c__pyext\n'}
+[0.299834] (flare_detect) StdoutLine: {'line': b'[ 96%] Built target flare_detect__rosidl_typesupport_introspection_c__pyext\n'}
+[0.399229] (-) TimerEvent: {}
+[0.486992] (flare_detect) StdoutLine: {'line': b'running egg_info\n'}
+[0.487871] (flare_detect) StdoutLine: {'line': b'writing flare_detect.egg-info/PKG-INFO\n'}
+[0.488296] (flare_detect) StdoutLine: {'line': b'writing dependency_links to flare_detect.egg-info/dependency_links.txt\n'}
+[0.488547] (flare_detect) StdoutLine: {'line': b'writing top-level names to flare_detect.egg-info/top_level.txt\n'}
+[0.492820] (flare_detect) StdoutLine: {'line': b"reading manifest file 'flare_detect.egg-info/SOURCES.txt'\n"}
+[0.493929] (flare_detect) StdoutLine: {'line': b"writing manifest file 'flare_detect.egg-info/SOURCES.txt'\n"}
+[0.499380] (-) TimerEvent: {}
+[0.550685] (flare_detect) StdoutLine: {'line': b'[ 96%] Built target ament_cmake_python_build_flare_detect_egg\n'}
+[0.599528] (-) TimerEvent: {}
+[0.699921] (-) TimerEvent: {}
+[0.800309] (-) TimerEvent: {}
+[0.900658] (-) TimerEvent: {}
+[1.000997] (-) TimerEvent: {}
+[1.101428] (-) TimerEvent: {}
+[1.201841] (-) TimerEvent: {}
+[1.302184] (-) TimerEvent: {}
+[1.402564] (-) TimerEvent: {}
+[1.503000] (-) TimerEvent: {}
+[1.603431] (-) TimerEvent: {}
+[1.703849] (-) TimerEvent: {}
+[1.804327] (-) TimerEvent: {}
+[1.904741] (-) TimerEvent: {}
+[2.005126] (-) TimerEvent: {}
+[2.105455] (-) TimerEvent: {}
+[2.205825] (-) TimerEvent: {}
+[2.306228] (-) TimerEvent: {}
+[2.406713] (-) TimerEvent: {}
+[2.507164] (-) TimerEvent: {}
+[2.607572] (-) TimerEvent: {}
+[2.708002] (-) TimerEvent: {}
+[2.808686] (-) TimerEvent: {}
+[2.909025] (-) TimerEvent: {}
+[3.009369] (-) TimerEvent: {}
+[3.109921] (-) TimerEvent: {}
+[3.210245] (-) TimerEvent: {}
+[3.310704] (-) TimerEvent: {}
+[3.411207] (-) TimerEvent: {}
+[3.511609] (-) TimerEvent: {}
+[3.611983] (-) TimerEvent: {}
+[3.712496] (-) TimerEvent: {}
+[3.812845] (-) TimerEvent: {}
+[3.913290] (-) TimerEvent: {}
+[4.013698] (-) TimerEvent: {}
+[4.114111] (-) TimerEvent: {}
+[4.214504] (-) TimerEvent: {}
+[4.314933] (-) TimerEvent: {}
+[4.415361] (-) TimerEvent: {}
+[4.515737] (-) TimerEvent: {}
+[4.616197] (-) TimerEvent: {}
+[4.716698] (-) TimerEvent: {}
+[4.817198] (-) TimerEvent: {}
+[4.917568] (-) TimerEvent: {}
+[5.017882] (-) TimerEvent: {}
+[5.118230] (-) TimerEvent: {}
+[5.218615] (-) TimerEvent: {}
+[5.319170] (-) TimerEvent: {}
+[5.419640] (-) TimerEvent: {}
+[5.520246] (-) TimerEvent: {}
+[5.620624] (-) TimerEvent: {}
+[5.721013] (-) TimerEvent: {}
+[5.821377] (-) TimerEvent: {}
+[5.921847] (-) TimerEvent: {}
+[6.022235] (-) TimerEvent: {}
+[6.122660] (-) TimerEvent: {}
+[6.205126] (flare_detect) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable detection\x1b[0m\n'}
+[6.222786] (-) TimerEvent: {}
+[6.323231] (-) TimerEvent: {}
+[6.423573] (-) TimerEvent: {}
+[6.523932] (-) TimerEvent: {}
+[6.624310] (-) TimerEvent: {}
+[6.724694] (-) TimerEvent: {}
+[6.758821] (flare_detect) StdoutLine: {'line': b'[100%] Built target detection\n'}
+[6.775460] (flare_detect) CommandEnded: {'returncode': 0}
+[6.824843] (-) TimerEvent: {}
+[6.881358] (flare_detect) JobProgress: {'identifier': 'flare_detect', 'progress': 'install'}
+[6.893188] (flare_detect) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/etern1ty/ros2_ws/build/flare_detect'], 'cwd': '/home/etern1ty/ros2_ws/build/flare_detect', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'etern1ty'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/etern1ty/ros2_ws/install/tutorial_interfaces/lib:/home/etern1ty/ros2_ws/install/pub_controller/lib:/home/etern1ty/ros2_ws/install/flare_detect/lib:/home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/home/etern1ty/ros2_ws/install/custom_msg_pub/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/etern1ty'), ('OLDPWD', '/home/etern1ty'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '904'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1052'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=52e19400142816ac302fd31a65c83d0a'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/etern1ty/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'etern1ty'), ('JOURNAL_STREAM', '8:30010'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'etern1ty'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/etern1ty/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Etern1ty-14ALC6:@/tmp/.ICE-unix/1052,unix/Etern1ty-14ALC6:/tmp/.ICE-unix/1052'), ('INVOCATION_ID', '947b737d7cf6489c9fe0dc22316e5330'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('TILIX_ID', '4f89d0c1-d94b-40d1-b4ff-5fa5ad38d15f'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UTCOI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/etern1ty/ros2_ws/install/cpp_pubsub:/home/etern1ty/ros2_ws/install/tutorial_interfaces:/home/etern1ty/ros2_ws/install/ros2_color_detection:/home/etern1ty/ros2_ws/install/pub_controller:/home/etern1ty/ros2_ws/install/my_package:/home/etern1ty/ros2_ws/install/launch_testing_examples:/home/etern1ty/ros2_ws/install/flare_detect:/home/etern1ty/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_publisher:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_client:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_server:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_client:/home/etern1ty/ros2_ws/install/examples_rclpy_guard_conditions:/home/etern1ty/ros2_ws/install/examples_rclpy_executors:/home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set:/home/etern1ty/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_timer:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_service:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_composition:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_client:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/etern1ty/ros2_ws/install/examples_rclcpp_cbg_executor:/home/etern1ty/ros2_ws/install/examples_rclcpp_async_client:/home/etern1ty/ros2_ws/install/custom_msg_pub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/etern1ty/ros2_ws/build/flare_detect'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=52e19400142816ac302fd31a65c83d0a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/etern1ty/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages:/home/etern1ty/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/custom_msg_pub/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/etern1ty/ros2_ws/install/cpp_pubsub:/home/etern1ty/ros2_ws/install/tutorial_interfaces:/home/etern1ty/ros2_ws/install/ros2_color_detection:/home/etern1ty/ros2_ws/install/pub_controller:/home/etern1ty/ros2_ws/install/my_package:/home/etern1ty/ros2_ws/install/flare_detect:/home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set:/home/etern1ty/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_timer:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_service:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_composition:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_client:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/etern1ty/ros2_ws/install/examples_rclcpp_cbg_executor:/home/etern1ty/ros2_ws/install/examples_rclcpp_async_client:/home/etern1ty/ros2_ws/install/custom_msg_pub:/home/etern1ty/ros2_ws/install/launch_testing_examples:/home/etern1ty/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_publisher:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_client:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_server:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_client:/home/etern1ty/ros2_ws/install/examples_rclpy_guard_conditions:/home/etern1ty/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble')]), 'shell': False}
+[6.904009] (flare_detect) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.904706] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/ament_index/resource_index/rosidl_interfaces/flare_detect\n'}
+[6.904974] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect\n'}
+[6.905052] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg\n'}
+[6.905150] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detected.h\n'}
+[6.905250] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail\n'}
+[6.905343] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail/detected__functions.c\n'}
+[6.905443] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail/detected__functions.h\n'}
+[6.905551] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail/detected__struct.h\n'}
+[6.905726] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail/detected__type_support.h\n'}
+[6.906061] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.906188] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/environment/library_path.sh\n'}
+[6.906289] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/environment/library_path.dsv\n'}
+[6.906419] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/lib/libflare_detect__rosidl_generator_c.so\n'}
+[6.906633] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect\n'}
+[6.906788] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg\n'}
+[6.906894] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.906974] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail\n'}
+[6.907051] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail/detected__rosidl_typesupport_fastrtps_c.h\n'}
+[6.907576] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/lib/libflare_detect__rosidl_typesupport_fastrtps_c.so\n'}
+[6.907806] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect\n'}
+[6.907923] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg\n'}
+[6.908082] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detected.hpp\n'}
+[6.908242] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail\n'}
+[6.908342] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail/detected__struct.hpp\n'}
+[6.908452] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail/detected__traits.hpp\n'}
+[6.908527] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail/detected__builder.hpp\n'}
+[6.908601] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect\n'}
+[6.908674] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg\n'}
+[6.908746] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail\n'}
+[6.908857] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail/dds_fastrtps\n'}
+[6.908934] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail/detected__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.909008] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.909115] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/lib/libflare_detect__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.909223] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect\n'}
+[6.909325] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg\n'}
+[6.909417] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail\n'}
+[6.909545] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail/detected__type_support.c\n'}
+[6.909627] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail/detected__rosidl_typesupport_introspection_c.h\n'}
+[6.909703] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.909890] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/lib/libflare_detect__rosidl_typesupport_introspection_c.so\n'}
+[6.910301] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/lib/libflare_detect__rosidl_typesupport_c.so\n'}
+[6.910503] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect\n'}
+[6.910603] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg\n'}
+[6.910707] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail\n'}
+[6.910783] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail/detected__type_support.cpp\n'}
+[6.910857] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail/detected__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.911042] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/lib/libflare_detect__rosidl_typesupport_introspection_cpp.so\n'}
+[6.911552] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/lib/libflare_detect__rosidl_typesupport_cpp.so\n'}
+[6.911731] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/environment/pythonpath.sh\n'}
+[6.911849] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/environment/pythonpath.dsv\n'}
+[6.911938] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect-0.0.0-py3.10.egg-info\n'}
+[6.912089] (flare_detect) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[6.913043] (flare_detect) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[6.913215] (flare_detect) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[6.913342] (flare_detect) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[6.913590] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect\n'}
+[6.913728] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/flare_detect_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.913929] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/_flare_detect_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[6.914165] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/flare_detect_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.914259] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/__init__.py\n'}
+[6.914341] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/_flare_detect_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[6.914427] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/libflare_detect__rosidl_generator_py.so\n'}
+[6.914527] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/flare_detect_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.914609] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/msg\n'}
+[6.914695] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/msg/_detected_s.c\n'}
+[6.914778] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/msg/__init__.py\n'}
+[6.914861] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/msg/_detected.py\n'}
+[6.914942] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/_flare_detect_s.ep.rosidl_typesupport_c.c\n'}
+[6.924980] (-) TimerEvent: {}
+[6.957208] (flare_detect) StdoutLine: {'line': b"Listing '/home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect'...\n"}
+[6.957484] (flare_detect) StdoutLine: {'line': b"Listing '/home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/msg'...\n"}
+[6.963690] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/flare_detect_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.964474] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/flare_detect_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.965455] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/flare_detect_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.965826] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/lib/libflare_detect__rosidl_generator_py.so\n'}
+[6.965996] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/msg/Detected.idl\n'}
+[6.966097] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/msg/Detected.msg\n'}
+[6.966426] (flare_detect) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/flare_detect/lib/flare_detect/detection\n'}
+[6.968765] (flare_detect) StdoutLine: {'line': b'-- Set runtime path of "/home/etern1ty/ros2_ws/install/flare_detect/lib/flare_detect/detection" to ""\n'}
+[6.968889] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/ament_index/resource_index/package_run_dependencies/flare_detect\n'}
+[6.969014] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/ament_index/resource_index/parent_prefix_path/flare_detect\n'}
+[6.969112] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/environment/ament_prefix_path.sh\n'}
+[6.969205] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/environment/ament_prefix_path.dsv\n'}
+[6.969334] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/environment/path.sh\n'}
+[6.969547] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/environment/path.dsv\n'}
+[6.969687] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/local_setup.bash\n'}
+[6.969819] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/local_setup.sh\n'}
+[6.969949] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/local_setup.zsh\n'}
+[6.970094] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/local_setup.dsv\n'}
+[6.970225] (flare_detect) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/package.dsv\n'}
+[6.970356] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/ament_index/resource_index/packages/flare_detect\n'}
+[6.970435] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/export_flare_detect__rosidl_generator_cExport.cmake\n'}
+[6.970494] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/export_flare_detect__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.970551] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/export_flare_detect__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[6.970609] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/export_flare_detect__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[6.970737] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/export_flare_detect__rosidl_generator_cppExport.cmake\n'}
+[6.971693] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/export_flare_detect__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[6.972085] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/export_flare_detect__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[6.972308] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/flare_detect__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.972441] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/flare_detect__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.972714] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/flare_detect__rosidl_typesupport_cExport.cmake\n'}
+[6.972822] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/flare_detect__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.972940] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/flare_detect__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.973059] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/flare_detect__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.973338] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/flare_detect__rosidl_typesupport_cppExport.cmake\n'}
+[6.973459] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/flare_detect__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.973806] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/export_flare_detect__rosidl_generator_pyExport.cmake\n'}
+[6.973904] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/export_flare_detect__rosidl_generator_pyExport-noconfig.cmake\n'}
+[6.974027] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/rosidl_cmake-extras.cmake\n'}
+[6.974121] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.974198] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.974275] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.974353] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.974481] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.974568] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.974638] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/flare_detectConfig.cmake\n'}
+[6.974700] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/flare_detectConfig-version.cmake\n'}
+[6.974763] (flare_detect) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/package.xml\n'}
+[6.977590] (flare_detect) CommandEnded: {'returncode': 0}
+[7.025356] (-) TimerEvent: {}
+[7.125730] (-) TimerEvent: {}
+[7.226694] (-) TimerEvent: {}
+[7.245948] (flare_detect) JobEnded: {'identifier': 'flare_detect', 'rc': 0}
+[7.246858] (-) EventReactorShutdown: {}

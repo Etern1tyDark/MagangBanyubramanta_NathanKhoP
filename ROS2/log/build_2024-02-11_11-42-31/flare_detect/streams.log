@@ -1,0 +1,144 @@
+[0.201s] Invoking command in '/home/etern1ty/ros2_ws/build/flare_detect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etern1ty/ros2_ws/install/launch_testing_examples:/home/etern1ty/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_publisher:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_client:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_server:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_client:/home/etern1ty/ros2_ws/install/examples_rclpy_guard_conditions:/home/etern1ty/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/flare_detect -- -j12 -l12
+[0.354s] [  3%] Built target flare_detect__cpp
+[0.358s] [ 12%] Built target flare_detect__rosidl_generator_c
+[0.391s] [ 12%] Built target ament_cmake_python_copy_flare_detect
+[0.439s] [ 21%] Built target flare_detect__rosidl_typesupport_cpp
+[0.439s] [ 30%] Built target flare_detect__rosidl_typesupport_fastrtps_cpp
+[0.439s] [ 39%] Built target flare_detect__rosidl_typesupport_fastrtps_c
+[0.442s] [ 48%] Built target flare_detect__rosidl_typesupport_introspection_c
+[0.443s] [ 57%] Built target flare_detect__rosidl_typesupport_c
+[0.444s] [ 66%] Built target flare_detect__rosidl_typesupport_introspection_cpp
+[0.513s] [ 66%] Built target flare_detect
+[0.521s] [ 72%] Built target detection
+[0.574s] [ 75%] Built target flare_detect__py
+[0.640s] [ 81%] Built target flare_detect__rosidl_generator_py
+[0.705s] [ 87%] Built target flare_detect__rosidl_typesupport_c__pyext
+[0.707s] [ 96%] Built target flare_detect__rosidl_typesupport_fastrtps_c__pyext
+[0.707s] [100%] Built target flare_detect__rosidl_typesupport_introspection_c__pyext
+[1.227s] running egg_info
+[1.228s] writing flare_detect.egg-info/PKG-INFO
+[1.229s] writing dependency_links to flare_detect.egg-info/dependency_links.txt
+[1.229s] writing top-level names to flare_detect.egg-info/top_level.txt
+[1.236s] reading manifest file 'flare_detect.egg-info/SOURCES.txt'
+[1.238s] writing manifest file 'flare_detect.egg-info/SOURCES.txt'
+[1.312s] [100%] Built target ament_cmake_python_build_flare_detect_egg
+[1.347s] Invoked command in '/home/etern1ty/ros2_ws/build/flare_detect' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etern1ty/ros2_ws/install/launch_testing_examples:/home/etern1ty/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_publisher:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_client:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_server:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_client:/home/etern1ty/ros2_ws/install/examples_rclpy_guard_conditions:/home/etern1ty/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/flare_detect -- -j12 -l12
+[1.611s] Invoking command in '/home/etern1ty/ros2_ws/build/flare_detect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etern1ty/ros2_ws/install/launch_testing_examples:/home/etern1ty/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_publisher:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_client:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_server:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_client:/home/etern1ty/ros2_ws/install/examples_rclpy_guard_conditions:/home/etern1ty/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/etern1ty/ros2_ws/build/flare_detect
+[1.634s] -- Install configuration: ""
+[1.634s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/ament_index/resource_index/rosidl_interfaces/flare_detect
+[1.635s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect
+[1.635s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg
+[1.636s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detected.h
+[1.636s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail
+[1.636s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail/detected__functions.c
+[1.637s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail/detected__functions.h
+[1.637s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail/detected__struct.h
+[1.638s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail/detected__type_support.h
+[1.638s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/rosidl_generator_c__visibility_control.h
+[1.638s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/environment/library_path.sh
+[1.638s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/environment/library_path.dsv
+[1.639s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/lib/libflare_detect__rosidl_generator_c.so
+[1.639s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect
+[1.639s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg
+[1.640s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.640s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail
+[1.640s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail/detected__rosidl_typesupport_fastrtps_c.h
+[1.641s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/lib/libflare_detect__rosidl_typesupport_fastrtps_c.so
+[1.641s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect
+[1.641s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg
+[1.641s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detected.hpp
+[1.642s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail
+[1.642s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail/detected__struct.hpp
+[1.642s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail/detected__traits.hpp
+[1.643s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail/detected__builder.hpp
+[1.643s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect
+[1.643s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg
+[1.644s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail
+[1.644s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail/dds_fastrtps
+[1.644s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail/detected__rosidl_typesupport_fastrtps_cpp.hpp
+[1.644s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.644s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/lib/libflare_detect__rosidl_typesupport_fastrtps_cpp.so
+[1.645s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect
+[1.645s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg
+[1.645s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail
+[1.646s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail/detected__type_support.c
+[1.646s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail/detected__rosidl_typesupport_introspection_c.h
+[1.646s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.646s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/lib/libflare_detect__rosidl_typesupport_introspection_c.so
+[1.647s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/lib/libflare_detect__rosidl_typesupport_c.so
+[1.647s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect
+[1.648s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg
+[1.648s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail
+[1.648s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail/detected__type_support.cpp
+[1.649s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail/detected__rosidl_typesupport_introspection_cpp.hpp
+[1.649s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/lib/libflare_detect__rosidl_typesupport_introspection_cpp.so
+[1.650s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/lib/libflare_detect__rosidl_typesupport_cpp.so
+[1.650s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/environment/pythonpath.sh
+[1.651s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/environment/pythonpath.dsv
+[1.651s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect-0.0.0-py3.10.egg-info
+[1.651s] -- Installing: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect-0.0.0-py3.10.egg-info/PKG-INFO
+[1.652s] -- Installing: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect-0.0.0-py3.10.egg-info/top_level.txt
+[1.652s] -- Installing: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.653s] -- Installing: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.653s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect
+[1.654s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/flare_detect_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.654s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/_flare_detect_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.654s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/flare_detect_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.655s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/__init__.py
+[1.655s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/_flare_detect_s.ep.rosidl_typesupport_introspection_c.c
+[1.655s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/libflare_detect__rosidl_generator_py.so
+[1.655s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/flare_detect_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.656s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/msg
+[1.656s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/msg/_detected_s.c
+[1.656s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/msg/__init__.py
+[1.657s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/msg/_detected.py
+[1.657s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/_flare_detect_s.ep.rosidl_typesupport_c.c
+[1.765s] Listing '/home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect'...
+[1.765s] Listing '/home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/msg'...
+[1.777s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/flare_detect_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.778s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/flare_detect_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.779s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/flare_detect_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.780s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/lib/libflare_detect__rosidl_generator_py.so
+[1.780s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/msg/Detected.idl
+[1.780s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/msg/Detected.msg
+[1.781s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/lib/flare_detect/detection
+[1.781s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/ament_index/resource_index/package_run_dependencies/flare_detect
+[1.782s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/ament_index/resource_index/parent_prefix_path/flare_detect
+[1.782s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/environment/ament_prefix_path.sh
+[1.782s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/environment/ament_prefix_path.dsv
+[1.782s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/environment/path.sh
+[1.782s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/environment/path.dsv
+[1.783s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/local_setup.bash
+[1.783s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/local_setup.sh
+[1.783s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/local_setup.zsh
+[1.783s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/local_setup.dsv
+[1.783s] -- Installing: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/package.dsv
+[1.784s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/ament_index/resource_index/packages/flare_detect
+[1.784s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/export_flare_detect__rosidl_generator_cExport.cmake
+[1.785s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/export_flare_detect__rosidl_generator_cExport-noconfig.cmake
+[1.785s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/export_flare_detect__rosidl_typesupport_fastrtps_cExport.cmake
+[1.785s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/export_flare_detect__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.785s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/export_flare_detect__rosidl_generator_cppExport.cmake
+[1.785s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/export_flare_detect__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.786s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/export_flare_detect__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.786s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/flare_detect__rosidl_typesupport_introspection_cExport.cmake
+[1.786s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/flare_detect__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.786s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/flare_detect__rosidl_typesupport_cExport.cmake
+[1.786s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/flare_detect__rosidl_typesupport_cExport-noconfig.cmake
+[1.787s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/flare_detect__rosidl_typesupport_introspection_cppExport.cmake
+[1.787s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/flare_detect__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.787s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/flare_detect__rosidl_typesupport_cppExport.cmake
+[1.787s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/flare_detect__rosidl_typesupport_cppExport-noconfig.cmake
+[1.788s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/export_flare_detect__rosidl_generator_pyExport.cmake
+[1.788s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/export_flare_detect__rosidl_generator_pyExport-noconfig.cmake
+[1.788s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/rosidl_cmake-extras.cmake
+[1.788s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.789s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/ament_cmake_export_libraries-extras.cmake
+[1.789s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/ament_cmake_export_targets-extras.cmake
+[1.789s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.789s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.789s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.790s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/flare_detectConfig.cmake
+[1.790s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/flare_detectConfig-version.cmake
+[1.790s] -- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/package.xml
+[1.794s] Invoked command in '/home/etern1ty/ros2_ws/build/flare_detect' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etern1ty/ros2_ws/install/launch_testing_examples:/home/etern1ty/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_publisher:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_client:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_server:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_client:/home/etern1ty/ros2_ws/install/examples_rclpy_guard_conditions:/home/etern1ty/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/etern1ty/ros2_ws/build/flare_detect

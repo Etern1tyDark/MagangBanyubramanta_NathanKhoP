@@ -1,0 +1,408 @@
+[0.000000] (-) TimerEvent: {}
+[0.000222] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000257] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000279] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000298] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000317] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000336] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000355] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000374] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000392] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000411] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000429] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000447] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000466] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000484] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000503] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000521] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000540] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000559] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.000577] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.000600] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.000620] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.000638] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.000657] (-) JobUnselected: {'identifier': 'flare_detect'}
+[0.000675] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.000694] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000712] (-) JobUnselected: {'identifier': 'ros2_color_detection'}
+[0.000730] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000752] (pub_controller) JobQueued: {'identifier': 'pub_controller', 'dependencies': OrderedDict()}
+[0.000774] (pub_controller) JobStarted: {'identifier': 'pub_controller'}
+[0.053163] (pub_controller) JobProgress: {'identifier': 'pub_controller', 'progress': 'cmake'}
+[0.053831] (pub_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/etern1ty/ros2_ws/src/pub_controller', '-DCMAKE_INSTALL_PREFIX=/home/etern1ty/ros2_ws/install/pub_controller'], 'cwd': '/home/etern1ty/ros2_ws/build/pub_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'etern1ty'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/etern1ty'), ('OLDPWD', '/home/etern1ty'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '904'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1050'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=50e6492ab820487a34a7012065c722a2'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'etern1ty'), ('JOURNAL_STREAM', '8:20310'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'etern1ty'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/etern1ty/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Etern1ty-14ALC6:@/tmp/.ICE-unix/1050,unix/Etern1ty-14ALC6:/tmp/.ICE-unix/1050'), ('INVOCATION_ID', 'b8c8a621d5ba477b8313db8a8ccf2226'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('TILIX_ID', 'cbdf48ee-6aa5-4ec2-8c37-bad214e3511d'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XDFVI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/etern1ty/ros2_ws/build/pub_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=50e6492ab820487a34a7012065c722a2'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099122] (-) TimerEvent: {}
+[0.187898] (pub_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199236] (-) TimerEvent: {}
+[0.286554] (pub_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.298854] (pub_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299303] (-) TimerEvent: {}
+[0.392861] (pub_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.399442] (-) TimerEvent: {}
+[0.399774] (pub_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.400045] (pub_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.400332] (pub_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.403678] (pub_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.498131] (pub_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.499555] (-) TimerEvent: {}
+[0.504702] (pub_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.505071] (pub_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.505323] (pub_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.512471] (pub_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.599735] (-) TimerEvent: {}
+[0.689717] (pub_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.699861] (-) TimerEvent: {}
+[0.800280] (-) TimerEvent: {}
+[0.802180] (pub_controller) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.867392] (pub_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.872513] (pub_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.883246] (pub_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.899886] (pub_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.900390] (-) TimerEvent: {}
+[0.922921] (pub_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.000553] (-) TimerEvent: {}
+[1.003539] (pub_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.006768] (pub_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.100703] (-) TimerEvent: {}
+[1.154593] (pub_controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.187694] (pub_controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.200885] (-) TimerEvent: {}
+[1.243775] (pub_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.256166] (pub_controller) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.301018] (-) TimerEvent: {}
+[1.348578] (pub_controller) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.349008] (pub_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.401141] (-) TimerEvent: {}
+[1.441590] (pub_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.442567] (pub_controller) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.501284] (-) TimerEvent: {}
+[1.601673] (-) TimerEvent: {}
+[1.608816] (pub_controller) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.701821] (-) TimerEvent: {}
+[1.736654] (pub_controller) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.801992] (-) TimerEvent: {}
+[1.902469] (-) TimerEvent: {}
+[1.986083] (pub_controller) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.002647] (-) TimerEvent: {}
+[2.103155] (-) TimerEvent: {}
+[2.203481] (-) TimerEvent: {}
+[2.303848] (-) TimerEvent: {}
+[2.307402] (pub_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.404016] (-) TimerEvent: {}
+[2.426648] (pub_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.451461] (pub_controller) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.453953] (pub_controller) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.482475] (pub_controller) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.482837] (pub_controller) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.483010] (pub_controller) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.483213] (pub_controller) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.504178] (-) TimerEvent: {}
+[2.504495] (pub_controller) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.540074] (pub_controller) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.568891] (pub_controller) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.569283] (pub_controller) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.569467] (pub_controller) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.570489] (pub_controller) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.572125] (pub_controller) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.572400] (pub_controller) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.572716] (pub_controller) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.575982] (pub_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.604317] (-) TimerEvent: {}
+[2.611850] (pub_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[2.615179] (pub_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/etern1ty/ros2_ws/build/pub_controller\n'}
+[2.629039] (pub_controller) CommandEnded: {'returncode': 0}
+[2.631426] (pub_controller) JobProgress: {'identifier': 'pub_controller', 'progress': 'build'}
+[2.631863] (pub_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/etern1ty/ros2_ws/build/pub_controller', '--', '-j12', '-l12'], 'cwd': '/home/etern1ty/ros2_ws/build/pub_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'etern1ty'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/etern1ty'), ('OLDPWD', '/home/etern1ty'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '904'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1050'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=50e6492ab820487a34a7012065c722a2'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'etern1ty'), ('JOURNAL_STREAM', '8:20310'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'etern1ty'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/etern1ty/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Etern1ty-14ALC6:@/tmp/.ICE-unix/1050,unix/Etern1ty-14ALC6:/tmp/.ICE-unix/1050'), ('INVOCATION_ID', 'b8c8a621d5ba477b8313db8a8ccf2226'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('TILIX_ID', 'cbdf48ee-6aa5-4ec2-8c37-bad214e3511d'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XDFVI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/etern1ty/ros2_ws/build/pub_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=50e6492ab820487a34a7012065c722a2'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.682567] (pub_controller) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.694558] (pub_controller) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.703686] (pub_controller) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_pub_controller\n'}
+[2.704399] (-) TimerEvent: {}
+[2.804732] (-) TimerEvent: {}
+[2.905151] (-) TimerEvent: {}
+[2.992695] (pub_controller) StdoutLine: {'line': b'[  6%] Built target pub_controller__cpp\n'}
+[3.005337] (-) TimerEvent: {}
+[3.005948] (pub_controller) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.006387] (pub_controller) StdoutLine: {'line': b'running egg_info\n'}
+[3.006717] (pub_controller) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.006860] (pub_controller) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/pub_controller__rosidl_generator_c.dir/rosidl_generator_c/pub_controller/msg/detail/motion__functions.c.o\x1b[0m\n'}
+[3.006966] (pub_controller) StdoutLine: {'line': b'creating pub_controller.egg-info\n'}
+[3.007739] (pub_controller) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.007995] (pub_controller) StdoutLine: {'line': b'writing pub_controller.egg-info/PKG-INFO\n'}
+[3.008079] (pub_controller) StdoutLine: {'line': b'writing dependency_links to pub_controller.egg-info/dependency_links.txt\n'}
+[3.008157] (pub_controller) StdoutLine: {'line': b'writing top-level names to pub_controller.egg-info/top_level.txt\n'}
+[3.008539] (pub_controller) StdoutLine: {'line': b"writing manifest file 'pub_controller.egg-info/SOURCES.txt'\n"}
+[3.013711] (pub_controller) StdoutLine: {'line': b"reading manifest file 'pub_controller.egg-info/SOURCES.txt'\n"}
+[3.014908] (pub_controller) StdoutLine: {'line': b"writing manifest file 'pub_controller.egg-info/SOURCES.txt'\n"}
+[3.072254] (pub_controller) StdoutLine: {'line': b'[ 18%] Built target ament_cmake_python_build_pub_controller_egg\n'}
+[3.078945] (pub_controller) StdoutLine: {'line': b'[ 21%] \x1b[32m\x1b[1mLinking C shared library libpub_controller__rosidl_generator_c.so\x1b[0m\n'}
+[3.105556] (-) TimerEvent: {}
+[3.123176] (pub_controller) StdoutLine: {'line': b'[ 21%] Built target pub_controller__rosidl_generator_c\n'}
+[3.136835] (pub_controller) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.137219] (pub_controller) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.138082] (pub_controller) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.205681] (-) TimerEvent: {}
+[3.300749] (pub_controller) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/pub_controller__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pub_controller/msg/detail/dds_fastrtps/motion__type_support.cpp.o\x1b[0m\n'}
+[3.305800] (-) TimerEvent: {}
+[3.318225] (pub_controller) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/pub_controller__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pub_controller/msg/motion__type_support.cpp.o\x1b[0m\n'}
+[3.353004] (pub_controller) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/pub_controller__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pub_controller/msg/detail/motion__type_support.cpp.o\x1b[0m\n'}
+[3.405968] (-) TimerEvent: {}
+[3.408128] (pub_controller) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/pub_controller__rosidl_typesupport_c.dir/rosidl_typesupport_c/pub_controller/msg/motion__type_support.cpp.o\x1b[0m\n'}
+[3.450120] (pub_controller) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libpub_controller__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.506202] (-) TimerEvent: {}
+[3.510214] (pub_controller) StdoutLine: {'line': b'[ 45%] Built target pub_controller__rosidl_typesupport_c\n'}
+[3.530295] (pub_controller) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/pub_controller__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pub_controller/msg/detail/motion__type_support_c.cpp.o\x1b[0m\n'}
+[3.548437] (pub_controller) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/pub_controller__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pub_controller/msg/detail/motion__type_support.c.o\x1b[0m\n'}
+[3.591393] (pub_controller) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking C shared library libpub_controller__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.606339] (-) TimerEvent: {}
+[3.627617] (pub_controller) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libpub_controller__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.630186] (pub_controller) StdoutLine: {'line': b'[ 57%] Built target pub_controller__rosidl_typesupport_introspection_c\n'}
+[3.681928] (pub_controller) StdoutLine: {'line': b'[ 57%] Built target pub_controller__rosidl_typesupport_cpp\n'}
+[3.706481] (-) TimerEvent: {}
+[3.713325] (pub_controller) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/controller.dir/src/pub_func.cpp.o\x1b[0m\n'}
+[3.764885] (pub_controller) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libpub_controller__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.765973] (pub_controller) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libpub_controller__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.806660] (-) TimerEvent: {}
+[3.815955] (pub_controller) StdoutLine: {'line': b'[ 66%] Built target pub_controller__rosidl_typesupport_introspection_cpp\n'}
+[3.873860] (pub_controller) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libpub_controller__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.887484] (pub_controller) StdoutLine: {'line': b'[ 69%] Built target pub_controller__rosidl_typesupport_fastrtps_cpp\n'}
+[3.906821] (-) TimerEvent: {}
+[3.991867] (pub_controller) StdoutLine: {'line': b'[ 69%] Built target pub_controller__rosidl_typesupport_fastrtps_c\n'}
+[4.006938] (-) TimerEvent: {}
+[4.015821] (pub_controller) StdoutLine: {'line': b'[ 69%] Built target pub_controller\n'}
+[4.042563] (pub_controller) StdoutLine: {'line': b'[ 72%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.107074] (-) TimerEvent: {}
+[4.207473] (-) TimerEvent: {}
+[4.306270] (pub_controller) StdoutLine: {'line': b'[ 72%] Built target pub_controller__py\n'}
+[4.307604] (-) TimerEvent: {}
+[4.328630] (pub_controller) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object CMakeFiles/pub_controller__rosidl_generator_py.dir/rosidl_generator_py/pub_controller/msg/_motion_s.c.o\x1b[0m\n'}
+[4.407778] (-) TimerEvent: {}
+[4.451377] (pub_controller) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pub_controller/libpub_controller__rosidl_generator_py.so\x1b[0m\n'}
+[4.502254] (pub_controller) StdoutLine: {'line': b'[ 78%] Built target pub_controller__rosidl_generator_py\n'}
+[4.507906] (-) TimerEvent: {}
+[4.526432] (pub_controller) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/pub_controller__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/pub_controller/_pub_controller_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.526659] (pub_controller) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/pub_controller__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/pub_controller/_pub_controller_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.526744] (pub_controller) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/pub_controller__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/pub_controller/_pub_controller_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.608301] (-) TimerEvent: {}
+[4.636543] (pub_controller) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pub_controller/pub_controller_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.647381] (pub_controller) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pub_controller/pub_controller_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.649566] (pub_controller) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pub_controller/pub_controller_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.681012] (pub_controller) StdoutLine: {'line': b'[ 96%] Built target pub_controller__rosidl_typesupport_c__pyext\n'}
+[4.695493] (pub_controller) StdoutLine: {'line': b'[ 96%] Built target pub_controller__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.695835] (pub_controller) StdoutLine: {'line': b'[ 96%] Built target pub_controller__rosidl_typesupport_introspection_c__pyext\n'}
+[4.708455] (-) TimerEvent: {}
+[4.808858] (-) TimerEvent: {}
+[4.909220] (-) TimerEvent: {}
+[5.009560] (-) TimerEvent: {}
+[5.109969] (-) TimerEvent: {}
+[5.210375] (-) TimerEvent: {}
+[5.310779] (-) TimerEvent: {}
+[5.411215] (-) TimerEvent: {}
+[5.511631] (-) TimerEvent: {}
+[5.612039] (-) TimerEvent: {}
+[5.712419] (-) TimerEvent: {}
+[5.812789] (-) TimerEvent: {}
+[5.913200] (-) TimerEvent: {}
+[6.013626] (-) TimerEvent: {}
+[6.114054] (-) TimerEvent: {}
+[6.214613] (-) TimerEvent: {}
+[6.315017] (-) TimerEvent: {}
+[6.415446] (-) TimerEvent: {}
+[6.515835] (-) TimerEvent: {}
+[6.616242] (-) TimerEvent: {}
+[6.716598] (-) TimerEvent: {}
+[6.816939] (-) TimerEvent: {}
+[6.917355] (-) TimerEvent: {}
+[7.017728] (-) TimerEvent: {}
+[7.118086] (-) TimerEvent: {}
+[7.218467] (-) TimerEvent: {}
+[7.318964] (-) TimerEvent: {}
+[7.419378] (-) TimerEvent: {}
+[7.519793] (-) TimerEvent: {}
+[7.620246] (-) TimerEvent: {}
+[7.720750] (-) TimerEvent: {}
+[7.821398] (-) TimerEvent: {}
+[7.921834] (-) TimerEvent: {}
+[8.022245] (-) TimerEvent: {}
+[8.122621] (-) TimerEvent: {}
+[8.222987] (-) TimerEvent: {}
+[8.323332] (-) TimerEvent: {}
+[8.423700] (-) TimerEvent: {}
+[8.524048] (-) TimerEvent: {}
+[8.624393] (-) TimerEvent: {}
+[8.724821] (-) TimerEvent: {}
+[8.825240] (-) TimerEvent: {}
+[8.925629] (-) TimerEvent: {}
+[9.026030] (-) TimerEvent: {}
+[9.126430] (-) TimerEvent: {}
+[9.226833] (-) TimerEvent: {}
+[9.327232] (-) TimerEvent: {}
+[9.427620] (-) TimerEvent: {}
+[9.528019] (-) TimerEvent: {}
+[9.628411] (-) TimerEvent: {}
+[9.728843] (-) TimerEvent: {}
+[9.829257] (-) TimerEvent: {}
+[9.929603] (-) TimerEvent: {}
+[10.030006] (-) TimerEvent: {}
+[10.130334] (-) TimerEvent: {}
+[10.230685] (-) TimerEvent: {}
+[10.331296] (-) TimerEvent: {}
+[10.431674] (-) TimerEvent: {}
+[10.532108] (-) TimerEvent: {}
+[10.632522] (-) TimerEvent: {}
+[10.732862] (-) TimerEvent: {}
+[10.833196] (-) TimerEvent: {}
+[10.933535] (-) TimerEvent: {}
+[11.033858] (-) TimerEvent: {}
+[11.134239] (-) TimerEvent: {}
+[11.234750] (-) TimerEvent: {}
+[11.335254] (-) TimerEvent: {}
+[11.435763] (-) TimerEvent: {}
+[11.536268] (-) TimerEvent: {}
+[11.583560] (pub_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable controller\x1b[0m\n'}
+[11.636425] (-) TimerEvent: {}
+[11.736828] (-) TimerEvent: {}
+[11.837351] (-) TimerEvent: {}
+[11.937753] (-) TimerEvent: {}
+[12.038435] (-) TimerEvent: {}
+[12.112141] (pub_controller) StdoutLine: {'line': b'[100%] Built target controller\n'}
+[12.127292] (pub_controller) CommandEnded: {'returncode': 0}
+[12.138605] (-) TimerEvent: {}
+[12.198575] (pub_controller) JobProgress: {'identifier': 'pub_controller', 'progress': 'install'}
+[12.209684] (pub_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/etern1ty/ros2_ws/build/pub_controller'], 'cwd': '/home/etern1ty/ros2_ws/build/pub_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'etern1ty'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/etern1ty'), ('OLDPWD', '/home/etern1ty'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '904'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1050'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=50e6492ab820487a34a7012065c722a2'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'etern1ty'), ('JOURNAL_STREAM', '8:20310'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'etern1ty'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/etern1ty/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Etern1ty-14ALC6:@/tmp/.ICE-unix/1050,unix/Etern1ty-14ALC6:/tmp/.ICE-unix/1050'), ('INVOCATION_ID', 'b8c8a621d5ba477b8313db8a8ccf2226'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('TILIX_ID', 'cbdf48ee-6aa5-4ec2-8c37-bad214e3511d'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XDFVI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/etern1ty/ros2_ws/build/pub_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=50e6492ab820487a34a7012065c722a2'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[12.218423] (pub_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.219652] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/ament_index/resource_index/rosidl_interfaces/pub_controller\n'}
+[12.221013] (pub_controller) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller\n'}
+[12.222094] (pub_controller) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg\n'}
+[12.222346] (pub_controller) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/detail\n'}
+[12.222470] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/detail/motion__type_support.h\n'}
+[12.222641] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/detail/motion__struct.h\n'}
+[12.222800] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/detail/motion__functions.h\n'}
+[12.222972] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/detail/motion__functions.c\n'}
+[12.223132] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/motion.h\n'}
+[12.223355] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/rosidl_generator_c__visibility_control.h\n'}
+[12.223840] (pub_controller) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/environment/library_path.sh\n'}
+[12.223948] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/environment/library_path.dsv\n'}
+[12.224571] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/lib/libpub_controller__rosidl_generator_c.so\n'}
+[12.225242] (pub_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/etern1ty/ros2_ws/install/pub_controller/lib/libpub_controller__rosidl_generator_c.so" to ""\n'}
+[12.225331] (pub_controller) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller\n'}
+[12.225465] (pub_controller) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg\n'}
+[12.225557] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[12.225640] (pub_controller) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/detail\n'}
+[12.225747] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/detail/motion__rosidl_typesupport_fastrtps_c.h\n'}
+[12.226010] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/lib/libpub_controller__rosidl_typesupport_fastrtps_c.so\n'}
+[12.226439] (pub_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/etern1ty/ros2_ws/install/pub_controller/lib/libpub_controller__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[12.226542] (pub_controller) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller\n'}
+[12.226624] (pub_controller) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg\n'}
+[12.226691] (pub_controller) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/detail\n'}
+[12.226753] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/detail/motion__builder.hpp\n'}
+[12.226841] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/detail/motion__struct.hpp\n'}
+[12.226952] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/detail/motion__traits.hpp\n'}
+[12.227120] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/motion.hpp\n'}
+[12.227299] (pub_controller) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller\n'}
+[12.227410] (pub_controller) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg\n'}
+[12.227487] (pub_controller) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/detail\n'}
+[12.227587] (pub_controller) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/detail/dds_fastrtps\n'}
+[12.227666] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/detail/motion__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.227772] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[12.228115] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/lib/libpub_controller__rosidl_typesupport_fastrtps_cpp.so\n'}
+[12.228703] (pub_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/etern1ty/ros2_ws/install/pub_controller/lib/libpub_controller__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[12.228794] (pub_controller) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller\n'}
+[12.228915] (pub_controller) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg\n'}
+[12.228985] (pub_controller) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/detail\n'}
+[12.229050] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/detail/motion__rosidl_typesupport_introspection_c.h\n'}
+[12.229161] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/detail/motion__type_support.c\n'}
+[12.229254] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[12.230018] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/lib/libpub_controller__rosidl_typesupport_introspection_c.so\n'}
+[12.230412] (pub_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/etern1ty/ros2_ws/install/pub_controller/lib/libpub_controller__rosidl_typesupport_introspection_c.so" to ""\n'}
+[12.230621] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/lib/libpub_controller__rosidl_typesupport_c.so\n'}
+[12.230976] (pub_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/etern1ty/ros2_ws/install/pub_controller/lib/libpub_controller__rosidl_typesupport_c.so" to ""\n'}
+[12.231537] (pub_controller) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller\n'}
+[12.231675] (pub_controller) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg\n'}
+[12.231739] (pub_controller) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/detail\n'}
+[12.231801] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/detail/motion__type_support.cpp\n'}
+[12.231863] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/include/pub_controller/pub_controller/msg/detail/motion__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.231982] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/lib/libpub_controller__rosidl_typesupport_introspection_cpp.so\n'}
+[12.232554] (pub_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/etern1ty/ros2_ws/install/pub_controller/lib/libpub_controller__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[12.233100] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/lib/libpub_controller__rosidl_typesupport_cpp.so\n'}
+[12.233519] (pub_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/etern1ty/ros2_ws/install/pub_controller/lib/libpub_controller__rosidl_typesupport_cpp.so" to ""\n'}
+[12.233625] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/environment/pythonpath.sh\n'}
+[12.233770] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/environment/pythonpath.dsv\n'}
+[12.234573] (pub_controller) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller-0.0.0-py3.10.egg-info\n'}
+[12.234807] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[12.235020] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[12.235196] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[12.235369] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[12.235575] (pub_controller) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller\n'}
+[12.235820] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller/__init__.py\n'}
+[12.235976] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller/libpub_controller__rosidl_generator_py.so\n'}
+[12.236157] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller/_pub_controller_s.ep.rosidl_typesupport_c.c\n'}
+[12.236332] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller/_pub_controller_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[12.236527] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller/pub_controller_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.236731] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller/pub_controller_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.236915] (pub_controller) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller/msg\n'}
+[12.237062] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller/msg/_motion_s.c\n'}
+[12.237237] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller/msg/_motion.py\n'}
+[12.237408] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller/msg/__init__.py\n'}
+[12.237566] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller/pub_controller_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.237754] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller/_pub_controller_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[12.238681] (-) TimerEvent: {}
+[12.276745] (pub_controller) StdoutLine: {'line': b"Listing '/home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller'...\n"}
+[12.276981] (pub_controller) StdoutLine: {'line': b"Compiling '/home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller/__init__.py'...\n"}
+[12.277084] (pub_controller) StdoutLine: {'line': b"Listing '/home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller/msg'...\n"}
+[12.277159] (pub_controller) StdoutLine: {'line': b"Compiling '/home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller/msg/__init__.py'...\n"}
+[12.277238] (pub_controller) StdoutLine: {'line': b"Compiling '/home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller/msg/_motion.py'...\n"}
+[12.282575] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller/pub_controller_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.282986] (pub_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller/pub_controller_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[12.283127] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller/pub_controller_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.283561] (pub_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller/pub_controller_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[12.283747] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller/pub_controller_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.284137] (pub_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/etern1ty/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages/pub_controller/pub_controller_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[12.284564] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/lib/libpub_controller__rosidl_generator_py.so\n'}
+[12.285000] (pub_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/etern1ty/ros2_ws/install/pub_controller/lib/libpub_controller__rosidl_generator_py.so" to ""\n'}
+[12.285157] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/msg/Motion.idl\n'}
+[12.285324] (pub_controller) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/msg/Motion.msg\n'}
+[12.285674] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/lib/pub_controller/controller\n'}
+[12.292646] (pub_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/etern1ty/ros2_ws/install/pub_controller/lib/pub_controller/controller" to ""\n'}
+[12.292938] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/ament_index/resource_index/package_run_dependencies/pub_controller\n'}
+[12.293090] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/ament_index/resource_index/parent_prefix_path/pub_controller\n'}
+[12.293303] (pub_controller) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/environment/ament_prefix_path.sh\n'}
+[12.293401] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/environment/ament_prefix_path.dsv\n'}
+[12.293533] (pub_controller) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/environment/path.sh\n'}
+[12.293659] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/environment/path.dsv\n'}
+[12.293798] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/local_setup.bash\n'}
+[12.294015] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/local_setup.sh\n'}
+[12.294213] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/local_setup.zsh\n'}
+[12.294414] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/local_setup.dsv\n'}
+[12.294584] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/package.dsv\n'}
+[12.295181] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/ament_index/resource_index/packages/pub_controller\n'}
+[12.295597] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/export_pub_controller__rosidl_generator_cExport.cmake\n'}
+[12.295809] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/export_pub_controller__rosidl_generator_cExport-noconfig.cmake\n'}
+[12.296169] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/export_pub_controller__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[12.296354] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/export_pub_controller__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[12.296758] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/export_pub_controller__rosidl_generator_cppExport.cmake\n'}
+[12.297164] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/export_pub_controller__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[12.297455] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/export_pub_controller__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[12.298007] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/pub_controller__rosidl_typesupport_introspection_cExport.cmake\n'}
+[12.298278] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/pub_controller__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[12.298688] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/pub_controller__rosidl_typesupport_cExport.cmake\n'}
+[12.298877] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/pub_controller__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[12.299180] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/pub_controller__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[12.299380] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/pub_controller__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[12.299749] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/pub_controller__rosidl_typesupport_cppExport.cmake\n'}
+[12.299944] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/pub_controller__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[12.300319] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/export_pub_controller__rosidl_generator_pyExport.cmake\n'}
+[12.300530] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/export_pub_controller__rosidl_generator_pyExport-noconfig.cmake\n'}
+[12.300721] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/rosidl_cmake-extras.cmake\n'}
+[12.300906] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.301081] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.301313] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.301511] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[12.301840] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.302033] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[12.302204] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/pub_controllerConfig.cmake\n'}
+[12.302344] (pub_controller) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/pub_controllerConfig-version.cmake\n'}
+[12.302516] (pub_controller) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/package.xml\n'}
+[12.305479] (pub_controller) CommandEnded: {'returncode': 0}
+[12.338852] (-) TimerEvent: {}
+[12.439421] (-) TimerEvent: {}
+[12.537629] (pub_controller) JobEnded: {'identifier': 'pub_controller', 'rc': 0}
+[12.538310] (-) EventReactorShutdown: {}

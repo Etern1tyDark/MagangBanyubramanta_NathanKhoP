@@ -1,0 +1,6 @@
+Invoking command in '/home/etern1ty/ros2_ws/build/ros2_color_detection': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/etern1ty/ros2_ws/src/ros2_color_detection/ros2_color_detection -DCMAKE_INSTALL_PREFIX=/home/etern1ty/ros2_ws/install/ros2_color_detection
+Invoked command in '/home/etern1ty/ros2_ws/build/ros2_color_detection' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/etern1ty/ros2_ws/src/ros2_color_detection/ros2_color_detection -DCMAKE_INSTALL_PREFIX=/home/etern1ty/ros2_ws/install/ros2_color_detection
+Invoking command in '/home/etern1ty/ros2_ws/build/ros2_color_detection': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/ros2_color_detection -- -j12 -l12
+Invoked command in '/home/etern1ty/ros2_ws/build/ros2_color_detection' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/ros2_color_detection -- -j12 -l12
+Invoking command in '/home/etern1ty/ros2_ws/build/ros2_color_detection': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/etern1ty/ros2_ws/build/ros2_color_detection
+Invoked command in '/home/etern1ty/ros2_ws/build/ros2_color_detection' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/etern1ty/ros2_ws/build/ros2_color_detection

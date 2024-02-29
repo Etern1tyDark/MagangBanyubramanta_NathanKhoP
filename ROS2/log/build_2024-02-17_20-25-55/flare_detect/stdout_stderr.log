@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/detection.dir/src/detection.cpp.o[0m
+[100%] [32m[1mLinking CXX executable detection[0m
+[100%] Built target detection
+-- Install configuration: ""
+-- Installing: /home/etern1ty/ros2_ws/install/flare_detect/lib/flare_detect/detection
+-- Set runtime path of "/home/etern1ty/ros2_ws/install/flare_detect/lib/flare_detect/detection" to ""
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/ament_index/resource_index/package_run_dependencies/flare_detect
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/ament_index/resource_index/parent_prefix_path/flare_detect
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/environment/ament_prefix_path.sh
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/environment/path.sh
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/environment/path.dsv
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/local_setup.bash
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/local_setup.sh
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/local_setup.zsh
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/local_setup.dsv
+-- Installing: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/package.dsv
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/ament_index/resource_index/packages/flare_detect
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/flare_detectConfig.cmake
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/flare_detectConfig-version.cmake
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/package.xml

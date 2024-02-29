@@ -1,0 +1,12 @@
+[0.051s] Invoking command in '/home/etern1ty/ros2_ws/build/yolo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/yolo -- -j12 -l12
+[0.098s] [35m[1mConsolidate compiler generated dependencies of target yolo_func[0m
+[0.123s] [ 50%] [32mBuilding CXX object CMakeFiles/yolo_func.dir/src/yolo_func.cpp.o[0m
+[3.123s] [01m[K/home/etern1ty/ros2_ws/src/yolo/src/yolo_func.cpp:[m[K In member function ‘[01m[Kvoid YoloPublisher::publish_image()[m[K’:
+[3.123s] [01m[K/home/etern1ty/ros2_ws/src/yolo/src/yolo_func.cpp:53:80:[m[K [01;31m[Kerror: [m[K‘[01m[Kresult[m[K’ was not declared in this scope
+[3.123s]    53 | g_msg = cv_bridge::CvImage(std_msgs::msg::Header(), "bgr8", [01;31m[Kresult[m[K).toImageMsg();
+[3.123s]       |                                                             [01;31m[K^~~~~~[m[K
+[3.123s] 
+[4.207s] gmake[2]: *** [CMakeFiles/yolo_func.dir/build.make:76: CMakeFiles/yolo_func.dir/src/yolo_func.cpp.o] Error 1
+[4.207s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/yolo_func.dir/all] Error 2
+[4.207s] gmake: *** [Makefile:146: all] Error 2
+[4.213s] Invoked command in '/home/etern1ty/ros2_ws/build/yolo' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/yolo -- -j12 -l12

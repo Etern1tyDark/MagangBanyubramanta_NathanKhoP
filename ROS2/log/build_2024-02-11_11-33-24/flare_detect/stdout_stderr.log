@@ -1,0 +1,182 @@
+-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/etern1ty/ros2_ws/build/flare_detect
+[35m[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_generator_c[0m
+[  3%] Built target flare_detect__cpp
+[ 12%] Built target flare_detect__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_fastrtps_cpp[0m
+[ 12%] Built target ament_cmake_python_copy_flare_detect
+[35m[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_introspection_c[0m
+[ 48%] Built target flare_detect__rosidl_typesupport_fastrtps_cpp
+[ 48%] Built target flare_detect__rosidl_typesupport_c
+[ 48%] Built target flare_detect__rosidl_typesupport_cpp
+[ 48%] Built target flare_detect__rosidl_typesupport_introspection_cpp
+[ 57%] Built target flare_detect__rosidl_typesupport_introspection_c
+[ 66%] Built target flare_detect__rosidl_typesupport_fastrtps_c
+[35m[1mConsolidate compiler generated dependencies of target detection[0m
+[ 66%] Built target flare_detect
+[ 69%] Built target flare_detect__py
+[ 75%] Built target detection
+[35m[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_generator_py[0m
+[ 81%] Built target flare_detect__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_c__pyext[0m
+[ 87%] Built target flare_detect__rosidl_typesupport_fastrtps_c__pyext
+[ 93%] Built target flare_detect__rosidl_typesupport_introspection_c__pyext
+[100%] Built target flare_detect__rosidl_typesupport_c__pyext
+running egg_info
+writing flare_detect.egg-info/PKG-INFO
+writing dependency_links to flare_detect.egg-info/dependency_links.txt
+writing top-level names to flare_detect.egg-info/top_level.txt
+reading manifest file 'flare_detect.egg-info/SOURCES.txt'
+writing manifest file 'flare_detect.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_flare_detect_egg
+-- Install configuration: ""
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/ament_index/resource_index/rosidl_interfaces/flare_detect
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detected.h
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail/detected__functions.c
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail/detected__functions.h
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail/detected__struct.h
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail/detected__type_support.h
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/environment/library_path.sh
+-- Installing: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/environment/library_path.dsv
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/lib/libflare_detect__rosidl_generator_c.so
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail/detected__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/lib/libflare_detect__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detected.hpp
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail/detected__struct.hpp
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail/detected__traits.hpp
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail/detected__builder.hpp
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail/dds_fastrtps
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail/detected__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/lib/libflare_detect__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail/detected__type_support.c
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail/detected__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/lib/libflare_detect__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/lib/libflare_detect__rosidl_typesupport_c.so
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail/detected__type_support.cpp
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/include/flare_detect/flare_detect/msg/detail/detected__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/lib/libflare_detect__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/lib/libflare_detect__rosidl_typesupport_cpp.so
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/environment/pythonpath.sh
+-- Installing: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/environment/pythonpath.dsv
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect-0.0.0-py3.10.egg-info
+-- Installing: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/flare_detect_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/_flare_detect_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/flare_detect_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/__init__.py
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/_flare_detect_s.ep.rosidl_typesupport_introspection_c.c
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/libflare_detect__rosidl_generator_py.so
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/flare_detect_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/msg
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/msg/_detected_s.c
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/msg/__init__.py
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/msg/_detected.py
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/_flare_detect_s.ep.rosidl_typesupport_c.c
+Listing '/home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect'...
+Compiling '/home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/__init__.py'...
+Listing '/home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/msg'...
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/flare_detect_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/flare_detect_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/local/lib/python3.10/dist-packages/flare_detect/flare_detect_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/lib/libflare_detect__rosidl_generator_py.so
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/msg/Detected.idl
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/msg/Detected.msg
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/lib/flare_detect/detection
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/ament_index/resource_index/package_run_dependencies/flare_detect
+-- Installing: /home/etern1ty/ros2_ws/install/flare_detect/share/ament_index/resource_index/parent_prefix_path/flare_detect
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/environment/ament_prefix_path.sh
+-- Installing: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/environment/path.sh
+-- Installing: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/environment/path.dsv
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/local_setup.bash
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/local_setup.sh
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/local_setup.zsh
+-- Installing: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/local_setup.dsv
+-- Installing: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/package.dsv
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/ament_index/resource_index/packages/flare_detect
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/export_flare_detect__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/export_flare_detect__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/export_flare_detect__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/export_flare_detect__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/export_flare_detect__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/export_flare_detect__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/export_flare_detect__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/flare_detect__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/flare_detect__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/flare_detect__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/flare_detect__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/flare_detect__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/flare_detect__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/flare_detect__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/flare_detect__rosidl_typesupport_cppExport-noconfig.cmake
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/export_flare_detect__rosidl_generator_pyExport.cmake
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/export_flare_detect__rosidl_generator_pyExport-noconfig.cmake
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/flare_detectConfig.cmake
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/cmake/flare_detectConfig-version.cmake
+-- Up-to-date: /home/etern1ty/ros2_ws/install/flare_detect/share/flare_detect/package.xml

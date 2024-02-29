@@ -1,0 +1,129 @@
+[0.054s] Invoking command in '/home/etern1ty/ros2_ws/build/flare_detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/flare_detect -- -j12 -l12
+[0.079s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.210s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.240s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.243s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.249s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.261s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.278s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.341s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.342s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.472s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.625s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.852s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.129s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.238s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.260s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.281s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.281s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.281s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.292s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.301s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.302s] -- Configured cppcheck include dirs: 
+[1.302s] -- Configured cppcheck exclude dirs and/or files: 
+[1.303s] -- Added test 'lint_cmake' to check CMake code style
+[1.304s] -- Added test 'uncrustify' to check C / C++ code style
+[1.304s] -- Configured uncrustify additional arguments: 
+[1.304s] -- Added test 'xmllint' to check XML markup files
+[1.306s] -- Configuring done
+[1.349s] -- Generating done
+[1.353s] -- Build files have been written to: /home/etern1ty/ros2_ws/build/flare_detect
+[1.388s] [35m[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_generator_c[0m
+[1.398s] [  3%] Built target flare_detect__cpp
+[1.401s] [  6%] [32mBuilding C object CMakeFiles/flare_detect__rosidl_generator_c.dir/rosidl_generator_c/flare_detect/msg/detail/detected__functions.c.o[0m
+[1.409s] [  6%] Built target ament_cmake_python_copy_flare_detect
+[1.409s] [35m[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_introspection_cpp[0m
+[1.409s] [35m[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_fastrtps_cpp[0m
+[1.409s] [35m[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_cpp[0m
+[1.425s] [ 12%] [32mBuilding CXX object CMakeFiles/flare_detect__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/flare_detect/msg/detail/detected__type_support.cpp.o[0m
+[1.425s] [ 12%] [32mBuilding CXX object CMakeFiles/flare_detect__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/flare_detect/msg/detail/dds_fastrtps/detected__type_support.cpp.o[0m
+[1.427s] [ 15%] [32mBuilding CXX object CMakeFiles/flare_detect__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flare_detect/msg/detected__type_support.cpp.o[0m
+[1.454s] [ 18%] [32m[1mLinking C shared library libflare_detect__rosidl_generator_c.so[0m
+[1.501s] [ 21%] Built target flare_detect__rosidl_generator_c
+[1.515s] [35m[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_introspection_c[0m
+[1.516s] [35m[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_c[0m
+[1.516s] [35m[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_fastrtps_c[0m
+[1.533s] [ 24%] [32mBuilding C object CMakeFiles/flare_detect__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/flare_detect/msg/detail/detected__type_support.c.o[0m
+[1.535s] [ 27%] [32mBuilding CXX object CMakeFiles/flare_detect__rosidl_typesupport_c.dir/rosidl_typesupport_c/flare_detect/msg/detected__type_support.cpp.o[0m
+[1.543s] [ 30%] [32mBuilding CXX object CMakeFiles/flare_detect__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/flare_detect/msg/detail/detected__type_support_c.cpp.o[0m
+[1.589s] [ 33%] [32m[1mLinking CXX shared library libflare_detect__rosidl_typesupport_c.so[0m
+[1.591s] [ 36%] [32m[1mLinking C shared library libflare_detect__rosidl_typesupport_introspection_c.so[0m
+[1.650s] [ 39%] Built target flare_detect__rosidl_typesupport_introspection_c
+[1.667s] [ 42%] Built target flare_detect__rosidl_typesupport_c
+[1.777s] running egg_info
+[1.778s] writing flare_detect.egg-info/PKG-INFO
+[1.778s] writing dependency_links to flare_detect.egg-info/dependency_links.txt
+[1.778s] writing top-level names to flare_detect.egg-info/top_level.txt
+[1.783s] reading manifest file 'flare_detect.egg-info/SOURCES.txt'
+[1.783s] writing manifest file 'flare_detect.egg-info/SOURCES.txt'
+[1.800s] [ 45%] [32m[1mLinking CXX shared library libflare_detect__rosidl_typesupport_cpp.so[0m
+[1.847s] [ 45%] Built target ament_cmake_python_build_flare_detect_egg
+[1.855s] [ 48%] Built target flare_detect__rosidl_typesupport_cpp
+[1.883s] [ 51%] [32mBuilding CXX object CMakeFiles/detection.dir/src/detection.cpp.o[0m
+[1.928s] [ 54%] [32m[1mLinking CXX shared library libflare_detect__rosidl_typesupport_fastrtps_c.so[0m
+[1.932s] [ 57%] [32m[1mLinking CXX shared library libflare_detect__rosidl_typesupport_introspection_cpp.so[0m
+[1.944s] [ 60%] [32m[1mLinking CXX shared library libflare_detect__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.989s] [ 63%] Built target flare_detect__rosidl_typesupport_introspection_cpp
+[2.060s] [ 66%] Built target flare_detect__rosidl_typesupport_fastrtps_c
+[2.068s] [ 69%] Built target flare_detect__rosidl_typesupport_fastrtps_cpp
+[2.091s] [ 69%] Built target flare_detect
+[2.114s] [ 72%] Built target flare_detect__py
+[2.127s] [35m[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_generator_py[0m
+[2.144s] [ 75%] [32mBuilding C object CMakeFiles/flare_detect__rosidl_generator_py.dir/rosidl_generator_py/flare_detect/msg/_detected_s.c.o[0m
+[2.239s] [ 78%] [32m[1mLinking C shared library rosidl_generator_py/flare_detect/libflare_detect__rosidl_generator_py.so[0m
+[2.284s] [ 78%] Built target flare_detect__rosidl_generator_py
+[2.296s] [35m[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_c__pyext[0m
+[2.296s] [35m[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_introspection_c__pyext[0m
+[2.297s] [35m[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.312s] [ 87%] [32mBuilding C object CMakeFiles/flare_detect__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/flare_detect/_flare_detect_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.312s] [ 87%] [32mBuilding C object CMakeFiles/flare_detect__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/flare_detect/_flare_detect_s.ep.rosidl_typesupport_c.c.o[0m
+[2.312s] [ 87%] [32mBuilding C object CMakeFiles/flare_detect__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/flare_detect/_flare_detect_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.411s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/flare_detect/flare_detect_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.412s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/flare_detect/flare_detect_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.418s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/flare_detect/flare_detect_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.454s] [ 96%] Built target flare_detect__rosidl_typesupport_introspection_c__pyext
+[2.455s] [ 96%] Built target flare_detect__rosidl_typesupport_c__pyext
+[2.463s] [ 96%] Built target flare_detect__rosidl_typesupport_fastrtps_c__pyext
+[4.794s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:89:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.794s]    89 |     rclcpp::Publisher<flare_detect:msg::Detected()[01;31m[K>[m[K::SharedPtr publisher_;
+[4.795s]       |                                                   [01;31m[K^[m[K
+[4.795s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:89:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[4.795s]    89 |     rclcpp::Publisher<flare_detect:msg::Detected()>::[01;31m[KSharedPtr[m[K publisher_;
+[4.795s]       |                                                      [01;31m[K^~~~~~~~~[m[K
+[4.795s]       |                                                               [32m[K;[m[K
+[4.796s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:89:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[4.796s]    89 |     rclcpp::Publisher<flare_detect:msg::Detected()>::SharedPtr [01;31m[Kpublisher_[m[K;
+[4.797s]       |                                                                [01;31m[K^~~~~~~~~~[m[K
+[4.797s]       |                                                                [32m[Krmw_publisher_t[m[K
+[4.805s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:[m[K In constructor ‘[01m[KDetection::Detection()[m[K’:
+[4.805s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:43:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[4.805s]    43 |     [01;31m[Kpublisher_[m[K = this->create_publisher<flare_detect:msg::Detected>("object_found", 10);
+[4.805s]       |     [01;31m[K^~~~~~~~~~[m[K
+[4.805s]       |     [32m[Krmw_publisher_t[m[K
+[4.805s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:43:53:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+[4.805s]    43 |     publisher_ = this->create_publisher<flare_detect[01;31m[K:[m[Kmsg::Detected>("object_found", 10);
+[4.806s]       |                                                     [01;31m[K^[m[K
+[4.806s]       |                                                     [32m[K::[m[K
+[4.814s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:46:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamsrc_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcamsrc[m[K’?
+[4.814s]    46 |     if (![01;31m[Kcamsrc_[m[K.isOpened()) {
+[4.814s]       |          [01;31m[K^~~~~~~[m[K
+[4.814s]       |          [32m[Kcamsrc[m[K
+[4.819s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:50:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamsrc_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcamsrc[m[K’?
+[4.820s]    50 |     while ([01;31m[Kcamsrc_[m[K.isOpened()) {
+[4.820s]       |            [01;31m[K^~~~~~~[m[K
+[4.820s]       |            [32m[Kcamsrc[m[K
+[4.827s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:58:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcvtcolor[m[K’ was not declared in this scope
+[4.827s]    58 |         [01;31m[Kcvtcolor[m[K(frame, framehsv, COLOR_BGR2HSV);
+[4.827s]       |         [01;31m[K^~~~~~~~[m[K
+[4.828s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:69:36:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+[4.828s]    69 |         auto message = flare_detect[01;31m[K:[m[Kmsg::Detected();
+[4.828s]       |                                    [01;31m[K^[m[K
+[4.828s]       |                                    [32m[K::[m[K
+[4.833s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:84:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamsrc_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcamsrc[m[K’?
+[4.833s]    84 |     [01;31m[Kcamsrc_[m[K.release();
+[4.833s]       |     [01;31m[K^~~~~~~[m[K
+[4.833s]       |     [32m[Kcamsrc[m[K
+[6.167s] gmake[2]: *** [CMakeFiles/detection.dir/build.make:76: CMakeFiles/detection.dir/src/detection.cpp.o] Error 1
+[6.167s] gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/detection.dir/all] Error 2
+[6.167s] gmake: *** [Makefile:146: all] Error 2
+[6.175s] Invoked command in '/home/etern1ty/ros2_ws/build/flare_detect' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/flare_detect -- -j12 -l12

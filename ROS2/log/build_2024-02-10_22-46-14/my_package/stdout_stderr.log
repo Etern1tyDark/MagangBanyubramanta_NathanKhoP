@@ -1,0 +1,20 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable my_node[0m
+[100%] Built target my_node
+-- Install configuration: ""
+-- Installing: /home/etern1ty/ros2_ws/install/my_package/lib/my_package/my_node
+-- Installing: /home/etern1ty/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+-- Installing: /home/etern1ty/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+-- Up-to-date: /home/etern1ty/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+-- Installing: /home/etern1ty/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/etern1ty/ros2_ws/install/my_package/share/my_package/environment/path.sh
+-- Installing: /home/etern1ty/ros2_ws/install/my_package/share/my_package/environment/path.dsv
+-- Installing: /home/etern1ty/ros2_ws/install/my_package/share/my_package/local_setup.bash
+-- Installing: /home/etern1ty/ros2_ws/install/my_package/share/my_package/local_setup.sh
+-- Installing: /home/etern1ty/ros2_ws/install/my_package/share/my_package/local_setup.zsh
+-- Installing: /home/etern1ty/ros2_ws/install/my_package/share/my_package/local_setup.dsv
+-- Installing: /home/etern1ty/ros2_ws/install/my_package/share/my_package/package.dsv
+-- Installing: /home/etern1ty/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+-- Installing: /home/etern1ty/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+-- Installing: /home/etern1ty/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+-- Up-to-date: /home/etern1ty/ros2_ws/install/my_package/share/my_package/package.xml

@@ -1,0 +1,34 @@
+[0.060s] Invoking command in '/home/etern1ty/ros2_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/examples_rclcpp_cbg_executor -- -j12 -l12
+[0.112s] [35m[1mConsolidate compiler generated dependencies of target ping[0m
+[0.112s] [35m[1mConsolidate compiler generated dependencies of target pong[0m
+[0.113s] [35m[1mConsolidate compiler generated dependencies of target ping_pong[0m
+[0.139s] [ 30%] Built target pong
+[0.140s] [ 70%] Built target ping_pong
+[0.140s] [100%] Built target ping
+[0.156s] Invoked command in '/home/etern1ty/ros2_ws/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/examples_rclcpp_cbg_executor -- -j12 -l12
+[0.205s] Invoking command in '/home/etern1ty/ros2_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/etern1ty/ros2_ws/build/examples_rclcpp_cbg_executor
+[0.216s] -- Install configuration: ""
+[0.216s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping
+[0.216s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/pong
+[0.217s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping_pong
+[0.217s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_cbg_executor/include
+[0.217s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor
+[0.217s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/pong_node.hpp
+[0.217s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/ping_node.hpp
+[0.218s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_cbg_executor
+[0.218s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_cbg_executor
+[0.218s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.sh
+[0.218s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.dsv
+[0.218s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.sh
+[0.218s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.dsv
+[0.218s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.bash
+[0.218s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.sh
+[0.218s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.zsh
+[0.219s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.dsv
+[0.219s] -- Installing: /home/etern1ty/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.dsv
+[0.219s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/packages/examples_rclcpp_cbg_executor
+[0.219s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.219s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig.cmake
+[0.219s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig-version.cmake
+[0.220s] -- Up-to-date: /home/etern1ty/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.xml
+[0.292s] Invoked command in '/home/etern1ty/ros2_ws/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/etern1ty/ros2_ws/build/examples_rclcpp_cbg_executor

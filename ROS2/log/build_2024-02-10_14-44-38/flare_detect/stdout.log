@@ -1,0 +1,30 @@
+[  3%] Built target flare_detect__cpp
+[  9%] [32mBuilding CXX object CMakeFiles/detection.dir/src/detection.cpp.o[0m
+[ 15%] Built target flare_detect__rosidl_generator_c
+[ 15%] Built target ament_cmake_python_copy_flare_detect
+[ 24%] Built target flare_detect__rosidl_typesupport_introspection_c
+[ 33%] Built target flare_detect__rosidl_typesupport_fastrtps_c
+[ 42%] Built target flare_detect__rosidl_typesupport_introspection_cpp
+[ 51%] Built target flare_detect__rosidl_typesupport_c
+[ 69%] Built target flare_detect__rosidl_typesupport_cpp
+[ 69%] Built target flare_detect__rosidl_typesupport_fastrtps_cpp
+[ 69%] Built target flare_detect
+[ 72%] Built target flare_detect__py
+[35m[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_generator_py[0m
+[ 78%] Built target flare_detect__rosidl_generator_py
+[ 84%] [32mBuilding C object CMakeFiles/flare_detect__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/flare_detect/_flare_detect_s.ep.rosidl_typesupport_c.c.o[0m
+[ 84%] [32mBuilding C object CMakeFiles/flare_detect__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/flare_detect/_flare_detect_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/flare_detect__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/flare_detect/_flare_detect_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 90%] [32m[1mLinking C shared library rosidl_generator_py/flare_detect/flare_detect_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 93%] [32m[1mLinking C shared library rosidl_generator_py/flare_detect/flare_detect_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 96%] [32m[1mLinking C shared library rosidl_generator_py/flare_detect/flare_detect_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 96%] Built target flare_detect__rosidl_typesupport_c__pyext
+[ 96%] Built target flare_detect__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing flare_detect.egg-info/PKG-INFO
+writing dependency_links to flare_detect.egg-info/dependency_links.txt
+writing top-level names to flare_detect.egg-info/top_level.txt
+[ 96%] Built target flare_detect__rosidl_typesupport_fastrtps_c__pyext
+reading manifest file 'flare_detect.egg-info/SOURCES.txt'
+writing manifest file 'flare_detect.egg-info/SOURCES.txt'
+[ 96%] Built target ament_cmake_python_build_flare_detect_egg

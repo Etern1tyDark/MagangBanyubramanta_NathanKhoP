@@ -1,0 +1,34 @@
+[0.071s] Invoking command in '/home/etern1ty/ros2_ws/build/flare_detect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etern1ty/ros2_ws/install/launch_testing_examples:/home/etern1ty/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_publisher:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_client:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_server:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_client:/home/etern1ty/ros2_ws/install/examples_rclpy_guard_conditions:/home/etern1ty/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/flare_detect -- -j12 -l12
+[0.137s] [  3%] Built target flare_detect__cpp
+[0.138s] [ 12%] Built target flare_detect__rosidl_generator_c
+[0.155s] [ 12%] Built target ament_cmake_python_copy_flare_detect
+[0.167s] [ 39%] Built target flare_detect__rosidl_typesupport_fastrtps_cpp
+[0.167s] [ 39%] Built target flare_detect__rosidl_typesupport_introspection_cpp
+[0.168s] [ 39%] Built target flare_detect__rosidl_typesupport_cpp
+[0.183s] [ 66%] Built target flare_detect__rosidl_typesupport_c
+[0.183s] [ 66%] Built target flare_detect__rosidl_typesupport_introspection_c
+[0.183s] [ 66%] Built target flare_detect__rosidl_typesupport_fastrtps_c
+[0.184s] [35m[1mConsolidate compiler generated dependencies of target detection[0m
+[0.208s] [ 69%] [32mBuilding CXX object CMakeFiles/detection.dir/src/detection.cpp.o[0m
+[0.209s] [ 69%] Built target flare_detect
+[0.238s] [ 72%] Built target flare_detect__py
+[0.269s] [ 78%] Built target flare_detect__rosidl_generator_py
+[0.298s] [ 96%] Built target flare_detect__rosidl_typesupport_c__pyext
+[0.298s] [ 96%] Built target flare_detect__rosidl_typesupport_introspection_c__pyext
+[0.299s] [ 96%] Built target flare_detect__rosidl_typesupport_fastrtps_c__pyext
+[0.407s] running egg_info
+[0.407s] writing flare_detect.egg-info/PKG-INFO
+[0.407s] writing dependency_links to flare_detect.egg-info/dependency_links.txt
+[0.407s] writing top-level names to flare_detect.egg-info/top_level.txt
+[0.410s] reading manifest file 'flare_detect.egg-info/SOURCES.txt'
+[0.410s] writing manifest file 'flare_detect.egg-info/SOURCES.txt'
+[0.443s] [ 96%] Built target ament_cmake_python_build_flare_detect_egg
+[2.899s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:[m[K In destructor ‘[01m[Kvirtual Detection::~Detection()[m[K’:
+[2.899s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:53:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kwaitkey[m[K’ was not declared in this scope; did you mean ‘[01m[Kwrite[m[K’?
+[2.899s]    53 |     [01;31m[Kwaitkey[m[K(0);
+[2.900s]       |     [01;31m[K^~~~~~~[m[K
+[2.900s]       |     [32m[Kwrite[m[K
+[4.330s] gmake[2]: *** [CMakeFiles/detection.dir/build.make:76: CMakeFiles/detection.dir/src/detection.cpp.o] Error 1
+[4.330s] gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/detection.dir/all] Error 2
+[4.331s] gmake: *** [Makefile:146: all] Error 2
+[4.335s] Invoked command in '/home/etern1ty/ros2_ws/build/flare_detect' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etern1ty/ros2_ws/install/launch_testing_examples:/home/etern1ty/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_publisher:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_client:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_server:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_client:/home/etern1ty/ros2_ws/install/examples_rclpy_guard_conditions:/home/etern1ty/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/flare_detect -- -j12 -l12

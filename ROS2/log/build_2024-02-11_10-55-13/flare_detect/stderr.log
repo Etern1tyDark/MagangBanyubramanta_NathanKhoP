@@ -1,0 +1,7 @@
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:[m[K In member function ‘[01m[Kvoid Detection::topic_callback()[m[K’:
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:73:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope
+   73 |       return [01;31m[Kmessage[m[K;
+      |              [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/detection.dir/build.make:76: CMakeFiles/detection.dir/src/detection.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/detection.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

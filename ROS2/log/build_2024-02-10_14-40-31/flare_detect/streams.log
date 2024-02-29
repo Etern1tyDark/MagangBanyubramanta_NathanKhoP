@@ -1,0 +1,85 @@
+[0.051s] Invoking command in '/home/etern1ty/ros2_ws/build/flare_detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/etern1ty/ros2_ws/src/flare_detect -DCMAKE_INSTALL_PREFIX=/home/etern1ty/ros2_ws/install/flare_detect
+[0.061s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.191s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.218s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.220s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.225s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.235s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.249s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.299s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.300s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.427s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.569s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.796s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.075s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.183s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.205s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.209s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.233s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.233s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.233s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.233s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.252s] -- Found PythonExtra: .so  
+[1.284s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.311s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.312s] -- Configured cppcheck include dirs: 
+[1.312s] -- Configured cppcheck exclude dirs and/or files: 
+[1.313s] -- Added test 'lint_cmake' to check CMake code style
+[1.314s] -- Added test 'uncrustify' to check C / C++ code style
+[1.314s] -- Configured uncrustify additional arguments: 
+[1.315s] -- Added test 'xmllint' to check XML markup files
+[1.318s] -- Configuring done
+[1.351s] -- Generating done
+[1.354s] -- Build files have been written to: /home/etern1ty/ros2_ws/build/flare_detect
+[1.364s] Invoked command in '/home/etern1ty/ros2_ws/build/flare_detect' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/etern1ty/ros2_ws/src/flare_detect -DCMAKE_INSTALL_PREFIX=/home/etern1ty/ros2_ws/install/flare_detect
+[1.367s] Invoking command in '/home/etern1ty/ros2_ws/build/flare_detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/flare_detect -- -j12 -l12
+[1.412s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.422s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.423s] [  9%] [32mBuilding CXX object CMakeFiles/detection.dir/src/detection.cpp.o[0m
+[1.432s] [  9%] Built target ament_cmake_python_copy_flare_detect
+[1.637s] [  9%] Built target flare_detect__cpp
+[1.648s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.649s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.649s] [ 18%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.658s] [ 21%] [32mBuilding C object CMakeFiles/flare_detect__rosidl_generator_c.dir/rosidl_generator_c/flare_detect/msg/detail/detected__functions.c.o[0m
+[1.691s] running egg_info
+[1.692s] creating flare_detect.egg-info
+[1.692s] writing flare_detect.egg-info/PKG-INFO
+[1.692s] writing dependency_links to flare_detect.egg-info/dependency_links.txt
+[1.692s] writing top-level names to flare_detect.egg-info/top_level.txt
+[1.693s] writing manifest file 'flare_detect.egg-info/SOURCES.txt'
+[1.697s] reading manifest file 'flare_detect.egg-info/SOURCES.txt'
+[1.697s] writing manifest file 'flare_detect.egg-info/SOURCES.txt'
+[1.711s] [ 24%] [32m[1mLinking C shared library libflare_detect__rosidl_generator_c.so[0m
+[1.746s] [ 24%] Built target ament_cmake_python_build_flare_detect_egg
+[1.762s] [ 24%] Built target flare_detect__rosidl_generator_c
+[1.774s] [ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.776s] [ 33%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.776s] [ 33%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.856s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:22:10:[m[K [01;31m[Kfatal error: [m[Kflare_detect/msg/detected.hpp: No such file or directory
+[1.857s]    22 | #include [01;31m[K"flare_detect/msg/detected.hpp"[m[K
+[1.857s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.857s] compilation terminated.
+[1.864s] gmake[2]: *** [CMakeFiles/detection.dir/build.make:76: CMakeFiles/detection.dir/src/detection.cpp.o] Error 1
+[1.864s] gmake[1]: *** [CMakeFiles/Makefile2:592: CMakeFiles/detection.dir/all] Error 2
+[1.864s] gmake[1]: *** Waiting for unfinished jobs....
+[1.876s] [ 36%] [32mBuilding CXX object CMakeFiles/flare_detect__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flare_detect/msg/detected__type_support.cpp.o[0m
+[1.903s] [ 39%] [32mBuilding CXX object CMakeFiles/flare_detect__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/flare_detect/msg/detail/dds_fastrtps/detected__type_support.cpp.o[0m
+[1.916s] [ 42%] [32mBuilding CXX object CMakeFiles/flare_detect__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/flare_detect/msg/detail/detected__type_support.cpp.o[0m
+[2.032s] [ 45%] [32mBuilding CXX object CMakeFiles/flare_detect__rosidl_typesupport_c.dir/rosidl_typesupport_c/flare_detect/msg/detected__type_support.cpp.o[0m
+[2.059s] [ 48%] [32mBuilding CXX object CMakeFiles/flare_detect__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/flare_detect/msg/detail/detected__type_support_c.cpp.o[0m
+[2.067s] [ 51%] [32m[1mLinking CXX shared library libflare_detect__rosidl_typesupport_c.so[0m
+[2.070s] [ 54%] [32mBuilding C object CMakeFiles/flare_detect__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/flare_detect/msg/detail/detected__type_support.c.o[0m
+[2.109s] [ 57%] [32m[1mLinking C shared library libflare_detect__rosidl_typesupport_introspection_c.so[0m
+[2.114s] [ 57%] Built target flare_detect__rosidl_typesupport_c
+[2.150s] [ 57%] Built target flare_detect__rosidl_typesupport_introspection_c
+[2.161s] [ 60%] [32m[1mLinking CXX shared library libflare_detect__rosidl_typesupport_cpp.so[0m
+[2.206s] [ 60%] Built target flare_detect__rosidl_typesupport_cpp
+[2.259s] [ 63%] [32m[1mLinking CXX shared library libflare_detect__rosidl_typesupport_introspection_cpp.so[0m
+[2.269s] [ 66%] [32m[1mLinking CXX shared library libflare_detect__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.303s] [ 66%] Built target flare_detect__rosidl_typesupport_introspection_cpp
+[2.356s] [ 69%] [32m[1mLinking CXX shared library libflare_detect__rosidl_typesupport_fastrtps_c.so[0m
+[2.375s] [ 69%] Built target flare_detect__rosidl_typesupport_fastrtps_cpp
+[2.450s] [ 69%] Built target flare_detect__rosidl_typesupport_fastrtps_c
+[2.452s] gmake: *** [Makefile:146: all] Error 2
+[2.456s] Invoked command in '/home/etern1ty/ros2_ws/build/flare_detect' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/flare_detect -- -j12 -l12

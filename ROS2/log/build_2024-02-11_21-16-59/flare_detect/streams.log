@@ -1,0 +1,10 @@
+[0.054s] Invoking command in '/home/etern1ty/ros2_ws/build/flare_detect': AMENT_PREFIX_PATH=/home/etern1ty/ros2_ws/install/obj_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/etern1ty/ros2_ws/install/obj_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/etern1ty/ros2_ws/install/obj_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/etern1ty/ros2_ws/install/obj_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/flare_detect -- -j12 -l12
+[0.117s] [ 50%] [32mBuilding CXX object CMakeFiles/detection.dir/src/detection.cpp.o[0m
+[0.424s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:24:10:[m[K [01;31m[Kfatal error: [m[Kobj_msg/msg/detected.hpp: No such file or directory
+[0.424s]    24 | #include [01;31m[K"obj_msg/msg/detected.hpp"[m[K
+[0.424s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.424s] compilation terminated.
+[0.434s] gmake[2]: *** [CMakeFiles/detection.dir/build.make:76: CMakeFiles/detection.dir/src/detection.cpp.o] Error 1
+[0.435s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/detection.dir/all] Error 2
+[0.435s] gmake: *** [Makefile:146: all] Error 2
+[0.438s] Invoked command in '/home/etern1ty/ros2_ws/build/flare_detect' returned '2': AMENT_PREFIX_PATH=/home/etern1ty/ros2_ws/install/obj_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/etern1ty/ros2_ws/install/obj_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/etern1ty/ros2_ws/install/obj_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/etern1ty/ros2_ws/install/obj_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/flare_detect -- -j12 -l12

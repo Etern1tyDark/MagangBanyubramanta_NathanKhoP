@@ -1,0 +1,18 @@
+[31mCMake Error at CMakeLists.txt:17 (find_package):
+  By not providing "Findobj_msg.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "obj_msg", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "obj_msg" with any
+  of the following names:
+
+    obj_msgConfig.cmake
+    obj_msg-config.cmake
+
+  Add the installation prefix of "obj_msg" to CMAKE_PREFIX_PATH or set
+  "obj_msg_DIR" to a directory containing one of the above files.  If
+  "obj_msg" provides a separate development package or SDK, be sure it has
+  been installed.
+
+[0m
+gmake: *** [Makefile:788: cmake_check_build_system] Error 1

@@ -1,0 +1,30 @@
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:89:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   89 |     rclcpp::Publisher<flare_detect:msg::Detected[01;31m[K>[m[K::SharedPtr publisher_;
+      |                                                 [01;31m[K^[m[K
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:89:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   89 |     rclcpp::Publisher<flare_detect:msg::Detected>::[01;31m[KSharedPtr[m[K publisher_;
+      |                                                    [01;31m[K^~~~~~~~~[m[K
+      |                                                             [32m[K;[m[K
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:89:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   89 |     rclcpp::Publisher<flare_detect:msg::Detected>::SharedPtr [01;31m[Kpublisher_[m[K;
+      |                                                              [01;31m[K^~~~~~~~~~[m[K
+      |                                                              [32m[Krmw_publisher_t[m[K
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:[m[K In constructor ‘[01m[KDetection::Detection()[m[K’:
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:43:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   43 |     [01;31m[Kpublisher_[m[K = this->create_publisher<flare_detect:msg::Detected>("object_found", 10);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krmw_publisher_t[m[K
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:43:53:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+   43 |     publisher_ = this->create_publisher<flare_detect[01;31m[K:[m[Kmsg::Detected>("object_found", 10);
+      |                                                     [01;31m[K^[m[K
+      |                                                     [32m[K::[m[K
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:58:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcvtcolor[m[K’ was not declared in this scope
+   58 |         [01;31m[Kcvtcolor[m[K(frame, framehsv, COLOR_BGR2HSV);
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:69:36:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+   69 |         auto message = flare_detect[01;31m[K:[m[Kmsg::Detected();
+      |                                    [01;31m[K^[m[K
+      |                                    [32m[K::[m[K
+gmake[2]: *** [CMakeFiles/detection.dir/build.make:76: CMakeFiles/detection.dir/src/detection.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/detection.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

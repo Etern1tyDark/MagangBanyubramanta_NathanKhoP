@@ -1,0 +1,44 @@
+[35m[1mConsolidate compiler generated dependencies of target detection[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/detection.dir/src/detection.cpp.o[0m
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:[m[K In constructor ‘[01m[KDetection::Detection()[m[K’:
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:40:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kmin_sat[m[K’ was not declared in this scope; did you mean ‘[01m[Kmin_satur[m[K’?
+   40 | n sat", "values", &[01;31m[Kmin_sat[m[K, 255);
+      |                    [01;31m[K^~~~~~~[m[K
+      |                    [32m[Kmin_satur[m[K
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:[m[K In member function ‘[01m[Kvoid Detection::send_msg(cv::Moments&, int)[m[K’:
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:69:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct obj_msg::msg::Detected_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kcolor[m[K’
+   69 |         message.[01;31m[Kcolor[m[K = color;
+      |                 [01;31m[K^~~~~[m[K
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:70:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct obj_msg::msg::Detected_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kx[m[K’
+   70 |         message.[01;31m[Kx[m[K = moment.m10 / moment.m00 - camsrc.get(CAP_PROP_FRAME_WIDTH) / 2;
+      |                 [01;31m[K^[m[K
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:70:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamsrc[m[K’ was not declared in this scope; did you mean ‘[01m[Kcamsrc_[m[K’?
+   70 | m10 / moment.m00 - [01;31m[Kcamsrc[m[K.get(CAP_PROP_FRAME_WIDTH) / 2;
+      |                    [01;31m[K^~~~~~[m[K
+      |                    [32m[Kcamsrc_[m[K
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:71:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct obj_msg::msg::Detected_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ky[m[K’
+   71 |         message.[01;31m[Ky[m[K = moment.m01 / moment.m00 - camsrc.get(CAP_PROP_FRAME_HEIGHT) / 2;
+      |                 [01;31m[K^[m[K
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:72:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct obj_msg::msg::Detected_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kangle[m[K’
+   72 |         message.[01;31m[Kangle[m[K = 2 * float(message.x) / float(camsrc.get(CAP_PROP_FRAME_WIDTH));
+      |                 [01;31m[K^~~~~[m[K
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:72:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct obj_msg::msg::Detected_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kx[m[K’
+   72 |  2 * float(message.[01;31m[Kx[m[K) / float(camsrc.get(CAP_PROP_FRAME_WIDTH));
+      |                    [01;31m[K^[m[K
+
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:[m[K In member function ‘[01m[Kvoid Detection::topic_callback()[m[K’:
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:101:57:[m[K [01;31m[Kerror: [m[K‘[01m[KRED[m[K’ is not a member of ‘[01m[Kobj_msg::msg::Detected[m[K’ {aka ‘[01m[Kobj_msg::msg::Detected_<std::allocator<void> >[m[K’}
+  101 |  obj_msg::msg::Detected::[01;31m[KRED[m[K);
+      |                          [01;31m[K^~~[m[K
+
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:102:60:[m[K [01;31m[Kerror: [m[K‘[01m[KYELLOW[m[K’ is not a member of ‘[01m[Kobj_msg::msg::Detected[m[K’ {aka ‘[01m[Kobj_msg::msg::Detected_<std::allocator<void> >[m[K’}
+  102 | j_msg::msg::Detected::[01;31m[KYELLOW[m[K);
+      |                       [01;31m[K^~~~~~[m[K
+
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:103:58:[m[K [01;31m[Kerror: [m[K‘[01m[KBLUE[m[K’ is not a member of ‘[01m[Kobj_msg::msg::Detected[m[K’ {aka ‘[01m[Kobj_msg::msg::Detected_<std::allocator<void> >[m[K’}
+  103 | obj_msg::msg::Detected::[01;31m[KBLUE[m[K);
+      |                         [01;31m[K^~~~[m[K
+
+gmake[2]: *** [CMakeFiles/detection.dir/build.make:76: CMakeFiles/detection.dir/src/detection.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/detection.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

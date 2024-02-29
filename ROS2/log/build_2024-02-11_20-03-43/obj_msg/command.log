@@ -1,0 +1,6 @@
+Invoking command in '/home/etern1ty/ros2_ws/build/obj_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/etern1ty/ros2_ws/src/obj_msg -DCMAKE_INSTALL_PREFIX=/home/etern1ty/ros2_ws/install/obj_msg
+Invoked command in '/home/etern1ty/ros2_ws/build/obj_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/etern1ty/ros2_ws/src/obj_msg -DCMAKE_INSTALL_PREFIX=/home/etern1ty/ros2_ws/install/obj_msg
+Invoking command in '/home/etern1ty/ros2_ws/build/obj_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/obj_msg -- -j12 -l12
+Invoked command in '/home/etern1ty/ros2_ws/build/obj_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/obj_msg -- -j12 -l12
+Invoking command in '/home/etern1ty/ros2_ws/build/obj_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/etern1ty/ros2_ws/build/obj_msg
+Invoked command in '/home/etern1ty/ros2_ws/build/obj_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/etern1ty/ros2_ws/build/obj_msg

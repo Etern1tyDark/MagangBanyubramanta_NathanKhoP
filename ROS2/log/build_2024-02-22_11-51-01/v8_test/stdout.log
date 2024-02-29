@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/v8_test/v8_test.egg-info
+writing ../../build/v8_test/v8_test.egg-info/PKG-INFO
+writing dependency_links to ../../build/v8_test/v8_test.egg-info/dependency_links.txt
+writing entry points to ../../build/v8_test/v8_test.egg-info/entry_points.txt
+writing requirements to ../../build/v8_test/v8_test.egg-info/requires.txt
+writing top-level names to ../../build/v8_test/v8_test.egg-info/top_level.txt
+writing manifest file '../../build/v8_test/v8_test.egg-info/SOURCES.txt'
+reading manifest file '../../build/v8_test/v8_test.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/v8_test/v8_test.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/etern1ty/ros2_ws/build/v8_test/build
+creating /home/etern1ty/ros2_ws/build/v8_test/build/lib
+creating /home/etern1ty/ros2_ws/build/v8_test/build/lib/v8_test
+copying v8_test/__init__.py -> /home/etern1ty/ros2_ws/build/v8_test/build/lib/v8_test
+copying v8_test/detect_func.py -> /home/etern1ty/ros2_ws/build/v8_test/build/lib/v8_test
+running install
+running install_lib
+creating /home/etern1ty/ros2_ws/install/v8_test/lib/python3.10/site-packages/v8_test
+copying /home/etern1ty/ros2_ws/build/v8_test/build/lib/v8_test/__init__.py -> /home/etern1ty/ros2_ws/install/v8_test/lib/python3.10/site-packages/v8_test
+copying /home/etern1ty/ros2_ws/build/v8_test/build/lib/v8_test/detect_func.py -> /home/etern1ty/ros2_ws/install/v8_test/lib/python3.10/site-packages/v8_test
+byte-compiling /home/etern1ty/ros2_ws/install/v8_test/lib/python3.10/site-packages/v8_test/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/etern1ty/ros2_ws/install/v8_test/lib/python3.10/site-packages/v8_test/detect_func.py to detect_func.cpython-310.pyc
+running install_data
+creating /home/etern1ty/ros2_ws/install/v8_test/share/ament_index
+creating /home/etern1ty/ros2_ws/install/v8_test/share/ament_index/resource_index
+creating /home/etern1ty/ros2_ws/install/v8_test/share/ament_index/resource_index/packages
+copying resource/v8_test -> /home/etern1ty/ros2_ws/install/v8_test/share/ament_index/resource_index/packages
+copying package.xml -> /home/etern1ty/ros2_ws/install/v8_test/share/v8_test
+running install_egg_info
+Copying ../../build/v8_test/v8_test.egg-info to /home/etern1ty/ros2_ws/install/v8_test/lib/python3.10/site-packages/v8_test-0.0.0-py3.10.egg-info
+running install_scripts
+Installing detect script to /home/etern1ty/ros2_ws/install/v8_test/lib/v8_test
+writing list of installed files to '/home/etern1ty/ros2_ws/build/v8_test/install.log'

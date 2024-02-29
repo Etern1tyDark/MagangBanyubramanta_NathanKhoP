@@ -1,0 +1,2 @@
+Invoking command in '/home/etern1ty/ros2_ws/build/rqt_virtual_joy': /usr/bin/cmake /home/etern1ty/ros2_ws/src/rqt_virtual_joystick -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/etern1ty/ros2_ws/install/rqt_virtual_joy
+Invoked command in '/home/etern1ty/ros2_ws/build/rqt_virtual_joy' returned '1': /usr/bin/cmake /home/etern1ty/ros2_ws/src/rqt_virtual_joystick -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/etern1ty/ros2_ws/install/rqt_virtual_joy

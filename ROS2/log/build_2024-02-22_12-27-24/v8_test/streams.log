@@ -1,0 +1,41 @@
+[0.862s] Invoking command in '/home/etern1ty/ros2_ws/src/v8_test': PYTHONPATH=/home/etern1ty/ros2_ws/build/v8_test/prefix_override:/home/etern1ty/ros2_ws/install/v8_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/v8_test build --build-base /home/etern1ty/ros2_ws/build/v8_test/build install --record /home/etern1ty/ros2_ws/build/v8_test/install.log --single-version-externally-managed
+[1.064s] running egg_info
+[1.078s] writing ../../build/v8_test/v8_test.egg-info/PKG-INFO
+[1.078s] writing dependency_links to ../../build/v8_test/v8_test.egg-info/dependency_links.txt
+[1.078s] writing entry points to ../../build/v8_test/v8_test.egg-info/entry_points.txt
+[1.078s] writing requirements to ../../build/v8_test/v8_test.egg-info/requires.txt
+[1.078s] writing top-level names to ../../build/v8_test/v8_test.egg-info/top_level.txt
+[1.108s] reading manifest file '../../build/v8_test/v8_test.egg-info/SOURCES.txt'
+[1.127s] adding license file 'LICENSE'
+[1.128s] writing manifest file '../../build/v8_test/v8_test.egg-info/SOURCES.txt'
+[1.128s] running build
+[1.128s] running build_py
+[1.129s] copying v8_test/__init__.py -> /home/etern1ty/ros2_ws/build/v8_test/build/lib/v8_test
+[1.134s] copying v8_test/detect_func.py -> /home/etern1ty/ros2_ws/build/v8_test/build/lib/v8_test
+[1.134s] running install
+[1.135s] /home/etern1ty/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.135s] !!
+[1.135s] 
+[1.135s]         ********************************************************************************
+[1.135s]         Please avoid running ``setup.py`` directly.
+[1.135s]         Instead, use pypa/build, pypa/installer or other
+[1.135s]         standards-based tools.
+[1.135s] 
+[1.135s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.135s]         ********************************************************************************
+[1.136s] 
+[1.136s] !!
+[1.136s]   self.initialize_options()
+[1.140s] running install_lib
+[1.154s] copying /home/etern1ty/ros2_ws/build/v8_test/build/lib/v8_test/detect_func.py -> /home/etern1ty/ros2_ws/install/v8_test/lib/python3.10/site-packages/v8_test
+[1.154s] byte-compiling /home/etern1ty/ros2_ws/install/v8_test/lib/python3.10/site-packages/v8_test/detect_func.py to detect_func.cpython-310.pyc
+[1.155s] running install_data
+[1.169s] copying resource/v8_test -> /home/etern1ty/ros2_ws/install/v8_test/share/ament_index/resource_index/packages
+[1.169s] copying package.xml -> /home/etern1ty/ros2_ws/install/v8_test/share/v8_test
+[1.169s] running install_egg_info
+[1.185s] removing '/home/etern1ty/ros2_ws/install/v8_test/lib/python3.10/site-packages/v8_test-0.0.0-py3.10.egg-info' (and everything under it)
+[1.185s] Copying ../../build/v8_test/v8_test.egg-info to /home/etern1ty/ros2_ws/install/v8_test/lib/python3.10/site-packages/v8_test-0.0.0-py3.10.egg-info
+[1.186s] running install_scripts
+[1.317s] Installing detect script to /home/etern1ty/ros2_ws/install/v8_test/lib/v8_test
+[1.317s] writing list of installed files to '/home/etern1ty/ros2_ws/build/v8_test/install.log'
+[1.352s] Invoked command in '/home/etern1ty/ros2_ws/src/v8_test' returned '0': PYTHONPATH=/home/etern1ty/ros2_ws/build/v8_test/prefix_override:/home/etern1ty/ros2_ws/install/v8_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/v8_test build --build-base /home/etern1ty/ros2_ws/build/v8_test/build install --record /home/etern1ty/ros2_ws/build/v8_test/install.log --single-version-externally-managed

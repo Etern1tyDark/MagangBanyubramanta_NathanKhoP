@@ -1,0 +1,127 @@
+[0.000000] (-) TimerEvent: {}
+[0.000238] (-) JobUnselected: {'identifier': 'DisplayImage'}
+[0.000266] (-) JobUnselected: {'identifier': 'Grayscale'}
+[0.000284] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000301] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000318] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000335] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000351] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000368] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000384] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000400] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000416] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000432] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000450] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000468] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000485] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000502] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000520] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000536] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000554] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000575] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.000593] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.000610] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.000628] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.000644] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.000660] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.000678] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000696] (-) JobUnselected: {'identifier': 'pub_controller'}
+[0.000713] (-) JobUnselected: {'identifier': 'ros2_color_detection'}
+[0.000730] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000751] (flare_detection) JobQueued: {'identifier': 'flare_detection', 'dependencies': OrderedDict()}
+[0.000774] (flare_detection) JobStarted: {'identifier': 'flare_detection'}
+[0.055564] (flare_detection) JobProgress: {'identifier': 'flare_detection', 'progress': 'cmake'}
+[0.055895] (flare_detection) Command: {'cmd': ['/usr/bin/cmake', '/home/etern1ty/ros2_ws/src/opencv/flare_detection', '-DCMAKE_INSTALL_PREFIX=/home/etern1ty/ros2_ws/install/flare_detection'], 'cwd': '/home/etern1ty/ros2_ws/build/flare_detection', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'etern1ty'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/etern1ty'), ('OLDPWD', '/home/etern1ty/ros2_ws/src/opencv/flare_detection'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '895'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1040'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f66f378a8b1e19ec94b1f11165c61251'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'etern1ty'), ('JOURNAL_STREAM', '8:23353'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'etern1ty'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/etern1ty/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Etern1ty-14ALC6:@/tmp/.ICE-unix/1040,unix/Etern1ty-14ALC6:/tmp/.ICE-unix/1040'), ('INVOCATION_ID', '5eeaeae7c15d4f6fa312f20929c4bc27'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('TILIX_ID', 'bb03bdb4-f5a6-4fb2-845a-4c43d3904fb3'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LYYSI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/etern1ty/ros2_ws/build/flare_detection'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f66f378a8b1e19ec94b1f11165c61251'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099247] (-) TimerEvent: {}
+[0.171971] (flare_detection) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199397] (-) TimerEvent: {}
+[0.272865] (flare_detection) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.284608] (flare_detection) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299525] (-) TimerEvent: {}
+[0.363399] (flare_detection) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.370100] (flare_detection) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.370424] (flare_detection) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.371030] (flare_detection) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.374411] (flare_detection) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399692] (-) TimerEvent: {}
+[0.458982] (flare_detection) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.465764] (flare_detection) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.466068] (flare_detection) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.466297] (flare_detection) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.470609] (flare_detection) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500059] (-) TimerEvent: {}
+[0.600511] (-) TimerEvent: {}
+[0.634587] (flare_detection) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.701043] (-) TimerEvent: {}
+[0.729369] (flare_detection) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.782894] (flare_detection) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.788467] (flare_detection) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.798138] (flare_detection) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.801157] (-) TimerEvent: {}
+[0.814261] (flare_detection) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.836085] (flare_detection) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.901318] (-) TimerEvent: {}
+[0.910458] (flare_detection) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.913433] (flare_detection) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.001522] (-) TimerEvent: {}
+[1.057592] (flare_detection) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.089425] (flare_detection) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.101676] (-) TimerEvent: {}
+[1.142759] (flare_detection) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.155028] (flare_detection) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.201950] (-) TimerEvent: {}
+[1.234665] (flare_detection) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.235370] (flare_detection) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.302121] (-) TimerEvent: {}
+[1.313245] (flare_detection) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.314190] (flare_detection) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.402287] (-) TimerEvent: {}
+[1.473632] (flare_detection) StdoutLine: {'line': b'-- Found OpenCV: /usr/local (found version "4.9.0") \n'}
+[1.475034] (flare_detection) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.502418] (-) TimerEvent: {}
+[1.602792] (-) TimerEvent: {}
+[1.636857] (flare_detection) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[1.637051] (flare_detection) StderrLine: {'line': b'  execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name\n'}
+[1.637114] (flare_detection) StderrLine: {'line': b'  flare_detection --arguments-file\n'}
+[1.637203] (flare_detection) StderrLine: {'line': b'  /home/etern1ty/ros2_ws/build/flare_detection/rosidl_adapter__arguments__flare_detection.json\n'}
+[1.637258] (flare_detection) StderrLine: {'line': b'  --output-dir\n'}
+[1.637311] (flare_detection) StderrLine: {'line': b'  /home/etern1ty/ros2_ws/build/flare_detection/rosidl_adapter/flare_detection\n'}
+[1.637364] (flare_detection) StderrLine: {'line': b'  --output-file\n'}
+[1.637416] (flare_detection) StderrLine: {'line': b'  /home/etern1ty/ros2_ws/build/flare_detection/rosidl_adapter/flare_detection.idls)\n'}
+[1.637470] (flare_detection) StderrLine: {'line': b'  returned error code 1:\n'}
+[1.637529] (flare_detection) StderrLine: {'line': b'\n'}
+[1.637583] (flare_detection) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[1.637654] (flare_detection) StderrLine: {'line': b'\n'}
+[1.637714] (flare_detection) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main\n'}
+[1.637770] (flare_detection) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[1.637822] (flare_detection) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 86, in _run_code\n'}
+[1.637875] (flare_detection) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[1.637927] (flare_detection) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[1.637986] (flare_detection) StderrLine: {'line': b'      sys.exit(main())\n'}
+[1.638038] (flare_detection) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[1.638091] (flare_detection) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[1.638144] (flare_detection) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[1.638197] (flare_detection) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[1.638250] (flare_detection) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[1.638304] (flare_detection) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[1.638357] (flare_detection) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 544, in parse_message_string\n'}
+[1.638419] (flare_detection) StderrLine: {'line': b'      msg = MessageSpecification(pkg_name, msg_name, fields, constants)\n'}
+[1.638473] (flare_detection) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 388, in __init__\n'}
+[1.638526] (flare_detection) StderrLine: {'line': b'      self.base_type = BaseType(\n'}
+[1.638579] (flare_detection) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__\n'}
+[1.638632] (flare_detection) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[1.638685] (flare_detection) StderrLine: {'line': b'\n'}
+[1.638739] (flare_detection) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'detected_object' is an invalid\n"}
+[1.638793] (flare_detection) StderrLine: {'line': b"  message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[1.638847] (flare_detection) StderrLine: {'line': b'\n'}
+[1.638900] (flare_detection) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.638952] (flare_detection) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[1.639005] (flare_detection) StderrLine: {'line': b'  CMakeLists.txt:18 (rosidl_generate_interfaces)\n'}
+[1.639064] (flare_detection) StderrLine: {'line': b'\n'}
+[1.639117] (flare_detection) StderrLine: {'line': b'\x1b[0m\n'}
+[1.639170] (flare_detection) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.639230] (flare_detection) StdoutLine: {'line': b'See also "/home/etern1ty/ros2_ws/build/flare_detection/CMakeFiles/CMakeOutput.log".\n'}
+[1.647159] (flare_detection) CommandEnded: {'returncode': 1}
+[1.700264] (flare_detection) JobEnded: {'identifier': 'flare_detection', 'rc': 1}
+[1.702887] (-) TimerEvent: {}
+[1.711224] (-) EventReactorShutdown: {}

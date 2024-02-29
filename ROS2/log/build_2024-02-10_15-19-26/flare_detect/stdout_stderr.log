@@ -1,0 +1,30 @@
+[  6%] Built target flare_detect__cpp
+[  6%] [32mBuilding CXX object CMakeFiles/detection.dir/src/detection.cpp.o[0m
+[ 15%] Built target flare_detect__rosidl_generator_c
+[ 15%] Built target ament_cmake_python_copy_flare_detect
+[ 24%] Built target flare_detect__rosidl_typesupport_introspection_c
+[ 33%] Built target flare_detect__rosidl_typesupport_fastrtps_cpp
+[ 42%] Built target flare_detect__rosidl_typesupport_introspection_cpp
+[ 60%] Built target flare_detect__rosidl_typesupport_cpp
+[ 60%] Built target flare_detect__rosidl_typesupport_fastrtps_c
+[ 69%] Built target flare_detect__rosidl_typesupport_c
+[ 69%] Built target flare_detect
+[ 72%] Built target flare_detect__py
+[ 78%] Built target flare_detect__rosidl_generator_py
+[ 90%] Built target flare_detect__rosidl_typesupport_c__pyext
+[ 90%] Built target flare_detect__rosidl_typesupport_introspection_c__pyext
+[ 96%] Built target flare_detect__rosidl_typesupport_fastrtps_c__pyext
+running egg_info
+writing flare_detect.egg-info/PKG-INFO
+writing dependency_links to flare_detect.egg-info/dependency_links.txt
+writing top-level names to flare_detect.egg-info/top_level.txt
+reading manifest file 'flare_detect.egg-info/SOURCES.txt'
+writing manifest file 'flare_detect.egg-info/SOURCES.txt'
+[ 96%] Built target ament_cmake_python_build_flare_detect_egg
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:22:10:[m[K [01;31m[Kfatal error: [m[Kflare_detect/msg/detected.hpp: No such file or directory
+   22 | #include [01;31m[K"flare_detect/msg/detected.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/detection.dir/build.make:76: CMakeFiles/detection.dir/src/detection.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:592: CMakeFiles/detection.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

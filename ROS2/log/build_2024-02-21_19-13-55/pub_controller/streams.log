@@ -1,0 +1,49 @@
+[0.053s] Invoking command in '/home/etern1ty/ros2_ws/build/pub_controller': AMENT_PREFIX_PATH=/home/etern1ty/ros2_ws/install/obj_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/etern1ty/ros2_ws/install/obj_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/etern1ty/ros2_ws/install/obj_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/etern1ty/ros2_ws/install/obj_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/pub_controller -- -j12 -l12
+[0.081s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.224s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.255s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.257s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.263s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.273s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.288s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.347s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.348s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.489s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.644s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.762s] -- Found obj_msg: 0.0.0 (/home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/cmake)
+[0.780s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.849s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.849s] -- Configured cppcheck include dirs: 
+[0.849s] -- Configured cppcheck exclude dirs and/or files: 
+[0.849s] -- Added test 'lint_cmake' to check CMake code style
+[0.850s] -- Added test 'uncrustify' to check C / C++ code style
+[0.850s] -- Configured uncrustify additional arguments: 
+[0.850s] -- Added test 'xmllint' to check XML markup files
+[0.852s] -- Configuring done
+[0.864s] -- Generating done
+[0.865s] -- Build files have been written to: /home/etern1ty/ros2_ws/build/pub_controller
+[0.895s] [35m[1mConsolidate compiler generated dependencies of target controller[0m
+[0.918s] [ 50%] [32mBuilding CXX object CMakeFiles/controller.dir/src/pub_func.cpp.o[0m
+[8.883s] [100%] [32m[1mLinking CXX executable controller[0m
+[9.374s] [100%] Built target controller
+[9.390s] Invoked command in '/home/etern1ty/ros2_ws/build/pub_controller' returned '0': AMENT_PREFIX_PATH=/home/etern1ty/ros2_ws/install/obj_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/etern1ty/ros2_ws/install/obj_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/etern1ty/ros2_ws/install/obj_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/etern1ty/ros2_ws/install/obj_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/pub_controller -- -j12 -l12
+[9.419s] Invoking command in '/home/etern1ty/ros2_ws/build/pub_controller': AMENT_PREFIX_PATH=/home/etern1ty/ros2_ws/install/obj_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/etern1ty/ros2_ws/install/obj_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/etern1ty/ros2_ws/install/obj_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/etern1ty/ros2_ws/install/obj_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/etern1ty/ros2_ws/build/pub_controller
+[9.427s] -- Install configuration: ""
+[9.427s] -- Installing: /home/etern1ty/ros2_ws/install/pub_controller/lib/pub_controller/controller
+[9.435s] -- Set runtime path of "/home/etern1ty/ros2_ws/install/pub_controller/lib/pub_controller/controller" to ""
+[9.436s] -- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/ament_index/resource_index/package_run_dependencies/pub_controller
+[9.436s] -- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/ament_index/resource_index/parent_prefix_path/pub_controller
+[9.437s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/environment/ament_prefix_path.sh
+[9.437s] -- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/environment/ament_prefix_path.dsv
+[9.437s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/environment/path.sh
+[9.437s] -- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/environment/path.dsv
+[9.437s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/local_setup.bash
+[9.437s] -- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/local_setup.sh
+[9.438s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/local_setup.zsh
+[9.438s] -- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/local_setup.dsv
+[9.438s] -- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/package.dsv
+[9.439s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/ament_index/resource_index/packages/pub_controller
+[9.439s] -- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/pub_controllerConfig.cmake
+[9.439s] -- Up-to-date: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/pub_controllerConfig-version.cmake
+[9.439s] -- Installing: /home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/package.xml
+[9.443s] Invoked command in '/home/etern1ty/ros2_ws/build/pub_controller' returned '0': AMENT_PREFIX_PATH=/home/etern1ty/ros2_ws/install/obj_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/etern1ty/ros2_ws/install/obj_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/etern1ty/ros2_ws/install/obj_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/etern1ty/ros2_ws/install/obj_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/etern1ty/ros2_ws/build/pub_controller

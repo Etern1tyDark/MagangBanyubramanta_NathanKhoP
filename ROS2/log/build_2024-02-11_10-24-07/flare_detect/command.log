@@ -1,0 +1,4 @@
+Invoking command in '/home/etern1ty/ros2_ws/build/flare_detect': /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/flare_detect -- -j12 -l12
+Invoked command in '/home/etern1ty/ros2_ws/build/flare_detect' returned '0': /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/flare_detect -- -j12 -l12
+Invoking command in '/home/etern1ty/ros2_ws/build/flare_detect': /usr/bin/cmake --install /home/etern1ty/ros2_ws/build/flare_detect
+Invoked command in '/home/etern1ty/ros2_ws/build/flare_detect' returned '0': /usr/bin/cmake --install /home/etern1ty/ros2_ws/build/flare_detect

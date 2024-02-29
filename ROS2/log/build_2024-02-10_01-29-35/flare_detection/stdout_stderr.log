@@ -1,0 +1,1 @@
+[0mCMake Error: The source "/home/etern1ty/ros2_ws/src/flare_detection/CMakeLists.txt" does not match the source "/home/etern1ty/ros2_ws/src/opencv/flare_detection/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.[0m

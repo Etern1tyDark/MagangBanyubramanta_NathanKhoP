@@ -1,0 +1,58 @@
+[0.055s] Invoking command in '/home/etern1ty/ros2_ws/build/flare_detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/flare_detect -- -j12 -l12
+[0.164s] [  3%] Built target flare_detect__cpp
+[0.165s] [ 12%] Built target flare_detect__rosidl_generator_c
+[0.174s] [ 12%] Built target ament_cmake_python_copy_flare_detect
+[0.194s] [ 21%] Built target flare_detect__rosidl_typesupport_introspection_c
+[0.195s] [ 39%] Built target flare_detect__rosidl_typesupport_cpp
+[0.195s] [ 39%] Built target flare_detect__rosidl_typesupport_fastrtps_cpp
+[0.196s] [ 48%] Built target flare_detect__rosidl_typesupport_introspection_cpp
+[0.197s] [ 57%] Built target flare_detect__rosidl_typesupport_c
+[0.199s] [ 66%] Built target flare_detect__rosidl_typesupport_fastrtps_c
+[0.223s] [ 66%] Built target flare_detect
+[0.235s] [ 69%] [32mBuilding CXX object CMakeFiles/detection.dir/src/detection.cpp.o[0m
+[0.248s] [ 72%] Built target flare_detect__py
+[0.275s] [ 78%] Built target flare_detect__rosidl_generator_py
+[0.301s] [ 84%] Built target flare_detect__rosidl_typesupport_fastrtps_c__pyext
+[0.303s] [ 90%] Built target flare_detect__rosidl_typesupport_c__pyext
+[0.303s] [ 96%] Built target flare_detect__rosidl_typesupport_introspection_c__pyext
+[0.411s] running egg_info
+[0.411s] writing flare_detect.egg-info/PKG-INFO
+[0.411s] writing dependency_links to flare_detect.egg-info/dependency_links.txt
+[0.412s] writing top-level names to flare_detect.egg-info/top_level.txt
+[0.414s] reading manifest file 'flare_detect.egg-info/SOURCES.txt'
+[0.415s] writing manifest file 'flare_detect.egg-info/SOURCES.txt'
+[0.446s] [ 96%] Built target ament_cmake_python_build_flare_detect_egg
+[3.049s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:53:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamsrc[m[K’ does not name a type
+[3.050s]    53 |   [01;31m[Kcamsrc[m[K.release();
+[3.050s]       |   [01;31m[K^~~~~~[m[K
+[3.050s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:54:3:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KdestroyAllWindows[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.050s]    54 |   [01;31m[KdestroyAllWindows[m[K();
+[3.050s]       |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.050s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:55:4:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[3.051s]    55 |   }
+[3.051s]       |    [01;31m[K^[m[K
+[3.051s]       |    [32m[K;[m[K
+[3.058s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:[m[K In constructor ‘[01m[KDetection::Detection()[m[K’:
+[3.058s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:44:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[3.058s]    44 |     [01;31m[Kpublisher_[m[K = this->create_publisher<flare_detect::msg::Detected>("object_found", 10);
+[3.058s]       |     [01;31m[K^~~~~~~~~~[m[K
+[3.058s]       |     [32m[Krmw_publisher_t[m[K
+[3.067s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:45:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[3.067s]    45 |     [01;31m[Ktimer_[m[K = this->create_wall_timer(1000ms, std::bind(&flare_detect::topic_callback, this));
+[3.067s]       |     [01;31m[K^~~~~~[m[K
+[3.067s]       |     [32m[Ktimer_t[m[K
+[3.068s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:45:71:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic_callback[m[K’ is not a member of ‘[01m[Kflare_detect[m[K’
+[3.068s]    45 |  = this->create_wall_timer(1000ms, std::bind(&flare_detect::[01;31m[Ktopic_callback[m[K, this));
+[3.068s]       |                                                             [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.068s] 
+[3.073s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:46:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamsrc[m[K’ was not declared in this scope
+[3.074s]    46 |     [01;31m[Kcamsrc[m[K = VideoCapture(0);
+[3.074s]       |     [01;31m[K^~~~~~[m[K
+[3.074s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:[m[K At global scope:
+[3.074s] [01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:57:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+[3.075s]    57 | [01;31m[Kprivate[m[K:
+[3.075s]       | [01;31m[K^~~~~~~[m[K
+[4.390s] gmake[2]: *** [CMakeFiles/detection.dir/build.make:76: CMakeFiles/detection.dir/src/detection.cpp.o] Error 1
+[4.391s] gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/detection.dir/all] Error 2
+[4.392s] gmake: *** [Makefile:146: all] Error 2
+[4.395s] Invoked command in '/home/etern1ty/ros2_ws/build/flare_detect' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/flare_detect -- -j12 -l12

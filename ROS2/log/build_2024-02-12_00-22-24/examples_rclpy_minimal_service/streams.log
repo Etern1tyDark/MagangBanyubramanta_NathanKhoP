@@ -1,0 +1,22 @@
+[0.737s] Invoking command in '/home/etern1ty/ros2_ws/src/src/examples/rclpy/services/minimal_service': PYTHONPATH=/home/etern1ty/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../../build/examples_rclpy_minimal_service build --build-base /home/etern1ty/ros2_ws/build/examples_rclpy_minimal_service/build install --record /home/etern1ty/ros2_ws/build/examples_rclpy_minimal_service/install.log --single-version-externally-managed
+[0.949s] running egg_info
+[0.949s] writing ../../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/PKG-INFO
+[0.949s] writing dependency_links to ../../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/dependency_links.txt
+[0.949s] writing entry points to ../../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/entry_points.txt
+[0.950s] writing requirements to ../../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/requires.txt
+[0.950s] writing top-level names to ../../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/top_level.txt
+[0.951s] reading manifest file '../../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[0.952s] writing manifest file '../../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[0.952s] running build
+[0.952s] running build_py
+[0.952s] running install
+[0.953s] running install_lib
+[0.954s] running install_data
+[0.954s] running install_egg_info
+[0.956s] removing '/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service-0.15.1-py3.10.egg-info' (and everything under it)
+[0.956s] Copying ../../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info to /home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service-0.15.1-py3.10.egg-info
+[0.957s] running install_scripts
+[0.977s] Installing service script to /home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[0.977s] Installing service_member_function script to /home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[0.977s] writing list of installed files to '/home/etern1ty/ros2_ws/build/examples_rclpy_minimal_service/install.log'
+[1.020s] Invoked command in '/home/etern1ty/ros2_ws/src/src/examples/rclpy/services/minimal_service' returned '0': PYTHONPATH=/home/etern1ty/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../../build/examples_rclpy_minimal_service build --build-base /home/etern1ty/ros2_ws/build/examples_rclpy_minimal_service/build install --record /home/etern1ty/ros2_ws/build/examples_rclpy_minimal_service/install.log --single-version-externally-managed

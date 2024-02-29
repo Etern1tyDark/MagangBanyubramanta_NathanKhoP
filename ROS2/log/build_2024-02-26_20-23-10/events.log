@@ -1,0 +1,103 @@
+[0.000000] (-) TimerEvent: {}
+[0.000605] (-) JobUnselected: {'identifier': 'communicator'}
+[0.000802] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000997] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.001122] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.001141] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.001161] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.001180] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.001197] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.001215] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.001233] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.001251] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.001268] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.001285] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.001303] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.001321] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.001338] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.001355] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.001372] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.001389] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.001407] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.001425] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.001442] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.001459] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.001476] (-) JobUnselected: {'identifier': 'flare_detect'}
+[0.001493] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.001510] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001527] (-) JobUnselected: {'identifier': 'obj_msg'}
+[0.001544] (-) JobUnselected: {'identifier': 'pub_controller'}
+[0.001561] (-) JobUnselected: {'identifier': 'ros2_color_detection'}
+[0.001577] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001594] (-) JobUnselected: {'identifier': 'v8_test'}
+[0.001614] (yolo) JobQueued: {'identifier': 'yolo', 'dependencies': OrderedDict()}
+[0.001636] (yolo) JobStarted: {'identifier': 'yolo'}
+[0.050031] (yolo) JobProgress: {'identifier': 'yolo', 'progress': 'cmake'}
+[0.050578] (yolo) JobProgress: {'identifier': 'yolo', 'progress': 'build'}
+[0.051161] (yolo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/etern1ty/ros2_ws/build/yolo', '--', '-j12', '-l12'], 'cwd': '/home/etern1ty/ros2_ws/build/yolo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'etern1ty'), ('LC_TIME', 'id_ID.UTF-8'), ('_ble_util_fdlist_cloexit', '30:31:32:33:34:35:36:37'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/etern1ty'), ('OLDPWD', '/home/etern1ty/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '894'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1039'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ac4d1744a91581c3bf051ffd65dc71a5'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'etern1ty'), ('JOURNAL_STREAM', '8:30596'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'etern1ty'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/etern1ty/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Etern1ty-14ALC6:@/tmp/.ICE-unix/1039,unix/Etern1ty-14ALC6:/tmp/.ICE-unix/1039'), ('INVOCATION_ID', '801c7797308641f48f377a9254c5a155'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('TILIX_ID', 'b17e4d73-4f75-4d96-a425-67dee401429f'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6AGLJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LINENO', '10'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('bleopt_connect_tty', '1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/etern1ty/ros2_ws/build/yolo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ac4d1744a91581c3bf051ffd65dc71a5'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_ble_util_fdvars_export', ''), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.095942] (yolo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target yolo_func\x1b[0m\n'}
+[0.098986] (-) TimerEvent: {}
+[0.120804] (yolo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/yolo_func.dir/src/yolo_func.cpp.o\x1b[0m\n'}
+[0.199154] (-) TimerEvent: {}
+[0.299555] (-) TimerEvent: {}
+[0.399965] (-) TimerEvent: {}
+[0.500382] (-) TimerEvent: {}
+[0.600775] (-) TimerEvent: {}
+[0.701175] (-) TimerEvent: {}
+[0.801568] (-) TimerEvent: {}
+[0.901959] (-) TimerEvent: {}
+[1.002365] (-) TimerEvent: {}
+[1.102981] (-) TimerEvent: {}
+[1.203385] (-) TimerEvent: {}
+[1.303789] (-) TimerEvent: {}
+[1.404201] (-) TimerEvent: {}
+[1.504700] (-) TimerEvent: {}
+[1.605106] (-) TimerEvent: {}
+[1.705498] (-) TimerEvent: {}
+[1.805897] (-) TimerEvent: {}
+[1.906326] (-) TimerEvent: {}
+[2.006738] (-) TimerEvent: {}
+[2.107144] (-) TimerEvent: {}
+[2.207544] (-) TimerEvent: {}
+[2.307975] (-) TimerEvent: {}
+[2.408364] (-) TimerEvent: {}
+[2.508691] (-) TimerEvent: {}
+[2.609087] (-) TimerEvent: {}
+[2.709527] (-) TimerEvent: {}
+[2.809944] (-) TimerEvent: {}
+[2.910387] (-) TimerEvent: {}
+[2.992833] (yolo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/etern1ty/ros2_ws/src/yolo/src/yolo_func.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid YoloPublisher::publish_image()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.993148] (yolo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/etern1ty/ros2_ws/src/yolo/src/yolo_func.cpp:47:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kreference to \xe2\x80\x98\x1b[01m\x1b[Ksize\x1b[m\x1b[K\xe2\x80\x99 is ambiguous\n'}
+[2.993498] (yolo) StderrLine: {'line': b'   47 |             resize(frame, image, \x1b[01;31m\x1b[Ksize\x1b[m\x1b[K);\n'}
+[2.993637] (yolo) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.993751] (yolo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/array:41\x1b[m\x1b[K,\n'}
+[2.993864] (yolo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[2.993972] (yolo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[2.994079] (yolo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/etern1ty/ros2_ws/src/yolo/src/yolo_func.cpp:2\x1b[m\x1b[K:\n'}
+[2.994186] (yolo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:254:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidates are: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, long unsigned int _Nm> constexpr std::size_t std::size(const _Tp (&)[_Nm])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.994295] (yolo) StderrLine: {'line': b'  254 |     \x1b[01;36m\x1b[Ksize\x1b[m\x1b[K(const _Tp (&)[_Nm]) noexcept\n'}
+[2.994401] (yolo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.994504] (yolo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:245:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K                \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Container> constexpr decltype (__cont.size()) std::size(const _Container&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.994610] (yolo) StderrLine: {'line': b'  245 |     \x1b[01;36m\x1b[Ksize\x1b[m\x1b[K(const _Container& __cont) noexcept(noexcept(__cont.size()))\n'}
+[2.994716] (yolo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.994817] (yolo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/etern1ty/ros2_ws/src/yolo/src/yolo_func.cpp:17:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K                \xe2\x80\x98\x1b[01m\x1b[Kcv::Size size\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.994924] (yolo) StderrLine: {'line': b'   17 | Size \x1b[01;36m\x1b[Ksize\x1b[m\x1b[K(640, 480);\n'}
+[2.995031] (yolo) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.010551] (-) TimerEvent: {}
+[3.110997] (-) TimerEvent: {}
+[3.211338] (-) TimerEvent: {}
+[3.311660] (-) TimerEvent: {}
+[3.412027] (-) TimerEvent: {}
+[3.512419] (-) TimerEvent: {}
+[3.612730] (-) TimerEvent: {}
+[3.713087] (-) TimerEvent: {}
+[3.813422] (-) TimerEvent: {}
+[3.913795] (-) TimerEvent: {}
+[4.014174] (-) TimerEvent: {}
+[4.042907] (yolo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/yolo_func.dir/build.make:76: CMakeFiles/yolo_func.dir/src/yolo_func.cpp.o] Error 1\n'}
+[4.043575] (yolo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/yolo_func.dir/all] Error 2\n'}
+[4.044144] (yolo) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.046644] (yolo) CommandEnded: {'returncode': 2}
+[4.114797] (-) TimerEvent: {}
+[4.139874] (yolo) JobEnded: {'identifier': 'yolo', 'rc': 2}
+[4.150408] (-) EventReactorShutdown: {}

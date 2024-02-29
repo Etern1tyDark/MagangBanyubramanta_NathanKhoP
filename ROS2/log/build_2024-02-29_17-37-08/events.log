@@ -1,0 +1,219 @@
+[0.000000] (-) TimerEvent: {}
+[0.000638] (-) JobUnselected: {'identifier': 'communicator'}
+[0.000695] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000733] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000777] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000815] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000855] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000893] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000929] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000965] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.001003] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.001040] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.001077] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.001114] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.001149] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.001187] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.001224] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.001259] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.001294] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.001331] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.001358] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.001376] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.001394] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.001412] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.001431] (-) JobUnselected: {'identifier': 'flare_detect'}
+[0.001447] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.001464] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001481] (-) JobUnselected: {'identifier': 'pub_controller'}
+[0.001516] (-) JobUnselected: {'identifier': 'ros2_color_detection'}
+[0.001537] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001556] (-) JobUnselected: {'identifier': 'v8_test'}
+[0.001573] (-) JobUnselected: {'identifier': 'yolo'}
+[0.001595] (obj_msg) JobQueued: {'identifier': 'obj_msg', 'dependencies': OrderedDict()}
+[0.001618] (obj_msg) JobStarted: {'identifier': 'obj_msg'}
+[0.056326] (obj_msg) JobProgress: {'identifier': 'obj_msg', 'progress': 'cmake'}
+[0.057368] (obj_msg) JobProgress: {'identifier': 'obj_msg', 'progress': 'build'}
+[0.057991] (obj_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/etern1ty/ros2_ws/build/obj_msg', '--', '-j12', '-l12'], 'cwd': '/home/etern1ty/ros2_ws/build/obj_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'etern1ty'), ('LC_TIME', 'id_ID.UTF-8'), ('_ble_util_fdlist_cloexit', '30:31:32:33:34:35:36:37'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/etern1ty'), ('OLDPWD', '/home/etern1ty'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '912'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1058'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=15d811f0204735340a9abefe65e05e29'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'etern1ty'), ('JOURNAL_STREAM', '8:31221'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'etern1ty'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/etern1ty/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Etern1ty-14ALC6:@/tmp/.ICE-unix/1058,unix/Etern1ty-14ALC6:/tmp/.ICE-unix/1058'), ('INVOCATION_ID', 'ab696de9e0bd45ae994e5c6e5a1bc66c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('TILIX_ID', 'cbb97c6d-e9a5-49b9-9cdd-11c8f36977ea'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HLUYJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LINENO', '5'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('bleopt_connect_tty', '1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/etern1ty/ros2_ws/build/obj_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=15d811f0204735340a9abefe65e05e29'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_ble_util_fdvars_export', ''), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098880] (-) TimerEvent: {}
+[0.143503] (obj_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target obj_msg__rosidl_generator_c\x1b[0m\n'}
+[0.150563] (obj_msg) StdoutLine: {'line': b'[  2%] Built target obj_msg__cpp\n'}
+[0.161071] (obj_msg) StdoutLine: {'line': b'[ 12%] Built target obj_msg__rosidl_generator_c\n'}
+[0.171959] (obj_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target obj_msg__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.177547] (obj_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target obj_msg__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.177772] (obj_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target obj_msg__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.178906] (obj_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target obj_msg__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.179052] (obj_msg) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_obj_msg\n'}
+[0.179204] (obj_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target obj_msg__rosidl_typesupport_c\x1b[0m\n'}
+[0.179401] (obj_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target obj_msg__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.191010] (obj_msg) StdoutLine: {'line': b'[ 23%] Built target obj_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[0.192050] (obj_msg) StdoutLine: {'line': b'[ 33%] Built target obj_msg__rosidl_typesupport_introspection_c\n'}
+[0.192341] (obj_msg) StdoutLine: {'line': b'[ 43%] Built target obj_msg__rosidl_typesupport_c\n'}
+[0.192640] (obj_msg) StdoutLine: {'line': b'[ 61%] Built target obj_msg__rosidl_typesupport_introspection_cpp\n'}
+[0.192747] (obj_msg) StdoutLine: {'line': b'[ 64%] Built target obj_msg__rosidl_typesupport_cpp\n'}
+[0.196640] (obj_msg) StdoutLine: {'line': b'[ 74%] Built target obj_msg__rosidl_typesupport_fastrtps_c\n'}
+[0.199017] (-) TimerEvent: {}
+[0.220596] (obj_msg) StdoutLine: {'line': b'[ 74%] Built target obj_msg\n'}
+[0.245401] (obj_msg) StdoutLine: {'line': b'[ 76%] Built target obj_msg__py\n'}
+[0.259776] (obj_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target obj_msg__rosidl_generator_py\x1b[0m\n'}
+[0.275804] (obj_msg) StdoutLine: {'line': b'[ 84%] Built target obj_msg__rosidl_generator_py\n'}
+[0.288735] (obj_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target obj_msg__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[0.288992] (obj_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target obj_msg__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[0.289622] (obj_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target obj_msg__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[0.299179] (-) TimerEvent: {}
+[0.302834] (obj_msg) StdoutLine: {'line': b'[100%] Built target obj_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.303092] (obj_msg) StdoutLine: {'line': b'[100%] Built target obj_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[0.303221] (obj_msg) StdoutLine: {'line': b'[100%] Built target obj_msg__rosidl_typesupport_c__pyext\n'}
+[0.354758] (obj_msg) StdoutLine: {'line': b'running egg_info\n'}
+[0.369259] (obj_msg) StdoutLine: {'line': b'writing obj_msg.egg-info/PKG-INFO\n'}
+[0.369756] (obj_msg) StdoutLine: {'line': b'writing dependency_links to obj_msg.egg-info/dependency_links.txt\n'}
+[0.370059] (obj_msg) StdoutLine: {'line': b'writing top-level names to obj_msg.egg-info/top_level.txt\n'}
+[0.399303] (-) TimerEvent: {}
+[0.411002] (obj_msg) StdoutLine: {'line': b"reading manifest file 'obj_msg.egg-info/SOURCES.txt'\n"}
+[0.411655] (obj_msg) StdoutLine: {'line': b"writing manifest file 'obj_msg.egg-info/SOURCES.txt'\n"}
+[0.441539] (obj_msg) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_obj_msg_egg\n'}
+[0.455170] (obj_msg) CommandEnded: {'returncode': 0}
+[0.499426] (-) TimerEvent: {}
+[0.539853] (obj_msg) JobProgress: {'identifier': 'obj_msg', 'progress': 'install'}
+[0.550054] (obj_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/etern1ty/ros2_ws/build/obj_msg'], 'cwd': '/home/etern1ty/ros2_ws/build/obj_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'etern1ty'), ('LC_TIME', 'id_ID.UTF-8'), ('_ble_util_fdlist_cloexit', '30:31:32:33:34:35:36:37'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/etern1ty'), ('OLDPWD', '/home/etern1ty'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '912'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1058'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=15d811f0204735340a9abefe65e05e29'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'etern1ty'), ('JOURNAL_STREAM', '8:31221'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'etern1ty'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/etern1ty/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Etern1ty-14ALC6:@/tmp/.ICE-unix/1058,unix/Etern1ty-14ALC6:/tmp/.ICE-unix/1058'), ('INVOCATION_ID', 'ab696de9e0bd45ae994e5c6e5a1bc66c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('TILIX_ID', 'cbb97c6d-e9a5-49b9-9cdd-11c8f36977ea'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HLUYJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LINENO', '5'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('bleopt_connect_tty', '1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/etern1ty/ros2_ws/build/obj_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=15d811f0204735340a9abefe65e05e29'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_ble_util_fdvars_export', ''), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.565789] (obj_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.566507] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/ament_index/resource_index/rosidl_interfaces/obj_msg\n'}
+[0.566762] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg\n'}
+[0.566906] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg\n'}
+[0.567039] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg/detected.h\n'}
+[0.567105] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg/detail\n'}
+[0.567227] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg/detail/detected__functions.c\n'}
+[0.567363] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg/detail/motion__type_support.h\n'}
+[0.567423] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg/detail/motion__struct.h\n'}
+[0.567478] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg/detail/detected__functions.h\n'}
+[0.567539] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg/detail/detected__struct.h\n'}
+[0.567593] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg/detail/motion__functions.h\n'}
+[0.567646] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg/detail/detected__type_support.h\n'}
+[0.567699] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg/detail/motion__functions.c\n'}
+[0.567752] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg/motion.h\n'}
+[0.567804] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.568449] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/environment/library_path.sh\n'}
+[0.568514] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/environment/library_path.dsv\n'}
+[0.569200] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/lib/libobj_msg__rosidl_generator_c.so\n'}
+[0.569363] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg\n'}
+[0.569476] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg\n'}
+[0.569579] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.569642] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg/detail\n'}
+[0.569732] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg/detail/motion__rosidl_typesupport_fastrtps_c.h\n'}
+[0.569787] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg/detail/detected__rosidl_typesupport_fastrtps_c.h\n'}
+[0.569901] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/lib/libobj_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[0.570009] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg\n'}
+[0.570080] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg\n'}
+[0.570214] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg/detail\n'}
+[0.570293] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg/detail/detected__type_support.c\n'}
+[0.570360] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg/detail/motion__rosidl_typesupport_introspection_c.h\n'}
+[0.570415] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg/detail/detected__rosidl_typesupport_introspection_c.h\n'}
+[0.570472] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg/detail/motion__type_support.c\n'}
+[0.570541] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.570596] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/lib/libobj_msg__rosidl_typesupport_introspection_c.so\n'}
+[0.570945] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/lib/libobj_msg__rosidl_typesupport_c.so\n'}
+[0.571074] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg\n'}
+[0.571187] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg\n'}
+[0.571297] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg/detected.hpp\n'}
+[0.571358] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg/detail\n'}
+[0.571460] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg/detail/motion__builder.hpp\n'}
+[0.571525] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg/detail/detected__struct.hpp\n'}
+[0.571585] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg/detail/detected__traits.hpp\n'}
+[0.571668] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg/detail/motion__struct.hpp\n'}
+[0.571722] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg/detail/motion__traits.hpp\n'}
+[0.571776] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg/detail/detected__builder.hpp\n'}
+[0.571835] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg/motion.hpp\n'}
+[0.571889] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg\n'}
+[0.571942] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg\n'}
+[0.571994] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg/detail\n'}
+[0.572047] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg/detail/dds_fastrtps\n'}
+[0.572099] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg/detail/detected__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.572165] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg/detail/motion__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.572231] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.572334] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/lib/libobj_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.572396] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg\n'}
+[0.572484] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg\n'}
+[0.572551] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg/detail\n'}
+[0.572613] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg/detail/detected__type_support.cpp\n'}
+[0.572683] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg/detail/motion__type_support.cpp\n'}
+[0.572737] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg/detail/motion__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.572804] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/include/obj_msg/obj_msg/msg/detail/detected__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.572858] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/lib/libobj_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[0.573331] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/lib/libobj_msg__rosidl_typesupport_cpp.so\n'}
+[0.573488] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/environment/pythonpath.sh\n'}
+[0.573903] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/environment/pythonpath.dsv\n'}
+[0.573963] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/local/lib/python3.10/dist-packages/obj_msg-0.0.0-py3.10.egg-info\n'}
+[0.574064] (obj_msg) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/obj_msg/local/lib/python3.10/dist-packages/obj_msg-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.574235] (obj_msg) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/obj_msg/local/lib/python3.10/dist-packages/obj_msg-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.574394] (obj_msg) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/obj_msg/local/lib/python3.10/dist-packages/obj_msg-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.574532] (obj_msg) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/obj_msg/local/lib/python3.10/dist-packages/obj_msg-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.574710] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/local/lib/python3.10/dist-packages/obj_msg\n'}
+[0.574842] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/local/lib/python3.10/dist-packages/obj_msg/libobj_msg__rosidl_generator_py.so\n'}
+[0.574949] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/local/lib/python3.10/dist-packages/obj_msg/_obj_msg_s.ep.rosidl_typesupport_c.c\n'}
+[0.575040] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/local/lib/python3.10/dist-packages/obj_msg/__init__.py\n'}
+[0.575095] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/local/lib/python3.10/dist-packages/obj_msg/obj_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.575150] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/local/lib/python3.10/dist-packages/obj_msg/_obj_msg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.575203] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/local/lib/python3.10/dist-packages/obj_msg/obj_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.575256] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/local/lib/python3.10/dist-packages/obj_msg/msg\n'}
+[0.576062] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/local/lib/python3.10/dist-packages/obj_msg/msg/_motion_s.c\n'}
+[0.576169] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/local/lib/python3.10/dist-packages/obj_msg/msg/_detected_s.c\n'}
+[0.576259] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/local/lib/python3.10/dist-packages/obj_msg/msg/_motion.py\n'}
+[0.576313] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/local/lib/python3.10/dist-packages/obj_msg/msg/__init__.py\n'}
+[0.576366] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/local/lib/python3.10/dist-packages/obj_msg/msg/_detected.py\n'}
+[0.576420] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/local/lib/python3.10/dist-packages/obj_msg/obj_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.576474] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/local/lib/python3.10/dist-packages/obj_msg/_obj_msg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.599866] (-) TimerEvent: {}
+[0.603046] (obj_msg) StdoutLine: {'line': b"Listing '/home/etern1ty/ros2_ws/install/obj_msg/local/lib/python3.10/dist-packages/obj_msg'...\n"}
+[0.603299] (obj_msg) StdoutLine: {'line': b"Listing '/home/etern1ty/ros2_ws/install/obj_msg/local/lib/python3.10/dist-packages/obj_msg/msg'...\n"}
+[0.607961] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/local/lib/python3.10/dist-packages/obj_msg/obj_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.608634] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/local/lib/python3.10/dist-packages/obj_msg/obj_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.609158] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/local/lib/python3.10/dist-packages/obj_msg/obj_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.609690] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/lib/libobj_msg__rosidl_generator_py.so\n'}
+[0.610010] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/msg/Detected.idl\n'}
+[0.610151] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/msg/Motion.idl\n'}
+[0.610213] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/msg/Detected.msg\n'}
+[0.610267] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/msg/Motion.msg\n'}
+[0.610353] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/ament_index/resource_index/package_run_dependencies/obj_msg\n'}
+[0.610530] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/ament_index/resource_index/parent_prefix_path/obj_msg\n'}
+[0.610654] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/environment/ament_prefix_path.sh\n'}
+[0.610765] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/environment/ament_prefix_path.dsv\n'}
+[0.610839] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/environment/path.sh\n'}
+[0.610937] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/environment/path.dsv\n'}
+[0.610996] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/local_setup.bash\n'}
+[0.611052] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/local_setup.sh\n'}
+[0.611107] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/local_setup.zsh\n'}
+[0.611161] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/local_setup.dsv\n'}
+[0.611225] (obj_msg) StdoutLine: {'line': b'-- Installing: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/package.dsv\n'}
+[0.611309] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/ament_index/resource_index/packages/obj_msg\n'}
+[0.612219] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/cmake/export_obj_msg__rosidl_generator_cExport.cmake\n'}
+[0.612319] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/cmake/export_obj_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.612738] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/cmake/export_obj_msg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.612837] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/cmake/export_obj_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.613270] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/cmake/obj_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.613353] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/cmake/obj_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.613740] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/cmake/obj_msg__rosidl_typesupport_cExport.cmake\n'}
+[0.613846] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/cmake/obj_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.614036] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/cmake/export_obj_msg__rosidl_generator_cppExport.cmake\n'}
+[0.614275] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/cmake/export_obj_msg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.614372] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/cmake/export_obj_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.614704] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/cmake/obj_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.614802] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/cmake/obj_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.615304] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/cmake/obj_msg__rosidl_typesupport_cppExport.cmake\n'}
+[0.615416] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/cmake/obj_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.615697] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/cmake/export_obj_msg__rosidl_generator_pyExport.cmake\n'}
+[0.615811] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/cmake/export_obj_msg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.615889] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.616012] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[0.616110] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.616218] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.616277] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.616339] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.616393] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.616447] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/cmake/obj_msgConfig.cmake\n'}
+[0.616501] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/cmake/obj_msgConfig-version.cmake\n'}
+[0.616558] (obj_msg) StdoutLine: {'line': b'-- Up-to-date: /home/etern1ty/ros2_ws/install/obj_msg/share/obj_msg/package.xml\n'}
+[0.619245] (obj_msg) CommandEnded: {'returncode': 0}
+[0.699996] (-) TimerEvent: {}
+[0.800465] (-) TimerEvent: {}
+[0.837114] (obj_msg) JobEnded: {'identifier': 'obj_msg', 'rc': 0}
+[0.837982] (-) EventReactorShutdown: {}

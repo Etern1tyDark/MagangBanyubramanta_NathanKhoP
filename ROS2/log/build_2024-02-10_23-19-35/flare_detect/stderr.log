@@ -1,0 +1,8 @@
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:[m[K In destructor ‘[01m[Kvirtual Detection::~Detection()[m[K’:
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:53:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kwaitkey[m[K’ was not declared in this scope; did you mean ‘[01m[Kwrite[m[K’?
+   53 |     [01;31m[Kwaitkey[m[K(0);
+      |     [01;31m[K^~~~~~~[m[K
+      |     [32m[Kwrite[m[K
+gmake[2]: *** [CMakeFiles/detection.dir/build.make:76: CMakeFiles/detection.dir/src/detection.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/detection.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

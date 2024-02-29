@@ -1,0 +1,3 @@
+[0.059s] Invoking command in '/home/etern1ty/ros2_ws/build/flare_detection': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/etern1ty/ros2_ws/src/flare_detection -DCMAKE_INSTALL_PREFIX=/home/etern1ty/ros2_ws/install/flare_detection
+[0.069s] [0mCMake Error: The source "/home/etern1ty/ros2_ws/src/flare_detection/CMakeLists.txt" does not match the source "/home/etern1ty/ros2_ws/src/opencv/flare_detection/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.[0m
+[0.071s] Invoked command in '/home/etern1ty/ros2_ws/build/flare_detection' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/etern1ty/ros2_ws/src/flare_detection -DCMAKE_INSTALL_PREFIX=/home/etern1ty/ros2_ws/install/flare_detection

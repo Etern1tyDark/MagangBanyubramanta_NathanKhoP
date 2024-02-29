@@ -1,0 +1,41 @@
+[0.670s] Invoking command in '/home/etern1ty/ros2_ws/src/src/examples/rclpy/services/minimal_service': PYTHONPATH=/home/etern1ty/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../../build/examples_rclpy_minimal_service build --build-base /home/etern1ty/ros2_ws/build/examples_rclpy_minimal_service/build install --record /home/etern1ty/ros2_ws/build/examples_rclpy_minimal_service/install.log --single-version-externally-managed
+[0.884s] running egg_info
+[0.884s] creating ../../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info
+[0.885s] writing ../../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/PKG-INFO
+[0.885s] writing dependency_links to ../../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/dependency_links.txt
+[0.885s] writing entry points to ../../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/entry_points.txt
+[0.885s] writing requirements to ../../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/requires.txt
+[0.885s] writing top-level names to ../../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/top_level.txt
+[0.885s] writing manifest file '../../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[0.894s] reading manifest file '../../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[0.894s] writing manifest file '../../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[0.894s] running build
+[0.895s] running build_py
+[0.895s] creating /home/etern1ty/ros2_ws/build/examples_rclpy_minimal_service/build
+[0.895s] creating /home/etern1ty/ros2_ws/build/examples_rclpy_minimal_service/build/lib
+[0.895s] creating /home/etern1ty/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[0.895s] copying examples_rclpy_minimal_service/__init__.py -> /home/etern1ty/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[0.895s] copying examples_rclpy_minimal_service/service.py -> /home/etern1ty/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[0.895s] copying examples_rclpy_minimal_service/service_member_function.py -> /home/etern1ty/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[0.896s] running install
+[0.896s] running install_lib
+[0.896s] creating /home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[0.897s] copying /home/etern1ty/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/__init__.py -> /home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[0.897s] copying /home/etern1ty/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/service.py -> /home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[0.897s] copying /home/etern1ty/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/service_member_function.py -> /home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[0.897s] byte-compiling /home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service/__init__.py to __init__.cpython-310.pyc
+[0.897s] byte-compiling /home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service/service.py to service.cpython-310.pyc
+[0.898s] byte-compiling /home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service/service_member_function.py to service_member_function.cpython-310.pyc
+[0.898s] running install_data
+[0.899s] creating /home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service/share/ament_index
+[0.899s] creating /home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index
+[0.899s] creating /home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages
+[0.899s] copying resource/examples_rclpy_minimal_service -> /home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages
+[0.899s] copying package.xml -> /home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service/share/examples_rclpy_minimal_service
+[0.899s] running install_egg_info
+[0.901s] Copying ../../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info to /home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service-0.15.1-py3.10.egg-info
+[0.901s] running install_scripts
+[0.918s] Installing service script to /home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[0.919s] Installing service_member_function script to /home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[0.919s] writing list of installed files to '/home/etern1ty/ros2_ws/build/examples_rclpy_minimal_service/install.log'
+[0.954s] Invoked command in '/home/etern1ty/ros2_ws/src/src/examples/rclpy/services/minimal_service' returned '0': PYTHONPATH=/home/etern1ty/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../../build/examples_rclpy_minimal_service build --build-base /home/etern1ty/ros2_ws/build/examples_rclpy_minimal_service/build install --record /home/etern1ty/ros2_ws/build/examples_rclpy_minimal_service/install.log --single-version-externally-managed

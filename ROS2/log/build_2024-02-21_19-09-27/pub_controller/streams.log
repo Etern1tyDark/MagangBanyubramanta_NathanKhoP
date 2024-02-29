@@ -1,0 +1,10 @@
+[0.063s] Invoking command in '/home/etern1ty/ros2_ws/build/pub_controller': AMENT_PREFIX_PATH=/home/etern1ty/ros2_ws/install/obj_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/etern1ty/ros2_ws/install/obj_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/etern1ty/ros2_ws/install/obj_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/etern1ty/ros2_ws/install/obj_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/pub_controller -- -j12 -l12
+[0.173s] [ 50%] [32mBuilding CXX object CMakeFiles/controller.dir/src/pub_func.cpp.o[0m
+[0.612s] [01m[K/home/etern1ty/ros2_ws/src/pub_controller/src/pub_func.cpp:23:10:[m[K [01;31m[Kfatal error: [m[Kobj_msg/msg/motion.hpp: No such file or directory
+[0.612s]    23 | #include [01;31m[K"obj_msg/msg/motion.hpp"[m[K
+[0.612s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.612s] compilation terminated.
+[0.617s] gmake[2]: *** [CMakeFiles/controller.dir/build.make:76: CMakeFiles/controller.dir/src/pub_func.cpp.o] Error 1
+[0.617s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/controller.dir/all] Error 2
+[0.617s] gmake: *** [Makefile:146: all] Error 2
+[0.622s] Invoked command in '/home/etern1ty/ros2_ws/build/pub_controller' returned '2': AMENT_PREFIX_PATH=/home/etern1ty/ros2_ws/install/obj_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/etern1ty/ros2_ws/install/obj_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/etern1ty/ros2_ws/install/obj_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/etern1ty/ros2_ws/install/obj_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/pub_controller -- -j12 -l12

@@ -1,0 +1,6 @@
+Invoking command in '/home/etern1ty/ros2_ws/build/yolo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/etern1ty/ros2_ws/src/yolo -DCMAKE_INSTALL_PREFIX=/home/etern1ty/ros2_ws/install/yolo
+Invoked command in '/home/etern1ty/ros2_ws/build/yolo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/etern1ty/ros2_ws/src/yolo -DCMAKE_INSTALL_PREFIX=/home/etern1ty/ros2_ws/install/yolo
+Invoking command in '/home/etern1ty/ros2_ws/build/yolo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/yolo -- -j12 -l12
+Invoked command in '/home/etern1ty/ros2_ws/build/yolo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/yolo -- -j12 -l12
+Invoking command in '/home/etern1ty/ros2_ws/build/yolo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/etern1ty/ros2_ws/build/yolo
+Invoked command in '/home/etern1ty/ros2_ws/build/yolo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/etern1ty/ros2_ws/build/yolo

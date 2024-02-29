@@ -1,0 +1,21 @@
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:[m[K In member function ‘[01m[Kvoid Detection::topic_callback()[m[K’:
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:73:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope
+   73 |       return [01;31m[Kmessage[m[K;
+      |              [01;31m[K^~~~~~~[m[K
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:[m[K In member function ‘[01m[Kflare_detect::msg::Detected Detection::detectColors(const cv::Mat&)[m[K’:
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:88:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kred[m[K’ was not declared in this scope; did you mean ‘[01m[Kread[m[K’?
+   88 |     message.red = countNonZero([01;31m[Kred[m[K) > 0;
+      |                                [01;31m[K^~~[m[K
+      |                                [32m[Kread[m[K
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:89:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kyellow[m[K’ was not declared in this scope
+   89 |     message.yellow = countNonZero([01;31m[Kyellow[m[K) > 0;
+      |                                   [01;31m[K^~~~~~[m[K
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:90:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kblue[m[K’ was not declared in this scope
+   90 |     message.blue = countNonZero([01;31m[Kblue[m[K) > 0;
+      |                                 [01;31m[K^~~~[m[K
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:85:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kframe[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   85 |   flare_detect::msg::Detected detectColors([01;35m[Kconst Mat &frame[m[K) {
+      |                                            [01;35m[K~~~~~~~~~~~^~~~~[m[K
+gmake[2]: *** [CMakeFiles/detection.dir/build.make:76: CMakeFiles/detection.dir/src/detection.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/detection.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

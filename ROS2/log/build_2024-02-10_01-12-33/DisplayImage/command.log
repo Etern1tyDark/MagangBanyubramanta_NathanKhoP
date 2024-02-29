@@ -1,0 +1,2 @@
+Invoking command in '/home/etern1ty/ros2_ws/build/DisplayImage': /usr/bin/cmake /home/etern1ty/ros2_ws/src/opencv/DisplayImage -DCMAKE_INSTALL_PREFIX=/home/etern1ty/ros2_ws/install/DisplayImage
+Invoked command in '/home/etern1ty/ros2_ws/build/DisplayImage' returned '1': /usr/bin/cmake /home/etern1ty/ros2_ws/src/opencv/DisplayImage -DCMAKE_INSTALL_PREFIX=/home/etern1ty/ros2_ws/install/DisplayImage

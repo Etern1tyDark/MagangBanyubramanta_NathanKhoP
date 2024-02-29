@@ -1,0 +1,24 @@
+[0.050s] Invoking command in '/home/etern1ty/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/my_package -- -j12 -l12
+[0.106s] [ 50%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[0.139s] [100%] [32m[1mLinking CXX executable my_node[0m
+[0.188s] [100%] Built target my_node
+[0.202s] Invoked command in '/home/etern1ty/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/etern1ty/ros2_ws/build/my_package -- -j12 -l12
+[0.234s] Invoking command in '/home/etern1ty/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/etern1ty/ros2_ws/build/my_package
+[0.240s] -- Install configuration: ""
+[0.241s] -- Installing: /home/etern1ty/ros2_ws/install/my_package/lib/my_package/my_node
+[0.241s] -- Installing: /home/etern1ty/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[0.242s] -- Installing: /home/etern1ty/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[0.242s] -- Up-to-date: /home/etern1ty/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[0.242s] -- Installing: /home/etern1ty/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[0.242s] -- Up-to-date: /home/etern1ty/ros2_ws/install/my_package/share/my_package/environment/path.sh
+[0.242s] -- Installing: /home/etern1ty/ros2_ws/install/my_package/share/my_package/environment/path.dsv
+[0.243s] -- Installing: /home/etern1ty/ros2_ws/install/my_package/share/my_package/local_setup.bash
+[0.243s] -- Installing: /home/etern1ty/ros2_ws/install/my_package/share/my_package/local_setup.sh
+[0.243s] -- Installing: /home/etern1ty/ros2_ws/install/my_package/share/my_package/local_setup.zsh
+[0.243s] -- Installing: /home/etern1ty/ros2_ws/install/my_package/share/my_package/local_setup.dsv
+[0.244s] -- Installing: /home/etern1ty/ros2_ws/install/my_package/share/my_package/package.dsv
+[0.244s] -- Installing: /home/etern1ty/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[0.244s] -- Installing: /home/etern1ty/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[0.244s] -- Installing: /home/etern1ty/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[0.245s] -- Up-to-date: /home/etern1ty/ros2_ws/install/my_package/share/my_package/package.xml
+[0.248s] Invoked command in '/home/etern1ty/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/etern1ty/ros2_ws/build/my_package

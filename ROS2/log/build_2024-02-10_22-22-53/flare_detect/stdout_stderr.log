@@ -1,0 +1,56 @@
+[  3%] Built target flare_detect__cpp
+[ 12%] Built target flare_detect__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_flare_detect
+[ 21%] Built target flare_detect__rosidl_typesupport_introspection_c
+[ 39%] Built target flare_detect__rosidl_typesupport_cpp
+[ 39%] Built target flare_detect__rosidl_typesupport_fastrtps_cpp
+[ 48%] Built target flare_detect__rosidl_typesupport_introspection_cpp
+[ 57%] Built target flare_detect__rosidl_typesupport_c
+[ 66%] Built target flare_detect__rosidl_typesupport_fastrtps_c
+[ 66%] Built target flare_detect
+[ 69%] [32mBuilding CXX object CMakeFiles/detection.dir/src/detection.cpp.o[0m
+[ 72%] Built target flare_detect__py
+[ 78%] Built target flare_detect__rosidl_generator_py
+[ 84%] Built target flare_detect__rosidl_typesupport_fastrtps_c__pyext
+[ 90%] Built target flare_detect__rosidl_typesupport_c__pyext
+[ 96%] Built target flare_detect__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing flare_detect.egg-info/PKG-INFO
+writing dependency_links to flare_detect.egg-info/dependency_links.txt
+writing top-level names to flare_detect.egg-info/top_level.txt
+reading manifest file 'flare_detect.egg-info/SOURCES.txt'
+writing manifest file 'flare_detect.egg-info/SOURCES.txt'
+[ 96%] Built target ament_cmake_python_build_flare_detect_egg
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:53:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamsrc[m[K’ does not name a type
+   53 |   [01;31m[Kcamsrc[m[K.release();
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:54:3:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KdestroyAllWindows[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   54 |   [01;31m[KdestroyAllWindows[m[K();
+      |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:55:4:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   55 |   }
+      |    [01;31m[K^[m[K
+      |    [32m[K;[m[K
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:[m[K In constructor ‘[01m[KDetection::Detection()[m[K’:
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:44:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   44 |     [01;31m[Kpublisher_[m[K = this->create_publisher<flare_detect::msg::Detected>("object_found", 10);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krmw_publisher_t[m[K
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:45:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   45 |     [01;31m[Ktimer_[m[K = this->create_wall_timer(1000ms, std::bind(&flare_detect::topic_callback, this));
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[Ktimer_t[m[K
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:45:71:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic_callback[m[K’ is not a member of ‘[01m[Kflare_detect[m[K’
+   45 |  = this->create_wall_timer(1000ms, std::bind(&flare_detect::[01;31m[Ktopic_callback[m[K, this));
+      |                                                             [01;31m[K^~~~~~~~~~~~~~[m[K
+
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:46:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamsrc[m[K’ was not declared in this scope
+   46 |     [01;31m[Kcamsrc[m[K = VideoCapture(0);
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:[m[K At global scope:
+[01m[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:57:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+   57 | [01;31m[Kprivate[m[K:
+      | [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/detection.dir/build.make:76: CMakeFiles/detection.dir/src/detection.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/detection.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

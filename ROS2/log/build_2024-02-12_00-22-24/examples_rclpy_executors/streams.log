@@ -1,0 +1,26 @@
+[0.722s] Invoking command in '/home/etern1ty/ros2_ws/src/src/examples/rclpy/executors': PYTHONPATH=/home/etern1ty/ros2_ws/build/examples_rclpy_executors/prefix_override:/home/etern1ty/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_executors build --build-base /home/etern1ty/ros2_ws/build/examples_rclpy_executors/build install --record /home/etern1ty/ros2_ws/build/examples_rclpy_executors/install.log --single-version-externally-managed
+[0.936s] running egg_info
+[0.937s] writing ../../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/PKG-INFO
+[0.937s] writing dependency_links to ../../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/dependency_links.txt
+[0.937s] writing entry points to ../../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/entry_points.txt
+[0.938s] writing requirements to ../../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/requires.txt
+[0.938s] writing top-level names to ../../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/top_level.txt
+[0.940s] reading manifest file '../../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[0.940s] writing manifest file '../../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[0.941s] running build
+[0.941s] running build_py
+[0.941s] running install
+[0.942s] running install_lib
+[0.943s] running install_data
+[0.944s] running install_egg_info
+[0.946s] removing '/home/etern1ty/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors-0.15.1-py3.10.egg-info' (and everything under it)
+[0.946s] Copying ../../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info to /home/etern1ty/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors-0.15.1-py3.10.egg-info
+[0.947s] running install_scripts
+[0.964s] Installing callback_group script to /home/etern1ty/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[0.964s] Installing composed script to /home/etern1ty/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[0.964s] Installing custom_callback_group script to /home/etern1ty/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[0.964s] Installing custom_executor script to /home/etern1ty/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[0.964s] Installing listener script to /home/etern1ty/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[0.965s] Installing talker script to /home/etern1ty/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[0.965s] writing list of installed files to '/home/etern1ty/ros2_ws/build/examples_rclpy_executors/install.log'
+[1.008s] Invoked command in '/home/etern1ty/ros2_ws/src/src/examples/rclpy/executors' returned '0': PYTHONPATH=/home/etern1ty/ros2_ws/build/examples_rclpy_executors/prefix_override:/home/etern1ty/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_executors build --build-base /home/etern1ty/ros2_ws/build/examples_rclpy_executors/build install --record /home/etern1ty/ros2_ws/build/examples_rclpy_executors/install.log --single-version-externally-managed

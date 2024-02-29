@@ -1,0 +1,140 @@
+[0.000000] (-) TimerEvent: {}
+[0.000798] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000868] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.001157] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.001265] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.001313] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.001429] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.001473] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.001567] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.001750] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.001794] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.001929] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.001973] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.002110] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.002130] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.002148] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.002166] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.002183] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.002201] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.002219] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.002247] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.002265] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.002283] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.002300] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.002318] (-) JobUnselected: {'identifier': 'my_package'}
+[0.002336] (-) JobUnselected: {'identifier': 'pub_controller'}
+[0.002353] (-) JobUnselected: {'identifier': 'ros2_color_detection'}
+[0.002371] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.002391] (flare_detect) JobQueued: {'identifier': 'flare_detect', 'dependencies': OrderedDict()}
+[0.002413] (flare_detect) JobStarted: {'identifier': 'flare_detect'}
+[0.049132] (flare_detect) JobProgress: {'identifier': 'flare_detect', 'progress': 'cmake'}
+[0.050339] (flare_detect) JobProgress: {'identifier': 'flare_detect', 'progress': 'build'}
+[0.050395] (flare_detect) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/etern1ty/ros2_ws/build/flare_detect', '--', '-j12', '-l12'], 'cwd': '/home/etern1ty/ros2_ws/build/flare_detect', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'etern1ty'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/etern1ty'), ('OLDPWD', '/home/etern1ty'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '904'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1050'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=50e6492ab820487a34a7012065c722a2'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'etern1ty'), ('JOURNAL_STREAM', '8:20310'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'etern1ty'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/etern1ty/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Etern1ty-14ALC6:@/tmp/.ICE-unix/1050,unix/Etern1ty-14ALC6:/tmp/.ICE-unix/1050'), ('INVOCATION_ID', 'b8c8a621d5ba477b8313db8a8ccf2226'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('TILIX_ID', 'cbdf48ee-6aa5-4ec2-8c37-bad214e3511d'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XDFVI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/etern1ty/ros2_ws/build/flare_detect'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=50e6492ab820487a34a7012065c722a2'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.079379] (flare_detect) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099811] (-) TimerEvent: {}
+[0.200220] (-) TimerEvent: {}
+[0.207046] (flare_detect) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.235482] (flare_detect) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.238050] (flare_detect) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.243924] (flare_detect) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.254170] (flare_detect) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.268463] (flare_detect) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.300375] (-) TimerEvent: {}
+[0.321290] (flare_detect) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.322390] (flare_detect) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.400511] (-) TimerEvent: {}
+[0.458741] (flare_detect) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.500680] (-) TimerEvent: {}
+[0.601151] (-) TimerEvent: {}
+[0.606587] (flare_detect) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.701291] (-) TimerEvent: {}
+[0.801952] (-) TimerEvent: {}
+[0.834203] (flare_detect) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.902127] (-) TimerEvent: {}
+[1.002587] (-) TimerEvent: {}
+[1.103054] (-) TimerEvent: {}
+[1.105490] (flare_detect) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.203196] (-) TimerEvent: {}
+[1.214628] (flare_detect) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.237598] (flare_detect) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.258834] (flare_detect) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.259012] (flare_detect) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.259077] (flare_detect) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.268362] (flare_detect) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.276648] (flare_detect) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.277124] (flare_detect) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.277309] (flare_detect) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.277658] (flare_detect) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.278664] (flare_detect) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.278945] (flare_detect) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.279012] (flare_detect) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.280500] (flare_detect) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.303323] (-) TimerEvent: {}
+[1.314098] (flare_detect) StdoutLine: {'line': b'-- Generating done\n'}
+[1.318138] (flare_detect) StdoutLine: {'line': b'-- Build files have been written to: /home/etern1ty/ros2_ws/build/flare_detect\n'}
+[1.351286] (flare_detect) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_generator_c\x1b[0m\n'}
+[1.362085] (flare_detect) StdoutLine: {'line': b'[  3%] Built target flare_detect__cpp\n'}
+[1.362795] (flare_detect) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/flare_detect__rosidl_generator_c.dir/rosidl_generator_c/flare_detect/msg/detail/detected__functions.c.o\x1b[0m\n'}
+[1.373013] (flare_detect) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_flare_detect\n'}
+[1.373430] (flare_detect) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.373629] (flare_detect) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.373806] (flare_detect) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.388727] (flare_detect) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/flare_detect__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/flare_detect/msg/detail/dds_fastrtps/detected__type_support.cpp.o\x1b[0m\n'}
+[1.389029] (flare_detect) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/flare_detect__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/flare_detect/msg/detail/detected__type_support.cpp.o\x1b[0m\n'}
+[1.389124] (flare_detect) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/flare_detect__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flare_detect/msg/detected__type_support.cpp.o\x1b[0m\n'}
+[1.403460] (-) TimerEvent: {}
+[1.414544] (flare_detect) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library libflare_detect__rosidl_generator_c.so\x1b[0m\n'}
+[1.487111] (flare_detect) StdoutLine: {'line': b'[ 21%] Built target flare_detect__rosidl_generator_c\n'}
+[1.503613] (-) TimerEvent: {}
+[1.505413] (flare_detect) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_c\x1b[0m\n'}
+[1.505727] (flare_detect) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.507371] (flare_detect) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.526170] (flare_detect) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/flare_detect__rosidl_typesupport_c.dir/rosidl_typesupport_c/flare_detect/msg/detected__type_support.cpp.o\x1b[0m\n'}
+[1.531050] (flare_detect) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding C object CMakeFiles/flare_detect__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/flare_detect/msg/detail/detected__type_support.c.o\x1b[0m\n'}
+[1.537149] (flare_detect) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/flare_detect__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/flare_detect/msg/detail/detected__type_support_c.cpp.o\x1b[0m\n'}
+[1.585843] (flare_detect) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking C shared library libflare_detect__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.586931] (flare_detect) StdoutLine: {'line': b'[ 36%] \x1b[32m\x1b[1mLinking CXX shared library libflare_detect__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.603737] (-) TimerEvent: {}
+[1.657153] (flare_detect) StdoutLine: {'line': b'[ 39%] Built target flare_detect__rosidl_typesupport_introspection_c\n'}
+[1.674987] (flare_detect) StdoutLine: {'line': b'[ 42%] Built target flare_detect__rosidl_typesupport_c\n'}
+[1.703881] (-) TimerEvent: {}
+[1.755993] (flare_detect) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libflare_detect__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.767971] (flare_detect) StdoutLine: {'line': b'running egg_info\n'}
+[1.768759] (flare_detect) StdoutLine: {'line': b'writing flare_detect.egg-info/PKG-INFO\n'}
+[1.769158] (flare_detect) StdoutLine: {'line': b'writing dependency_links to flare_detect.egg-info/dependency_links.txt\n'}
+[1.769308] (flare_detect) StdoutLine: {'line': b'writing top-level names to flare_detect.egg-info/top_level.txt\n'}
+[1.773257] (flare_detect) StdoutLine: {'line': b"reading manifest file 'flare_detect.egg-info/SOURCES.txt'\n"}
+[1.774021] (flare_detect) StdoutLine: {'line': b"writing manifest file 'flare_detect.egg-info/SOURCES.txt'\n"}
+[1.804026] (-) TimerEvent: {}
+[1.811742] (flare_detect) StdoutLine: {'line': b'[ 48%] Built target flare_detect__rosidl_typesupport_cpp\n'}
+[1.824097] (flare_detect) StdoutLine: {'line': b'[ 48%] Built target ament_cmake_python_build_flare_detect_egg\n'}
+[1.839883] (flare_detect) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/detection.dir/src/detection.cpp.o\x1b[0m\n'}
+[1.867218] (flare_detect) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libflare_detect__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.871391] (flare_detect) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libflare_detect__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.904156] (-) TimerEvent: {}
+[1.917863] (flare_detect) StdoutLine: {'line': b'[ 60%] Built target flare_detect__rosidl_typesupport_introspection_cpp\n'}
+[1.926212] (flare_detect) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libflare_detect__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[1.990404] (flare_detect) StdoutLine: {'line': b'[ 66%] Built target flare_detect__rosidl_typesupport_fastrtps_cpp\n'}
+[2.004292] (-) TimerEvent: {}
+[2.040562] (flare_detect) StdoutLine: {'line': b'[ 69%] Built target flare_detect__rosidl_typesupport_fastrtps_c\n'}
+[2.065340] (flare_detect) StdoutLine: {'line': b'[ 69%] Built target flare_detect\n'}
+[2.089873] (flare_detect) StdoutLine: {'line': b'[ 72%] Built target flare_detect__py\n'}
+[2.101122] (flare_detect) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flare_detect__rosidl_generator_py\x1b[0m\n'}
+[2.104429] (-) TimerEvent: {}
+[2.109047] (flare_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/etern1ty/ros2_ws/src/flare_detect/src/detection.cpp:23:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kopencv2/opencv.hpp: No such file or directory\n'}
+[2.109403] (flare_detect) StderrLine: {'line': b'   23 | #include \x1b[01;31m\x1b[K"opencv2/opencv.hpp"\x1b[m\x1b[K\n'}
+[2.109584] (flare_detect) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.109744] (flare_detect) StderrLine: {'line': b'compilation terminated.\n'}
+[2.114304] (flare_detect) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/detection.dir/build.make:76: CMakeFiles/detection.dir/src/detection.cpp.o] Error 1\n'}
+[2.114724] (flare_detect) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/detection.dir/all] Error 2\n'}
+[2.114809] (flare_detect) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[2.117110] (flare_detect) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object CMakeFiles/flare_detect__rosidl_generator_py.dir/rosidl_generator_py/flare_detect/msg/_detected_s.c.o\x1b[0m\n'}
+[2.204562] (-) TimerEvent: {}
+[2.213014] (flare_detect) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/flare_detect/libflare_detect__rosidl_generator_py.so\x1b[0m\n'}
+[2.260081] (flare_detect) StdoutLine: {'line': b'[ 78%] Built target flare_detect__rosidl_generator_py\n'}
+[2.261781] (flare_detect) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.264371] (flare_detect) CommandEnded: {'returncode': 2}
+[2.304671] (-) TimerEvent: {}
+[2.388292] (flare_detect) JobEnded: {'identifier': 'flare_detect', 'rc': 2}
+[2.399084] (-) EventReactorShutdown: {}

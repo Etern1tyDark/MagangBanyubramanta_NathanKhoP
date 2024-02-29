@@ -1,0 +1,11 @@
+source;share/flare_detect/hook/cmake_prefix_path.ps1
+source;share/flare_detect/hook/cmake_prefix_path.dsv
+source;share/flare_detect/hook/cmake_prefix_path.sh
+source;share/flare_detect/hook/ld_library_path_lib.ps1
+source;share/flare_detect/hook/ld_library_path_lib.dsv
+source;share/flare_detect/hook/ld_library_path_lib.sh
+source;share/flare_detect/local_setup.bash
+source;share/flare_detect/local_setup.dsv
+source;share/flare_detect/local_setup.ps1
+source;share/flare_detect/local_setup.sh
+source;share/flare_detect/local_setup.zsh

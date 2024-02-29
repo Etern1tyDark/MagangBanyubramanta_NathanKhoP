@@ -1,0 +1,88 @@
+[0.000000] (-) TimerEvent: {}
+[0.000207] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000236] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000258] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000276] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000296] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000314] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000334] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000358] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000376] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000393] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000412] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000430] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000449] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000467] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000485] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000503] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000521] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000539] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.000557] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.000575] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.000594] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.000611] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.000630] (-) JobUnselected: {'identifier': 'flare_detect'}
+[0.000648] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.000667] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000685] (-) JobUnselected: {'identifier': 'obj_msg'}
+[0.000703] (-) JobUnselected: {'identifier': 'pub_controller'}
+[0.000720] (-) JobUnselected: {'identifier': 'ros2_color_detection'}
+[0.000739] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000759] (v8_test) JobQueued: {'identifier': 'v8_test', 'dependencies': OrderedDict()}
+[0.000781] (v8_test) JobStarted: {'identifier': 'v8_test'}
+[0.098946] (-) TimerEvent: {}
+[0.199305] (-) TimerEvent: {}
+[0.299772] (-) TimerEvent: {}
+[0.400126] (-) TimerEvent: {}
+[0.500551] (-) TimerEvent: {}
+[0.601006] (-) TimerEvent: {}
+[0.701471] (-) TimerEvent: {}
+[0.801945] (-) TimerEvent: {}
+[0.870042] (v8_test) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/v8_test', 'build', '--build-base', '/home/etern1ty/ros2_ws/build/v8_test/build', 'install', '--record', '/home/etern1ty/ros2_ws/build/v8_test/install.log', '--single-version-externally-managed'], 'cwd': '/home/etern1ty/ros2_ws/src/v8_test', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'etern1ty', 'LC_TIME': 'id_ID.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/etern1ty/ros2_ws/install/tutorial_interfaces/lib:/home/etern1ty/ros2_ws/install/pub_controller/lib:/home/etern1ty/ros2_ws/install/flare_detect/lib:/home/etern1ty/ros2_ws/install/obj_msg/lib:/home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/home/etern1ty/ros2_ws/install/custom_msg_pub/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/etern1ty', 'OLDPWD': '/home/etern1ty', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'id_ID.UTF-8', 'MANAGERPID': '895', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1042', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=457857df63ac73f34411398865d6b1e0', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/etern1ty/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'etern1ty', 'JOURNAL_STREAM': '8:23360', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'etern1ty', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/etern1ty/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Etern1ty-14ALC6:@/tmp/.ICE-unix/1042,unix/Etern1ty-14ALC6:/tmp/.ICE-unix/1042', 'INVOCATION_ID': '7dbfbf9ca1c840dba0564d08a1dcbe10', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'id_ID.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'id_ID.UTF-8', 'TILIX_ID': '4cf3e6fc-55de-4e7f-87d7-c7c95f48e411', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.I1IUJ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/etern1ty/ros2_ws/install/v8_test:/home/etern1ty/ros2_ws/install/cpp_pubsub:/home/etern1ty/ros2_ws/install/tutorial_interfaces:/home/etern1ty/ros2_ws/install/ros2_color_detection:/home/etern1ty/ros2_ws/install/pub_controller:/home/etern1ty/ros2_ws/install/flare_detect:/home/etern1ty/ros2_ws/install/obj_msg:/home/etern1ty/ros2_ws/install/my_package:/home/etern1ty/ros2_ws/install/launch_testing_examples:/home/etern1ty/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_publisher:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_client:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_server:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_client:/home/etern1ty/ros2_ws/install/examples_rclpy_guard_conditions:/home/etern1ty/ros2_ws/install/examples_rclpy_executors:/home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set:/home/etern1ty/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_timer:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_service:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_composition:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_client:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/etern1ty/ros2_ws/install/examples_rclcpp_cbg_executor:/home/etern1ty/ros2_ws/install/examples_rclcpp_async_client:/home/etern1ty/ros2_ws/install/custom_msg_pub:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'id_ID.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'id_ID.UTF-8', 'LC_IDENTIFICATION': 'id_ID.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/etern1ty/ros2_ws/build/v8_test', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=457857df63ac73f34411398865d6b1e0', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/etern1ty/ros2_ws/build/v8_test/prefix_override:/home/etern1ty/ros2_ws/install/v8_test/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/v8_test/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/etern1ty/ros2_ws/install/obj_msg/local/lib/python3.10/dist-packages:/home/etern1ty/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/home/etern1ty/ros2_ws/install/custom_msg_pub/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'id_ID.UTF-8', 'LC_PAPER': 'id_ID.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/etern1ty/ros2_ws/install/cpp_pubsub:/home/etern1ty/ros2_ws/install/tutorial_interfaces:/home/etern1ty/ros2_ws/install/ros2_color_detection:/home/etern1ty/ros2_ws/install/pub_controller:/home/etern1ty/ros2_ws/install/flare_detect:/home/etern1ty/ros2_ws/install/obj_msg:/home/etern1ty/ros2_ws/install/my_package:/home/etern1ty/ros2_ws/install/examples_rclcpp_wait_set:/home/etern1ty/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_timer:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_service:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_composition:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_client:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/etern1ty/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/etern1ty/ros2_ws/install/examples_rclcpp_cbg_executor:/home/etern1ty/ros2_ws/install/examples_rclcpp_async_client:/home/etern1ty/ros2_ws/install/custom_msg_pub'}, 'shell': False}
+[0.902088] (-) TimerEvent: {}
+[1.002470] (-) TimerEvent: {}
+[1.073255] (v8_test) StdoutLine: {'line': b'running egg_info\n'}
+[1.087264] (v8_test) StdoutLine: {'line': b'writing ../../build/v8_test/v8_test.egg-info/PKG-INFO\n'}
+[1.087613] (v8_test) StdoutLine: {'line': b'writing dependency_links to ../../build/v8_test/v8_test.egg-info/dependency_links.txt\n'}
+[1.087786] (v8_test) StdoutLine: {'line': b'writing entry points to ../../build/v8_test/v8_test.egg-info/entry_points.txt\n'}
+[1.087889] (v8_test) StdoutLine: {'line': b'writing requirements to ../../build/v8_test/v8_test.egg-info/requires.txt\n'}
+[1.087984] (v8_test) StdoutLine: {'line': b'writing top-level names to ../../build/v8_test/v8_test.egg-info/top_level.txt\n'}
+[1.102618] (-) TimerEvent: {}
+[1.116580] (v8_test) StdoutLine: {'line': b"reading manifest file '../../build/v8_test/v8_test.egg-info/SOURCES.txt'\n"}
+[1.116963] (v8_test) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.117541] (v8_test) StdoutLine: {'line': b"writing manifest file '../../build/v8_test/v8_test.egg-info/SOURCES.txt'\n"}
+[1.117812] (v8_test) StdoutLine: {'line': b'running build\n'}
+[1.117959] (v8_test) StdoutLine: {'line': b'running build_py\n'}
+[1.118105] (v8_test) StdoutLine: {'line': b'copying v8_test/__init__.py -> /home/etern1ty/ros2_ws/build/v8_test/build/lib/v8_test\n'}
+[1.118175] (v8_test) StdoutLine: {'line': b'copying v8_test/detect_func.py -> /home/etern1ty/ros2_ws/build/v8_test/build/lib/v8_test\n'}
+[1.118310] (v8_test) StdoutLine: {'line': b'running install\n'}
+[1.118879] (v8_test) StderrLine: {'line': b'/home/etern1ty/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[1.118987] (v8_test) StderrLine: {'line': b'!!\n'}
+[1.119049] (v8_test) StderrLine: {'line': b'\n'}
+[1.119106] (v8_test) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.119163] (v8_test) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[1.119219] (v8_test) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[1.119275] (v8_test) StderrLine: {'line': b'        standards-based tools.\n'}
+[1.119351] (v8_test) StderrLine: {'line': b'\n'}
+[1.119416] (v8_test) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[1.119473] (v8_test) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.119530] (v8_test) StderrLine: {'line': b'\n'}
+[1.119586] (v8_test) StderrLine: {'line': b'!!\n'}
+[1.119640] (v8_test) StderrLine: {'line': b'  self.initialize_options()\n'}
+[1.123460] (v8_test) StdoutLine: {'line': b'running install_lib\n'}
+[1.138481] (v8_test) StdoutLine: {'line': b'copying /home/etern1ty/ros2_ws/build/v8_test/build/lib/v8_test/detect_func.py -> /home/etern1ty/ros2_ws/install/v8_test/lib/python3.10/site-packages/v8_test\n'}
+[1.139371] (v8_test) StdoutLine: {'line': b'byte-compiling /home/etern1ty/ros2_ws/install/v8_test/lib/python3.10/site-packages/v8_test/detect_func.py to detect_func.cpython-310.pyc\n'}
+[1.140368] (v8_test) StdoutLine: {'line': b'running install_data\n'}
+[1.154485] (v8_test) StdoutLine: {'line': b'copying resource/v8_test -> /home/etern1ty/ros2_ws/install/v8_test/share/ament_index/resource_index/packages\n'}
+[1.154847] (v8_test) StdoutLine: {'line': b'copying package.xml -> /home/etern1ty/ros2_ws/install/v8_test/share/v8_test\n'}
+[1.154983] (v8_test) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.169547] (v8_test) StdoutLine: {'line': b"removing '/home/etern1ty/ros2_ws/install/v8_test/lib/python3.10/site-packages/v8_test-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.169888] (v8_test) StdoutLine: {'line': b'Copying ../../build/v8_test/v8_test.egg-info to /home/etern1ty/ros2_ws/install/v8_test/lib/python3.10/site-packages/v8_test-0.0.0-py3.10.egg-info\n'}
+[1.170711] (v8_test) StdoutLine: {'line': b'running install_scripts\n'}
+[1.202754] (-) TimerEvent: {}
+[1.301881] (v8_test) StdoutLine: {'line': b'Installing detect script to /home/etern1ty/ros2_ws/install/v8_test/lib/v8_test\n'}
+[1.302195] (v8_test) StdoutLine: {'line': b"writing list of installed files to '/home/etern1ty/ros2_ws/build/v8_test/install.log'\n"}
+[1.302874] (-) TimerEvent: {}
+[1.336360] (v8_test) CommandEnded: {'returncode': 0}
+[1.391190] (v8_test) JobEnded: {'identifier': 'v8_test', 'rc': 0}
+[1.392234] (-) EventReactorShutdown: {}

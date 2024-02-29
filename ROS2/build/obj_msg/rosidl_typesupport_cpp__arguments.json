@@ -1,0 +1,19 @@
+{
+  "package_name": "obj_msg",
+  "output_dir": "/home/etern1ty/ros2_ws/build/obj_msg/rosidl_typesupport_cpp/obj_msg",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_cpp/resource",
+  "idl_tuples": [
+    "/home/etern1ty/ros2_ws/build/obj_msg/rosidl_adapter/obj_msg:msg/Detected.idl",
+    "/home/etern1ty/ros2_ws/build/obj_msg/rosidl_adapter/obj_msg:msg/Motion.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_cpp/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/action__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
+    "/home/etern1ty/ros2_ws/build/obj_msg/rosidl_adapter/obj_msg/msg/Detected.idl",
+    "/home/etern1ty/ros2_ws/build/obj_msg/rosidl_adapter/obj_msg/msg/Motion.idl"
+  ]
+}

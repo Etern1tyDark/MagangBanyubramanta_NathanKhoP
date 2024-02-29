@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+68f2b28519ed1a085acad90db6fa376d CMakeFiles/ros2_color_detection_uninstall

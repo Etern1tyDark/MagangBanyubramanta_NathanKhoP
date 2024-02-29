@@ -1,0 +1,16 @@
+/home/etern1ty/ros2_ws/install/pub_controller/lib/pub_controller/controller
+/home/etern1ty/ros2_ws/install/pub_controller/share/ament_index/resource_index/package_run_dependencies/pub_controller
+/home/etern1ty/ros2_ws/install/pub_controller/share/ament_index/resource_index/parent_prefix_path/pub_controller
+/home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/environment/ament_prefix_path.sh
+/home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/environment/ament_prefix_path.dsv
+/home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/environment/path.sh
+/home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/environment/path.dsv
+/home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/local_setup.bash
+/home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/local_setup.sh
+/home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/local_setup.zsh
+/home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/local_setup.dsv
+/home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/package.dsv
+/home/etern1ty/ros2_ws/install/pub_controller/share/ament_index/resource_index/packages/pub_controller
+/home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/pub_controllerConfig.cmake
+/home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/cmake/pub_controllerConfig-version.cmake
+/home/etern1ty/ros2_ws/install/pub_controller/share/pub_controller/package.xml

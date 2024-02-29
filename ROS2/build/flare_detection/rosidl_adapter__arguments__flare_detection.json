@@ -1,0 +1,6 @@
+{
+  "package_name": "flare_detection",
+  "non_idl_tuples": [
+    "/home/etern1ty/ros2_ws/src/flare_detection:msg/detected_object.msg"
+  ]
+}

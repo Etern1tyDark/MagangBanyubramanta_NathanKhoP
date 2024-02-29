@@ -1,0 +1,17 @@
+/home/etern1ty/ros2_ws/install/ros2_color_detection/lib/ros2_color_detection/color_detection
+/home/etern1ty/ros2_ws/install/ros2_color_detection/share/ament_index/resource_index/package_run_dependencies/ros2_color_detection
+/home/etern1ty/ros2_ws/install/ros2_color_detection/share/ament_index/resource_index/parent_prefix_path/ros2_color_detection
+/home/etern1ty/ros2_ws/install/ros2_color_detection/share/ros2_color_detection/environment/ament_prefix_path.sh
+/home/etern1ty/ros2_ws/install/ros2_color_detection/share/ros2_color_detection/environment/ament_prefix_path.dsv
+/home/etern1ty/ros2_ws/install/ros2_color_detection/share/ros2_color_detection/environment/path.sh
+/home/etern1ty/ros2_ws/install/ros2_color_detection/share/ros2_color_detection/environment/path.dsv
+/home/etern1ty/ros2_ws/install/ros2_color_detection/share/ros2_color_detection/local_setup.bash
+/home/etern1ty/ros2_ws/install/ros2_color_detection/share/ros2_color_detection/local_setup.sh
+/home/etern1ty/ros2_ws/install/ros2_color_detection/share/ros2_color_detection/local_setup.zsh
+/home/etern1ty/ros2_ws/install/ros2_color_detection/share/ros2_color_detection/local_setup.dsv
+/home/etern1ty/ros2_ws/install/ros2_color_detection/share/ros2_color_detection/package.dsv
+/home/etern1ty/ros2_ws/install/ros2_color_detection/share/ament_index/resource_index/packages/ros2_color_detection
+/home/etern1ty/ros2_ws/install/ros2_color_detection/share/ros2_color_detection/cmake/ament_cmake_export_dependencies-extras.cmake
+/home/etern1ty/ros2_ws/install/ros2_color_detection/share/ros2_color_detection/cmake/ros2_color_detectionConfig.cmake
+/home/etern1ty/ros2_ws/install/ros2_color_detection/share/ros2_color_detection/cmake/ros2_color_detectionConfig-version.cmake
+/home/etern1ty/ros2_ws/install/ros2_color_detection/share/ros2_color_detection/package.xml

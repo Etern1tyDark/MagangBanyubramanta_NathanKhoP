@@ -1,0 +1,6 @@
+{
+  "package_name": "pub_controller",
+  "non_idl_tuples": [
+    "/home/etern1ty/ros2_ws/src/pub_controller:msg/Motion.msg"
+  ]
+}

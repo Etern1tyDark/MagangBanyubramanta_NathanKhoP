@@ -1,0 +1,7 @@
+{
+  "package_name": "obj_msg",
+  "non_idl_tuples": [
+    "/home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/src/obj_msg:msg/Detected.msg",
+    "/home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/src/obj_msg:msg/Motion.msg"
+  ]
+}

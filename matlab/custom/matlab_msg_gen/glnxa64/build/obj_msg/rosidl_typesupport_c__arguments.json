@@ -1,0 +1,19 @@
+{
+  "package_name": "obj_msg",
+  "output_dir": "/home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/build/obj_msg/rosidl_typesupport_c/obj_msg",
+  "template_dir": "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_c/resource",
+  "idl_tuples": [
+    "/home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/build/obj_msg/rosidl_adapter/obj_msg:msg/Detected.idl",
+    "/home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/build/obj_msg/rosidl_adapter/obj_msg:msg/Motion.idl"
+  ],
+  "target_dependencies": [
+    "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/lib/rosidl_typesupport_c/rosidl_typesupport_c",
+    "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/lib/python3.9/site-packages/rosidl_typesupport_c/__init__.py",
+    "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_c/resource/action__type_support.c.em",
+    "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em",
+    "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em",
+    "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
+    "/home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/build/obj_msg/rosidl_adapter/obj_msg/msg/Detected.idl",
+    "/home/etern1ty/ros2_ws/matlab/custom/matlab_msg_gen/glnxa64/build/obj_msg/rosidl_adapter/obj_msg/msg/Motion.idl"
+  ]
+}

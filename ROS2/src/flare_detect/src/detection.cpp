@@ -51,8 +51,8 @@ public:
     createTrackbar("red hue", "values", &red_hue, 180);
     createTrackbar("yellow hue", "values", &yellow_hue, 180);
     createTrackbar("blue hue", "values", &blue_hue, 180);
+*/ 
 
-*/
     if (!camsrc_.isOpened())
     {
       RCLCPP_ERROR(this->get_logger(), "An error occurred while trying to capture video");
@@ -94,7 +94,7 @@ private:
             Rect boundRect = boundingRect(contours[i]);
             // center_point.push_back(cv::Point(boundRect.x + boundRect.width / 2, boundRect.y + boundRect.height / 2));
             int colorarea = boundRect.height * boundRect.width;
-            if (colorarea > 5000) 
+            if (colorarea > 3000) 
             rectangle(frame, boundRect.tl(), boundRect.br(), color, 2);
             center_point.x = boundRect.x + boundRect.width / 2;
             center_point.y = boundRect.y + boundRect.height / 2;
@@ -132,6 +132,9 @@ private:
     blue_p = findCenter(blue, BLUE_sc);
     
     imshow("frame", frame);
+    // imshow("red", red);
+    // imshow("yellow", yellow);
+    // imshow("blue", blue);
     waitKey(1);
   }
 

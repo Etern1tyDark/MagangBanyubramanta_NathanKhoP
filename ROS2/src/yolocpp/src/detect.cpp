@@ -24,6 +24,7 @@
 #include "opencv2/opencv.hpp"
 #include "cv_bridge/cv_bridge.h"
 #include "obj_msg/msg/found.hpp"
+#include "openvino/openvino.hpp"
 
 using namespace cv;
 using namespace std;
@@ -87,7 +88,7 @@ private:
     infer_request.infer();
     const ov::Tensor& output_tensor = infer_request.get_output_tensor();
     ov::Shape output_shape = output_tensor.get_shape();
-    float* detections = output_tensor.data<float>();
+    float* data = output_tensor.data<float>();
 
     vector<cv::Rect> boxes;
     // vector<int> class_ids;
@@ -96,7 +97,7 @@ private:
 
     for (int i = 0; i < output_shape[1]; i++) {
 
-        float* detection = &detections[i * output_shape[2]];
+        float* detection = &data * output_shape[2]];
         float confidence = detection[4];
 
         if (confidence > conf_lim / 100.) {

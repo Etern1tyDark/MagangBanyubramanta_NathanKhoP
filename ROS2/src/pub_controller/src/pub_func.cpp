@@ -24,37 +24,28 @@
 
 using std::placeholders::_1;
 
-// Microsoft Xbox 360 Wired Controller for Linux - http://wiki.ros.org/joy
-/*
-enum Buttons
-{
-	A,
-	B,
-	X,
-	Y,
-	LB,
-	RB,
-	BACK,
-	START,
-	POWER,
-	LEFT_STICK,
-	RIGHT_STICK
-};
+#define R_SPEED = 3;
 
+#define L_MIN = -180;
+#define L_MAX = 180;
+
+#define R_MIN = -100;
+#define R_MAX = 100;
+
+/*
+Microsoft Xbox 360 Wired Controller for Linux - http://wiki.ros.org/joy
 enum Axes
 {
-	LR_LEFT,
-	UD_LEFT,
-	LT,
-	LR_RIGHT,
-	UD_RIGHT,
-	RT,
-	LR_CROSS,
-	UD_CROSS
+	LR_LEFT,  0
+	UD_LEFT,  1
+	LT,       2
+	LR_RIGHT, 3
+	UD_RIGHT, 4
+	RT,       5
+	LR_CROSS, 6
+	UD_CROSS  7
 };
 */
-/* This example creates a subclass of Node and uses std::bind() to register a
- * member function as a callback from the timer. */
 
 class Controller : public rclcpp::Node
 {
@@ -76,18 +67,18 @@ private:
   {
     auto motion_data = obj_msg::msg::Motion();
     
-    motion_data.x_cmd = msg.axes[1] * 180; 
-    motion_data.y_cmd = msg.axes[0] * -180;
+    motion_data.x_cmd = msg.axes[1] * L_MAX; 
+    motion_data.y_cmd = msg.axes[0] * L_MIN;
     motion_data.yaw = tempyaw;
     motion_data.depth = tempdepth;
 
-    tempyaw += ((msg.axes[3] * -1)) * 3;
-    tempdepth += (msg.axes[4]) * 3;
+    tempyaw += ((msg.axes[3] * -1)) * R_SPEED;
+    tempdepth += (msg.axes[4]) * R_SPEED;
 
-    if (tempyaw > 180 || tempyaw < -180) {
+    if (tempyaw > L_MAX || tempyaw < (L_MIN)) {
       tempyaw *=  -1;
     }
-    if (tempdepth > 100 || tempdepth < -100) {
+    if (tempdepth > R_MAX || tempyaw < (R_MIN)) {
       tempdepth *=  -1;
     } 
     

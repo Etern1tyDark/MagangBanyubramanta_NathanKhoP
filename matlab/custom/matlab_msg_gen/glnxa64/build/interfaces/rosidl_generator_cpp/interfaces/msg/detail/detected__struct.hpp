@@ -41,7 +41,7 @@ struct Detected_
       this->color = 0l;
       this->x = 0l;
       this->y = 0l;
-      this->angle = 0.0f;
+      this->angle = 0l;
     }
   }
 
@@ -54,7 +54,7 @@ struct Detected_
       this->color = 0l;
       this->x = 0l;
       this->y = 0l;
-      this->angle = 0.0f;
+      this->angle = 0l;
     }
   }
 
@@ -69,7 +69,7 @@ struct Detected_
     int32_t;
   _y_type y;
   using _angle_type =
-    float;
+    int32_t;
   _angle_type angle;
 
   // setters for named parameter idiom
@@ -92,7 +92,7 @@ struct Detected_
     return *this;
   }
   Type & set__angle(
-    const float & _arg)
+    const int32_t & _arg)
   {
     this->angle = _arg;
     return *this;

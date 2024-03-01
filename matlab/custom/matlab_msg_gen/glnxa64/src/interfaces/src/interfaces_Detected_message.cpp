@@ -63,12 +63,12 @@ class INTERFACES_EXPORT ros2_interfaces_msg_Detected_common : public MATLABROS2M
     }
     try {
         //angle
-        const matlab::data::TypedArray<float> angle_arr = arr["angle"];
+        const matlab::data::TypedArray<int32_t> angle_arr = arr["angle"];
         msg->angle = angle_arr[0];
     } catch (matlab::data::InvalidFieldNameException&) {
         throw std::invalid_argument("Field 'angle' is missing.");
     } catch (matlab::Exception&) {
-        throw std::invalid_argument("Field 'angle' is wrong type; expected a single.");
+        throw std::invalid_argument("Field 'angle' is wrong type; expected a int32.");
     }
   }
   //----------------------------------------------------------------------------

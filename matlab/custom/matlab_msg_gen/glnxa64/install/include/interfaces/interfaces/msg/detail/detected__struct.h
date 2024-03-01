@@ -23,7 +23,7 @@ typedef struct interfaces__msg__Detected
   int32_t color;
   int32_t x;
   int32_t y;
-  float angle;
+  int32_t angle;
 } interfaces__msg__Detected;
 
 // Struct for a sequence of interfaces__msg__Detected.

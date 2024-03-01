@@ -1,7 +1,8 @@
 classdef Color < Simulink.IntEnumType
     enumeration
-        RED(0)
-        YELLOW(1)
-        BLUE(2)
+        GATE(1)
+        RED(2)
+        YELLOW(3)
+        BLUE(4)
     end
 end

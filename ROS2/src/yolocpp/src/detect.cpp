@@ -42,7 +42,7 @@ public:
   YoloNode() : Node("yolonode")
   {
     publisher_ = this->create_publisher<obj_msg::msg::Found>("detected_obj", 10);
-    subscriber_ = this->create_subscription<sensor_msgs::msg::Image>("cam_src", 10, std::bind(&YOLO::topic_callback, this, _1));
+    subscriber_ = this->create_subscription<sensor_msgs::msg::Image>("cam_src", 10, std::bind(&YoloNode::topic_callback, this, _1));
 
     ov::Core core;
     std::shared_ptr<ov::Model> model = core.read_model(src/yolo/src/best.onnx);

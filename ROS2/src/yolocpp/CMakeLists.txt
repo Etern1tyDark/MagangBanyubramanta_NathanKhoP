@@ -15,6 +15,7 @@ find_package(cv_bridge REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(OpenCV REQUIRED)
 find_package(obj_msg REQUIRED)
+find_package(OpenVINO REQUIRED)
 
 add_executable(
   detect
@@ -22,7 +23,18 @@ add_executable(
 
 ament_target_dependencies(detect rclcpp cv_bridge sensor_msgs OpenCV obj_msg)
 
-install(TARGETS detect
+include_directories(detect
+  /opt/intel/openvino_2023/runtime/include
+  /opt/intel/openvino_2023/runtime/include/ie
+  /opt/intel/openvino_2023/runtime/include/ngraph
+)
+
+target_link_libraries(detect
+  /opt/intel/openvino_2023/runtime/lib/intel64/libopenvino.so
+)
+
+install(TARGETS 
+  detect
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)

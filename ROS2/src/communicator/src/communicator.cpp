@@ -5,7 +5,7 @@
 #include <asio.hpp>
 
 #include "rclcpp/rclcpp.hpp"
-#include "obj_msg/motion.hpp"
+#include "obj_msg/msg/motion.hpp"
 
 using namespace asio;
 using asio::serial_port_base;
@@ -28,9 +28,15 @@ public:
     }
 
 private:
-    void topic_callback(const obj_msg::msg::Motion &message)   
-    {
-        char send[10];
+    void topic_callback(const obj_msg::msg::Motion &message) {
+        uint8_t send[5];
+        
+        send[0] = message.x_cmd;
+        send[1] = message.y_cmd;
+        send[2] = message.yaw;
+        send[3] = message.depth;
+
+        RCLCPP_INFO(this->get_logger(), "Sending, x = [%d], y = [%d], a = [%d], z = [%d]", message.x_cmd, message.y_cmd, message.yaw, message.depth);
         asio::write(port, asio::buffer(send, sizeof(send)));
     }
 

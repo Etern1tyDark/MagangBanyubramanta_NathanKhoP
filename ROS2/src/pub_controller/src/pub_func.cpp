@@ -24,13 +24,13 @@
 
 using std::placeholders::_1;
 
-#define R_SPEED = 3;
+#define R_SPEED 3
 
-#define L_MIN = -180;
-#define L_MAX = 180;
+#define L_MIN -180
+#define L_MAX 180
 
-#define R_MIN = -100;
-#define R_MAX = 100;
+#define R_MIN -100
+#define R_MAX 100
 
 /*
 Microsoft Xbox 360 Wired Controller for Linux - http://wiki.ros.org/joy
@@ -75,10 +75,10 @@ private:
     tempyaw += ((msg.axes[3] * -1)) * R_SPEED;
     tempdepth += (msg.axes[4]) * R_SPEED;
 
-    if (tempyaw > L_MAX || tempyaw < (L_MIN)) {
+    if (tempyaw > L_MAX || tempyaw < L_MIN) {
       tempyaw *=  -1;
     }
-    if (tempdepth > R_MAX || tempyaw < (R_MIN)) {
+    if (tempdepth > R_MAX || tempyaw < R_MIN) {
       tempdepth *=  -1;
     } 
     

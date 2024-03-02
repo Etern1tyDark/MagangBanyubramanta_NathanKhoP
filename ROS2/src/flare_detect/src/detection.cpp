@@ -27,6 +27,8 @@ using std::placeholders::_1;
 using namespace std;
 using namespace cv;
 
+#define DEBUG
+
 Mat frame;
 Point red_p, yellow_p, blue_p;
 
@@ -131,10 +133,12 @@ private:
     yellow_p = findCenter(yellow, YELLOW_sc);
     blue_p = findCenter(blue, BLUE_sc);
     
+    #ifdef DEBUG
     imshow("frame", frame);
     // imshow("red", red);
     // imshow("yellow", yellow);
     // imshow("blue", blue);
+    #endif
     waitKey(1);
   }
 

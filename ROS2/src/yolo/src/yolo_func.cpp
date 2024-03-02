@@ -46,9 +46,11 @@ private:
 
         if(!frame.empty()) {
             resize(frame, image, size_);
+            #ifdef DEBUG
             imshow("Normal", image);
             imshow("Frame", frame);
             // imshow("My window", maskHSV);
+            #endif
 
             auto img_msg = cv_bridge::CvImage(std_msgs::msg::Header(), "bgr8", image).toImageMsg();
             publisher_->publish(*img_msg);

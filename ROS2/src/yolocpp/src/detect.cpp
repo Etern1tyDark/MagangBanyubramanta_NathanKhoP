@@ -23,7 +23,7 @@
 #include "std_msgs/msg/string.hpp"
 #include "opencv2/opencv.hpp"
 #include "cv_bridge/cv_bridge.h"
-#include "obj_msg/msg/found.hpp"
+#include "obj_msg/msg/detected.hpp"
 #include "openvino/openvino.hpp"
 
 using namespace cv;
@@ -39,6 +39,7 @@ struct Detection
 
 #define INPUT_WIDTH 640
 #define INPUT_HEIGHT 640
+#define DEBUG
 
 class YoloNode : public rclcpp::Node
 {
@@ -170,8 +171,10 @@ private:
       preprocessing(frame);
       postprocessing(frame);
 
-      cv::imshow("frame", frame);
-      cv::waitKey(1);
+      #ifdef DEBUG
+      imshow("frame", frame);
+      #endif
+      waitKey(1);
 	}
 
 	rclcpp::Publisher<obj_msg::msg::Detected>::SharedPtr publisher_;

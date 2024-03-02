@@ -17,7 +17,6 @@ ament_export_dependencies(rosidl_default_runtime)
 rosidl_generate_interfaces(${PROJECT_NAME}
 "msg/Detected.msg"
 "msg/Motion.msg"
-"msg/Found.msg"
 )
 
 if(BUILD_TESTING)

@@ -75,10 +75,10 @@ private:
           return;
 
       auto message = obj_msg::msg::Detected();
-      message.color = color;
+      message.type = color;
       message.x = moment.m10 / moment.m00 - camsrc_.get(CAP_PROP_FRAME_WIDTH) / 2;
       message.y = moment.m01 / moment.m00 - camsrc_.get(CAP_PROP_FRAME_HEIGHT) / 2;
-      message.angle = 2 * float(message.x) / float(camsrc_.get(CAP_PROP_FRAME_WIDTH));
+      // message.angle = 2 * float(message.x) / float(camsrc_.get(CAP_PROP_FRAME_WIDTH));
       publisher_->publish(message);
     }
   

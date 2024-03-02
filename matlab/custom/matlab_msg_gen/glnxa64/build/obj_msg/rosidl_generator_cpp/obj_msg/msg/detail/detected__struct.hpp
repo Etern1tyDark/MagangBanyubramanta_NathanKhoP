@@ -89,13 +89,13 @@ struct Detected_
 
   // constant declarations
   static constexpr uint8_t GATE =
-    0u;
-  static constexpr uint8_t RED =
     1u;
-  static constexpr uint8_t YELLOW =
+  static constexpr uint8_t RED =
     2u;
-  static constexpr uint8_t BLUE =
+  static constexpr uint8_t YELLOW =
     3u;
+  static constexpr uint8_t BLUE =
+    4u;
 
   // pointer types
   using RawPtr =

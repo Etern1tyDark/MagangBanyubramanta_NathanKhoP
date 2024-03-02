@@ -20,25 +20,25 @@ extern "C"
 /// Constant 'GATE'.
 enum
 {
-  obj_msg__msg__Detected__GATE = 0
+  obj_msg__msg__Detected__GATE = 1
 };
 
 /// Constant 'RED'.
 enum
 {
-  obj_msg__msg__Detected__RED = 1
+  obj_msg__msg__Detected__RED = 2
 };
 
 /// Constant 'YELLOW'.
 enum
 {
-  obj_msg__msg__Detected__YELLOW = 2
+  obj_msg__msg__Detected__YELLOW = 3
 };
 
 /// Constant 'BLUE'.
 enum
 {
-  obj_msg__msg__Detected__BLUE = 3
+  obj_msg__msg__Detected__BLUE = 4
 };
 
 /// Struct defined in msg/Detected in the package obj_msg.

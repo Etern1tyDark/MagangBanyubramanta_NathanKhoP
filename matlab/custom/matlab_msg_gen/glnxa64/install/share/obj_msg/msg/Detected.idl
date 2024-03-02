@@ -6,10 +6,10 @@
 module obj_msg {
   module msg {
     module Detected_Constants {
-      const uint8 GATE = 0;
-      const uint8 RED = 1;
-      const uint8 YELLOW = 2;
-      const uint8 BLUE = 3;
+      const uint8 GATE = 1;
+      const uint8 RED = 2;
+      const uint8 YELLOW = 3;
+      const uint8 BLUE = 4;
     };
     struct Detected {
       uint8 type;

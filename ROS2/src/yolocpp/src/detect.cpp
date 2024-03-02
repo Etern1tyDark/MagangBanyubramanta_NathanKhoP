@@ -37,6 +37,9 @@ struct Detection
 	float x, y, w, h, conf;
 };
 
+#define INPUT_WIDTH 640
+#define INPUT_HEIGHT 640
+
 class YoloNode : public rclcpp::Node
 {
 public:
@@ -46,7 +49,7 @@ public:
     subscriber_ = this->create_subscription<sensor_msgs::msg::Image>("cam_src", 10, std::bind(&YoloNode::topic_callback, this, _1));
 
     ov::Core core;
-    std::shared_ptr<ov::Model> model = core.read_model(src/yolo/src/best.onnx);
+    std::shared_ptr<ov::Model> model = core.read_model("src/yolocpp/models/gateflare.onnx");
     ov::preprocess::PrePostProcessor ppp = ov::preprocess::PrePostProcessor(model);
     ppp.input().tensor().set_element_type(ov::element::u8).set_layout("NHWC").set_color_format(ov::preprocess::ColorFormat::RGB);
     ppp.input().preprocess().convert_element_type(ov::element::f32).convert_color(ov::preprocess::ColorFormat::RGB).scale({ 255, 255, 255 });// .scale({ 112, 112, 112 });
@@ -57,13 +60,13 @@ public:
     this->infer_request = compiled_model.create_infer_request();
 
     cv::namedWindow("values");
-		cv::createTrackbar("score", "values", &score_thresh, 100);
-		cv::createTrackbar("conf", "values", &conf_thresh, 100);
-		cv::createTrackbar("nms", "values", &nms_thresh, 100);
+		cv::createTrackbar("score", "values", &score_lim, 100);
+		cv::createTrackbar("conf", "values", &conf_lim, 100);
+		cv::createTrackbar("nms", "values", &nms_lim, 100);
+  }
 
-    ~YoloNode() {
-      cv::destroyAllWindows();
-    }
+  ~YoloNode() {
+    destroyAllWindows();
   }
 
 private:
@@ -95,14 +98,14 @@ private:
     vector<float> confidences;
     vector<Detection> detections;
 
-    for (int i = 0; i < output_shape[1]; i++) {
+    for (long unsigned int i = 0; i < output_shape[1]; i++) {
 
-        float* detection = &data * output_shape[2]];
+        float *detection = &data[i * output_shape[2]];
         float confidence = detection[4];
 
         if (confidence > conf_lim / 100.) {
           
-            float* classes_scores = &detection[5];
+            float* classes_scores = detection + 5;
             cv::Mat scores(1, output_shape[2] - 5, CV_32FC1, classes_scores);
             cv::Point class_id;
             double max_class_score;
@@ -127,10 +130,10 @@ private:
     }
 
     std::vector<int> nms_result;
-    cv::dnn::NMSBoxes(boxes, confidences, score_thresh / 100., nms_thresh / 100., nms_result);
+    cv::dnn::NMSBoxes(boxes, confidences, score_lim / 100., nms_lim / 100., nms_result);
     RCLCPP_INFO(this->get_logger(), "Detected %ld objects", nms_result.size());
 
-    for (int i = 0; i < nms_result.size(); i++)
+    for (long unsigned int i = 0; i < nms_result.size(); i++)
     {
         int idx = nms_result[i];
         auto message = obj_msg::msg::Found();
@@ -141,17 +144,17 @@ private:
         message.h = detections[idx].h;
 
         publisher_->publish(message);
+
+      std::string label = class_names[detections[idx].cls];
+      cv::Point2i top_left = boxes[idx].tl();
+      int base_line;
+      cv::Size label_size = cv::getTextSize(label, cv::FONT_HERSHEY_SIMPLEX, 0.5, 1, &base_line);
+
+      cv::rectangle(frame, boxes[idx], cv::Scalar(0, 0, 255));
+      cv::rectangle(frame, top_left, cv::Point(label_size.width, top_left.y + base_line), cv::Scalar(0, 0, 255), -1);
+      cv::putText(frame, label, top_left, cv::FONT_HERSHEY_SIMPLEX, 0.5, cv::Scalar(0, 0, 255));
+      cv::resize(frame, frame, cv::Size(0, 0), x_fact, y_fact);
     }
-
-		std::string label = class_names[detections[idx].cls];
-		cv::Point2i top_left = boxes[idx].tl();
-		int base_line;
-		cv::Size label_size = cv::getTextSize(label, cv::FONT_HERSHEY_SIMPLEX, 0.5, 1, &base_line);
-
-		cv::rectangle(frame, boxes[idx], cv::Scalar(0, 0, 255));
-		cv::rectangle(frame, top_left, cv::Point(label_size.width, top_left.y + base_line), cv::Scalar(0, 0, 255), -1);
-		cv::putText(frame, label, top_left, cv::FONT_HERSHEY_SIMPLEX, 0.5, cv::Scalar(0, 0, 255));
-		cv::resize(frame, frame, cv::Size(0, 0), x_fact, y_fact);
   }
 
     void topic_callback(const sensor_msgs::msg::Image &sensor_img) {
@@ -177,7 +180,7 @@ private:
 	ov::InferRequest infer_request;
 	ov::Tensor input_tensor;
 	
-  int score_thresh = 20, conf_thresh = 40, nms_thresh = 40;
+  int score_lim = 20, conf_lim = 40, nms_lim = 40;
 	float x_fact, y_fact;
 	const std::vector<std::string> class_names = {"gate"};
 };

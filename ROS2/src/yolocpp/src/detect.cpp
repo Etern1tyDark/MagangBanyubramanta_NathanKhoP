@@ -45,7 +45,7 @@ class YoloNode : public rclcpp::Node
 public:
   YoloNode() : Node("yolonode")
   {
-    publisher_ = this->create_publisher<obj_msg::msg::Found>("detected_obj", 10);
+    publisher_ = this->create_publisher<obj_msg::msg::Detected>("object_found", 10);
     subscriber_ = this->create_subscription<sensor_msgs::msg::Image>("cam_src", 10, std::bind(&YoloNode::topic_callback, this, _1));
 
     ov::Core core;
@@ -136,12 +136,12 @@ private:
     for (long unsigned int i = 0; i < nms_result.size(); i++)
     {
         int idx = nms_result[i];
-        auto message = obj_msg::msg::Found();
-
+        auto message = obj_msg::msg::Detected();
+        message.type = obj_msg::msg::Detected::GATE;
         message.x = detections[idx].x;
         message.y = detections[idx].y;
-        message.w = detections[idx].w;
-        message.h = detections[idx].h;
+        // message.w = detections[idx].w;
+        // message.h = detections[idx].h;
 
         publisher_->publish(message);
 
@@ -174,7 +174,7 @@ private:
       cv::waitKey(1);
 	}
 
-	rclcpp::Publisher<obj_msg::msg::Found>::SharedPtr publisher_;
+	rclcpp::Publisher<obj_msg::msg::Detected>::SharedPtr publisher_;
 	rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr subscriber_;
 	ov::CompiledModel compiled_model;
 	ov::InferRequest infer_request;

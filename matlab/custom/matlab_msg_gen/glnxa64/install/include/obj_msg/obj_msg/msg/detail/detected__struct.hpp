@@ -38,10 +38,9 @@ struct Detected_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->color = 0l;
+      this->type = 0;
       this->x = 0l;
       this->y = 0l;
-      this->angle = 0l;
     }
   }
 
@@ -51,32 +50,28 @@ struct Detected_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->color = 0l;
+      this->type = 0;
       this->x = 0l;
       this->y = 0l;
-      this->angle = 0l;
     }
   }
 
   // field types and members
-  using _color_type =
-    int32_t;
-  _color_type color;
+  using _type_type =
+    uint8_t;
+  _type_type type;
   using _x_type =
     int32_t;
   _x_type x;
   using _y_type =
     int32_t;
   _y_type y;
-  using _angle_type =
-    int32_t;
-  _angle_type angle;
 
   // setters for named parameter idiom
-  Type & set__color(
-    const int32_t & _arg)
+  Type & set__type(
+    const uint8_t & _arg)
   {
-    this->color = _arg;
+    this->type = _arg;
     return *this;
   }
   Type & set__x(
@@ -91,20 +86,16 @@ struct Detected_
     this->y = _arg;
     return *this;
   }
-  Type & set__angle(
-    const int32_t & _arg)
-  {
-    this->angle = _arg;
-    return *this;
-  }
 
   // constant declarations
-  static constexpr int32_t RED =
-    2;
-  static constexpr int32_t YELLOW =
-    3;
-  static constexpr int32_t BLUE =
-    4;
+  static constexpr uint8_t GATE =
+    0u;
+  static constexpr uint8_t RED =
+    1u;
+  static constexpr uint8_t YELLOW =
+    2u;
+  static constexpr uint8_t BLUE =
+    3u;
 
   // pointer types
   using RawPtr =
@@ -146,16 +137,13 @@ struct Detected_
   // comparison operators
   bool operator==(const Detected_ & other) const
   {
-    if (this->color != other.color) {
+    if (this->type != other.type) {
       return false;
     }
     if (this->x != other.x) {
       return false;
     }
     if (this->y != other.y) {
-      return false;
-    }
-    if (this->angle != other.angle) {
       return false;
     }
     return true;
@@ -172,11 +160,13 @@ using Detected =
 
 // constant definitions
 template<typename ContainerAllocator>
-constexpr int32_t Detected_<ContainerAllocator>::RED;
+constexpr uint8_t Detected_<ContainerAllocator>::GATE;
 template<typename ContainerAllocator>
-constexpr int32_t Detected_<ContainerAllocator>::YELLOW;
+constexpr uint8_t Detected_<ContainerAllocator>::RED;
 template<typename ContainerAllocator>
-constexpr int32_t Detected_<ContainerAllocator>::BLUE;
+constexpr uint8_t Detected_<ContainerAllocator>::YELLOW;
+template<typename ContainerAllocator>
+constexpr uint8_t Detected_<ContainerAllocator>::BLUE;
 
 }  // namespace msg
 

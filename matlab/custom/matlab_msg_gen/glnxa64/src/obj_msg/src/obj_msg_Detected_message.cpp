@@ -35,13 +35,13 @@ class OBJ_MSG_EXPORT ros2_obj_msg_msg_Detected_common : public MATLABROS2MsgInte
   void ros2_obj_msg_msg_Detected_common::copy_from_struct(obj_msg::msg::Detected* msg, const matlab::data::Struct& arr,
                MultiLibLoader loader) {
     try {
-        //color
-        const matlab::data::TypedArray<int32_t> color_arr = arr["color"];
-        msg->color = color_arr[0];
+        //type
+        const matlab::data::TypedArray<uint8_t> type_arr = arr["type"];
+        msg->type = type_arr[0];
     } catch (matlab::data::InvalidFieldNameException&) {
-        throw std::invalid_argument("Field 'color' is missing.");
+        throw std::invalid_argument("Field 'type' is missing.");
     } catch (matlab::Exception&) {
-        throw std::invalid_argument("Field 'color' is wrong type; expected a int32.");
+        throw std::invalid_argument("Field 'type' is wrong type; expected a uint8.");
     }
     try {
         //x
@@ -61,34 +61,16 @@ class OBJ_MSG_EXPORT ros2_obj_msg_msg_Detected_common : public MATLABROS2MsgInte
     } catch (matlab::Exception&) {
         throw std::invalid_argument("Field 'y' is wrong type; expected a int32.");
     }
-    try {
-        //angle
-        const matlab::data::TypedArray<int32_t> angle_arr = arr["angle"];
-        msg->angle = angle_arr[0];
-    } catch (matlab::data::InvalidFieldNameException&) {
-        throw std::invalid_argument("Field 'angle' is missing.");
-    } catch (matlab::Exception&) {
-        throw std::invalid_argument("Field 'angle' is wrong type; expected a int32.");
-    }
   }
   //----------------------------------------------------------------------------
   MDArray_T ros2_obj_msg_msg_Detected_common::get_arr(MDFactory_T& factory, const obj_msg::msg::Detected* msg,
        MultiLibLoader loader, size_t size) {
-    auto outArray = factory.createStructArray({size,1},{"MessageType","color","x","y","angle","RED","YELLOW","BLUE"});
+    auto outArray = factory.createStructArray({size,1},{"MessageType","GATE","RED","YELLOW","BLUE","type","x","y"});
     for(size_t ctr = 0; ctr < size; ctr++){
     outArray[ctr]["MessageType"] = factory.createCharArray("obj_msg/Detected");
-    // color
-    auto currentElement_color = (msg + ctr)->color;
-    outArray[ctr]["color"] = factory.createScalar(currentElement_color);
-    // x
-    auto currentElement_x = (msg + ctr)->x;
-    outArray[ctr]["x"] = factory.createScalar(currentElement_x);
-    // y
-    auto currentElement_y = (msg + ctr)->y;
-    outArray[ctr]["y"] = factory.createScalar(currentElement_y);
-    // angle
-    auto currentElement_angle = (msg + ctr)->angle;
-    outArray[ctr]["angle"] = factory.createScalar(currentElement_angle);
+    // GATE
+    auto currentElement_GATE = (msg + ctr)->GATE;
+    outArray[ctr]["GATE"] = factory.createScalar(currentElement_GATE);
     // RED
     auto currentElement_RED = (msg + ctr)->RED;
     outArray[ctr]["RED"] = factory.createScalar(currentElement_RED);
@@ -98,6 +80,15 @@ class OBJ_MSG_EXPORT ros2_obj_msg_msg_Detected_common : public MATLABROS2MsgInte
     // BLUE
     auto currentElement_BLUE = (msg + ctr)->BLUE;
     outArray[ctr]["BLUE"] = factory.createScalar(currentElement_BLUE);
+    // type
+    auto currentElement_type = (msg + ctr)->type;
+    outArray[ctr]["type"] = factory.createScalar(currentElement_type);
+    // x
+    auto currentElement_x = (msg + ctr)->x;
+    outArray[ctr]["x"] = factory.createScalar(currentElement_x);
+    // y
+    auto currentElement_y = (msg + ctr)->y;
+    outArray[ctr]["y"] = factory.createScalar(currentElement_y);
     }
     return std::move(outArray);
   } 

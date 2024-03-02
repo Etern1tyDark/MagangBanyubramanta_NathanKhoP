@@ -17,10 +17,9 @@ obj_msg__msg__Detected__init(obj_msg__msg__Detected * msg)
   if (!msg) {
     return false;
   }
-  // color
+  // type
   // x
   // y
-  // angle
   return true;
 }
 
@@ -30,10 +29,9 @@ obj_msg__msg__Detected__fini(obj_msg__msg__Detected * msg)
   if (!msg) {
     return;
   }
-  // color
+  // type
   // x
   // y
-  // angle
 }
 
 bool
@@ -42,8 +40,8 @@ obj_msg__msg__Detected__are_equal(const obj_msg__msg__Detected * lhs, const obj_
   if (!lhs || !rhs) {
     return false;
   }
-  // color
-  if (lhs->color != rhs->color) {
+  // type
+  if (lhs->type != rhs->type) {
     return false;
   }
   // x
@@ -52,10 +50,6 @@ obj_msg__msg__Detected__are_equal(const obj_msg__msg__Detected * lhs, const obj_
   }
   // y
   if (lhs->y != rhs->y) {
-    return false;
-  }
-  // angle
-  if (lhs->angle != rhs->angle) {
     return false;
   }
   return true;
@@ -69,14 +63,12 @@ obj_msg__msg__Detected__copy(
   if (!input || !output) {
     return false;
   }
-  // color
-  output->color = input->color;
+  // type
+  output->type = input->type;
   // x
   output->x = input->x;
   // y
   output->y = input->y;
-  // angle
-  output->angle = input->angle;
   return true;
 }
 

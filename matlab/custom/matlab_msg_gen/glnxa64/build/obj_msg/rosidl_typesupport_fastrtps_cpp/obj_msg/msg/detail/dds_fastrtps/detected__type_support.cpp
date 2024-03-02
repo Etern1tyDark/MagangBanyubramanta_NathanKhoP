@@ -32,14 +32,12 @@ cdr_serialize(
   const obj_msg::msg::Detected & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Member: color
-  cdr << ros_message.color;
+  // Member: type
+  cdr << ros_message.type;
   // Member: x
   cdr << ros_message.x;
   // Member: y
   cdr << ros_message.y;
-  // Member: angle
-  cdr << ros_message.angle;
   return true;
 }
 
@@ -49,17 +47,14 @@ cdr_deserialize(
   eprosima::fastcdr::Cdr & cdr,
   obj_msg::msg::Detected & ros_message)
 {
-  // Member: color
-  cdr >> ros_message.color;
+  // Member: type
+  cdr >> ros_message.type;
 
   // Member: x
   cdr >> ros_message.x;
 
   // Member: y
   cdr >> ros_message.y;
-
-  // Member: angle
-  cdr >> ros_message.angle;
 
   return true;
 }
@@ -77,9 +72,9 @@ get_serialized_size(
   (void)padding;
   (void)wchar_size;
 
-  // Member: color
+  // Member: type
   {
-    size_t item_size = sizeof(ros_message.color);
+    size_t item_size = sizeof(ros_message.type);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -92,12 +87,6 @@ get_serialized_size(
   // Member: y
   {
     size_t item_size = sizeof(ros_message.y);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // Member: angle
-  {
-    size_t item_size = sizeof(ros_message.angle);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -123,12 +112,11 @@ max_serialized_size_Detected(
   is_plain = true;
 
 
-  // Member: color
+  // Member: type
   {
     size_t array_size = 1;
 
-    current_alignment += array_size * sizeof(uint32_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+    current_alignment += array_size * sizeof(uint8_t);
   }
 
   // Member: x
@@ -140,14 +128,6 @@ max_serialized_size_Detected(
   }
 
   // Member: y
-  {
-    size_t array_size = 1;
-
-    current_alignment += array_size * sizeof(uint32_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
-  }
-
-  // Member: angle
   {
     size_t array_size = 1;
 

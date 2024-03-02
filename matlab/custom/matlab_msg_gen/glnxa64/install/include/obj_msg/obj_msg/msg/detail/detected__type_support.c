@@ -31,16 +31,16 @@ void obj_msg__msg__Detected__rosidl_typesupport_introspection_c__Detected_fini_f
   obj_msg__msg__Detected__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember obj_msg__msg__Detected__rosidl_typesupport_introspection_c__Detected_message_member_array[4] = {
+static rosidl_typesupport_introspection_c__MessageMember obj_msg__msg__Detected__rosidl_typesupport_introspection_c__Detected_message_member_array[3] = {
   {
-    "color",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_INT32,  // type
+    "type",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_UINT8,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(obj_msg__msg__Detected, color),  // bytes offset in struct
+    offsetof(obj_msg__msg__Detected, type),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
@@ -82,30 +82,13 @@ static rosidl_typesupport_introspection_c__MessageMember obj_msg__msg__Detected_
     NULL,  // fetch(index, &value) function pointer
     NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
-  },
-  {
-    "angle",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_INT32,  // type
-    0,  // upper bound of string
-    NULL,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(obj_msg__msg__Detected, angle),  // bytes offset in struct
-    NULL,  // default value
-    NULL,  // size() function pointer
-    NULL,  // get_const(index) function pointer
-    NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
-    NULL  // resize(index) function pointer
   }
 };
 
 static const rosidl_typesupport_introspection_c__MessageMembers obj_msg__msg__Detected__rosidl_typesupport_introspection_c__Detected_message_members = {
   "obj_msg__msg",  // message namespace
   "Detected",  // message name
-  4,  // number of fields
+  3,  // number of fields
   sizeof(obj_msg__msg__Detected),
   obj_msg__msg__Detected__rosidl_typesupport_introspection_c__Detected_message_member_array,  // message members
   obj_msg__msg__Detected__rosidl_typesupport_introspection_c__Detected_init_function,  // function to initialize message memory (memory has to be allocated)

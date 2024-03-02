@@ -6,18 +6,17 @@
 module obj_msg {
   module msg {
     module Detected_Constants {
-      const int32 RED = 2;
-      const int32 YELLOW = 3;
-      const int32 BLUE = 4;
+      const uint8 GATE = 0;
+      const uint8 RED = 1;
+      const uint8 YELLOW = 2;
+      const uint8 BLUE = 3;
     };
     struct Detected {
-      int32 color;
+      uint8 type;
 
       int32 x;
 
       int32 y;
-
-      int32 angle;
     };
   };
 };

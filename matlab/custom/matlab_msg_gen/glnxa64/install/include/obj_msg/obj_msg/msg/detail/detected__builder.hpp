@@ -21,32 +21,16 @@ namespace msg
 namespace builder
 {
 
-class Init_Detected_angle
-{
-public:
-  explicit Init_Detected_angle(::obj_msg::msg::Detected & msg)
-  : msg_(msg)
-  {}
-  ::obj_msg::msg::Detected angle(::obj_msg::msg::Detected::_angle_type arg)
-  {
-    msg_.angle = std::move(arg);
-    return std::move(msg_);
-  }
-
-private:
-  ::obj_msg::msg::Detected msg_;
-};
-
 class Init_Detected_y
 {
 public:
   explicit Init_Detected_y(::obj_msg::msg::Detected & msg)
   : msg_(msg)
   {}
-  Init_Detected_angle y(::obj_msg::msg::Detected::_y_type arg)
+  ::obj_msg::msg::Detected y(::obj_msg::msg::Detected::_y_type arg)
   {
     msg_.y = std::move(arg);
-    return Init_Detected_angle(msg_);
+    return std::move(msg_);
   }
 
 private:
@@ -69,15 +53,15 @@ private:
   ::obj_msg::msg::Detected msg_;
 };
 
-class Init_Detected_color
+class Init_Detected_type
 {
 public:
-  Init_Detected_color()
+  Init_Detected_type()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  Init_Detected_x color(::obj_msg::msg::Detected::_color_type arg)
+  Init_Detected_x type(::obj_msg::msg::Detected::_type_type arg)
   {
-    msg_.color = std::move(arg);
+    msg_.type = std::move(arg);
     return Init_Detected_x(msg_);
   }
 
@@ -96,7 +80,7 @@ template<>
 inline
 auto build<::obj_msg::msg::Detected>()
 {
-  return obj_msg::msg::builder::Init_Detected_color();
+  return obj_msg::msg::builder::Init_Detected_type();
 }
 
 }  // namespace obj_msg

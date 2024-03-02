@@ -17,31 +17,36 @@ extern "C"
 
 // Constants defined in the message
 
+/// Constant 'GATE'.
+enum
+{
+  obj_msg__msg__Detected__GATE = 0
+};
+
 /// Constant 'RED'.
 enum
 {
-  obj_msg__msg__Detected__RED = 2l
+  obj_msg__msg__Detected__RED = 1
 };
 
 /// Constant 'YELLOW'.
 enum
 {
-  obj_msg__msg__Detected__YELLOW = 3l
+  obj_msg__msg__Detected__YELLOW = 2
 };
 
 /// Constant 'BLUE'.
 enum
 {
-  obj_msg__msg__Detected__BLUE = 4l
+  obj_msg__msg__Detected__BLUE = 3
 };
 
 /// Struct defined in msg/Detected in the package obj_msg.
 typedef struct obj_msg__msg__Detected
 {
-  int32_t color;
+  uint8_t type;
   int32_t x;
   int32_t y;
-  int32_t angle;
 } obj_msg__msg__Detected;
 
 // Struct for a sequence of obj_msg__msg__Detected.

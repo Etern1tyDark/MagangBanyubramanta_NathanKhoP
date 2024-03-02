@@ -34,7 +34,7 @@ public:
     {
         camsrc_.set(CAP_PROP_FRAME_WIDTH, 640);
         camsrc_.set(CAP_PROP_FRAME_HEIGHT, 480);
-        publisher_ = this->create_publisher<sensor_msgs::msg::Image>("cam_image", 10);
+        publisher_ = this->create_publisher<sensor_msgs::msg::Image>("cam_src", 10);
         timer_ = this->create_wall_timer(10ms, std::bind(&YoloPublisher::publish_image, this));
     }
 
